@@ -1,0 +1,696 @@
+These subtitles have been generated automatically
+Okay. Hi everyone. Again, for this week, I'm replacing Brian. And today we will be talking
+about something different that we have been seeing
+from the last two weeks, which was
+more down the lines of influence and online
+reputation. But today we'll be talking about
+election methods. And specifically, we'll talk about vote
+counting schemes. Right. So
+yes, let's get started. So if we think
+about elections in a country, by the way, am I audible
+to the back? It's good. Okay. Yes. So
+if you think about elections in a country, what
+are the properties that you would like to
+have? So what properties would you desire when you
+are holding an election in a country? Yeah.
+Yeah, that's a good start. Fairness. That is, for each voter,
+you should consider the vote equally. That's a
+very good start. What if your system does not
+have fairness? Do you think fairness is important?
+What if you do not have fairness in a voting
+scheme? Yeah. Exactly. But yeah, there's another point
+which I can bring probably later during the
+lecture and we can talk about it. But
+in general, if you look around everyone, then people do not
+really have the worldview or the entire perspective
+of the people they're voting for. Right. I mean,
+not everyone knows as well as let's say
+someone who has been studying political science for a long
+duration. So there still remains a question if
+what is the definition of fairness in a voting
+scheme? But let's not talk about it for
+to start with fairness is about giving equal voting rights
+that everyone should have the same weightage of
+voting. What else would you like? Yeah, that's a
+very good one again. So in the voting
+schemes that you see generally you have, you either put a
+paper in the simplest one or you press
+a button corresponding to the names. And so yeah, it
+should be as easy as possible. Someone need
+not do a PhD or masters to vote for someone. So that's
+how simple it should be. Right. To add
+to simplicity, I would also say accessibility. And this
+is for everyone and even people with challenges
+with mobility issues, they should be also able to
+vote for people. Right. So these are the
+properties that we want. What more would you like? Yes.
+Let's say access to information.
+Yeah, this is an interesting point because not
+many countries do it.
+As you would see during their rallies, generally
+it's the politicians making
+fake promises and not everyone knows about it.
+And people do not really get the right
+set of information.
+And from the lectures that you saw in
+influence, you would also observe that
+the things that show up on Twitter or
+I don't know Facebook,
+if you consider the case of Cambridge Analytica,
+these are the things which sway people's minds
+a lot.
+So yes, information and the right set of
+information, not the emotions,
+but the facts that should be put out
+there.
+Honestly, this is a huge challenge given the
+current state of the world.
+But yeah, I should rather put the right
+information.
+What more would you want while you're calculating
+the votes or
+when you're evaluating the results of a voting
+scheme?
+Yes?
+Why am I voting for the person?
+Yeah, very nice.
+Notable counting, that is if I go in
+a cast of vote and if I go back again and
+cast a vote, then it should not be
+counted.
+Okay, but if the government is the one
+which is making the decision to veto, I don't know
+if you saw last year during the elections
+in Romania, it was quite rigged and there
+were some issues and because of this, the
+entire elections were scraped and like they
+had to keep the old government in straight
+for a while. I mean, the bigger question comes in,
+who should be able to veto and who
+should not be able to veto, right? I mean, I do not disagree
+with the point, but how I would put
+it rather is someone should not be able to, I don't know,
+cheat with the vote counting mechanism or just
+change it with their vote. I do agree with that,
+but if you look at the current poll,
+the election outcomes can be very, very crazy. So
+I would say vetoing is or changing the
+decision is important as well, because if you look at Romania's
+last year selections, you would also appreciate this
+fact too. So just double check maybe.
+But yeah, I would like to bring in
+another point is confidentiality.
+So yeah, it's just so that you have
+the freedom to vote for anyone, no one should be able to
+figure out who you voted for. And so
+that you don't feel the pressure to go about voting for
+someone else. Along the lines of your points
+that you put, I think I would say
+the output should represent people's will, I guess
+that's what you were referring to kind of,
+right? So yeah, exactly the vote counting scheme
+should not just let's say pick a random member
+from the ballot and just choose them. So
+that's important as well. And a very simple but important
+point is the voting system should be practical
+and it should not be very expensive logistically.
+Let's say I mean, it should not require
+people to show up 100 times in a year to put a vote.
+It should be pretty simple to use not
+only in terms of when you vote once but also the overall
+process. So this is what you want in
+the vote in an entire election or an entire voting system.
+But let's talk about voting, vote counting schemes,
+right? Because if you have looked at the reading,
+this is the main focus of this week.
+So with vote counting schemes, what we have is
+so consider that you have ensured correct registration
+of people and let's assume that
+people are registered well and it's one registration
+per person somehow and it works out fine. So let's
+just assume that there is correct registration. But
+what will be the issue if it's not there?
+If the registration process itself is rigged, will
+there be an issue?
+Exactly. So this needs to be there with
+you. And so let's assume this is there. Then what are the
+two factors or what are the factors that
+you would care about for evaluating the outcome?
+So how would you start? Let's say now
+you have registered people. What's the first thing that
+you need to care about for setting up
+your election? Let me put this easily. So first what you need
+is ballots. I mean, that's how people will
+cast their votes. So the first question that you would
+have is what should the ballots look like?
+Should it be a single person whose name you have to write
+down or should it be list of names
+you have to tick or should it be that you need to rank people
+in the ballot? What should it look like?
+And what will be the next thing? The next thing is
+right there on the screen. Anyone can mention.
+So once you have the votes cast on the ballots,
+what would you do next? So let's say
+people have cast their votes. What would you do next?
+Yeah, exactly. So yes.
+How do you count votes?
+And as you can see, these two things
+are dependent.
+Right? You cannot create, let's say some ballot
+of some kind, but you want to count in some way,
+but your ballots need to give you the
+right set of information so that you can count them.
+So if you would have taken a look
+at the reading, what's the simplest form of taking the votes from
+people and then counting them? What's the simplest
+way of doing elections?
+Like how do you choose a winner in
+the easiest way?
+Yeah.
+Exactly.
+And how would you cast the votes from
+people then? Like what would you take as input from people?
+Like if I walk into an election booth
+as a voter, what information would you want from me?
+Because let's say there are tens of people
+that I can vote for, then as a voter,
+what information should I provide?
+Okay. Yes.
+Exactly. My first choice, like who do I
+rank at the top? That makes sense. You have a bunch of
+people who people can choose or the citizens
+can choose. And from citizens, what you want is
+the name of their top choice. Right? So
+what you would want is
+the top choice. The nice thing about or
+since this design is very simple,
+this works well with two candidates with no
+ties, of course. So if you have two candidates,
+then it's pretty simple because it's easy to
+see that one person has the majority of the votes.
+So it's pretty simple to decide who people
+prefer more. Well, let's say when you have
+more than two candidates, right? And let's say
+you have candidate A who has 33% of the votes,
+candidate B who has 33% of the votes,
+and candidate C who has 34% of the votes.
+Right? According to this rule, if you see,
+then this person is going to
+be the winner. Right? But does this really
+make sense to choose C as the winner just because
+of 1% of the vote? For instance, just
+consider A and B turn to be from left wing and C turns
+to be from the right wing. And if
+you look at this voting scheme, then if only one of A or
+B had stood for elections, they would have
+gotten about 60% of the votes. But since
+they went for different parties or different bodies,
+their votes were distributed and in turn
+C got the votes and C won the
+election. So as you can see, the vote counting scheme does not really
+incorporate the will of the people, if that
+makes sense. So although majority rule or welcome,
+its exact name is plurality rule, it's very
+simple and you can count the votes pretty easily.
+It's not really effective, if that makes sense.
+Right? So just continuing here with
+plurality rules, it becomes even worse when you
+have to choose
+multiple winners. And as you can see in
+this case, who would you choose? Like even if you
+take plurality, then who would you choose as
+a second? So you would have to redo the election
+to choose between A and B. So yeah,
+as you can see, although plurality is pretty simple to use,
+it's not really effective to get enough information
+from people.
+So given that, the main question that comes
+in now is
+what are the properties
+that you want from vote counting?
+So yeah, let's say you have the votes
+from people. So what are the properties that you would want
+from the vote counting scheme? I can start.
+Probably the dumbest property and the simplest
+property is it should always decide or should
+give an output.
+There should be no case that it does
+not give an output unless everyone has the same number of votes.
+So this property needs to be that. What
+other properties would you like from your vote counting?
+Yes?
+So you're talking about taking pairwise people and
+then who want the most number of
+head-to-head comparisons? They should be chosen.
+Okay, but is it something that or something
+else?
+Okay. Yeah, I mean, you are talking about
+one of the points for sure. If you have taken a look at
+the reading, it's called like Condorset winner. And
+in this case, what you do is
+you take
+two pairs and the candidate
+who wins all pairwise comparison is the winner.
+Right? So the idea of Condorset is that
+the winner should be someone who should have
+more preferences as compared to every other candidate
+in there. So why do you think this is
+good or why do what are the perks
+and what are the benefits of using Condorset
+way of counting things and like what are
+the benefits over plurality that we just talked about
+and what could be the issue?
+Why do you say that?
+But that's, I mean, that's really on the
+vote counting scheme, right? I mean, after people vote,
+you can run, let's say a Python script.
+Exactly. So that's the most important point.
+Cycles. So the issue could be that you
+can arrive at cases where A beats B and then B beats
+C and then you could have all have
+then B, C beats A. So you could have such cases with Condorset
+and in these cases, you can never have
+a deterministic winner in there, right?
+And what other issues could be there? Like
+if you think down the lines of
+something like this example out here, right, what
+kind of winner would a Condorset
+setting choose? Let's say if there are two
+extremes that we have talked about when you go
+for elections, then you have the left extreme,
+there's a right extreme and there is a center,
+right? In general, that's that's how it is.
+So which kind of candidate would Condorset
+benefit? Like if we consider Condorset based counting,
+then which kind of candidate would
+Condorset benefit? If you can think of. Not
+in this, if you I'm just talking about like my bad.
+So I'll come back to you. So you
+have left, you have the center
+and you have the right, right? So which
+of these candidates would Condorset benefit? Yes?
+Yeah. Should I repeat again? So I'm saying
+like, so let's say there is an extreme candidate,
+like there are two extremes like which are
+at the left and which are at the right, right?
+And there is someone in the center and
+generally the way it works in a country is let's say
+you have a large population in here, you
+have a large population in here, supporting the left,
+supporting the right. And let's say if there
+is a small population supporting the center.
+So who do you think is Condorset going
+to? Yeah. Yeah, exactly. And what would the reason be?
+Exactly. Exactly.
+So I'm not saying it's just actually first
+of all what he said was is a perfect answer,
+is that the people on the left, they
+are going to, what they're going to do is
+they're going to say, okay, left is amazing.
+The center is, it's okay, we don't really care.
+But on the other hand, the right is
+not, we do not want the right. On the other hand,
+what the right would want is not the
+left. The center is okay. And we want the right to be there.
+On the other hand, what the center is
+going to do is, yeah, the center is amazing because, yeah,
+it's neither of the extremes. And for the
+left or right, it could be something random or the way
+they see it. So what this means is
+what Condorset gives the benefit is that the extremes do not
+see the center as bad as they would
+see the other extreme. So when you compare the pair-wise
+comparison, like when you take that, then the
+center will be second for the left as well as
+for the right. So when you take the
+head to head counting, the center would not be last in many
+cases, if that makes sense, right? Because the
+center is going to be the second for the rest of
+them, and is going to be the top
+for the center supporting people. So this is not something wrong,
+per se, but this is a benefit that
+Condorset counting gives, Condorset based system gives
+two voters, like the people who support the
+center. And if we take
+Condorset winner, then most likely the center is
+going to win. So that's kind of that, right?
+So that's there. And so there are the
+two issues. And of course, yeah, we talked about
+the bad things or things that could not
+be nice, but what is the benefit over plurality voting?
+Like what is nice with Condorset with respect
+to plurality? Like when you just take the majority
+or the maximum number of votes, and if
+you compare it with Condorset in here, then which is better?
+Like you mentioned, like if we take pair-wise,
+it could be a better choice. Why do you think so?
+Okay. Okay.
+Yeah. The most important thing, I mean, that
+you can think of is you are taking in more information
+from people as well. Like you're not only
+taking the top choice, but you're also taking in the
+second choice, the third choice, right? So what
+this gives is if your first choice is not chosen,
+because of some reason, then your second choice
+could also help us give some information.
+And your second choice can also lead to
+the change in outcome, right? Because as a voter,
+if my first choice is not chosen as
+for whatever position, then at least I would like to see my
+second choice. Let's say if many people voted
+for my second choice, it's a top choice,
+then my second choice could be chosen. So
+what this kind of counting does is that it takes in
+more information for the vote counting, and therefore
+your vote counting is kind of more accurate
+if I were to say, right? So this
+is the benefit, let's say, of Condorset. And yeah,
+what more coming back to the question that
+we had took?
+Yeah, what more properties would you like? So
+we saw that we first wanted took, we should
+always decide.
+Condorset winner, what more features would you would
+you want from your vote counting schemes?
+There's one point that you mentioned when we're
+talking about election methods.
+We did discuss about that, if you recall.
+And which you kind of covered with the
+Condorset as well.
+Okay, we should try to
+elect the will of majority, right? I mean,
+that's what we want to cover in elections like.
+What does the majority want? And of course,
+the problem that pops up is
+what of no majority. So how do you
+handle this case? Right?
+So this is what you want, your vote
+counting scheme should always take in what the people want.
+And as much as that information you can
+use for the outcome, the better it is for you.
+So this is what you want. Yes, what
+other things would you want from your vote counting schemes?
+Should it be stochastic? Should the vote counting
+scheme be stochastic?
+That is, you given the same set of
+votes, should the outcome be something which you don't know,
+that you what your algorithm is going to
+output or should it be something
+which should be the same all the time?
+That's a you count the votes once, right?
+And you have a vote counting algorithm.
+And your vote counting algorithm takes the number
+of votes or whatever the ballots were.
+Then what should it be? Should the output
+be something random or should it be something
+constant? Like should be the same output every
+time you run the algorithm?
+Exactly. Yeah, it should be deterministic, right? That's
+one of the algorithms. So I mean,
+one way of running a election is you
+count all the votes, but you do not really care. But you
+take the names of the people and you
+just find a random member to win the election. I mean,
+it is an election because you chose someone
+to win. But if it's random, then that's not what
+accounts for the will of the people, right?
+So when you are counting votes, it should be
+deterministic every time you run the algorithm or
+the method for vote counting. If that makes sense.
+Right. What more did we talk about in
+this slide? Yes, we talked about fairness for voters.
+But what about for candidates? What more would
+you expect from your vote counting scheme?
+Okay, so you're talking about like the opportunities
+that the candidates get before the elections
+as well.
+But won't that be kind of included in
+this point?
+I'm not sure.
+I mean, I think the rallies which are
+there, I don't know in the election in states and
+other debates which are held, they are meant
+to give equal opportunities, right?
+So I would probably put it here.
+But my main question is like, if it's
+fair for like, if the voting scheme needs to be
+fair for the voters, don't you think it
+should be fair for the candidates as well?
+Like your voting algorithm should be fairness, that
+is, should not prefer
+the candidate, right?
+I mean, when you're counting the votes, your
+voting algorithm should not be, let's say,
+dependent on who you are counting for.
+It should be oblivious to the fact that
+whoever is a candidate, it doesn't matter.
+It would count the votes correctly.
+So it should not be preferential if that
+makes sense.
+But let's say it does not depend on,
+it might maybe, it does not depend on the order in
+which you're counting votes or something.
+So let's say if you start with person
+A first, then person A happens to win.
+That algorithm is not fair, right?
+I mean, because you started with A and
+that's why A happens to win.
+So your voting algorithm, the vote counting algorithm
+should be fair.
+It should not give some preference to candidate
+so that whatever people cast the vote, that
+should be represented in the outcome if that
+makes sense.
+So that's what you would want.
+And again, like the same points as it
+should be simplicity.
+We want the algorithm to be simple so
+that we can track back and see what could be the
+the votes be.
+It should not be very complicated so that
+we do not understand how the votes are being counted.
+And then we cannot decide, okay, that's the
+kind of vote that we had.
+And we want to understandability.
+And finally, that in terms of plurality voting,
+right?
+There was one issue that we missed.
+So let's say, so as you can see,
+this point here, plurality voting works really well for two candidates.
+So if you will see in the US
+elections or I think in any general country, then you would see that there are top two candidates and the other ones happen to be the minor candidates and they do not really get many votes.
+So as a voter, when you know that
+these two people are going to be the main candidates in the election, how would you go about voting?
+Yes?
+You would vote, sir.
+Exactly.
+That's the main thing.
+So is that a property that you would
+like to have or you would not want?
+Exactly.
+So what you would want to avoid probably
+is strategic voting, right?
+Because then what you're doing is you are
+telling people to avoid their own choice so that they do not really waste their vote.
+Right?
+But the funny part is the US people
+who set up the voting system in the States and which is supposedly one of the first democracies of this scale,
+they're stuck with plurality voting, which is strategic
+and which could be troublesome.
+What could be the reason?
+Why do you think they wanted strategic voting
+to stay?
+Why do you think they wanted plurality to
+stay?
+Why would you want people to stay with
+plurality voting?
+Although you see that it can be susceptible
+to strategic voting.
+The main reason why they stuck with this
+voting mechanism was they did not want some extremists to win the elections or something.
+Let's say if there are some extremists and
+these extremists managed to gather a bunch of vote, let's say, and you do not happen to use plurality voting, right?
+Then these extremists might form the majority as
+well at that point, if that makes sense. On the other hand, when you're using something like a majority rule or the plurality voting, then people think about, okay, maybe we should only consider our top two candidates and that's what we would go for.
+So they are kind of using a reverse
+psychology in this process, if you may, so that people go with the potentially right sort of candidates. That's why you would see in most of the elections that have been there in the states.
+India, since I know of India, you would
+see that there are top two candidates which are there and although they claim to be not extremists, that's what they say.
+That's what they want, like, yes.
+Yes.
+So, it's in India the way it works
+is there are the two biggest parties which exist and they go for the elections and
+by the scale of it and by the
+positions that they hold, you as voters, you know that, okay, these are going to be the top two candidates and the visibility as well, if I had to put it that way.
+And if I'm not wrong, the way it
+works is in the states, you would see the top two candidates emerging in the states as well from Democrats and the Republicans, and then there are the minority parties.
+But it's just probably because of the visibility
+of them. So you know these two are going to be the main candidates and that's why they have, yeah, the battle, I would say, for the voting.
+And we would come to another type of
+voting mechanism where it relies on voting to choose the two main candidates as well. But yeah, that's, that's probably another good question.
+I would say it's probably because of visibility
+and you know, okay, these are the main people who are going to be out there. So yeah, that's that's mostly about it.
+So, yes. So, yeah, based on these requirements,
+we will take a look into different vote counting methods that we will talk about probably after the break, and you guys can take a 15 minute break and then we can have a chat at around 415 or 414.
+Okay. So yeah, welcome back.
+So, before the break we saw what are
+the properties that we would like in in our vote counting schemes.
+So let's now take a look at different
+vote counting schemes that you that you might have seen in the readings. Right.
+So yeah, until now the ones that we
+have discussed is is the majority rule.
+And yeah, it works only for two candidates
+pretty well.
+So, yeah, this one was plurality.
+And we saw that it's, it could be
+troublesome when people start to strategize and they do not vote for the person whom they want. So, this one fails to avoid strategic voting.
+Right. So yes, what are the other schemes
+that you might have seen in the readings.
+Yes.
+Sorry.
+Yeah.
+And do you recall its name?
+What it's called.
+Okay, yeah, makes sense. Yes.
+It's, it's called.
+I don't know if voting, and how does
+this work? Can you repeat it in.
+More.
+Yeah, perfect. That's what Erunov is. So again,
+I'm not aware exactly about the friend system.
+What if the first round itself you have
+a majority, then do you still run the election?
+Yeah, it's done right. Yeah, okay. Yeah, makes
+sense. Yeah, that's exactly what Erunov voting is.
+And yeah, you run the election once. And
+if one party has more than majority, then you declare
+that party as the winner. And if not,
+then you take the top two parties, and then you
+read in the elections. So what are the
+nice things and what are the issues with such a scheme?
+The nice thing is you are transforming the
+problem
+into majority voting, which is perfect, right?
+I mean, if you have the top two
+candidates
+and you have voting between them, then you
+are transforming this into a problem which
+especially in the first phase, people can vote
+for party strategically and they may not show their will as they would want.
+And as a voter, would you like such
+a scheme? Like in terms of cost, let's say, in terms of cost or do you think it's a scheme that is easy for you to use or is it?
+Okay. And in terms of logistics, let's say
+for the people who set up these voting, do you think it's cheap?
+Yeah.
+Yeah. Exactly.
+Two rounds, it makes things expensive. And the
+bigger issue is, let's say if you do the first round, then people show up to vote for people.
+And they, in the first round, people would
+have candidates who they would prefer, right? But in the second round, when they, when they go about voting, then they might not have candidates who they would like to vote.
+So the voter turnout would also be affected
+with such a method. So what this leads to is voter turnout might reduce in the later.
+Right. Okay.
+Yeah. So what other schemes did you see?
+Yeah, in the reading, if you took a
+look.
+Yes.
+Okay, I see what you mean. Okay. Yes.
+So this comes down the lines of
+Conductor Twinners. Yeah, again. So here what you're
+talking about is oops, yeah, the top is the
+one who is on the top is given
+K minus one points, right? The second. So in this case, you are
+ranking the candidates first of all. And then
+the second candidate is given K minus two points. And
+the last person is given zero points from
+the ballot. And then what you do is from each voter, as
+it was mentioned, you sum up the points,
+right? And then you see how many points does each candidate
+receive. And yeah, the points and the person
+with max points wins the election.
+Right. So yeah, this is one of the
+ways of dealing with rankings, right? Yeah, so there was a second
+reading, there were two readings, I don't know,
+the title itself told what voting scheme it is,
+the vote counting scheme it is, if you
+took a look. Yeah, exactly. Yeah, so it's called the single
+transferable vote. And yeah, as you mentioned, you
+consider the candidate who is at the bottom and you
+remove. So let's talk about the simplest scheme
+in the single transferable vote. So when you have only one
+winner, then you call it either alternative voting
+or instant runoff voting. So what you do with instant runoff is
+you take the first choices of people. So
+again, the input is the ranks of candidates. And you, the way the algorithm works is
+you take the first rank of all. And
+if you find that there is a majority, then we declare the person as a winner. But if you do not
+have a majority, then you remove the last
+candidate, that is the person who had the least number of first position votes, you just
+remove that and you assume you start counting
+as if this person was never in the election. So now what happens is the votes are now distributed to others like the last person's votes.
+And now you see if there is a
+majority. And yeah, if the answer is no, then you keep repeating you keep repeating the last candidate, and you keep seeing if there is a majority.
+So the votes get redistributed. And you see
+if this thing works, right? So this is the simpler case for single transferable vote. But when you have multiple winners, it gets quite complex as well.
+And you would have to weigh the number
+of votes based on the surplus that a candidate has, and you would have to redistribute in a way that redistribute based on the number of winners.
+So you need to take into account such
+things and especially you need to wait the surplus and you need to be careful. So yeah, not getting into the nitty gritty details of this one, but you can take a look at the reading for how the scheme works with multi winners.
+Right.
+Yes. So in terms of voting schemes, what
+other schemes did you see. So for ballots you saw that one type of ballot is taking the top choice.
+So another type of ballot is taking the
+ranks of candidates, which you saw. There was another type of voting scheme, if you recall, which took another kind of ballot.
+Nope.
+Okay. Yeah, if you take a look at
+the readings, it's called approval voting, if you see. And what you do is
+you approve of candidates that you prefer. And
+for candidates, you count the total number of approvals that each candidate receives.
+Right. So if you see that if you're
+giving approvals for everyone, then it doesn't really make a difference.
+But yeah, if you disprove off someone that
+you do not like, then that counts the difference. So this is what approval voting is about. So it's a bit different from ranking, because the people who you approve of get the same weight of the votes.
+On the other hand, when you're ranking people,
+then people, even the candidates that you prefer, they have a logical ordering in there. Right.
+So that's that.
+And in terms of what you saw with
+the voting, right.
+If you would see, there was a counterpart,
+you don't know if you call which is called Coombs voting and with runoff voting. The thing was you, you always considered, or I should say rather single transferable vote.
+Yeah, you in case of single transferable vote,
+you always removed the last candidate, the last candidate, but with Coombs voting you
+Yeah, you start eliminating the one with the
+most last places instead. So you are not considering the top fours, you're instead considering the ones with the most last places.
+But this has some issues with respect to
+with who can be removed if you try to think if you where could this not work with respect to runoff runoff voting like you start removing the last places that this person got.
+So, do you think this is this a
+good idea or is this a bad idea to use.
+But the thing with such a case is
+even in case of Coombs voting, let's say if someone who might have even a majority, they can be disliked by
+a lot of people and they might be
+kicked out sooner than they should have been if you see that way.
+So that's the trade off that you come
+with always like a person might have a lot of last places positions but they might be liked by a lot of people as well given how the distribution of population is.
+So it might lead to the case where
+the majority is not really chosen at the end of the day. So, so yeah, that's, that's always the trade off that you that you need to deal with.
+And yeah, in case of the in case
+of condors at winners, if you see, if you take a look at the reading, you can see that there are different ways of dealing with with cycles in case of condors at winners.
+And yeah, they are just different variations of
+each other. You can see something like ranking the pairs one by one, and you not only rank the people, you also see the difference between, or if some pair had a large margin of victory or a small margin of victory.
+And if there was a large margin of
+victory, you give that the preference.
+So those are the logics that you used
+to deal with cycles instead so you do not go about you not only consider the ranks of the individual candidates but also the pairs.
+So, yeah, there are different variations that you
+can see for for condors at winners cycles. So, the way you deal with cycles. And yes.
+So, yeah, that's, that's mostly there and
+Yeah, I think we can finish the lecture
+today if you do not have many questions and that's that's the main thing. And yeah, think down the lines of which voting scheme would give preference to what kind of candidates like extremists, or would you give a preference to center
+extremists.
+And then try to see how things would,
+how things would work with different population distribution, like, will it support the mind, will it represent the minorities well, will it represent the majority well.
+So, yeah, try to think of those trade
+offs because those are down the lines where the question would come in. And the readings also do a good job of giving different perspectives so yeah that's that's mostly about it.
+Unless you have questions.
+That's about it.
+So yeah.

@@ -1,0 +1,1440 @@
+These subtitles have been generated automatically
+So yeah, welcome back.
+Hope everything went well with your first week,
+new semester last week.
+And I hope you all read the two
+assigned readings,
+maybe even sampled the optional.
+One of the optional readings is like the
+one I'm using it,
+which I want to talk about a little
+bit today too.
+So hopefully you read it.
+What did you find in there that, for
+example,
+what did he get right?
+And also, what did he got wrong?
+What are your impressions?
+What was striking about it?
+Yeah.
+of all this would get lower and get,
+most importantly, right?
+What does this mean, accessible to most anyone?
+This is really fundamental, this.
+Let's call this inclusiveness, right?
+The internet has, it wasn't then,
+but it has become pretty inclusive, arguably.
+Yes?
+This is a wrong follow-up, but if you
+can move over to the other,
+or if you have a new one, it's
+going to be.
+He said you will suddenly make a purely
+business trip.
+Ah, yeah.
+Turns out, it was a pandemic.
+Yeah, no business trips, right?
+So I have to say, he was wrong
+in general.
+I at least that didn't come with the
+internet,
+but it kind of did come with, as
+you say, with the pandemic,
+right?
+So let's put a question mark.
+He was kind of wrong and kind of
+right about that.
+It wasn't the technology that made that happen.
+It was the necessity of the pandemic, right?
+But yeah, and even as we've seen post-pandemic,
+now that after we were forced to learn
+how to use this,
+in place of business trips all the time,
+well, it kind of got stuck in policy.
+A lot of meetings all over the place
+that used to be regular business trips,
+well, have gone online and stayed online, even
+post-pandemic, right?
+So to some extent, he got that, right?
+Even if it wasn't the technology by itself
+that
+was the catalyst to make it happen.
+let alone the smartphone and mobile device,
+ubiquitous device revolution.
+That was kind of part that he missed,
+but understandably, computers filled entire rooms there
+who would have thought then that,
+this would be much more powerful by now,
+right?
+So good, yeah, good point.
+Other things, yeah.
+You talked about a negative real situation
+that's going to pull about a negative power.
+Oh, great, yeah, yeah.
+So which column would you put this in?
+That's 16th, so right?
+But is it, he won't talk about the
+library
+that I was saying,
+if you haven't shown anything for free access.
+Yeah, yeah, so I have to say,
+even if he didn't necessarily have the details
+right,
+he didn't predict exactly what one of these
+libraries
+would look like.
+Well, we've got Wikipedia, right?
+It tries pretty hard to be that for
+better or worse.
+We could also say, now that finally,
+a bunch of the scholarly academic journals
+and publications are going open access,
+open access publications,
+or even if we don't, maybe he didn't
+mean,
+everything is freely accessible,
+maybe pay walled sites, count two,
+depending on how you look at it.
+Yeah, the ACM Digital Library is certainly there
+as a library.
+So yeah, different forms of vast libraries of
+information
+definitely appeared in their own flavors.
+Good, what else in either column?
+Yeah.
+Yeah.
+Mm-hmm.
+Well, it wasn't entirely wrong
+about lots of incompatible software,
+because somehow even with only a few operating
+systems,
+you still get tons of incompatible software
+just across versions and stuff.
+But yeah, he predicted he foresaw a lot
+more diversity
+than kind of, and in fairness,
+back at certain earlier stages of operating system
+evolution,
+there was more diversity.
+There was a period in which every hardware
+vendor
+kind of felt like they had to have
+their own
+customized proprietary operating system,
+many of them based on Unix, based on
+a common source,
+but all kind of built and maintained
+somewhat separately and customized separately
+for different hardware.
+And it wasn't until a little bit more
+recently
+that kind of everything collapsed onto windows,
+Mac and Linux, right?
+And tiny fragments of geeks like us
+who sometimes like alternatives like VSD and stuff
+like that.
+Yeah.
+Yeah.
+Oliver, yeah, great.
+Oliver is totally that era's vision of a,
+the classic vision of an AI assistant, right?
+And AI, I should say,
+they should have been more specific here, not
+just AI,
+but specifically AI agents or AI assistants, right?
+What all the companies want to sell you
+with their LLMs,
+and kind of smart chat assistant
+that'll do everything for you.
+Yeah, that's what,
+Licklider, at least something close to
+what Licklider predicted there.
+Yeah.
+Yeah.
+Good point. Yeah. Yeah.
+So whoops.
+Accidental gestures.
+Yeah.
+So online.
+Interactions.
+to oversimplify it a little bit.
+Like, you know, when we can just associate
+with everyone online and just be in this perfect
+online universe where we get complete freedom of
+who we associate with, where wouldn't that
+be so cool?
+And then we got it and we tried
+it.
+And now, yeah, oh yeah, you know, actually
+real people right there kind of matter after
+all, you only realize that after you've lost
+it, right?
+It's one of those things.
+Great point.
+So, and that's, you know, that's that issue,
+the attractiveness of online interaction and
+the undeniable advantage of that versus the undeniable
+advantages of in-person interaction
+in other ways is certainly one of the
+key, you know, tensions that technology has placed
+on society, right?
+And so, yeah, I want to discuss that,
+that kind of that issue plenty, plenty further in
+this course, very important.
+Yeah.
+Any other other thoughts on that lighters predictions
+or either column or or anything
+related?
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+Yeah.
+So, so related to but somewhat different from
+the library of information just besides the
+pure information.
+Yeah.
+Okay.
+Yeah.
+So, not just the knowledge, but, but resources
+such as, you know, being able to, yeah, find,
+find who's hiring and get jobs and, and
+share information for those kinds of purposes.
+Yeah.
+And, yeah.
+And, and there was definitely a suggestion of,
+yeah, this, this will improve equality,
+right?
+Maybe give more people, you know, similarly put,
+put everybody on the same putting in
+terms of being able to get access to
+this, this information and these opportunities.
+Let's say, yeah, besides just jobs, other, you
+know, opportunities in general.
+Right.
+So, yeah, this was, this was, you know,
+one aspect in which, you know, even though I don't
+think I don't remember him using this, this
+word, but, you know, certainly a lot of, a
+lot of people who followed on with this,
+you know, definitely would have used this word,
+you know, democratizing.
+Right.
+So, the way we commonly throw around the
+word like, you know, is this a democratizing
+technology?
+Well, you know, it should.
+It ticked some important checkboxes, right?
+So, maybe being relatively accessible to almost everyone.
+Well, we're, we're there.
+We've got there, right?
+The vast library of information, easier access that's
+relatively, you know, put on the boat
+equally accessible to anyone on the internet.
+Yeah.
+You know, that sounds democratizing, doesn't it?
+Yeah.
+I don't know.
+I don't know if Licklider would have called
+it the computer as a communications device
+democratizing or not.
+But, but we'll see echoes of, you know,
+these, this kind of excitement elsewhere too.
+Good.
+Other other thoughts about Licklider?
+Okay.
+If not, let me, so before we get
+to, I want to, I want to get to Robert Dahl.
+But before we get there, I want to
+talk about Usenet.
+And we, I brought this up last week
+a little bit.
+I want to get a little bit deeper
+in it this, this week.
+Right.
+How many of you have used Usenet so
+far?
+How many of you have heard of Usenet?
+Anyone?
+A few?
+Okay.
+Good.
+Congratulations.
+Yeah.
+So what is Usenet?
+To not to put you on the spot
+or anything?
+Yeah.
+Yeah.
+What have you heard about it?
+Okay.
+No, no problem.
+Have you else heard of Usenet and remember
+anything about what it might be?
+So yeah.
+Okay.
+I understand them.
+Totally understandable because well, everybody used to use
+it.
+It's, it was calling, it was called Usenet
+because it was a network of and for users.
+I don't know exactly how or why they
+came up with that name, but yeah, it was about
+network and it was about users and network.
+That's very simple.
+Right.
+You know, it was the Usenet.
+And this started, this was a system that
+was first created in 1979 by a couple, a couple
+geeks, Trusscott and Ellis.
+I'm not going to test you on these
+names, but you know, other broad Usenet facts might,
+you know, might be candidates for final exam.
+Right.
+And so, and this was about, you know,
+similar time that the earliest version of the internet
+was also forming, but, but the internet, you
+know, was not the internet then it was called
+the ARPANET named after the US Defense Department
+Agency as it was called then, the Advanced
+Research Project Agency.
+But that was, that was a different development
+elsewhere.
+These were developing at the same time, but
+very separately.
+And what was it?
+Well, Usenet was a messaging network operating over,
+though, you know, a bunch of nodes, of
+course, as we just discussed, most of these
+nodes at that time were big, you know, main
+frames, mini computers that feel tended to, tended
+to fill rooms.
+Right.
+But, you know, there were, there were enough
+of them around at different institutions that,
+you know, each, you know, substantial university like
+EPFL would typically have one.
+And it would be a shared access machine
+exactly like the, the type that Licklider for saw incorrectly
+for us continuing to use through the, you
+know, throughout the future.
+So multi access, these were all multi access
+machines with lots of different users, you
+know, accessing each machine through their local terminals
+and dial up terminals over
+these very slow phone line connections we called
+modems to be literally modulator, demodulator
+to send, send data over, over plain old
+telephone lines.
+And these nodes would also be connected.
+These, you know, mini computers and stuff would
+be connected in some network topology.
+And these, these links were also, this is
+again, before the internet had really, you
+know, taken hold.
+And so most of these links were also
+just over plain old telephone lines, so with, with modem
+connections, and they weren't on all the time
+because you had to pay long distance charges
+for each minute that any one of these
+links was turned on and talking to the other line.
+So this idea of, you know, always on,
+you know, links that's underlying today's internet,
+that was not the thing that is, so
+these were, these were very intermittent links that, like,
+you know, one, one institution like EPFL, you
+know, would call ETH Zurich, you know,
+twice a day at particular times, on a
+schedule say, hey, you know, do we have any, anything
+to swap at this point?
+And then, okay, nothing else.
+Thank you.
+Hang up.
+Wait until the next 12 hours and call
+again.
+Right.
+So not, not always on.
+And they were pretty slow too.
+Right.
+Um, but coming back to use net, what,
+what was it?
+Well, you know, said that people who are,
+you know, playing with this realized, well, you
+know, still, you know, despite the limitations and
+the slowness, we can see so much potential
+here.
+Right.
+And wouldn't it be nice if anybody anywhere
+could post a message that everyone everywhere
+can read.
+Right.
+So, um, so the basic idea of use
+net, so they, they created a protocol.
+Originally called UUCP.
+Can anybody guess what UUCP might mean?
+Just from the, just from the letters.
+As a hint, the two us stands for
+the same word.
+Two copies of the same word.
+Yeah.
+Very good guess.
+Very good guess.
+Pretty close.
+Not quite.
+But yeah, it totally could be that.
+Um, so yeah, so instead of user, these
+were, these were
+geeks who were in the UNIX era, then
+digital equipment, corporation, deck,
+Vax, mini computers, these all ran, ran the
+UNIX operating system, the original
+Kernigan and, uh, Kernigan and Ritchie, you know,
+uh, UNIX system.
+So most of these were UNIX machines.
+And so they cared about their machines, not
+their users.
+The users were just like, you know, a
+little specs on the side.
+Maybe that you have to deal with accessing
+your beautiful machine, but, you know,
+kind of the machines themselves and the UNIX
+operating system is running.
+That's what they cared about.
+So this was UNIX, but you really, you
+know, got the concept UNIX to UNIX.
+CP is also close, but not quite there.
+Right.
+So these were geeks that are, were, were
+used to running UNIX commands on a
+command line on text terminals.
+What kind of command does this suggest to
+you?
+So some of you have, you know, don't,
+you don't always use the modern, you know,
+fancy IDEs and everything.
+Some of yous surely use terminals, right?
+Yeah.
+Command prompt?
+Well, yes.
+But it's even it's actually even more specifically
+than that.
+Like, you know, not just the command prompt,
+but something you type often on the
+command prompt, you know, UNIX system or UNIX
+based system.
+Yeah.
+Print.
+Yeah.
+But, you know, these, we don't need printers
+here.
+You'd see even simpler.
+Good, good guess.
+Post.
+Post.
+Yeah.
+Good guess.
+but how do you get CP out of
+that?
+Well, CP actually is a Unix command prompt
+command, right?
+What does, if you just type CP on
+a Unix command prompt,
+what command do you get?
+Yeah, copy.
+Yeah, so that's just the copy command.
+So, you know, this was UUCP instead of
+just CP,
+what they were trying to do was just
+reinvent
+the copy command, just CP, right?
+CP is just for copy, right?
+They were trying to reinvent it for Unix
+machine
+to different Unix machine.
+That's what they meant by the UU part
+of it, you know,
+as opposed to, you know, the model being,
+well, you're on the same Unix machine,
+you're just logged on to one of these
+Unix machines
+and you type the copy command to copy
+this file
+from this location in the file system
+to this, you know, other file in this
+other location
+in the same Unix machines file system.
+And so, you know, the brilliant idea of
+this new protocol,
+they called UUCP is just, well, let's just
+do the same thing,
+that simple copy to copy a file from
+this Unix machine
+to this other Unix machine, a different Unix
+machine.
+So it's just, you know, like a remote
+copy protocol
+that they were trying to do, right?
+So very, you know, very simple idea, very
+rudimentary,
+but it kind of worked.
+And they built this, you know, on this
+basis,
+but, you know, they use this for a
+very particular application
+for gossiping messages.
+And this was not email, right?
+So this was gossip.
+So what defines a gossip protocol?
+Anybody encountered gossip protocols so far?
+How is a gossip protocol different
+from another messaging protocol?
+Anyone?
+Also, what's the purpose of a gossip protocol?
+Even just guessing from the name, yeah.
+Exactly, take some information,
+spread it throughout the whole network.
+Yeah, so when you hear a rumour
+and you wanna gossip it, you're spreading information.
+Exactly, right?
+So, actually this is one of the technicals
+technical term accepted technical terms for this is
+information.
+That's an O not a U dissemination.
+And how did it work?
+Well, basically, you know, not to get into
+too many of the details.
+You know, if you want all some of
+the some of the details, we get that into
+into my master's class on decentralized systems engineering,
+but
+you know, without getting into the details, suppose,
+you know, Alice
+is over here, one of these users logged
+into this unit system and she writes a message.
+She posts post a message about, you know,
+what she had for lunch, anything you want to write, right?
+And that first goes into a file, an
+ordinary flat file on her unit's unit's host.
+But then it goes into a special directory
+that says, okay, this is this is a use net post.
+This is a this is a message that
+we want to disseminate to everyone who cares to read it.
+And so at some point, you know, a
+few hours later, when this unit's machine is scheduled to dial up EPFL and have a phone call with it and and you know, exchange information.
+It does this UCP unix to unix copy
+of the message over to EPFL, at least if EPFL doesn't have it, right?
+And similarly, next time it talks to this
+other machine, it'll copy it there, right?
+And they'll gossip it, continue to spread it,
+you know, to the other machines.
+As long as any machine doesn't have it,
+they'll say, oh, you have something new, a new hot new rumor that I haven't heard before.
+Okay, give me, give me, give me, I
+want to hear it, right?
+So, so it's just a ultimately an information
+dissemination protocol, right?
+And it wasn't, you know, it wasn't particularly
+complicated or fancy.
+And a lot of the details, if you
+look at the header formats and stuff, they're very similar to what you find in the email protocol that we still use very commonly, much more commonly in use net.
+There's a lot of similarities.
+There's also some key differences, namely with email,
+there's always, you're always sending an email to someone.
+So there's a two line in an email
+message, who's the email address you're sending this to, and it's only going to to that, that one email account, right?
+With use net, with use net and UCP,
+there's no two line in the header.
+Instead, there's a logical destination called news groups.
+You would put a news groups line and
+say, well, what's the topic of this? Who might want to read this?
+And you write something like, you know, they
+had a whole hierarchy that developed over time like computers dot Unix.
+And you want to talk about Unix stuff,
+how to run CP or how to run UCP, you might post a message in comp dot Unix, right?
+And because of this, this, this gossip network,
+you know, your question will go to everybody everywhere in the world that's connected to this network and is watching this particular news group is reading this news group.
+And a few hours later, somebody over across
+the world reads your message and answers your question. Oh, this is this is the command line option you're missing that, you know, will do the trick for you what you need, right?
+And so this was awesome, right?
+And this is literally, you know, the first
+version of all of the, you know, kind of public information dissemination discussion forum type things that we have today. This was the first, you know, Twitter, you know, Facebook, you know,
+you know, you can't read it, you know,
+all of these, you know, familiar, you know, today familiar platforms, you know, our kind of distant echoes of, of usenet, right, what, what usenet was trying to do.
+And it, it really did.
+Yeah, so, and you know what, it really
+worked. A lot of people used it increasing, you know, so it.
+So, so usage and users and even by
+metrics of like cultural impact.
+So, you know, we're on a timeline, starting
+with like 1979 when it was first invented, then there we be, you know, the 80s.
+Right.
+Basically in that period and then 1990. Right.
+And 2000, you know, and so on, right.
+And, you know, we're, we're way in the future versus this timeline but, but, you know, in the 80s, it, you know, it got a slow start but it was, you know, developing gradually but then more and more users started, you know, really getting into it and it, and, you know, it's gradually
+getting into it until somewhere around the mid
+90s, it was the absolutely the hot thing, you know, you went into all the bookstores and went to the technology book section, right.
+And it would be full of books about
+us net here's what's using that is here's how to get on us net here and here's how to be a good citizen on us net here's you know, everything about everything about us net that you know, then was full of this kind of stuff.
+So, you know, around 1994. Right.
+And then, you know, if you look historically
+at, you know, some of these metrics, both the users and the cultural impact of stuff. Also, you know, pretty quickly started dropping off and you know kind of had a wrap down and not sure exactly the shape of that curve but something
+like that. Right. So let's, let's come come
+to that part in a minute. Right.
+So, so this is, you know, this is
+a kind of a little bit brief very high level overview of us net. Now, I want to ask you, you know, based on just based on what I said about us net so far.
+Before I get to that question, I want
+to get to that in a minute.
+Heads up, you know, if you haven't already
+noticed the first, the first assignment is going to be about us net.
+So, they give you a give you a
+little introduction to, to actually, you know, what us net looked like and felt like, you know, as a, even though it's a kind of a historical thing now.
+I think it's still important to understand partly
+because all the principles are still relevant. And it was a great example for how for both the promise side and some of the things that went wrong. Yeah.
+Yes, still use it today and you are
+going to kind of.
+Well, the thing is, because of some of
+the limitations and some of the issues that have cropped up over the decade since then.
+The use net you will be using is
+kind of our own little mirror of it. Right. You know, so actually in past years we did have students, you know, I mean, the whole network still is still exists and works and you know, kind of in principle, any anyone can use it but because
+it's a lot of all kinds of account
+creation issues and stuff like stuff like that.
+It proved to be basically a big problem
+to have everybody in a big class, you know, get an account on official use net site so basically starting this year.
+So basically running our own use net know
+where we are going to be now, and you'll get to, you know, hook at us net from our little dedicated, you know, use net know basically right.
+So yeah, you do get to use new
+use net in fact you have to I'm sorry.
+So a little bit, just to get a,
+just to get a taste and feel for it. Right.
+So, coming, but now I want to come
+come back to like light since you know that's what you have read so far and you know just based on how I've described use net. What do you think like lighter would say about using that.
+So the lighters article was, you know, a
+while before use net really nearly the beam.
+Yeah, it wasn't that long before. Right.
+Think like lighter would have been excited about
+use that in what ways what
+you know what what aspects of lighters vision
+do you see here already happening in in the early 80s.
+Yeah.
+Exactly. Yeah, so.
+So if lick lighter
+were to, you know, look at use net
+right.
+This was exactly fulfilling his prophecy of all
+the connected
+computers
+with message propagation right.
+Of course, lick lighter was seeing, you know,
+kind of lick lighter vision was focused a little bit farther than use net was technologically at that time, but because you know at that time I mentioned use net was very slow because of all these dial up, you know intermittent dial up connections
+and the lick lighter vision was more like,
+you know, interactive I want to talk to you right now back and forth chat, you know, of course that came later with the real internet and use net still exists and use net you know when the always on internet came then use net, you know moved on to that pretty easily, but it existed before the real internet.
+So, you know, use net totally captured the,
+you know, connected computer the large scale connected computers where everyone could send a message to everyone else.
+Not so much the interactivity that he envisioned
+right.
+So, use net was not designed to be
+interactive. Right. In fact, it was kind of designed not to depend on interactivity. It was designed to be very latency tolerant and delay tolerant disruption tolerant.
+And this was actually part of its philosophy.
+So,
+independent of lick lighter.
+Summarize some of its really interesting interesting properties.
+So, it was truly decentralized.
+And it was distributed because all of these
+nodes had different owners and different system administrators.
+They were not use net was never a
+platform owned by a single company that managed everything there was never a use net incorporated, not even a, not even on nonprofit foundation supervising and running use net we were always literally, you know, a decent
+decentralized ownerless network in which all of the
+nodes were owned and operated independently just by system administrators cooperating with each other say hey, you heard about this great use net thing you want to operate a note I'll connect with you okay let's let's get a connection right
+let's schedule our modem calls right.
+So, super decentralized. Right. And it was also
+like the Internet.
+It was born out of the cold war.
+Constant fear of being attacked, you know, either
+electronically or by nuclear weapons, you know, from across the, across the pond.
+And so, you know, we had very much,
+you know, there was a kind of, you know, sense of threat, like, you know, if we build a network, somebody's going to come and try to destroy it kind of try to stop us communicating and disrupt the network.
+And so, it was inherently very disruption tolerant.
+And, well, if any of these nodes fails,
+all the messages are still going to disseminate they're just going to as they say route around the failure right they're going to propagate anyway because the network is highly connected there's going to be other routes, right, all of the
+connections that you know no matter kind of
+how how much you you know kind of take out a few of the nodes or a few of the connections there's going to be a plenty of other connections that will get the messages through to everyone who's still there.
+Right so it was designed to and it
+succeeded in being very disruption tolerant.
+And a third property that was interesting that
+also came partly out of, you know, part of it, part of the physical philosophical goals of the designers of us net was it was also also trying to be very censorship resistant.
+And so, you know, I would say that
+was a very common, you know, belief and common goal and the people designing these that, you know, we want a censorship resistant network that, you know, kind of freedom of speech over everything anybody can say anything they want.
+And no one shall stop you from saying
+what you want.
+Right.
+That was another way where where, you know,
+this was this was baked into the design and, you know, the fault tolerance and the disruption tolerance were, you know, we're at the fact at the, you know, these two properties were seen as inextricably linked by the same mechanism but the same, you know, the same way, you know, the
+same mechanism will ensure that let's say if
+somebody tries to censor a message right you know somebody doesn't like Alice's message when it tries to propagate from here to here and say somebody decides to censor and block that message from propagating there.
+Is it going to really censor the message.
+It's going to, you know, just come across
+one of the other links right it's going to round around, you know, not only failures but attempts to censorship right so baked into the very early philosophy was a, you know, an idea that yeah, we are designing not just for a tolerance and, you know,
+against attacks but also tolerance, you know, of
+disruption to avoid censorship. Yeah.
+Yeah.
+Yeah, good, good point. Yeah, I said, yeah,
+I hadn't, you know, planned to, you know, get into that level of detail, you know, here and now but I'm happy to.
+So each of these messages have what we
+call a message ID, a unique identifier that's supposed to be unique to each message. And that's so you know when a message arrives at a node, well that might that node might have already seen that message or might not it might be new or
+new or old, right. And the standard way
+use networked with the is the node would check the message ID is this a message ID I've seen before. Yes, okay, you know it tells the other no it thinks but I've already seen that message you don't need to send it to me.
+You know, if it's a new message ID
+is not in my database yet. No, it says yes, that's a new hot room or please send it to me. Right. So that's the basic mechanism, right. Now to come back to your question.
+So that's the most of the case it
+like you know if your original message with your original message ID and your original content, you know, spreads through a lot of the network before somebody tries to censor it.
+Then your message is going to win they
+can try to forge a message with their own, you know, a competing message with their own ID with their own stuff.
+But if your message has gotten there first
+to throughout most of the network then your message wins. Everybody sees your original message and they just reject and ignore this, you know, this forgery, because it looks like just a duplicate.
+There was no cry cryptography here, you know
+this was kind of before cryptography they became a common thing so there was no strong authentication. So in principle if somebody like right next to you was fast enough and decided they wanted to censor you and like you know they had their script in there waiting for your message and
+instantly ready to you know send out a
+forgery to compete with your message right the race with your message yeah yeah they might be able to, you know, get their message to some of the nodes first before your message gets there and that you know that would in principle, you know, constitute a successful
+censorship attack on us. So that was not
+impossible. On the other hand, I do not remember ever hearing of such attacks being ever even really attempted let alone prevalent. So it for whatever combination of reasons that was not a problem in practice on us net during the hey day of us net so but yeah you know great question.
+These were some of the things they were
+thinking about and you know despite not having cryptography and having a lot of you know technical weaknesses.
+You know, they made a pretty good decentralized
+and actually disruption tolerant tolerant and censorship resistant system.
+You know that really did fulfill some of
+lick lighter's vision right and you know just to just to pull a couple of the other properties where you know lick lighter did predict the.
+Some of the things we talked about here
+right the easier access and the the equal access right.
+So the inclusiveness.
+Increasingly, you know more and more people and
+you know eventually pretty much anyone who wanted to could get on us net certainly, you know at this peak in the mid 90s, where you know us net was a big thing yeah if you wanted to get on us net you could totally find a cheap way to get on us net and pretty much everyone was doing that right so it had become around that time.
+Really, you know, ubiquitous and inclusive right so.
+And if you read some of the books
+one of my one of my optional but suggested readings was a book called netizens.
+I do encourage you to read that.
+I think it's a book that I read
+last year's optional readings.
+It conveys the, I read some of it
+it's a whole book you don't have to read the whole book but I have recommended chapters, but it really conveys, you know what people thought the excitement they had about this, including these aspects the fact that it really, you know, kind of gives everybody is
+a great one, and maybe most importantly, you
+know it's a.
+It's a publication, right.
+posting.
+It's a speech platform.
+Right, including because they designed it first censorship
+resistance.
+It was literally a free speech platform.
+That's one of the goals they had for
+it, and arguably they succeeded. Right, and we'll talk about how, how much they succeeded in a minute after the break so let's let's take a take a quick break.
+Maybe 11 minutes come back at four for
+15.
+Okay.
+Um, let's go ahead and continue.
+Um, so I want to, in the last
+half of this lecture I want to talk about two things first briefly.
+The last, the kind of the close the
+the use net part with this in particular I want to talk about, you know, what happened here.
+Well, what was the end of you. Why,
+why aren't you all. Why don't you know what use net is and why aren't you using it right now instead of all these other things that you're using right that thing.
+And then I'm going to come to the
+other reading Robert doll. So but let's talk about, well, what happened to use net.
+Yeah, there's some reason, you know, it kind
+of crashed and popular popularity fall off fell off people went elsewhere. Right.
+Um, any guesses.
+What killed using it. Yeah.
+It was replaced by centralized forums. Absolutely.
+But not because they were faster and easier,
+at least not immediately. Maybe later, but not, you know, that's not the reason people, you know, for for this deep downward drop of that curve that was a later symptom of that you know when people were not happy with using net.
+And we're not happy with use that and
+we're looking for something else. And you know these centralized services happening there.
+But that's not why you guys, you know,
+really, yeah, you wanted to.
+Not active enough maybe yeah not fast enough
+so let me.
+Why use net failed what are some of
+the possible reasons. Yeah, so.
+So, you know, so really, you know, could
+have been some factors but you know we're not the major factors. So let's call these minor factors.
+So competition from a centralized alternatives.
+And then when you know when use net
+was a big thing there, you could also get on mailing lists there were you know mailing lists, you know on centralized servers were a common thing, you know with smaller, they were already, you know, commonly used for smaller, more closed disruption
+alternatives. And then it was only later, you
+know, late 90s typically and and beyond that the really big, you know, kind of big centralized platforms start started to appear and really compete with us net but then just to capture yours.
+Yeah, it wasn't very fast, right.
+Not fast or interactive.
+Enough. Yeah, that was a factor but you
+know what the alternatives were not really ahead of us net, at least in that period like the 90s.
+And so net was keeping up pretty well.
+Yeah, you know, because, you know, in the 90s, the internet, the always on internet, you know, appeared and started becoming increasingly ubiquitous, and it proved to be not that hard they to transplant us net on to onto, you know, this always on
+the internet, they created a new protocol to
+replace you the old you see CP. So, you see P evolved to a protocol called NNTP network news transport protocol. That was the internet era version of us net that knew how to use these always on TCP IP connections
+and so on. But it was the same
+use net, right, and you could use both they were all compatible and it just, it just kind of worked. Right.
+And because just, you know, as soon as
+the internet became fast enough and ubiquitous enough that most of the us net people were actually on us net running on the internet then you know us net messages became nice and snappy right so you send it.
+And so if within at most a few
+minutes often a few seconds, you know, it appears across the world, you know, and your friend over there can read it. Right.
+I mean it wasn't truly interactive like, you
+know, Google Docs interactive, you know, editing and stuff like that, but that wasn't what bothered most people.
+You know, even though initially it was only
+text base. It wasn't that long, you know when graphical user interfaces became, you know, common, you could you could send images, and even videos and stuff in in use net messages to that was you know someone coding stuff to do but we figured it out, you know, it worked.
+Yeah, sorry you've been waiting patiently go ahead.
+Uh, uh, yeah, yeah, so
+So, as a defense, yeah.
+So yeah, there was perception of that as
+a problem.
+And one of the things that there actually
+was in Usenet, kind of from the beginning,
+a problem was, as they said, clueless newbies
+showing up, suddenly discovering Usenet and
+not at all knowing how to use it
+and posting clueless messages on totally the wrong forum,
+picking the wrong forum to ask this message
+that belongs there and often ask it in a very
+non-civil way, like, what's wrong with you if
+you don't understand my question?
+You're, are you an idiot?
+Just kind of accidental, anti-social behaviors, just from
+people who weren't even really
+trying to misbehave but just weren't really familiar
+with how things worked and how to
+communicate in a civil fashion in this text-based
+context.
+That was actually a problem early on.
+And that indeed was one thing that led
+to some pressure for moderation.
+And that was, from early on, a reason
+some people indeed went to mailing lists instead
+of Usenet.
+Because if there's just, if a mailing list
+for a closed mailing list only for experienced
+experts in this topic or this system, we
+want to discuss without all the jabber from the
+newbies showing up all the time.
+Sometimes they preferred that for that reason.
+But also, you didn't have to leave Usenet
+to get moderation.
+Actually fairly, I can't remember exactly when it
+was in that period, but Usenet itself
+got a moderation, an optional moderation facility.
+You could have both moderated and unmoderated news
+groups.
+So news groups were always unmoderated by default.
+But the Usenet could kind of collectively decide,
+okay, we want a moderated version of this
+particular very hot news group where there's tons
+of discussion all the time.
+Some people just don't have time for all
+that and want a thinner, moderated version of it
+with a person selecting, okay, this is on
+topic and relevant and this and this and this,
+and filtering out the noise.
+So moderation even came to Usenet fairly early
+on.
+So yeah, while it was kind of a,
+this was an issue and people did leave Usenet because
+of it, but also people stayed on in
+moderated groups for it too.
+So Usenet didn't die just because of lack
+of moderation per se.
+But you're getting close.
+You're getting very close.
+Yeah.
+Good question.
+Yeah.
+So what kind of legal pressure?
+Nose.
+Um, yeah.
+So you might expect that, but not really
+actually.
+So there was, so there was, you know,
+some of that pressure, like, especially as Usenet
+started, you know, really growing and lots of,
+you know, kind of lots of arguably, you
+know, you know, content that people didn't like
+or didn't believe, you know, didn't like
+for one of many different reasons started flooding
+on it, you know, um, you know, there
+were pressures like that, but you know, usually
+the nodes, node operators found ways to deal
+with them.
+For example, no, you know, just, you know,
+kind of an administrative detail was there
+is, I mentioned there this entire news, news
+groups, was just one of these tens of thousands
+of news groups, any of the operators could
+choose which of those news groups they're
+going to carry and which was you're not,
+you know, just, you know, I'm sorry, you know,
+this, this whole hierarchy of, you know, Usenet
+news groups carries some that we don't want
+to touch, right?
+Our government is pressuring us not to.
+So, and we're going to give into that
+pressure and just not carry, you know, that kind of
+content.
+You could do that.
+And people did that.
+And so in some sense that you could
+call that, you know, Usenet was bending and allowing
+certain forms of local censorship out of, you
+know, at local regional levels, right?
+So, you know, the censorship would happen in
+some, in some ways, but only locally, you
+know, for everywhere else in the world who
+wanted that content, they would get it.
+Yeah.
+Yeah.
+Yeah.
+Good.
+Good.
+Yeah.
+That's a really good guess too.
+Yeah.
+Hard to monetize.
+Also not really like it never like people
+never stopped using it or stopped, you know,
+kind of working on it because they couldn't
+make money off of it.
+So certainly the private providers eventually came along,
+figured out, okay, we can invest some money,
+make a more appealing option, a faster,
+more interactive option, more bells and whistles
+and all that, make it more attractive and
+compete in that way.
+Yeah, and they eventually did for sure.
+And especially later, as Usenet was already dying,
+a bunch of these private operators started coming
+and competing especially with each other
+and also with Usenet in exactly that way.
+But again, that's not,
+that happened really after Usenet was already
+in its steep decline.
+So it's not quite,
+kind of if it's not why people went
+elsewhere.
+So, and also a lot of people,
+even though Usenet itself was technically a kind
+of a
+voluntary, like, kind of people were,
+it was an open source project,
+or no one was in charge,
+but everybody could also create their own news
+readers,
+their own user interfaces, front ends, and they
+did.
+There were a ton of different Usenet front
+ends
+and some of them were commercial.
+So actually people did figure out some ways
+to make money,
+to monetize Usenet, for example,
+by selling you a nice snazzy graphical news
+reader
+that could do all these other things that,
+the free news readers wouldn't for you, right?
+So, it could, it was a totally skinnable
+thing too.
+And people did that, but yeah,
+but on the other hand, you're not far
+off either, right?
+So there's, this is, we're getting really close
+to,
+the reason why Usenet really, really crashed.
+And yeah, yeah.
+Didn't scale.
+Didn't scale?
+Yeah, that, that bit.
+You might expect that, especially,
+as the capability for sending messages
+with these big binary attachments,
+like big photos, videos and stuff like that,
+at some point that became a big,
+part of the bandwidth sink, not only of
+Usenet,
+but the whole internet at certain stage,
+like kind of every, people were looking at
+what,
+what all the bandwidth was used
+between my institution and yours,
+Usenet was a giant chunk of it.
+And almost all of that was accounted for
+by all the binaries, all the photos and
+videos of,
+whatever, cat videos and stuff like that,
+that was getting posted to those channels.
+Yeah, so yeah, that could have been a
+big problem,
+but somehow people actually managed it, right?
+So there were ways to manage it.
+Moore's law was in full swing
+for both computing resources, storage resources,
+networking resources.
+Yeah, the content was exploding,
+but the technology's capacity was exploding just as
+fast
+and keeping up just fine in practice, right?
+So yeah, that could have happened,
+but again, not what killed Usenet, right?
+So these were all factors, but, you know,
+pressures,
+but not what killed Usenet.
+Yeah, yeah, sorry?
+Ah, yeah, yeah.
+So initially early on that was a problem
+because you had to be, you know,
+have an account in one of these, you
+know,
+prestigious selective institutions
+even in order to get access.
+But, you know, as soon as we hit,
+you know,
+around here in the early 90s, you know,
+all of the, you know, ISPs
+or the internet, you know, online access providers,
+especially when anybody heard of America Online, AOL.
+This was, yeah, yeah.
+So this was kind of, this was the
+big dial-up,
+you know, internet access provider
+that kind of brought the internet
+and including Usenet to the masses in a
+huge degree, right?
+And by, you know, by the time AOL
+came online
+and kind of made it really accessible and
+open to everyone,
+yeah, everyone who wanted to be on Usenet,
+you know, could be on Usenet.
+That was already before this peak and crash.
+In fact, you know, we might say that
+was part of the problem.
+You know, the very success was part of
+the problem
+that led to its downfall.
+Any other ideas?
+So it didn't, it didn't stop scaling,
+it didn't stop working.
+Yeah.
+Yeah, it had competitors, but those competitors,
+you know, were not competing enough, right?
+And this is not yet, it was late,
+yeah?
+Sir.
+Ah, that's it.
+That's, we're specialized to their own purpose.
+And, you know, those were exist, you know,
+existed and were around and were heavily used
+by businesses,
+but, you know, they didn't really do the
+same thing
+as Usenet, so they, you know,
+they weren't really competing with Usenet either.
+Maybe they were competing with email, you know,
+but yeah, both of those are still around
+now too.
+But yeah.
+Okay, so I'll,
+I'll,
+I'll tell you what happened.
+So let's look at this graph.
+1994, let's see, right about here, 1994.
+January 1994.
+A very interesting message appeared suddenly.
+Which was, let's see, what was it?
+Oh, I don't, did I forget to record
+the title?
+Yeah, so a very interesting message appeared.
+I can't remember the exact subject line it
+contained,
+but it was something like,
+repent everyone, Jesus is coming.
+And the important thing was there were news
+groups
+for that kind of message, that was not
+a problem.
+The important thing about this message
+was somebody had written a script
+that just gathered all of the,
+crawled all of the Usenet news groups
+and, you know, put them all in one
+news groups line
+in the header of this one message.
+So a very long header, very small message
+with that,
+you know, kind of very, very, you know,
+religious proselytizing, you know, content saying,
+basically this is a way to advertise our
+church.
+You discovered, hey, this is, you know,
+we were supposed to, you know, minister to
+all nations,
+all people everywhere, spread the gospel.
+This is a way to do it.
+Let's post a single message to the whole
+Usenet,
+all of the news groups all at once.
+And yeah, you know, so the message appeared
+everywhere
+for everyone, regardless of what news groups
+they were reading, right?
+Now it wasn't, so what do we call
+this today, right?
+Spam, yeah, so that word didn't exist
+except in a Monty Python script
+that later inspired this use of the word
+spam.
+Yes, that was the first internet spam, right?
+January 1994.
+The second internet spam was I have four
+months,
+three or four months later, April 1994,
+by this time by a law fervor somewhere
+in the US,
+Cantor and Siegel offering green card,
+permanent residence card services.
+So this was the first commercial spam, right?
+So a company that decided, hey, this is
+a great opportunity.
+We have discovered how to monetize Usenet, right?
+So they did that.
+Of course, everybody was really angry about that,
+you know?
+And there were mechanisms to fight back, right?
+And people tried, administrators tried to fight back,
+but I mean, you could call,
+these node operators could call each other,
+say, hey, your user with this username is
+misbehaving,
+can you do something?
+And that was kind of the way to
+deal with that.
+But yeah, and that worked a little bit
+for a few months
+until like a barrage of other companies realized,
+hey, this is free advertising.
+Let's not let Cantor and Siegel get there,
+get the whole slice of this new pie,
+right?
+So all the other companies started piling up,
+at least the ones who didn't really care
+about their reputation,
+their online reputation or anything, right?
+And so suddenly, just within a matter of
+months,
+spam went from being a non-existent thing
+to a serious and increasing snowballing problem, right?
+So everybody started doing it.
+And the signal to noise ratio,
+across all of these Usenet news groups started
+plummeting, right?
+So you go on and try to read
+whichever your favorite news group
+is on whatever your favorite topic is.
+Suddenly, you have to wade through message after
+message
+of just complete random stuff that doesn't belong
+in there at all,
+or not even Clueless Newby things,
+but just completely inappropriate spam.
+And it got annoying, frankly.
+I mean, the network could carry it, the
+capacity worked,
+it still scaled.
+And there were these mechanisms.
+This moderation mechanism started getting used more and
+more,
+but people didn't like that entirely either,
+because there would always be like,
+you would have to basically decide,
+okay, what's the one person we entrust our
+view of what's good
+and what's bad in this news group,
+to decide what we see and what we
+don't see.
+Do we like that?
+Well, that sounds too much like censorship, right?
+And Usenet was an anti-censorship forum, right?
+And so, for cultural reasons, in part,
+a lot of news groups did not want
+to move
+to a moderation model, they resisted.
+We believe in our freedom of speech,
+even if it means we have to wade
+through bucket loads of spam every day.
+Okay.
+Yeah, so that was the problem.
+And that was the sign of the plummeting
+signalt and noise ratio
+was really what in practice pushed users away,
+user made users look for alternatives.
+And then, of course, they started looking
+at these central lights alternatives,
+the slicker, snazier, more interactive platforms that say,
+hey, come here, use our paid service,
+we'll manage it for you, including manage the
+spam for you,
+making sure you don't have to wade through
+all this,
+quite so much spam, right?
+And for one way or another, it worked.
+Users started leaving Usenet in droves for these
+better signal to noise,
+kind of discussion forums with better signal to
+noise,
+however you get it, right?
+And so, ironically, part of the reason Usenet
+could not deal with this problem,
+this sudden new problem, was because it was
+designed to be disruption,
+to tolerate and censorship resistant, right?
+It succeeded admirably in being censorship resistant.
+And when spam became a big problem,
+well, everybody wants to censor the spam,
+sorry, you're on a censorship resistant network.
+Go somewhere else if you don't want spam,
+right?
+Because that's censorship.
+Well, and so everybody did, right?
+That's why you're not on Usenet now.
+So, questions, discussions, thoughts?
+What did we do wrong with Usenet?
+Is there a, can you see a way
+we could have, you know, still been on Usenet?
+Or, well, I'll just let you think about
+that.
+In part because, so I want to talk
+briefly about Robert Dahl.
+So, hopefully you read, you read the assigned
+chapter of his book,
+by the way, the whole book that that's
+taken from is really excellent.
+I suggest it if you have the opportunity.
+So, why did I put this book about
+democratic theory
+in a course, you know, in a technology
+course?
+What's, you know, how is it relevant to
+what we've been talking about?
+Well, in particular, you know, I asked you,
+what would Licklider think about Usenet?
+Well, what would Dahl think about Usenet, for
+example?
+Or about the more recent platforms that have
+supplanted it?
+that sounds? Yeah, yeah. So which, so are
+you referring to, so one of the principles, as I believe,
+I recall he phrased, was equality at the
+decisive stage.
+Yeah. So everybody should be, should have, you
+know, kind of the equal weight in being able to make
+and contribute to decisions. Yeah. Now, he was
+really, you know, in this case, he was really
+referring to voting equality, you know, kind of
+narrowly with this point. But, you know, of course,
+Usenet didn't ever quite get around to trying,
+I mean, people actually, people did envision Usenet as
+not just a medium for discussion, but a
+potential medium for democratic deliberation,
+including potential, potentially voting. And, you know, people
+did experiments with this and
+some of the decisions about, say, the Usenet,
+you know, newsgroup hierarchy and which ones
+should become moderated and not, there were some
+informal voting type, type deliberation and discussion
+things. None of those would have succeeded in
+meeting Dahl's requirement, this particular
+requirement. You're absolutely right. Right. So, because, well,
+you know, it was kind of a free
+for all, you know, whoever shows up, whatever
+very small minority shows up and hears about this
+newsgroup assumption and discussion and, you know, says,
+yeah, gay or nay, you know,
+you count whatever votes randomly appear, but you
+don't really know anything about, you know,
+and some of them can even be fake
+accounts that are, you know, several votes for one person.
+You know, there were no, you know, real
+controls, no cryptography, you know, nothing like that. But,
+you know, they did some, you know, there
+were some attempts in that direction, yeah, but not
+nothing that would probably satisfy Robert Dahl in
+that respect. On the other hand, right, Robert
+Dahl did, you know, bring up some other
+principles, right? What was another of the Dahl's five
+principles there? Anyone? Yeah. Yeah, great. Effective participation.
+So, can you unpack that a little? What
+does that mean?
+Yeah, so there should be, everyone should be
+able to bring their opinion, gather information,
+exchange information, right? This sounds like usanet, doesn't
+it? Right? You know, I mean,
+everyone can come in, you know, participate, actively
+express your opinion, learn about the
+opinions of others, right? So, in that sense,
+you know, wouldn't Dahl be super excited?
+Is there a, how would, how might usanet
+fall down on Dahl's metric for democracy?
+So, is the participation effective? In what way,
+you know, might it not be effective?
+Well, I'll give you one way just based
+on, just based on, you know, what I just told you about the
+way usanet basically died, right? What sent people
+away, right? When the signal to noise ratio
+got started getting bad and, you know, the
+cost of participation at all was waiting through these
+bucket loads of spam, right? People very quickly
+stopped being willing to do that. And, you know,
+of course, the same thing happens in, you
+know, even working, you know, working democracies,
+working deliberation systems, you know, when, you know,
+the medium isn't controlled well enough
+and kind of gets taken over by whoever's
+loudest, right? Just takes over, produces all the messages
+and you can't, you know, can't hear, you
+know, kind of the, what you want, right? And so,
+yeah, so, so in, in some respects, you
+know, usanet, I arguably did satisfy, come close to
+satisfying some of Dahl's vision for, you know,
+effective parts, enabling effective participation,
+but it did it in a completely uncontrolled
+way that, you know, kind of was, became completely
+lost to spam, right? What, what are the
+other properties? Yeah. Yeah, exactly. So control of
+the agenda, right? Yeah, yeah. Yeah, meaning, you
+know, everybody should be able to, and you already,
+you know, brought an aspect of this, yeah,
+so everybody should be able to, you know, not only
+just bring their, their viewpoints and opinions to,
+to an existing discussion, but anybody should be
+able to launch a new discussion, bring, you
+know, kind of suggest what, what topics should be on the
+agenda, bring topics to the agenda, right? And
+yeah, speaking of news, usanet, did usanet achieve that?
+Arguably? Did usanet give its netizens control over
+the agenda?
+Well, for a long time, I wouldn't argue
+it did, right? Because everybody, anybody could start a
+new discussion thread, and they did often. And
+if enough people were interested in a
+particular topic, people could indeed start entire new,
+new news groups. There was a standard
+process for proposing a new news group, getting
+kind of enough, you know, making it obvious that
+enough people are interested in, you know, you
+can totally create entire news, new news groups to
+discuss what you want to discuss. Yeah. And
+so it was very free and open in that way in terms of,
+in terms of, you know, control over the
+agenda. On the other hand, you know, especially when spam
+became a big problem, it was also uncontrolled,
+right? So if you wanted to focus on, you know,
+these particular points, you again had to wade,
+wade through a ton of spam to do it. And, you
+know, no, no guarantee if you want to
+introduce a topic, you know, good luck getting anybody to
+pay attention to it as they're trying to
+wade through all their spam too. Right. So that's
+the limitation that came, came with it.
+Yeah, what are, what are the other, what
+are the other principles?
+The DELs. Yeah.
+Yeah, I think, I think that that's what
+the first one was about, right?
+Vote equal, equal equality at the decisive stage,
+right? So everybody's votes
+counts the same regardless of whether you're rich
+or poor, your status or anything like that.
+Yeah. So very important. Yeah. Yeah.
+Enlightened understanding. Yeah.
+Good. What does that mean exactly?
+Yeah. So not just have the opportunity to
+vote yes or no, but to be informed, to
+learn about, well, why should I vote yes?
+Why should I vote no? Who's arguing yes? Who's arguing no?
+Why? What are the news, me? Why, what
+are the different viewpoints saying about these options?
+How do I make my own decision from
+a non-trivial, deep informed fashion, right? So that's what he's
+getting at. So would usnet be democratizing in
+this aspect? Yeah. Kind of it had totally,
+had all the signs, it kind of gave
+everybody the ability to not only find out the information,
+but discuss it with as deeply as you
+want with whoever you want, right? Both your nearby or
+distant, any when you want, right? So in
+that sense, it was super promising. Everybody thought,
+this is totally a tool for enlightened understanding,
+even though most of the geeks who designed
+using that had certainly never heard of Robert
+Dahl because they were in a totally different field.
+But if they had, they would say, yeah,
+enlightened understanding. This is what
+using it as for it's going to enlighten
+us all, right? And, you know, it did to some degree until
+it died from spam, right? Good. One more,
+right? And actually, we've been circling around this a lot
+already, right? What was the fifth? Or actually,
+maybe, yeah, if I'm not, maybe the chapter I've
+assigned you was mainly these four, but I
+believe the next chapter, if my memory is correct, was
+mainly about this other one, which is inclusiveness.
+Now, inclusiveness is already kind of a criteria
+in like, you know, subsumed in some sense,
+inequality of a decisive stage, etc., etc. But
+here he just meant brought like, you know,
+inclusive in the whole participation experience,
+you know, the whole experience, all of these
+things should be equally accessible and open to
+everyone. It shouldn't include anyone, well, except children,
+right? He had a very, you know,
+if you read that chapter, you know, he
+has a very specific argument as to why, you know,
+it should still depend on age, even though
+it should no longer depend on things like, do you
+have property? Are you an upstanding citizen? Are
+you a, you know, the right race, the right gender,
+etc., etc. But, you know, he, you know,
+he had to kind of argue around why, yeah, you know, age,
+we should still, we should still have an
+age requirement, even if, you know, right? But yeah,
+so, so, so inclusiveness was a, was a
+very fundamental, fundamental property. And, you know,
+again, as we've discussed, Usenet seems to check
+that box, anybody can use it. It was open to
+everyone, very strongly open to everyone. So, you
+know, that was great. Yeah, so, and, and, you
+know, as you, as you can see, if
+you, you know, read up on like the, the Nettison's book, you'll
+see how people were excited about, you know,
+how you, how democratizing Usenet is already and is
+going to be, I'm talking, you know, back
+in the 90s, right? And, and it was, you know, in, in many
+respects, until, you know, it kind of stopped
+work, it stopped, giving people what they, what they
+thought they wanted or needed, right? And so
+I want to keep, you know, so, so I want to keep coming
+back to this, you know, kind of the
+Robert Dahl test of other technologies, too, you know, we've
+kind of looked at the Dahl test on,
+on Usenet, you know, okay, to what extent it did and didn't
+satisfy, you know, the requirements for democracy. And
+I want to, you know, think similarly about
+other technologies we look at as well. So,
+other questions or thoughts about this or anything we've
+covered today?
+Yeah. Okay, if not, so thank you. And
+so I'll see you, see you next week.

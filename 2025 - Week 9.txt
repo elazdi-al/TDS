@@ -1,0 +1,916 @@
+These subtitles have been generated automatically
+Yeah, okay, let's get started.
+So we've been exploring different approaches
+to leverage technology in interesting ways for democracy,
+sometimes closer, sometimes farther away
+from democracy as Robert Dahl might envision it.
+We're gonna move back a little closer
+to classical democracy in a way,
+especially close by looking at randomness
+in democratic processes, right?
+And this has a long precedent.
+So I assigned a couple of readings,
+but instead of getting there directly,
+so let's talk about some of the precedent.
+So what kind of precedence can you think
+of?
+And like how might be randomness be useful
+or how has it been used that you
+know of
+in democratic processes?
+There's actually a lot of examples
+should be able to come up with a
+few.
+Come on, it's not that hard, right?
+Yes.
+At the what?
+Tribunal.
+Ah, great.
+Great, trial by jury.
+Yeah, so this is the US term for
+it.
+I think it's not totally unique to the
+US,
+but maybe it's, yeah, especially common in the
+US.
+Yeah, so this is a very basic,
+considered a very basic constitutional right.
+It's in the US constitution even that,
+if you're charged with a criminal offense,
+this doesn't apply to civil suits,
+but for criminal suits, yeah,
+you have the right to trial by a
+jury of your peers,
+which has to be of your peers.
+Ordinary people normally more or less randomly sampled
+from the population that has to decide
+whether you're guilty or not, basically.
+Yeah, so this has a long precedent in
+the US,
+and we're gonna come back to that
+as one of the precedents a little bit
+later,
+but yeah, that's good.
+Just to step a little bit deeper into
+this,
+what's the reasoning?
+Why trial, why randomly sample your peers
+instead of just the judge and the lawyers
+are experts on this?
+Why should we make do with non-experts?
+Yeah, exactly, yeah.
+So that's one of the big things, right?
+Yeah, so the experts, yeah,
+they know what they're doing supposedly, hopefully,
+but they're expert judges and lawyers
+are a particular, very specific population,
+they're not really representative of just everyone, right?
+They might not see eye to eye,
+especially for a long time,
+it's been perceived, kind of been very clear
+that
+if, especially when we're looking at different people
+charged with something from different socioeconomic
+environments, or different races,
+different from especially the typical judge and lawyer,
+there's at least been perceived and probably the
+reality
+that there's a strong risk of those kinds
+of biases,
+whereas a jury composed of extraordinary people,
+well, they might understand.
+An ordinary person's situation a little bit better
+and be a little bit more unbiased
+or at least independent objective, yeah.
+Good, good, so that's one example.
+There are quite a few others.
+Can anybody think of other precedents
+for randomness in democratic processes?
+Okay, good, good.
+So kind of like a jury, but not
+for the purpose of,
+you know, deciding a conviction,
+but just for being an impartial vote count.
+Good, good, yeah.
+You wanted to say something, was it that
+or something?
+Okay, mm-hmm, good, good.
+Yeah, so that's kind of a different form
+of random jury.
+good.
+When you asked for the music, it was
+for what?
+Oh, it's just a, yeah, it's considered a
+duty, yeah, just like jury duty in the US.
+Yeah, but, but, so you think it's only
+because they need, they need manpower to do this and
+like this is the only way to get
+that manpower, like they couldn't just ask for volunteers
+or recruit only the right type of people
+or why, why random, right?
+Yeah.
+Sorry.
+Yeah, yeah.
+So, yeah, I don't know how much that
+figures into the, you know, kind of the Swiss reasoning,
+whether it's just like, you know, kind of,
+we need manpower, let's get it.
+But there's also potentially the, yeah, avoid fraud,
+right?
+Corruption.
+Yes.
+Yes.
+Yeah.
+Exactly.
+So, you know, imagine somebody trying to subvert
+the election.
+If, you know, you know, you're a rich
+person, you really want this person to, this candidate to win.
+You know, if you know in advance who
+the vote counters are going to be because they're always these particular five vote counters because they're the experts that are known, you know, that always do this, right?
+Well, it's not that hard to like go
+around through them before and say, hey, you know, I can make your life really a whole so much better if you cooperate with me on this little operation here, right?
+On the other hand, if, you know, each
+before each new election, there's a totally new randomly sampled set of vote counters that this, you know, kind of rich election manipulator doesn't know in advance.
+You know, even if they learn a little
+bit in advance who they are, well, these are totally random people from all over. It's going to be really a lot harder to corrupt all of them or even enough of them to get away with some kind of manipulation.
+Yeah, so so the very randomness of diversity
+brings, you know, a certain, you know, kind of anti fraud, anti corruption potential defense. Yeah, and this is very important.
+And yeah, so now this is not by
+any means the only way that randomness has often been used in voting in actual voting situations to yeah.
+To, yeah, to to predict or yeah, follow.
+So this is like for for what at
+least in the US is is typically called exit polling, right?
+Where reporters count just outside the in person
+polling places say, Hey, can you tell me how you voted? Can you tell me how you voted? Can you tell me how you voted so that they can exactly for that purpose? Yeah.
+So this is at least in the US
+this is a well known issue with exit polls. Some people are more willing to talk to the reporters on the way out for all kinds of reasons either I just too busy I don't have time to talk to you or I do not want to talk to you because you're a reporter and I hate reporters or
+you know, various things are, you know, some
+people that yeah, I voted for X because I'm a big supporter, you know, kind of it's it's definitely a self selecting sample and this this is well known to create gaps between exit poll results and what they're what the actual result comes out.
+So yeah, for sure. It's, this is a
+well known to be an imperfect predictor.
+Also, another area, bit of controversy around this
+is even supposing the polling, the prediction resulting from the polling was perfect.
+And the good or a bad thing that
+you can actually, you know, is actually doing this a good or a bad thing.
+That's a matter of some debate to yeah.
+Does it are you saying it takes the
+anonymity of the individual people or the secrecy of the result overall result.
+Yeah, okay. Yeah, it could I mean, so
+so yeah if you're just outright asking people how they voted and they're telling telling you in the presence of anybody right you know even on camera then, then yeah, you could argue that that's kind of
+anonymizing them. On the other hand, I mean,
+you know, that's that's a you got to argue carefully because well technically, they can say anything they want they can say what they're what they think they're expected to on camera or what their friends think they should you know in case they see them on camera
+even though they totally voted a different way
+in the privacy of the booth.
+So, this is a, this is related to
+the topic of coercion and coercion resistance which we will get to.
+It'll come back in probably the last, the
+last week of the course, which is a topic I'm super interested in because I actually do research in that but yeah so so indeed you could argue that there's a
+kind of the the anonymization going on, but
+on the other hand, you're not exactly taking away their freedom to vote some other way than than the than what they told the reporter right so there's arguments both ways, but good good issue to bring up yeah
+in the context of voting another has anybody
+heard of of a risk limiting audit.
+This is a technical election security term that
+I don't think it's a thing in Switzerland but that I know of but it's a thing in some places.
+This is this is kind of a especially
+a defense, a potential defense against potential election fraud or just anything, you know bad happening to a result of an election that say say a problem with the way the votes were counted, which might be intentional might be
+unintentional just like you know there was a
+persistent error in counting or interpreting ballots or something either by the people who are counting or by the machines that were counting because in the US and many countries, you know, ballots are counted by machine these days to right and so there's a lot of legitimate concerns
+well are the machines counting correctly are they
+reporting the correct results and stuff right so, regardless of and so the idea of a risk limiting audit is well, you know first it assumes that votes are cast on paper.
+Even if the machines are printing the paper
+even if you're typing into a kiosk in the ballot booth, you know your results, you're an RLA is usually assuming well what that machine does is just print out your paper and you get to inspect it before the pot dropping it in the box but the ballot remains a piece of paper right.
+And, you know, even in Switzerland they could
+still do this in principle given that you know even the the postal ballots are still normally pieces of paper right that get collected and you know centrally counted right so basically what a risk limiting audit is is independently of the normal count counting process typically right after you randomly sample.
+A particular, you know,
+you know, small bit large enough sample of
+the of the ballots and just compare count the sample and use statistical methods to compare, you know, the result of the, you know, kind of the the random random sample against the actual announced numeric results and, you know, use the right using the right statistical math, you know there's going to be some difference.
+You can calculate well okay how probable is
+that difference, and is it is it is the difference big enough that we should worry right so, and you can calculate exactly well you know for a given difference, how, how likely is that difference to be just totally due to normal random chance and everything is fine, or versus maybe something
+seriously wrong this this difference is, you know,
+kind of beyond the normal threshold that we would expect statistically and there's a lot of, you know, good interesting statistical math behind it and, you know, basically it's, it's an end to end check against, you know, kind of the the announced results of the main count are you know, asking
+well, is this count plausible, or should we
+worry should we do a consider doing a recount in case something went wrong with the with with the regular count right.
+So, and that's, that's very randomness based to
+you know because you don't want to always recount just to be sure you only but you know the whole idea is well you sample a very small number, like 1000 you know a few hundred or 1000 ballots but big enough to.
+To give you kind of strong statistical guarantee
+that well if there is a problem if the main count did go wrong in some way, then, you know, with very high probability, the risk limiting audit will show will show that something went wrong and then maybe we should consider a full recount or something, some other recourse right.
+Yeah, so here were here were sampling ballots
+instead of sampling people, as in the earlier cases.
+Good. Other.
+Other precedents for randomness in voting.
+There's still more.
+So here's a rare one but but not,
+but that actually sometimes happens in some in some voting methods. Well, you know kind of in any in any situation in principle, there's the possibility that a that an election out can come can be absolutely deadlocked like split down the middle like
+candidate a and candidate be got exactly the
+same number of votes because there's an even population and you know, right. It's possible. It's very usually very unlikely when the, when the population is, you know, kind of broad population real population so it's not something we worry about too much usually but,
+especially in smaller bodies sometimes it's, it's a
+more real possibility. And there's, and usually, you know, in the law, you know, there's, there's some provision some backup provision for what happens when you know the vote is exactly deadlocked like that.
+More often it's probably more often the the
+provision says, you know, something like okay do another vote right but that takes a lot more time a lot of resources. If the population is exactly split down the line, then maybe there isn't a clear best decision so you know a historical
+case has been flip a coin, at least
+it at least it's fair right nobody nobody controls the outcome right, at least it's fair.
+So, this is basically tie the tie breaking
+for for a, you know, split case.
+And here, you know, the baby basically the
+purpose is preserve fairness known, you know, even in this corner case situation, you know, no party gets gets a fundamental advantage, but we guarantee
+we make progress we make a decision we
+move on right, even in this crazy unlikely corner case right we can we have a way to move on without restarting the vote right which might, might, you know, cost way too much more time money whatever right.
+One more thing in this category. We talked
+about STV, when a single transfer of all vote as one of the interesting voting systems.
+There are some flavors of STV so in
+STV, as you might remember, one of the thing kind of technical things you have to do is is when, when you, when a candidate support goes over a threshold, you have to take a.
+So, so they go, you know, somewhat over
+a certain quota that you calculate like a group quota, or a hair quota, right, and then you have to say, okay, you know, for, you know, a quota of votes that was supporting the that candidate has to be kind of eliminated from further rounds, but
+the rest of the kind of the over
+vote the the the number of additional ballots in support of that candidate, more than the candidate needed to win the seat should not be eliminated they should go to the next choices, just like the the ballots of an eliminated candidate would in a, when a candidate,
+you know, is eliminated for being for having
+too low support, right, but which ballots, right, each each of those ballots can have different next choices, and this and so the particular choice of which which of the ballots of an elected candidate to move on to the next choice this
+matters right it matters to the next candidates
+that might might get elected or not right, and there's various, you know, simple more simpler or more complicated ways to do this but one of the ways is just to, you know, pick a pick randomly pick the appropriate number of over over quota ballots.
+Right. So again here the argument is well,
+you know, it's, we've got to make a decision we've got to move on quickly. If it's random at least it's fair.
+I don't think anybody in particular.
+On the other hand, you know, it makes
+the election non deterministic. It's kind of weird in a lot of people's eyes that, well, the, you know, kind of the the outcome, you know, of the election might be different just on the basis of the different random coin flips, even if it's not that closely close to tide, right.
+So some people like this approach some people
+really dislike it.
+And there's other approaches to but some of
+the other approaches are more complicated, difficult to understand like you can avoid this by basically turning the sdv into a linear programming problem and doing you know some some fancy math that works out really beautifully if you understand the fancy math.
+If you're not someone who understands the fancy
+math well the randomness might sound much simpler and clearer. Right.
+Any questions on on this.
+Anyway, I don't want to get too deep
+into that but anyway so you know the point is there's a lot of actually a lot of precedent for using randomness in various ways, even directly in in voting system.
+But let's think back even farther, a lot
+farther.
+What was the first precedent for using randomness
+in democratic processes that you can think of.
+Okay, like the division of duties for separation
+of powers.
+Yeah, okay.
+Yeah, yeah.
+So this idea of separation of powers go,
+yeah, indeed goes way back, but how does randomness fit into that?
+Yeah, but I mean that's kind of that
+sounds like you're referring to the randomness of history as opposed to deliberate randomness that we designed into the system to be random for a good for a good very conscious purpose right.
+Yeah, yeah.
+Sorry.
+Drawing straws yeah so that go that's a
+process that goes way way way back.
+Drawing straws for political purpose though where does
+that go back to.
+There was there was at least anybody else.
+Where did democracy start. Yeah.
+So, I mean, I think it's the Athenian
+democracy. Yes.
+Yeah, so in a lot of ways, Athenian
+democracy was not the democracy that you know today's you know Europe or US style democracy I mean it had certain similarity important similarities have some very vast differences too.
+Can you do say more how, how was
+it did randomness figure into Athenian democracy.
+Yeah.
+Yeah.
+Okay, I in my in my I'm not
+I'm totally not an expert on an Athenian democracy myself in my understanding in the normal kind of Senate deliberative procedures it was pretty much one person one vote of course these were only for the privileged few who are like the male.
+Free, you know, first class citizens not slaves
+not women, you know, all of that right, but you know I think, you know, kind of that usual lawmaking level.
+I don't remember randomness, figuring in a particular
+way, but that wasn't all of Athenian democracy either.
+So, I think in democracy also had depended
+heavily on positions they called magisterial positions. So these were like in modern democracy we would call these executive positions like things like mayor police chief.
+You know, kind of positions of particular authority
+for particular purposes right, you know, different, different officers that, you know, in the separate the modern separation of powers model these would typically be executive positions as opposed to legislate it like not the Senate not responsible
+for, you know, making the laws but responsible
+for implementing them and you know dealing with the needs of ordinary people directly kind of running this particular office right.
+And so,
+so Athenian democracy had a lot of these
+magistrates.
+And those magistrates were chosen by randomly from
+the eligible population.
+And by there there was a word.
+There was a specific device I don't know,
+I don't know exactly what it looked like I'm sure it's possible to look it up but they invented a particular device to help help them make this make these random choices for magistrates.
+I think the word was something like my
+my Greek isn't very good.
+I don't know if I'm like that.
+Ever seen that word before ever seen part
+of that word before.
+Yeah.
+Sorry.
+Hero.
+That's a that's a K at the day.
+Sorry, sorry, my bad writing. That's a KL KL er O T er I a claroteria something like that.
+Does it make you think of any, any
+modern word we have in English French many languages.
+Lottery.
+And this is where the word the modern
+word lottery came from. So, from their lottery my clot clottery machine. Right.
+So they invented a, you know, kind of
+randomness generation, you know, machine device specifically to for the purpose of, you know, choosing these magistrates at random, once per year they did this every year a new set of random magistrates.
+They had very strict rules about it. You
+could only be in one of these positions for one year, and then you're ineligible for that position for the rest of your life.
+Once in your lifetime, you can be in
+a particular magistrate position. Now, you could be randomly selected for other magistrate positions in your lifetime.
+But not for that, not for the same
+one, ever a second time, very strict.
+And you never ever, ever stay in that
+office for more than one year.
+So why, why do you think, you know,
+why the, why did they enforce these rules so strictly, can you guess.
+Not, not that hard to guess actually.
+Basically the same, the same reason that we
+talked about earlier, avoiding fraud and corruption. Right. They had a huge issue with corruption.
+These are positions of power, you know, someone
+who gets too, they knew very well that someone who gets too comfortable in one of these positions of power can can is very much incentivize to start abusing it, right.
+Start taking bribes to start, you know, kind
+of using the position to help family members, friends, blah, blah, right.
+And, you know, their, their system of magistrates
+was designed all about avoiding trying to fight that tendency towards corruption.
+And now, can you think of some disadvantages
+of, you know, like, you know, what did, what did they give up to in the process of getting this kind of anti corruption mechanism.
+Yeah.
+Yeah, yeah. So, so the person that they're
+elect almost certainly has absolutely no expertise in that particular job.
+You know, probably no desire doesn't particularly care
+about it. Like, it's, it's more, you know, it's kind of like being called for, you know, for the Swiss vote counting process but hey, sorry, you're not being called called to count votes for a night you're being called to a job for a year.
+So, you know, you're not going to back
+away your, your stuff here. This is your duty for the next year. I don't care what you thought was important to you before now this is this is your life for the next year congratulations.
+So, you know, of course it was presumably
+seen as a big privilege to being your randomly selected this big, big service opportunity but probably some people didn't really see it that way is all.
+You know, in the middle of something, you
+know, so.
+And in my, in my understanding.
+So, also another way to get disqualified from
+a position was showing that you wanted it.
+If, if it was like known or you
+know kind of that you talked about wanting it or you know kind of know you might actually might get disqualified because they, they wanted only people who do not want the position who have to be dragged kicking and screaming into the position right because of the you know,
+corruption.
+Right, so absolutely yeah so these are total
+new boys newbies who totally don't care about this position and have no expertise in it but still they decided that's better than, you know, taking expertise that might get corrupt and I might be or get corrupt right.
+I think quite a few modern democracies, you
+know should look back at, you know, kind of these trade offs and, and, you know, consider just how much you need that expertise versus the versus the kind of anti corruption effects of like having the non expert person.
+Right, but but yeah, it's a trade off.
+Yeah, one other.
+I want to bring up one other very
+interesting historical prejudice, precedent, a little bit, a little bit more recent than ancient Greece, but not that recent either, and not that geographically distant from us.
+Anybody know of a place that where something
+like, you know, randomly random sampling was used in a very important high level political procedure for hundreds of years by a very prominent important empire, government around here yes.
+Yes, but I'm not.
+I can't think of a way that randomness
+was explicitly used in the in Rome's processes, but you're very close. Just fast forward a few hundred years.
+You're very geographically close anyway. Yeah.
+I'm not even closer but I'm also not
+aware of, you know, you might get right there might might be a way the Holy Roman Empire use randomness in their processes but I'm not aware of it in particular fast forward a little farther.
+After all of the flavors of the Roman
+Empire had, you know, dissipated and the, you know, Middle Ages came and, you know, right so we're thinking, you know, kind of, what, you know, 1000 to 1500 or I can't remember the exact dates no no later later 1300 to 1800 ish.
+You know, well, well past the Roman Empire
+and you know most of the, you know, late Middle Ages to, you know, 18th century.
+Anybody, buddy think of a big powerful important
+empire, not too distant from the Roman Empire. Yeah, during that.
+What? Yeah, but you know they just weren't
+that with it in their, you know, in their organization, you know, they did a great job at organizing their, you know, see, you know, Empire and colonies and stuff during that time but I'm not aware of a way they used randomness politically as an effective political tool.
+Yeah. Do you any other?
+Venice.
+The Venetian.
+So, so in particular, the Venetian process for
+election of their top leader, the, you know, their version of president or or whatnot called their doge, right.
+So, for and this was the for most
+of the the the time that, you know, Venice, the Venetian Empire was a big thing for like 500 ish years.
+And so, you know, it was, you know,
+it was a very specific process for electing the doge, which was, which was quite interesting. So it was also, you know, like in the Athenian democracy, it was, it was motivated, especially by anti corruption.
+But, but the way it worked was was
+really interesting. Now let me, I'm going to have to.
+So, the Wikipedia summary of the process actually
+is really, really nicely done in a very concise way. So, so just to illustrate briefly, there was what they call the Great Council.
+And so, you know, they were basically the
+big body of noble citizens who were eligible to vote for the doge basically so it was democracy, but again a very selective, you know, kind of upper class, you know, democracy among a certain, you know, upper strata
+that, you know, got to play in this
+play this game at all right but you know so at any rate, you know it started with this Great Council I'm not sure how many hundred thousand I don't know people were in in that but whenever the old doge died and they had to pick a new one.
+They would do this very interesting alternating thing
+where let's see which which way was it yeah so first out of this Great Council.
+They use randomness to pick 30 to pick
+a board of 30 members right and that those 30 members elects the dose right no right so that from that what what happens is that 30 members deliberate.
+Wait wait no sorry. So, this is randomly
+choose 30 from that randomly choose nine.
+So then, you know, so to two random
+steps back to back, but then those nine deliberate.
+So I'm going to write D for deliberation
+those those people deliberate and decide on a next group of 40.
+Those elect the dose right no wrong so
+those get.
+Yeah, randomly reduced by lot.
+To 20.
+Right to just randomly choose 20 of those
+40.
+And let's see the four and those get
+reduced to further randomly to 12.
+And those deliberate again.
+And choose 25 for an extra the 25
+then get reduced randomly by a lot to nine.
+And the nine elect 45.
+Now this is deliberation again the 45 get
+reduced by lot.
+Randomly to 11.
+And the 11 choose.
+deliberate and choose 41.
+Who finally deliberate and elect the dose.
+This was their process.
+Oh, interesting. How so let's let's take the
+break since it's a good time and you can be thinking and we'll discuss right after the break.
+Why did they do this what what were
+they thinking and why how why why and how might that contribute have contributed to Venetian democracy.
+Okay, so I'll see you in in 15
+minutes.
+Okay, yeah, so let's continue. So you've been
+thinking diligently about why Venice might have come up with this crazy bizarre system involving these, you know, kind of many, many rounds of iteration alternating between deliberation and random lot.
+Any guesses.
+Yeah.
+So, for sure. Yes. So it's clear. So
+we don't know as far as I know, you know, it's not historically documented what exact line of thinking led them to to choose this particular system and where the where all those particular numbers came from or anything.
+But we do know with a lot of
+confidence, high certainty that yeah, it's mostly motivated by anti corruption. Again, just same as the Greeks, same as Athenian democracy, right, because this was a, you know, really big important decision, right, that came, you know, the doges were elected for life.
+Right.
+So, you know, you do this when when
+the last dose dies basically, usually, and, and there, they were hoping to make a, you know, good decision but a not not too corrupt one and Venice had a big so in in this great council.
+There was a lot of historically traditionally a
+lot of factionalism, there were, you know, kind of big families that had, you know, a lot of friends, a lot of relatives also in the great council and you know kind of traditionally warring against these other clans in the great council.
+Right, you know, and, and they were super
+worried about the dose election process being, you know, kind of not easily subvertible by, you know, these factions getting together with their friends and trying to manipulate the outcome right so it's anti corruption anti manipulation, in general, for sure.
+Yeah, again, you know why the particular numbers
+and that many steps of iteration that's a little bit more of a mystery. And, and there's some very interesting research that's been done kind of in retrospect that, you know, we don't know anything for certain but looking at well what what might they have gotten from this iterative process beyond just
+you know anti corruption.
+You know, was it was it just that
+or, you know, what could there have been other factors at play as well.
+Any idea, any thoughts.
+Yeah.
+To could be yeah so to yeah, in
+a sense you're you know mixing a lot more randomness in you know, you know a lot of these these stages.
+At least hopefully that that increases the certainty
+that that that randomness is really random. Right, even if somebody managed to figure out a way to to corrupt, you know, subvert or predict, you know, certain random random choices.
+Well, you know, you know, it's going to
+be really hard to subvert all of the randomness that goes in throughout this whole long, long process. So yeah, I bet that's a factor.
+I don't know for like I said I
+don't know for sure because it's not historically documented to my knowledge but yeah it's a pretty good guess that that that that was a factor just increasing the the security and the kind of amount of randomness amount of entropy, even though you know this was before they had entropy entropy
+theory, right.
+But beyond just kind of ensuring that the
+randomness is really random and the, you know, can you can you think of a possible way that the decisions might have might be affected.
+So keep in mind that they were alternating
+between randomness and deliberation. So at several of these points.
+And you know group of the group of
+nine and the group of one team and the group of 25 and the group of 11 and the group of 40 are all deliberative groups, right that that are going to different newly randomly chosen from a previous selection of people but
+they're deliberating trying to discuss like who would
+be the best dose or who would be in the earlier stages why who would be the best people to execute this next round of delivery of choosing the dose.
+So here again this is just speculation because
+there's no historical evidence that I know of one way or another but one way I like to think of it is that this could have been.
+Yeah, go ahead.
+Good. Good increases participation in the overall process.
+Yeah, it makes makes the whole process involve a lot more people I'm not sure how big the great council was there, you know the total great council was but yeah,
+you know the percentage of people who are
+involved somewhere or the other is probably, you know, certainly a lot higher that might improve buy it once the process is done.
+A lot more people have been saying, you
+know, okay, I was part of it I saw it work correctly I can vouch for the process and yeah I maybe I don't agree with exactly the decision was made but it was a reasonable process and I respected and I'm not going to start a
+rebellion. Right. And that's, you know, in practically
+all forms of democracy that's kind of the one big ultimate objective, like, you know, kind of get people to whatever the decision works out to be got to get people to sign on and live with it,
+and if you don't like the outcome, instead
+of starting a rebellion, right.
+So yeah, I bet that was a factor
+as well.
+But consider, consider the people in these comprising
+these bodies.
+So consider the very first one, the first
+deliberative body, chosen from the great council by lock from 30, from the whole great council down to 30 and then randomly again down to nine.
+That's going to be basically just totally a
+random sample right yeah go ahead.
+Yeah, so that that would be certainly in
+their interest like, like, you know, if they, if they want to get certain people elected yeah it would be good to have friends or, you know, help choose their friends right.
+This, you know, we're pretty sure that this
+process was designed to fight against that to make it harder to, you know, because because it was kind of totally expected and standard that like, you know, kind of the normal thing would be to try to get your friends into the
+next, you know, kind of into the next
+thing and try to guide the process towards your friends and family right.
+And it's clear that, you know, this process
+was designed to try to work against that right to make it harder to, to get your friends, you know, and family, you know, elected or, you know, kind of through the through the process right because that was that was seen as corruption.
+Right.
+You know,
+now, you know, it might not always be
+a bad thing right maybe you maybe you really have a good knowledge of who would be the best dose or who would be, you know, the best to pick the best dose and so there's this here's this tension between expertise and knowledge versus randomness.
+Again.
+Right. So, you know, picking a journey picking
+random vote counters, you know, so you get you get you get diversity in this sample you get, you know, kind of a strong guarantee that these are representative of the ordinary people.
+But you are you absolutely are not getting
+expertise or particular domain knowledge, let's say, right.
+So you're giving that up this is a
+trade out right.
+So, so in that very first group.
+You know, that was the very first group
+of the deliberative group of nine would be absolutely random sample like trial by jury no special expertise right so these are probably half or more of those nine were kind of people like, you know, nobles who couldn't care less and haven't been paying
+attention at all and all do I have
+to do this what what is this right I have no idea who would be the next good dose or who would even be a good choice of, you know, kind of next committee, you know, okay let me just pick my friends or what you know they you know and they probably did that
+that kind of thing, you know, based on
+very limited information or just you know kind of their friends family whatever right.
+But, you know, here's where you know my
+special my summer my speculation is coming into play right.
+They weren't choosing the dough is or even
+the group that was going to choose the dough is you were just using the next group in this iterative process right, and maybe some of that first group were kind of doing their jobs and making good select good, you know, kind of reasonable
+and I know someone who's really on top
+of this right.
+This person and that person and that person
+should be part of this next group because I know that they they're actually on top of this they know what they're doing right they know at least a little bit more than I do and a little bit more than the average in this first group does right.
+One of the things that that first group
+may have been doing is selecting for slightly higher average expertise knowledge whatever about who would be a good doge or who would actually do a good job of choosing the next doge right, increasing the average expertise let's say above the statistical, you know,
+parity with every man the common masses to
+I don't know maybe a little bit higher than that.
+And maybe the next iteration.
+Well, you know kind of the first group
+maybe wasn't very good at choosing a better group but maybe they got a little bit better and maybe the next group can get a little bit more better right in their deliberations right you got several several several iterations here.
+Right so if if it so happened that
+each group has at least a little bit better knowledge on average than the previous group for purposes of choosing by deliberation by expertise who would actually be good at this.
+You know, maybe the average level of expertise
+and knowledge of the progressive groups goes up over the iterations without without the choices being manipulable readily manipulable because in each case you know there's also that random down sampling to you know whatever you choose.
+There's going to be a fairly low chance
+that that that the the the better you know more expert people you choose will actually be part of that next deliberative group so you know you really can't predict how it's how it's going to go either even if it's having this effect right.
+So, yeah, so that's that's my you know
+one of my, you know, speculations that you know can I wonder I wish we had a way to historically test this you know kind of was this actually helping Venice.
+You know, balance this this issue of expertise
+versus ran, you know, anti corruption via randomness was it helping them make good, you know, on average, good decisions for those as in better than just taking a random totally random every man sample and having them make the decision, which is one iteration.
+So, I think that's something you know, we
+should think about and you know kind of a lot of, you know, another kind of historical precedent that we should be more aware of and pay attention to as we design future mechanisms.
+So, yeah, I spent more more time than
+I should have on that any other question or discussion on on this.
+Yeah, so let's finally get to the main
+topic which of course you know I rely on you to to to read the readings of course, which is deliberative polling and mini publics.
+Or also called citizens assemblies.
+So in different in different flavors, this is
+becoming increasingly well known well accepted practice how many of you had heard of any of these before.
+No one. Yeah, so, yeah, it's among political
+activists and political political scientists in certain areas, it's becoming a more and more accepted thing as like, you know, something that under the right conditions can actually work and can can do good things.
+And, and so the main idea is, you
+know, kind of like coming back to the, you know, random juries for, you know, for, like in the US or the random vote counting juries like in Switzerland.
+Some action on an issue or some policy
+or something like that to make a decision or a recommendation. Right.
+But the key idea is.
+So, you know, the very, it comes in
+different variations in different flavors, of course.
+But the key idea is to, you know,
+kind of as with a jury, get a selection of ordinary people who don't have any, you know, kind of special expertise or our interest in this particular topic or issue in advance.
+But, you know, you're getting them together. And
+unlike just an ordinary opinion poll where you just kind of grab people and you know kind of random passes by and ask them as we say a cold jerking question is, what do you think about X right where you probably don't
+really care about X and haven't been paying
+attention to X and, you know, so that's the, you know, one of the big problems with classic opinion polls, it has to, you know, even to start thinking about opinion polls, it had better be a topic that everybody's been hearing about it like a hot button, you know, kind of the latest big political election or, you know, whatever
+it's got to be something that everybody, you
+know, should be interested in recently right. But here we're talking about using a jury of ordinary people to look into and deliberate and discuss and even decide or make a recommendation on some topic that probably none of them have are very familiar with or very close to.
+But, but part of the process is actually
+letting giving them time and space and discussion and discussion opportunity to actually get up to speed, like a real jury, like, you know, so, so in the classic.
+So the process of deliberative polling, one of
+the assigned papers by James Fishkin of Stanford who started this particular organization for to run these deliberative polls and it's they've been they've been run, you know, mostly at the request of various governments and other public and private organizations over many years now.
+And, you know, the idea is basically they,
+you know, they sample people kind of like for an ordinary opinion poll, but they incentivize them say, you know, we'll give you a little bit of monetary compensation if you participate throughout the whole process.
+And the process typically involves, you know, coming
+into a, you know, meeting in person or online, you know, two or three weekends, particular time.
+And they first at first ask people, okay,
+what do you think and without having gotten up to speed at all, what do you think about this particular issue, you know, kind of as if it was a conventional poll, but not really expecting anybody will will know all that much.
+But then there's this deliberative and information gathering
+aspect and and where where where they give people the time and space to kind of explore get educate yourself on this particular topic.
+And, you know, find what you want to
+read up on it online or look at particular materials that the organizers provide, talk to particular experts that, you know, that the organizers bring in to talk about, you know, different different issues, different aspects of this issue, different viewpoint
+and different different contrasting viewpoints, etc, etc. Right.
+There's a lot of details in there.
+But
+So,
+basically, participants
+explore and have time to educate
+themselves,
+both by themselves and also with with help
+about this issue, right, and to and to discuss right as if they were
+you know, a jury discussing whether somebody's guilty
+or innocent but they're just discussing well, you know, would this be a good policy or not or, or what would be a good policy to deal with with this and so discuss and issue
+or policy, right. So, the second paper I
+assigned is about a very particular experience in Finland related to
+road road policy, right. So, so it's a
+good, you know, kind of very specific example of how this kind of thing can can happen.
+So, and then, you know, so so there's
+a typically a poll at the beginning and then this education exploration discussion process, and then finally another poll at the end, saying, okay, after you've, you know, kind of explored this issue and discussed it a lot, what do you
+think now, right, and people still might be
+in disagreement their positions might have changed it might not.
+But then you kind of get the before
+and after, right. I was like, how does their final position compare with their initial position and what does it look like. Sometimes the result is an actual document you get, you know, bodies, like, especially in the
+case of many publics and citizens assemblies, you
+often, you know, get a group of people together to try to, you know, make a recommendation which might be a written document a written report that tries to synthesize their positions saying, okay, we agree on points, a B and C, we
+disagree on x, y and z two thirds
+of us support x only one third of us supports y etc. You know things like that.
+There's a lot of ways this can, this
+can happen right identifying where there is consensus and where there where there isn't consensus.
+Just, you know, as I did describe it,
+what can you what can you envision, you know, might be attractive and useful good about this process and where where might it break down what do you what can you envision potentially going wrong.
+Where might it work or might it not
+work. Yeah.
+Ah, so manipulation of the of the sampling
+process. Okay, yeah, yeah, so.
+Sorry, I thought you were going somewhere else
+until yeah.
+Yeah, yeah. Indeed. Yeah, so is. Yeah, so
+is a however you choose this sample is it a good sample and how do you know it's a good sample.
+Yeah, and that's, you know, there's there's various
+aspects and issues with that.
+When when they're doing this quote unquote right,
+you know, kind of what they usually, you know, in a professional way, they're supposed to they usually use similar practices that professional pulsars do professional people running standard, you know, traditional
+poles in terms of like taking a random
+sample and then there's then there's these various practices to like demographic rebalancing right so so you you know that certain demographic segments are going to agree to participate more more than others right and so there's
+these kind of standard practices where you, you
+know, kind of break your, you know, your first ask a bunch of people maybe many more than you need, would you be willing to participate would you would you commit to coming if you're called, and then you, you know, kind of break them down by
+demographic demographic segment, and then you kind of
+rebalance them from each category, you pick, you know, you actually choose, you know, enough to fill that, you know, quota and bring, you know, kind of their the representation at you know to the to the quote unquote right balance for, you know, kind of that demographic
+segment, you know, proportionate known proportion of the
+overall population right. So, this is not at all a perfect process there's plenty of ways that that can go wrong and you know and infinite opportunities to argue, you know, what exactly should your demographic
+be, you know, like, you know, there's a
+bunch of you know, complicated things that can go wrong hiding there. Right, but they're, but mostly they're the same things that can go wrong with traditional polls to right so in a way there's nothing new, you know, yeah, a lot less can go wrong but
+yeah, and of course yeah, you know, if,
+if the people who are doing this selection are being outright dishonest they could totally manipulate it to unless there's some special you know I'm not aware of normal pollsters using a clorot or
+a machine like the Greeks did to ensure
+that it's really transparent, but you could, you could increase the transparency with appropriate mechanisms actually.
+That's a, you know, secure public unbiased of
+all randomness is another interesting research topic that my group has has been involved in and that's, you know, that's a good interesting technical topic there's we've got tools for that.
+Yeah, you know, kind of there, there are
+plenty of issues with that they can be addressed, more or less.
+But they're not really new to this process
+either so.
+Yeah, but they're they definitely are important.
+So yeah, you, you typically want to, or
+at least standard practice is to is to do.
+demographic.
+And balancing stuff like that, right, just just
+as you would with traditional polls.
+Okay, but what other issues either positive or
+negative or both you see yeah.
+Yeah.
+Yeah.
+Mm hmm.
+Exactly. Great.
+So, yeah, actually, let me make more space.
+So yeah, potential benefits.
+So yeah, increased knowledge.
+Yeah, actually really kind of prods at least
+these participants to learn about this issue that might indeed, you know, be the important to them and you know kind of get them directly involved right so so it helps to to educate them.
+Yeah.
+Yes.
+Yes.
+Yeah, so this is yeah, as exactly corresponding
+to the ideal of direct democracy we are getting ordinary people.
+We are discussing and deciding directly on this
+particular issue, not just the electing representatives to do it for them. So yeah, it's, you know, yeah, thank you.
+Oh,
+yeah.
+Yeah, yeah. So you mean you're, are you
+talking about the agenda setting like what what yeah so.
+Yeah.
+So how agenda setting is done again really
+depends on the details of how this process is run. Unfortunately, from my perspective, most of these, most of the ones of these that have been happening regularly.
+are the agenda organizers, which of course raises
+an important bias issue right so agenda.
+This can totally insert bias in terms of
+like,
+what is the agenda?
+What's going to be discussed?
+Who are the experts we're going to invite
+to talk about this?
+Which contrasting viewpoints will and won't be represented?
+It's kind of up to the organizers, usually,
+to decide that.
+And bias and even outright corruption
+could totally sneak in here if it matters
+enough.
+So that's a potential issue.
+And I think kind of an important future
+work type thing
+that I think we in the technology space
+can see potential solutions to.
+I see as a potentially solvable problem,
+it's just that somebody hasn't actually
+proposed the solution yet.
+How do you make the agenda setting,
+as I think you're suggesting, how do you
+actually
+make the agenda setting unbiased and make these
+groups do
+their own agenda setting, kind of in a
+bootstrapping,
+the agenda setting democratically,
+and not just the discussion and decision
+after the agenda setting?
+So very important.
+I wish that these things were already doing
+that.
+They're not yet, to my knowledge.
+And we need to figure out how to
+do that.
+But actually, coming back to the closer to
+direct democracy,
+so that's true.
+But it's actually an objective improvement
+on direct democracy, too.
+In at least one important, very practical way.
+It's like direct democracy, but scalable.
+Right?
+So what do I mean by that?
+So these random sample juries are small.
+If you want to adopt this in a
+big way into the process
+of government, you could have 100, 1,000 different
+mini
+publics going on at the same time on
+100 or 1,000 different issues
+that really matter.
+And each of them can be pretty small.
+Each of them is not that expensive, necessarily.
+So in principle, you could envision actually
+affording many of these groups going on at
+once
+on many different issues.
+And that's not financially completely infeasible necessarily.
+And it's not completely infeasible in terms of
+voter
+time and attention.
+Think of, in contrast, think of the thought
+experiment
+of a Swiss direct democracy process where
+every four months you have 1,000 items on
+the ballot
+that you're expected to read up on and
+think about and choose
+from.
+Is anybody going to do that?
+So it would be absurd.
+Whereas it's not absurd to think of 1,000
+different groups
+of these kinds being convened at once, even
+in a relatively
+small country like Switzerland, because they can all
+work in parallel.
+They're different people and different juries.
+They can all get up to speed, do
+their own work,
+get up to speed on different topics at
+the same time.
+In parallel, it's a naturally parallelizable mechanism,
+not naturally scalable mechanism.
+So yeah, it costs something, but it has
+some advantages.
+Other considerations, positive or negative,
+being random sampled, we're kind of guaranteed that
+the population, the participants are going to
+be diverse in terms of age, in terms
+of profession, in terms of socioeconomic background. They're
+diverse in all the dimensions. You might want
+them to be diverse, which are important. So this is,
+you know, on, so they're really genuinely representative,
+at least, you know, as long as
+seriously bad things don't happen in the sampling
+part, right?
+And that diversity, you know, the experience, a
+lot of the experience of this, you know,
+the diversity can be both good and bad,
+right? So if this is, if they're here discussing a divisive
+topic where some are super for and some
+are super against and they really don't want to talk to,
+you know, they're representative of two or a
+few different factions, they really don't get along
+and want to talk to each other, you
+know, discussions can get ugly, right? So it might be,
+it might be difficult to run, yeah. Inclusive,
+yes, great, great. Inclusive.
+So, yeah, you're right. So you might, you
+might have to kind of, we have to qualify that a little
+bit. So for what, first of all, yeah,
+it's inclusive in that everybody has a chance to be
+selected. On the other hand, everybody won't be
+selected. In practice, you know, it's only going
+to be a very small sample of the
+total population that's selected. And so in that sense, it's not
+very inclusive, right? You know, you're either one
+of these very lucky or unlucky, I don't know,
+depending on you look at it, few who
+got chosen by lottery or you're not, right? And you're only
+included in if you were, so if you
+won the lottery, right? So that's, you know, kind of,
+on the other hand, if you argue that,
+well, everybody had the same chance of being chosen,
+you know, that's, that's inclusive, right? You know,
+so it depends on the way you argue.
+But actually, you know, another reason I agree
+with your assessment and would generally still
+put it on the positive side, even if
+you weren't selected, so this stuff deals with the knowledge
+and education. So even if you weren't selected,
+maybe you're not that far socially, geographically,
+whatever, from at least one of the participants
+who was selected. And, you know, if there is one of
+the participants who kind of reflects you, who
+you think reflects you, represents you demographically
+in terms of age, socioeconomic background, which state
+or count on you're from,
+which profession they're from, or anything, yeah, someone
+in that diversity of participants
+that you kind of identify with a little
+bit, and they say, yeah, I participated, we decided on this,
+this was the outcome, you're maybe a little
+bit more likely to buy into the result, whatever it
+was, if you see that, you know, someone
+kind of like you, you know, participated and, and said,
+yeah, this is what we agreed on and
+decided, and we think this is a good outcome, right?
+So this comes back to the buy-in too,
+right? So, and it goes be, and also education, like, you
+know, other people beyond the direct participants might
+learn something from this process, from seeing,
+you know, what these participants came up with,
+right? So, yeah, so in that sense, it can be
+inclusive and, and kind of knowledge increasing at
+a, you know, second level too.
+So, yeah, and like I was saying, the
+diversity can be a challenge sometimes in that, like, you know,
+I would, I would hate to be, as
+a way, you know, a well-known, you know, important element of any
+of these things is, it's going to depend
+on having a good moderator, right? Just managing the conversation,
+making sure everybody stays civil and on topic
+and stuff like that. Without a good moderator,
+these things can very quickly lead to disaster,
+like everybody, you know, kind of just calling names,
+saying, I'm out of here, this is useless,
+you know, things like that. So moderation, you know,
+tends to be critical, but, you know, if
+there is a good moderator, then,
+then another effect is from this diversity,
+there can and often is some amount of
+consensus building,
+meaning people who came in having very divergent
+opinions, like, I totally don't get your position,
+how can you possibly think that? And then
+they have a chance to discuss and
+learn more about where the other people, participants'
+viewpoints came from, right? So,
+oh, that's where you're coming from. I never
+thought about it that way, right? And actually having kind
+of in-person discussions, really understanding, you know, kind
+of where they're coming from,
+seeing them as real people, right? And learning
+where they're coming from, as opposed to just
+like a political soundbite, can actually, you know,
+it doesn't always, but can really
+help people understand each other and build bridges
+and kind of where they would be just
+absolutely violently opposed otherwise. Yeah.
+Yeah. Indeed. So, there can be polarization.
+So, sometimes, so there can be pre-existing polarization
+that makes these groups unable to
+talk or unable to progress. They can even,
+in principle, get more polarized from the, like,
+as part of the discussion. I think that's
+what you're alluding to. Like,
+for example, if there's a particularly, just by
+random chance, there's one very particularly
+strong persuasive personality, you know, on this committee
+that basically persuades everyone that,
+like, you know, I have the truth and
+believe me, see, look at all this evidence that I got from the,
+you know, from my conspiracy theory website online.
+Look, look, look, see, you know,
+and everybody's going, oh, okay, okay, you know,
+what, what he said, you know. So, yeah, that,
+that could happen. I, you know, I don't
+think it usually happens that badly, but yeah, you know,
+it's, it can be a risk. So, yeah,
+so, so there is a risk of polarization. I think, you know,
+the lesson overall, you know, as you read
+the papers, usually it's, yeah, not that bad and,
+and more often polarization decreases, you know, at
+least when they're, when they're run well,
+but not always. Yeah. So, things can go
+badly as in any human, human ventures.
+Yeah. Okay, good. Other, other quick, quick thoughts.
+Yeah. So, basically,
+so I, I feel like, you know, this
+is another, you know, kind of careful use of randomness
+is another of these, you know, kind of
+these mechanisms that historically has a lot of
+precedent, you know, going back to Athenian democracy,
+as we saw, has some very important
+useful properties, also creates these trade-offs. How do
+you bring expertise into these kind of
+things while retaining anti-corruption and stuff, right? How
+do you use randomness well?
+You know, there, there's these really important promises,
+like being able to get closer to direct
+democracy, but be scalable, the consensus building process,
+getting people to build bridges and,
+and stuff. These are really important, you know,
+effects that, you know, we need to learn how to
+incorporate these kinds of effects into, into the
+systems we build. And, you know, maybe we can
+further use technology as Ellen Landemore's paper, the
+other assigned reading really, really looks
+into that. You know, there might be ways
+we can, we can further use this and solve some of the,
+you know, many continuing problems that, that this
+faces. So, yeah, so just more, more to think about.
+So, yeah, thank you. And so, see you,
+see you again next week.

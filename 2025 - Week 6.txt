@@ -1,0 +1,1437 @@
+These subtitles have been generated automatically
+Okay, so we've been kind of alternating somewhat between different types of technology and democracy
+and society topics.
+Last time you got a dose of election
+methods, which is so, and you could say we're continuing
+in this topic of influence.
+You know, different ways of measuring and accounting
+for influence.
+And you know, before the, you know, before
+election methods, Sylas talked about peer
+review, which is of course a topic of
+one of your homeworks, which is, you know, one
+way to that we in practice, you know,
+measure and account for influence.
+And then, and then election methods are, you
+know, one of the traditionally most democratically
+central one, like how do you actually count
+votes.
+And as you saw, you know, the kind
+of the naive traditional naive way of plurality voting,
+you know, that election, election methods are experts
+aren't aren't agreed on much,
+but they're they tend to be agreed on,
+on, you know, one principle that plurality voting
+is pretty much the worst possible system.
+And then there's the, you know, as better
+options, there's all of these others that
+you've got some, some taste of.
+And so part of the part of the
+point there is just that actually, you know, in practice
+making democracy work in whatever framework is complicated.
+And there's a lot of, you know, tough
+design choices online or offline, and with different,
+different constraints.
+So so so this week, I want to
+move, move back a little bit to a to the modern, you know,
+more recent technology focus and talk about talk
+about blockchains, right?
+Smart contracts.
+And doubts, which has been for the past
+decade or so, a veryingly quite hot and interesting
+topic.
+Many of you have have some familiar idea
+with like Bitcoin, Ethereum smart contract systems,
+Dow, stuff like that.
+Yeah.
+Good.
+So before I before I get into that,
+though, I want to, I want to actually let me kind
+of out of order.
+So I'm kind of a map of what
+I see as phases of decentralized
+systems kind of excitement in the broader broader
+society.
+Right.
+So there are there have been a few
+times over the past decades, since basically distributed
+systems became a thing that, you know, some
+new technology appeared.
+And, you know, for a few years, a
+lot of people in some cases, everybody was super excited
+about this new technology, and it's going to
+transform and democratize everything.
+I've, you know, mentioned this word democratizing.
+And each of these phases, you know, the
+claim this this technology is totally going to democratize,
+you know, society and stuff, you know, has
+been rolled out in different forms.
+And well, you know, in each case, there,
+there have been, you know, some really legitimate
+interesting promise and stuff, but also some severe
+limitations.
+So we've all already talked about the first
+phase.
+Right.
+What is it?
+So I talked about it in the first
+lecture.
+I mentioned this massive system that for a
+while really took over as the one new and
+really kind of the only way to give
+everybody a platform to message anyone they wanted to
+have a platform in a public forum where
+anybody in the world could read what you write and
+you can have discussions with everyone.
+And as some of the readings I gave
+you back in the first couple lectures pointed out,
+this was a lot of people for some
+good reasons thought, well, this is totally going to revolutionize
+society and they always meant in a good
+way, kind of usually it didn't occur to very many
+people that, oh, could this revolutionize society in
+a bad way?
+Well, fortunately, I don't think Usenet broke the
+world or democracy or did anything particularly
+bad.
+It failed to live up to some of
+its perceived promise, but it didn't.
+As far as I know, it didn't break
+too much.
+Well, so that's phase one, kind of distant
+history barely even remembered.
+How about phase two?
+Maybe some of you might have been a
+bit more familiar with it or at least heard of it.
+Decentralized systems that kind of took the world
+by storm and a lot of people were super
+excited and like this is the biggest thing.
+There's a little more narrow, but yeah.
+They can go.
+Great.
+P2P, peer to peer.
+Excellent.
+Yeah.
+So remember how this started?
+Napster, yeah.
+Basically file sharing.
+Yeah.
+So, specifically, kind of the killer app that
+started and kind of drove this was file sharing
+of technically illegal MP3 audio files, all your
+favorite song, kind of the Spotify before Spotify.
+Yeah.
+And so this, of course, led to, so
+this kind of, you know, the idea of distributed and
+centralized systems was, you know, around plenty and
+research and hobbyist practice plenty before
+then, you know, and it never stops since
+the Usenet era.
+But, you know, this kind of killer app
+that got so many people's attention, you know, and like, it was also a
+cultural thing, right?
+In that a lot of people were very
+aware that these big record labels were doing, you know, had some really
+bad practices that a lot of people hated
+practices that were bad for, you know, certainly for consumers,
+also bad for artists.
+And a lot of people were fed up
+with this.
+And this was a way, okay, use decentralized
+systems to get around these horrible record labels and their
+horrible policies and, you know, get the music
+we need and stuff like that.
+So that was kind of a driving killer
+app.
+But it led into a more general, you
+know, excitement about peer-to-peer decentralized technology.
+It wasn't at all, you know, excuse me,
+wasn't at all specific to file sharing or music.
+This led to a lot of research on
+distributed hash tables or DHT.
+Who's heard of DHT before?
+Okay.
+Good.
+So in a couple of years, take my
+ACS 438 course and you'll get deep into these kinds of things.
+So distributed hash tables, decentralized technologies to try
+to, you know, scaleably manage a large amount of
+data and do efficient searches.
+This led to things like BitTorrent, efficient data
+dissemination protocols,
+a lot of things around there in research
+as well as practice.
+And, you know, what we, what has developed
+into some somewhat popular interplanetary file system,
+which gets still is used quite a bit.
+And, you know, some of these technologies are
+used in much more, much more recent systems.
+And anyway, the list goes on.
+So for a while, you know, everyone was
+like, you know, was a lot of people were super excited about peer-to-peer in general.
+It's going to revolutionize, you know, the internet,
+the world.
+It's going to democratize everything.
+Of course, it didn't quite live up to
+that promise either.
+But, you know, and it ran into some
+serious limitations that I don't need to get into a lot.
+But then, you know, not fairly close on
+the heels of that comes phase three, right, which you can probably guess.
+Bitcoin, you know, the whole blockchain thing.
+Smart contracts and so on.
+Decentralized finance, Dow, and so on, right.
+So no chance we're going to have time
+to, you know, talk about all of this now, but, you know, just kind of a kind of a high level roadmap.
+These are, you know, some of the high
+points of, you know, the types of technologies that have, you know, kind of really caught the attention, not just of, you know, computer scientists, researchers, hobbyists, but the broader world with a lot of promise.
+And so, yeah, so now let's focus on,
+let me just, uh,
+Yeah,
+I'll do that later when I figure out
+how to do it easily. Yeah. So let's focus on, you know, this, this most recent phase of
+interest in, you know, blockchain, blockchain systems.
+Right. So, uh,
+Just to give you brief context.
+So Bitcoin
+came out as a paper and basically an
+open source project in released in 2008 from some pseudonymous from some mysterious pseudonym that went by
+Satoshi Nakamoto, right?
+And to my knowledge,
+still no one knows exactly who, you know,
+no one knows for certain who Satoshi Nakamoto is. Any of you know.
+I have a, I have a couple of
+colleagues who think they have a pretty good guess at who it was based on, based on the style of writing, the style of work and some personnel familiarity with, you know, someone who's
+had a very strong kind of similar fingerprint
+of expertise and style. But that was never confirmed because this particular person passed away at some point before, before, you know, anything could be confirmed.
+So, um,
+So the best guess I've heard is that,
+you know, Satoshi Nakamoto used to be a very, uh, confident, you know, research practitioner, but who passed away a while ago and, you know, it's literally not around.
+Um, but, uh, and of course there's plenty
+of spec speculation why he or she chose to be anonymous and never come out. Yeah.
+Sorry.
+I, I, uh, my colleague mentioned the name
+once. I forgot. And I did not know this person closely myself. This was kind of an indirect. I had heard the name once or twice before, but I was never personally familiar with this. This person is kind of a, yeah, contact a colleague of a colleague thing.
+Um, I trust the colleague of mine that,
+you know, he probably had a pretty good guess. That doesn't mean he was right, but I trust that, you know, he was really in the thick of this. I kind of trust his judgment that he was not too likely.
+He was quite, quite likely right. But, you
+know, I didn't grill him on it. And, you know, especially since the person in question was already passed away, you know, I didn't, didn't really push further. And I forget the name. I'm sorry.
+Definitely isn't this, this turkey out there who's
+been claiming to be Satoshi Nakamoto for years. So, you know, that's not too hard to guess.
+Anyway.
+Okay. So, but, you know, more importantly, you
+know, in the big picture, you know, he came out with this really interesting idea, which was, which kind of, you know, if you're not familiar with, with Bitcoin and the Bitcoin architecture.
+I'm not, you know, I'm not going to
+try to explain the whole thing now, but just give a few highlights that are worth knowing about and understanding.
+It basically addressed four key distributed systems.
+Challenges.
+All in one kind of beautifully tightly designed
+system.
+These are the all four, tough, tough, non-trivial
+challenges. And it addressed, you know, in some way, all four of them in a very innovative and creative way.
+Right. So, one was the consensus or agreement
+problem.
+How to get a set of nodes in
+a distributed system talking to each other to agree on a common value on a common history.
+Even if, even if some of the nodes
+might misbehave or die at any time, but so agree on a common sequence of events for whatever purpose.
+This is what's known as the consensus problem.
+And if you haven't already in future algorithms class, you'll get deep into this.
+And it's a very, you know, deep interesting
+problem.
+And Bitcoin was a very novel solution to
+that problem.
+Very, very unconventional.
+Second, it's a, it's a, basically a civil
+resistance mechanism.
+And we haven't talked a lot about this.
+We'll talk about civil resistance more later. But what, what it, for those of you know what it, what is a civil, the civil problem.
+I'm sure some of you, even those of
+you not familiar with blockchains might have heard this term.
+No.
+So, so this, this name comes from a
+computer science paper called the civil attack.
+By John Deucerre at Microsoft Research.
+But that paper in turn, so look up
+that paper, it's a classic.
+That paper in turn was, was inspired by
+a historical case of in psychology of multiple extreme multiple personality disorder.
+So Sybil was a pseudonym for a psychological
+case, someone who had 20 some personalities all in all in their head.
+Very distinct. And, you know, there was a
+famous study of this, this multiple personality disorder case.
+Anyway, so that case basically inspired this problem,
+which is that I on the internet by default, identities are kind of infinitely disposable and you can have as many identities as you want.
+Right. You can, you can be as many,
+you can have as many personalities as you want, if you, if you care to or have a reason to.
+And it turns out that, you know, kind
+of this, this problem, you know, makes a lot of things in distributed and decentralized systems really, really hard to do, especially, well, you know, considering anything involving voting on the internet.
+Well, if you can have an unlimited number
+of identities, well, you can have an unlimited number of votes. If you want to, if you want to cast more votes in a given vote, you know, to tip an election or, or, or manipulate a manipulate page rank or something like that, just, you know, have, have more identities and more webpages, more or whatever, more of whatever that has voting power, right.
+And well, you know, you're, you're set. Right.
+So, so this is a, you know, a very general problem and Bitcoin had a, again, had a, you know, kind of unique and very interesting partial solution to it.
+Right.
+It also was a, had a, addressed the
+problem of maintaining a large scale.
+Distributed ledger.
+Maintaining a, maintaining a history, like a document
+among a bunch of, a bunch of parties.
+And finally, kind of the crowning achievement that
+wrapped all of this up together, basically the first successful cryptocurrency.
+The first form of digital cash that was
+kind of self-maintaining.
+Whoops.
+And incentive incentive compatible enough that people actually
+used it and, and that would value in it and it grew.
+Right. So.
+And so this is where, where Bitcoin, you
+know,
+Bitcoin, the coin, the currency comes from, right.
+Yeah, so.
+Let's see how.
+Yeah. So I don't want to get too
+deep into the technical details of how it works.
+How many of you have, have seen in
+some, some sense the, like, you know, Bitcoin blockchain ledger structure and the basic, basic function.
+Anyone?
+Yeah.
+Well, maybe just as a kind of very
+quick high level overview, just looking at the Bitcoin ledger, because getting the basic concept is really, really very useful and kind of.
+Kind of necessary to understand the interesting, the
+interesting things you can build on it.
+So again, without getting into too many details,
+what goes on in Bitcoin is well, and many blockchain systems is whenever it's when it's founded, you know, in this case, this happened in 2008, you know, led by Satoshi.
+You know, somebody, the founders create what's called
+a Genesis block, which is just a piece of information that's, you know, hard-potage, you know, the developers hard-code say, okay, this is going to be the Genesis block.
+There's, there's a little bit of cryptographic magic
+that I'm glossing over there.
+But it's just that, you know, the developers
+are going to say, okay, this is the beginning of the history that we're going to create the ledger.
+So.
+And then what we're, and then the important
+thing is we're going to set up, create a consensus.
+in the case of Bitcoin, typically about 10
+minutes
+after any block is, so this is approximately
+10 minutes.
+Another block, a second block gets created.
+This has what we call it a hash
+chain,
+a hash link back to the first block
+using a cryptographic hash.
+We don't need to worry about the cryptographic
+details now.
+It just basically ties the structure together.
+And then, approximately 10 minutes after that,
+somehow magically so far as I haven't explained
+it,
+another block appears.
+And all of these blocks have some information.
+In this case, it's gonna be Bitcoin transactions
+in a structure, a cryptographic structure we call
+a Merkle tree,
+but don't worry about these big details for
+now.
+That's what you'll get deep into if you
+take CS438 later
+or other similar courses.
+So each of these basically, logically adds an
+entry
+to a big logical ledger.
+So here we have the Genesis block, the
+first block,
+and then block one, block two, and so
+on, right?
+Gradually growing over time and basically write only,
+right?
+Once something is on the ledger, the idea
+is you never change it.
+You only add more blocks.
+But the really interesting thing about how Bitcoin
+tries to do this
+is, well, we're used to centralized parties being
+responsible
+for adding these blocks.
+Well, Bitcoin said, well, we want thousands of
+participants
+to be able to collaborate in this and
+have some kind of combination
+of competition and collaboration.
+A co-operative kind of game going where everybody
+participating
+is gonna actually compete to add a new
+block, right?
+And so each successive block might get added
+by a different participant, a different miner,
+as we call the core Bitcoin participants now.
+And again, without getting into details,
+to be able to add a new block,
+each of these blocks contain a solution to
+a little cryptographic puzzle,
+which uses hash functions.
+In the case of Bitcoin, there's other more
+recent variants of this
+that other cryptocurrencies use.
+But basically, in order to earn the right
+to add a block,
+you have to basically do some entirely useless
+work whose purpose is only
+to prove to everyone in a way that's
+easily and quickly
+and cheaply verifiable that you have done that
+particular amount of useless work.
+That's its only purpose, right?
+And as Bitcoin evolved, basically, it very quickly
+became energy
+and computation limited.
+So people started deploying these giant racks of
+data centers
+full of specialized hardware just for Bitcoin mining.
+And it basically becomes a power and electricity
+and cost of power limiting thing.
+And so participation is basically amounts to,
+well, whoever's willing to invest to waste the
+most power
+with the right resources to solve these otherwise
+useless cryptographic puzzles
+is who gets to add the blocks, right?
+And this is a random statistical process.
+So each block is, with some probability,
+going to be added by a given participant
+in proportion to their current share
+of investment in mining power, right?
+How much of this crypto puzzle solving power
+they're bringing to the table
+in comparison with all the other participants?
+So at the time, it was like this
+was a very novel way
+to do a consensus algorithm.
+Consensus algorithms had existed for decades before that,
+but they were always kind of a closed
+environment.
+We assume there's a particular closed set of
+end-nose
+and assume that there's a threshold T of
+them are good
+and kind of make an algorithm that can
+operate in that environment.
+But, well, Bitcoin, using this crypto puzzle thing
+which we call proof of work, right?
+Now, what's the main reason, you know,
+that Bitcoin used proof of work instead of
+just a standard,
+say, T of N threshold argument?
+This had a key benefit that Satoshi Nakamoto,
+whoever he or she was, was after, right?
+Why would you, you know, ask people to
+just waste power
+doing stupid useless activities just to prove
+you have a right to add a block?
+Yeah?
+Yeah, so that's the absolute...
+So in order for this to work, technically,
+you have to have rate limiting.
+If there wasn't this rate limiting mechanism there,
+basically it would be a free-for-all.
+Everybody would constantly be adding new blocks
+and the blockchain would have no time to
+resolve
+into anything meaningful, right?
+So, yeah, you're absolutely right.
+You've got to slow down the process enough.
+So, you know, this protocol works only, you
+know,
+again, glossing over all the details.
+This protocol works only if each time a
+block appears,
+usually there's enough time for that block to
+propagate
+and be known to everyone before the next
+block
+is likely to appear.
+You know, there's a bunch of probabilities things,
+but, you know, when that doesn't happen,
+there's occasional races, but races aren't a big
+deal
+in the long term.
+As long as most of the time, you
+know,
+you've got this rate limiting.
+So, yeah, from a technical perspective,
+to make this work, yeah,
+you need that rate limiting to kind of,
+to the speed of the network.
+On the other hand, well, you could also
+have a rate limit
+just by saying, well, each of the nodes
+is supposed
+to start a timer for 10 minutes
+and not propose a block until 10 minutes,
+right?
+Yeah.
+Also, if some of you were,
+they don't have any interest in the process,
+Yeah, great. So this was a way to
+make sure that participants have skin in the game, as
+we say, like you have to invest something
+first to, you know, basically doing this useful
+work, useless work, just to prove that you're
+motivated enough to invest this. And then hopefully
+by the time you've invested enough, the more
+you've invested, the more you hopefully don't
+want the whole system to come crashing down.
+So hopefully your incentives are now aligned
+with the incentives of the overall Bitcoin system,
+right? Now, unfortunately, you know,
+as we later learned, you know, this incentive
+compatibility argument kind of works, but does
+not work perfectly, right? There's a lot of
+kind of subtle gotchas in there that are that's also
+fascinating reading, but it also kind of works.
+It's really interesting. Yeah. But beyond this,
+right? So so you could also just code
+into, you know, each of the nodes software, a
+some requirement that says, well, you know, before
+you can join this protocol, you have to,
+I don't know, pay Facebook a million dollars
+to become an official node. I don't know if any of
+you remember when Facebook tried to start a
+blockchain project and, you know, where I think
+a million dollars was the was the entrance
+fee, right? To start a node. You know, this is kind
+of the consortium blockchain thing that sometimes work,
+right? You know, you could have a different
+way to get in to create that cost
+and just say, okay, and then once you're in, you're on the
+the register and you use a classic consensus
+protocol, everything else works fine. You don't
+need this proof of work thing then. But
+what's the there's a third reason that proof of war,
+that this crypto puzzle solving proof of work
+was especially interesting for Satoshi. And it was one
+that strangely enough, Robert doll might actually get
+behind. Yeah.
+Well, no, I mean, the the proof of
+work doesn't itself doesn't let you do that. The proof of work,
+you know, rate limits and, you know, insurers
+that the creation of blocks doesn't get out of
+control at a, you know, at a rate
+perspective, you know, but all independent of the proof of work,
+all the miners have to check each other's,
+you know, whenever they're receiving and sending
+blocks, they have to very carefully check, you
+know, all of the all of the blocks, all the
+transactions do a lot of checking to make
+sure everything is valid. And that's totally independent
+of the of the proof of work, the
+proof of work is just one tiny piece in there, right? Of course,
+that has to be checked. But it's one
+of many things that has to be checked to validate the
+structure of the blockchain and, you know, make
+sure other nodes are, you know, doing what they're
+supposed to. And all the nodes are constantly
+doing this when they're when they're exchanging new
+blocks and new transactions within blocks and stuff
+like that. So, so yeah, the verifier, you're
+right that the verification is really important. But,
+but that they have to do that regardless
+of proof of work or something else. And
+the proof of work is, you know, not really,
+you know, that essential a component, you can
+do that checking without having proof of work in there,
+right, as the as the as the gateway
+for creating a new block, right? But in a way, you know, the
+the motivation for the group of proof of
+work, like as I just mentioned, you know,
+sounds very Robert doll-esque in a certain way,
+right? It's right. It's pursuing one of his principles.
+This is democratization in technology, at least an
+attempt.
+Which Prince, which of dolls principle do you
+see reflected in this desire?
+Not one person, one vote, I'll give you
+that. Definitely not. Yeah.
+Yeah, yeah. So, so it's not it's not
+one person, one vote, it's one compute cycle,
+one wasted electron, one vote, something like that,
+right? But there was another of his principles,
+right? Inclusiveness. Right. From a broader definition of
+inclusiveness, the idea, you
+know, Satoshi, what Satoshi wanted was a decentralized
+system that anyone could join,
+right, without asking anybody's permission. So, we've also
+come to use the term permissionless.
+To describe this, right? You want to join,
+you just join and start running the protocol. Yeah.
+Ah, yeah. Well, great, great question. But this,
+but, but spoken from a, from a so, you know,
+2025, you know, you know, 18 years after
+Bitcoin, you know, spoken with such great,
+you know, kind of retrospective insight to what
+actually happened, right? So,
+this isn't what Satoshi was thinking, you know,
+because, you know, he couldn't or didn't predict
+you know, what, how Bitcoin would actually evolve,
+right? He, you know, kind of the purpose of this
+was inclusiveness, you know, he wanted like, you
+know, any, anybody to be able to run,
+run the protocol without anybody permission. Yeah. Later,
+it developed that, especially as,
+as, you know, people get, got really deep
+into this and started optimizing the proof of work and
+building custom hardware and stuff. You got these,
+started getting these enormous differentials
+between the people who had the right hardware
+and could mine efficiently and those who didn't.
+And then, yeah, indeed, it, you know, the
+inclusive argument went straight out the window,
+you know, not that many years after, after
+Bitcoin, you know, came down, right? But inclusiveness was
+one of the key, intense, you know, it
+was, it was one of the goals. He was, he was after
+inclusiveness and permissionlessness, even if, well, it totally
+failed in retrospect, you know,
+at least in a, in any kind of
+egalitarian way, right? You know, you have to have, these days,
+you have to have the right mining hardware
+and access to, you know, all the right resources
+and a lot of investment, even to get
+into the game of, of mining Bitcoin, right? Because of this,
+but, you know, Satoshi didn't predict that. But,
+you know, there's, there's the, you know,
+the intent and there's the difference in how
+things actually evolved. Yeah.
+Yeah. Good question. Yeah. Yeah. So that is
+a very, that is another very deep and interesting
+question that, you know, for which the answer
+is unfortunately complicated. But I mean, the
+simple version of the answer is that this
+particular type of useless work, you know, the, the nice,
+useful property of it, useful from a protocol
+perspective, the useful property of it is it's
+very cheap and easy to verify that that
+useless work has been done. The moment you try to try to
+start changing the work into useful work, right?
+We'd all love to replace the useless work with you,
+useful work. Everybody agrees that the problem is
+then you start have to defining well, define,
+well, who judges what work is useful and
+what work is useless? How do you define useful work? How do
+you judge useful work? Right. And then you
+start immediately getting into major circularities in
+the problem definition. Who judges that? Well, let's
+maybe form a committee of judges. Okay. Who,
+who forms that committee? Oh, it looks like
+we need some judges to form that committee. And
+how do we pick those judges and, you
+know, stuff like that, right? Of course, there's also, you
+know, computer scientists who want to come, come
+up with a magic algorithm, a magic cryptographic
+primitive that will somehow cryptographically identify separate useful
+work versus useless work.
+And there's, you can read some papers that
+people trying to do something to that effect, but nobody
+has come anywhere close to succeeding as far
+as I know, right? In kind of making a, an algorithm,
+a cryptographic primitive that can, you know, figure
+out what, just differentiate some form
+of useful work from useless work, right? So
+yeah, that's, you know, exactly. You know, the goal is
+great. Everybody is agreeing on that goal. Nobody
+knows how to do it. Yeah.
+Yeah.
+Well, I mean, just, just pragmatically, you know,
+from looking at, you know,
+the world in operation and Bitcoin in operation,
+yes, that's exactly what's happening, you know,
+from an economic perspective, you know, Bitcoin is
+just a way to convert wasted power into a form
+of money, right? Now, well, I mean, the
+thing is, this is only one of many ways to create money.
+Economists have known all kinds of ways to
+create money for, you know, many decades now.
+And this is only, you know, kind of
+one of the most recent and one might say one of the most
+horrendously inefficient and, and also, you know, kind
+of, it's kind of a climate disaster of a way
+to make money, right? So, you know, compared
+against all the other ways of making money,
+this has become kind of a disaster, right?
+But yeah, it is a way to make money. It's,
+it is doing exactly that, right? Yeah.
+Could it be like any other escalation to
+legal or something?
+This has been discussed, certainly, it is discussed
+whether, you know, proof of work should be
+outlawed. And I'm, you know, personally, I might
+be in favor of it, you know, in part because,
+well, you know, I've been outlining the original
+Bitcoin, which is a super fascinating idea. But,
+you know, since then, the algorithms have been,
+have moved on. We have all kinds of much better
+alternatives to proof of work. We do not
+need proof of work anymore. Like nobody needs to,
+or in my opinion, should be launching proof
+of work cryptocurrencies anymore. And, you know,
+the proof of work cryptocurrencies that are out
+there should be moving to something at least
+a little bit more responsible, like proof of
+stake, not a, you know, I, you know, not a,
+not a perfect solution either. I, you know,
+wasn't planning to get it, you know, into that in detail.
+But, you know, it, at least, you know,
+it's a lot more complex, but it resolves this, you know,
+totally useless waste of energy thing at the
+very least, right? You know, so there are alternatives.
+We don't need to do this, right? It
+was just, it was just the, you know, simplest and easiest and
+most beautiful at that time, you know, technical
+solution to this, to this set of problems, right?
+So, yeah, like, you know, if we have
+the opportunity to outlaw proof of work, I might be on board with
+that, you know, because it's, it's, you need
+a horrendous way to make money despite the technical
+appeal and that it had original. Okay. Yeah.
+So, so, yeah, so that's, that's the basic structure.
+You know, I had, you know, what I
+haven't gotten into, of course, is how, how you turn this into a
+cryptocurrency. You, you know, use this ledger as
+kind of a record of who, who owns how many Bitcoin
+associated with their public keys. I don't want
+to get into that in too much detail because I want to
+get, you know, move straight to some of
+the higher level, you know, interesting things that, that
+we've learned we can do with this kind
+of ledger. However, you do this consensus and civil resistance.
+But anyway, just keep this general, this general
+picture, this general structure in mind, and this,
+at least ambition of making a system that,
+you know, kind of creates this agreement between a large
+number of not mutually suspicious parties, which, you
+know, Bitcoin was trying to do in an incentive
+compatible way so that, you know, people can
+be motivated to come and, you know, continue
+contributing and also ideally in an inclusive permission,
+this permissionless way, you know.
+So, so there's some, you know, really, really
+nice, at least goals bundled into this, into this
+design. And so we'll, we'll continue looking at,
+you know, some of the higher layers above this. So
+let's take a take a break now and
+then come back at 415 and we'll continue.
+Okay, yeah, so, so let's continue. So,
+I kind of, you know, I kind of
+skipped over, well, I'm not going to have time to get that much into,
+well, I kind of skipped over the details
+of the coin part, you know, how transactions work,
+which is also very interesting, but just don't
+really have time. But
+the next feature I'd like to highlight is
+something that was already in Bitcoin, scripts,
+and then Ethereum and other cryptocurrencies, blockchain systems,
+pushed this a lot further into the smart
+contracts.
+Right. So,
+so,
+so I mentioned, so, you know, taking another
+look at the, the basic, you know, a blockchain structure,
+again, glossing over all the details. Let's say,
+let's say, you know, you, you receive in your wallet,
+you know, some Bitcoin, and that's going to
+be, there's going to be a record for that, you know,
+I'll say, you know, there's going to be
+a record in one of these blocks saying,
+Alice,
+some, you know, Alice's wallet identified by a
+cryptographic public key owns, say, you know,
+0.01 BTC, right? Now, in the base case,
+in this, there's the simplest way, way to use this.
+So, you know, this, this amount of Bitcoin
+that, you know, is on the ledger as belonging to Alice.
+Well, anytime Alice wants to, wants to use
+this, she can,
+she can issue a spend transaction, and this
+will, this spend transaction will go into some future block
+under the right conditions. Say, here, you know,
+here lay it into, you know, so this was in block one,
+this is in block three, let's say, and
+Alice is issuing a spend transaction, and she's going to,
+she has to basically include this trend. So,
+she's going to say, you know, just again,
+simplistically say transfer to Bob, right? Transfer this
+amount to Bob to pay for some
+service or product Bob is providing her, right?
+And so, Alice's spend transaction is going to
+have another of these, these hash links back
+to, you know, indicate uniquely the particular past,
+you know, coin she owns and wants to
+spend, right? But obviously, you can't just,
+you can't just allow anybody to point to
+a coin on the blockchain and say, hey, spend it, because
+trust me, I'm the owner of that coin,
+right? Well, are you the owner of the coin or not, right?
+You have to prove that you're the owner
+of the coin. Now, the simple way, you know, in the common
+case, if Alice is the sole owner of
+this coin, she typically does it, you know, again, using
+simple standard cryptography now. She just uses a
+cryptographic digital signature
+with her, with her public key, her Alice
+public key, which was, which that coin was originally
+tied to. I'm not going to get into
+the cryptography, but basically, you know, kind of,
+is the way of authenticating her ownership of
+the key. Now, the interesting thing that I want to get
+to though, is that this, this is not
+the only way, even in the original Bitcoin, this is not the only
+way to, to authenticate, to, to determine, you
+know, who has the right to spend a coin under,
+under given conditions, right? So this is, this
+is just the base case. Bitcoin also had an option
+called pay to script.
+Basically, when, when Alice received this coin, whoever
+gives it to her, or, you know, she could
+pay it to herself, if she wants to
+attach, attach, you can take a kind of an ordinary coin and then
+attach a script to it, you can actually
+attach a little bit of code in there, in a magic little
+scripting language that's, in this case, very specific
+to Bitcoin. It has some instructions.
+It's a small program, you know, in a
+very blockchain specific restricted programming
+language, but it's, it's code, it's arbitrary code
+that you can embed right there with the coin on the
+blockchain, right? And now, suppose a coin has
+this, has this, has this script attached,
+and Alice or somebody wants to spend it,
+wants to create a spend transaction. Well,
+it's in that case, it's, it's no longer
+the case that just a single digital signature will work
+to do that necessarily. Instead, it now depends
+on what that code says, because the purpose of that
+code is to decide in a given situation
+whether a particular proposed spend is allowed or not, right?
+The code is a program. So now, now
+suppose somebody, you know, suppose somebody wants to,
+wants to propose a particular spend transaction, I
+would like to spend the coin. Well, you don't
+automatically get the right to spend the coin.
+Instead, what has to happen is your proposed spend
+transaction, you have to send that into a
+little virtual computer, which, and this script goes in
+the side. That's the program, this virtual computer
+runs the program represented by the script on the
+input, which is the input is the proposed
+transaction saying I want to spend this coin and the script
+paying from the coin itself, it was attached
+to the coin, and the script, you know, so this virtual
+computer runs the steps of that script and
+outputs, what do you think, what do you think its output is?
+Not too complicated, exactly. Yeah, exactly. Yes or
+no?
+Right? Yes, it's authorized or no, it's not.
+Right? So, um, yeah, but the script can be whatever you
+want, whatever, you know, the owner, the original
+owner, depositor of that coin wants.
+Right? And so, you know, with some important
+limitations, but, and so, so there's, it turns
+out there's a lot of power to this
+concept. Now, why would you want this? One of the earliest
+motivations for this that was supported originally by
+Bitcoin and has been ever since and is still
+one of the, you know, common case uses
+of this feature, just as an example, not a super interesting
+example, but a very common one is what
+we call multi signature wallets.
+Right? Suppose you want to have a joint,
+a wallet jointly in an organization with
+several key holders, not just one, say three
+key holders, and you want, you want to make sure that
+no single key holder can empty the vault
+all by themselves, but you need two signatures to spend
+any money from this wallet, you know, so,
+so, or, you know, you have a personal wallet, but you
+want it to be, you know, as secure
+as possible, and you don't want to trust any one of your
+several devices completely. So, well, you split the
+key across three devices, you hold, well, you
+have three keys, one on each of three
+devices, and you organize the wallet so that, you know, two of
+the devices has to, has to be participate
+in authorizing a spend, right? So this is just,
+in some sense, potentially good security, right? But
+one of the, one of the ways you can implement
+that is basically by making a script that
+has three public keys that it's going to, that it's,
+that it's going to check against a proposed
+transaction. So key one, key two, key three,
+right? And when the transaction comes in, the
+transaction is going to have three signature
+slots, signature one, signature two, SIG three, right?
+The transaction, you know, might have one,
+two, three, or no, any number of these
+signatures might be valid or invalid, cryptographically,
+right? But what's, what the script is going
+to do is just going to check, okay, is signature one
+make correct signature for, for public key one
+is signature two, a correct signature for key two,
+is signature three a correct key for signature,
+signature four with respect to signatures three,
+right? So it's just going to, you know,
+do the three cryptographic algorithms and add up the yeses,
+you know? So how many of these checks
+failed? And then do a final test, was this number of yeses,
+was the number of valid signatures greater than
+or equal to two? And then that is what produces
+the final yes, no output, right? Namely, meaning
+did any two of, were at least two of these signatures
+valid? It's fine if one of them is
+an invalid signature, as long as two of them are valid,
+right? And then the script says yes, and
+you know, this transaction is authorized, the spend
+happens. If it's no, then, you know, the
+spend doesn't happen. And the coin is secure against
+being spent by, say, just a single signer
+misbehaving, right? The minute, may it make sense?
+So super simple, you know, example of a
+script, but a very powerful basis, because, you know,
+you expand, you can think of, you know,
+how you expand this, and you can kind of do a lot of,
+do a lot, a lot more things with
+this concept. Now, you know, like I said, this was already
+big, built into Bitcoin, it had some important
+limitations,
+things like determinism,
+for technical reasons, related to the consensus, this
+virtual computer has to be absolutely
+deterministic. All of the instructions it executes have
+to have one and only one possible answer
+for any given inputs that everybody agrees on
+very clearly, right? So you can't use a standard
+instruction, processor instruction sets, because those are actually
+have a bunch of
+non-determinism where things aren't specified precisely.
+There's, they have to have basically no external,
+no outside world inputs.
+The thing these scripts depend on is the
+scripts can use as input the proposed transaction and
+anything that's already committed to the blockchain, but
+they can't go look at a website or, you know,
+see what's going on in the external world.
+So this is, because that would violate the determinism,
+there could be multiple different perspectives on what's
+going on in the external world and
+agreeing on that becomes very hard, right? So,
+but, and so this certainly limits what's, what
+you've done, you can do with scripts. And Bitcoin,
+at least, also had an important limitation in
+a scripting language, no loops.
+So there was control flow, but you could
+have conditional branches in this code, but a conditional
+branch can only be forward, never backward. Why
+would this be?
+You think of why Satoshi made this very
+curious, curious and very limited, apparently very limiting
+provision? Yeah. Recursion, yeah, yeah. So it could,
+yeah, something with loops could be recursive
+in weird ways. Can you see any danger
+of that? Yeah. Yeah, yeah. So non-termination, like, you
+know, if you make a loop, yeah, yeah,
+you know, if you, if you can write whatever code you want,
+well, it might be a non-terminating program. And
+remember these scripts, you know, although I
+haven't told you much about how this virtual
+computer works, how it actually works is that all
+the Bitcoin miners, as they're doing this complicated
+process of checking all the blocks for validity,
+one of the forms of checks they have
+to do, each of the miners, when they're accepting any block
+from anybody else, they've got to rerun that
+script on their version of the virtual computer,
+redundantly with the rerunning of the script that
+everybody else is doing too, right? And check for
+themselves that, yeah, okay, you know, this proposed
+transaction, this miner claims this
+proposed transaction is valid as part of a
+block they're proposing, but to verify that they're not
+lying, I'm going to rerun that script on
+my version of the virtual computer and make sure
+that, you know, if that miner said that,
+claimed that this script says yes on that particular input,
+I'm going to verify that that script indeed
+says yes on that particular input. Therefore, I have
+to run it to termination, right? And if
+another miner could just send me a block saying, hey,
+trust me, this script runs to termination, but
+well, it actually doesn't terminate,
+then I get into an infinite loop and,
+you know, that's a nice DOS attack against me at the very
+least, right? So, yeah, so, so this was
+kind of, you know, the non-termination problem,
+even if the script does terminate, maybe it
+just takes a lot of CPU suck, and maybe it doesn't
+terminate for a long time, right? And that
+could be equally a problem. It can, you know, it can,
+you know, basically cause miners to consume huge
+resources, you know, that, and break the whole
+incentive compatibility part, right? Yeah. Yeah, so there
+is, in effect, the limit, I mean, yes
+and no, the length of the code is
+mainly limited by the size of a given transaction, right? And
+the transactions are limited to whatever will fit
+in a block, right? So there's a total limit of
+the total number of bytes a block can
+have, any transaction has to be smaller than that,
+you know, and the script has to be
+smaller than that, right? You know, and yeah, yeah, so,
+exactly, yes. Well, and, you know, because there
+are no loops, you know, the more you want to do in
+a script, the more bytes you're going to
+have to, you know, is going to have to be in your transaction,
+and the more bytes you're going to have
+to pay for it because that's actually, you know,
+figures into the transaction cost too, you know,
+so, yeah. So, so basically the new,
+no loops provision was just a simple way,
+you know, to deal with the non-termination issue and,
+and the, you know, resource consumption, computational resource
+consumption problem. Now,
+now, you know, some, some years after Bitcoin,
+a very interesting
+project known as Ethereum came along, a Vitalik
+buterin leading that really, from a technical
+perspective, focused on, on this problem, right? So,
+so Ethereum replaced the, you know, relax the
+no, no loops restriction. So, Ethereum smart contracts
+can have loops, but they had to introduce
+this whole new, to replace it, they had
+to create this whole notion of what they call gas,
+which is basically an execution quota. So, you
+can do, your scripts can do anything they,
+they want, you know, including looping forever, only
+they have a limited amount of virtual CPU
+cycles that they're going to be allowed to
+execute for. And if that, if they run out of gas, then,
+then the miner, you know, kind of stops
+validating and just says, okay, this is, this is invalid,
+you know, and so, so yeah, there's a
+technically not that hard solution to the no, no loops problem,
+but even the Ethereum has it solved either
+the determinism or no, no external inputs problem,
+those are kind of harder, right? Anyway, so,
+so this is, this is smart contracts in a nutshell,
+quick overview, any questions so far?
+Okay, so, you know, again, you know, a
+technically deep and complex and interesting
+topic worth, worth reading into, but, but finally,
+I really want to get to, you know,
+well, what can you do with smart smart
+contracts? So, this is where things really get interesting.
+So, I mean, you know, we're talking about,
+well, at least in the case of Ethereum,
+touring complete computation that you can, you know,
+embed on a blockchain and attach to coins,
+you know, so, so you can fund some
+code on a blockchain that just kind of lives there.
+And by the rules of the system that,
+you know, can interact with whoever wants to interact with it
+under the rules of that contract. So, very
+powerful concept, very interesting. And this is,
+this is manifested in a couple contexts. One
+of the, one of the areas that gets a lot of
+blockchain cryptocurrency people super excited is what they
+call decentralized finance,
+or DeFi. And without getting into a lot
+of it, there's so, so there's a lot of different aspects
+to this. So, so, so different forms of
+digital coins, alternate currencies,
+based on a huge variety of philosophies and
+rules and things like that, some of them more
+scammy than others, let's say, forms of digital
+investment.
+Right. So, what drives a lot of cryptocurrency
+people, you know, is, well, this is a new way
+of investing money and, you know, making money,
+you know, kind of, and, you know, investing in
+projects and things like that. Right. So, if
+you've, so there was some, some phase, a phase where
+who remembers the ICO phase where, you know,
+for a year or two, initial coin offerings or ICOs were,
+were all the rage trying to be the
+new, you know, all digital substitute for IPOs,
+initial, initial placement offerings, right, as a way
+to start, launch startups,
+private, you know, in innovation projects and things
+like that. Then later came the NFT,
+non-fungible tokens phase. So, any of you familiar
+with the herd of NFTs? So, yeah, so these, these
+kind of got a little bit more media
+attention for better or worse, often worse.
+For some of the, you know, crazy ways
+they're, they're used, but basically just trying to be,
+you know, digital tokens that are tradable and
+that can mean anything. They can just be an image
+of a crazy monkey or whatever, you know,
+that some, somehow you decide is valuable and you want to
+collect it. And so, as long as other
+people want it too, and yeah, then it, you know, then has value.
+This is economics, right? Anyway, so, you know,
+there's a lot of, you know, kind of trivial
+things you can do with this, but you
+can also do very interesting things like decentralized exchanges,
+things like automated market makers.
+And, and, you know, one of the, one
+of the basic ideas here is, well, you know, so we've got a bunch
+of currencies, a bunch of cryptocurrencies, a bunch
+of regular traditional currencies like
+US dollars and Swiss francs, you know, can
+we, you know, decentralized fashion like on a, on a
+blockchain make, make a way to allow people
+to trade between these different currencies at a fair,
+you know, reasonable market value exchange rate, right?
+And so, you know, a very powerful,
+interesting idea is to, that actually works is
+to create smart contracts
+on a platform like Ethereum. Ethereum has, has
+become really dominated, dominant for this kind
+of thing where you have, you know, you,
+you basically have three things, some code, the code of the
+smart contract, and you have a pot of
+gold supervised by this code, you know, this code is the law
+for, for this coin. So there's a, there's
+a pot of gold, a balance in, in coin A or cryptocurrency
+A and a balance in coin B. Right.
+And the code allows anybody who wants to come make a request,
+say, and the requests are either, okay, I
+want to exchange some coin A to coin B, or I want to
+exchange some coin B for coin A, right?
+And when everybody, anybody makes such a request, well,
+this is the code basically just running on
+the blockchain, the code decides, okay, this is the
+current exchange rate. If you want that much
+A, this is the amount of, amount of B you have to
+provide at that current exchange rate. You know,
+if it's satisfied, it goes, okay, thank you. Here's
+your, here's your B, thank you for the
+A, it updates the state. And, and there's a new exchange rate
+that's calculated in an interesting mathematical way. So,
+you know, fascinating mathematics behind
+this. The more, the more people demand B,
+say, you know, if a lot of people say, here's some A,
+give me some B, then the price, then
+the exchange rate is going to shift so, so B's, you know,
+so, so B is more expensive than A,
+right? And if, if a lot of people trade the other ways,
+you know, it's the exchange rate automatically shifts
+the other way. So it kind of incentivizes,
+you know, so there can be a lot
+of these automated market makers all over the place and on different
+blockchains. And there's kind of an interesting incentive
+compatibility argument that, that this
+incentivizes everybody to, you know, find, you know,
+to kind of agree on a reasonable exchange rate,
+because any, any one of these that's way
+off the, you know, is basically providing an incentive
+for somebody to profit by bringing back, bringing
+it back to the, you know, to the, to the current
+going exchange rate. So anyway, you know, the
+fact that this actually works, and, you know, you can
+do this kind of thing completely on the
+blockchain with, with smart contracts is, you know, pretty
+interesting and impressive, right? But yeah, there's a
+lot of other interesting things you can do,
+like auctions and the list goes on, things
+that, you know, economists love, right, investors, but
+I don't want to get too sidetracked by
+this, but yeah.
+Yeah, you would go elsewhere if, if the
+Swiss francs are expensive here, you'll go elsewhere,
+and maybe you'll sell the Swiss francs to
+this platform and make a profit, right, by, by helping
+to bring, bring this back to reason, right?
+That's the idea, exactly. Yeah. So that, that's why this,
+you know, within some assumptions, it actually works,
+works pretty well. But yeah, so, so that's
+cool. Anyway, but, you know, but, you know,
+that's all interesting. It's not really the, you know,
+the central topic of the course, but this
+is where I want to get to decentralized
+autonomous organizations
+or DAOs, right? So this is, you know,
+in blockchain lingo, the idea of like, you know, creating a whole
+all digital, all decentralized equivalent of a traditional,
+you know, kind of human organization,
+a corporation, a nonprofit, for profit, nonprofit, whatever,
+you know, some kind of organization.
+But we want to do it all digitally,
+all on the blockchain represented by, you know, have the
+rules, the formation, the organizations, constitution,
+the rules for operation
+for the governance of the, of the organization.
+Ideally, at least in principle, all in smart
+contract code.
+Basically, you know, the entire organization and all
+the critical rules of it live on the
+blockchain, right? So this is kind of the
+geeky vision of, of DAOs. Take, take, you know, the
+traditional organizational structures and, and make them, you
+know, kind of entirely
+blockchain based by using this kind of smart
+contract. Now, first of all, why would you want to do this?
+What's, what's the appeal here? Well, there's several,
+as usual, that's complicated, but any, any guesses?
+What gets blockchain, DAO geeks so excited about
+this idea?
+Yeah.
+Yeah. Yeah. So that's, that's one of the
+ideas. So, so, um,
+let's say, yeah, so automatic.
+And let's see, we can even make that
+stronger. Fair, transparent. I'm still going to put it in
+quotes for important reasons.
+Enforcement
+of whatever rules are laid out in the,
+you know, in the smart contract. Now, you know, what, so,
+why transparent? Well, because at least in Bitcoin
+tradition and in many blockchain tradition,
+everything that's on the blockchain is public. Anybody
+can look at it and it's immutable, you
+know, as there's no disagreement about what the,
+what, what, what the bits on the blockchain are.
+Right. And if there's code, if part of
+the, what's on the blockchain is this code,
+everybody can look at the code and inspect
+it and see what the rules are. Right. And see if they,
+see if you like the rules or you
+don't like the rules. And if you like the rules, you can become a
+member, you can invest, what do you do,
+whatever the rules allow you to do. Right. If you don't like
+it, well, stay away. Right. You know, that's
+the, that's the idea. And if you do like the rules and
+you persist, participate, then the rules are fairly,
+you know, automatically and fairly enforced,
+because, well, you know, they come right out
+of the code. They, you know, whatever happens is
+exactly what the code says happens. Right. So,
+you know, if you have, if you have correctly, you
+know, if you like what the code says,
+then well, you know, whatever the code says happens, that's,
+that's, you know, how many of you have
+heard the phrase code as law?
+Wasn't this a, Larry Lessig?
+I can, I'm, whoops, not sure of that,
+but that's the name that comes to mind. Right. So this is,
+you know, just the, you know, blockchain smart
+contracts are just the ultimate embodiment of
+the code as law principle. We are writing
+the law in code, you know, at least the law of these
+organizations. Right. So whatever the, whatever the code
+says is what the law is for, for the
+purposes of these organizations. Right. So yeah, super
+promising and exciting idea.
+Can you see anything that might possibly go
+wrong?
+Of course things can go wrong and have
+gone massively wrong. Yeah.
+Oh.
+Yeah. Yeah. Bugs are a problem in all
+kinds of ways. Yeah. Yeah.
+So yeah, you know, once you, once you
+put, you know, codified a smart contract in particular
+code and put it on the blockchain and
+a bunch of people have started investing, you know,
+kind of putting their money into that particular
+pot, you know, by investing in it or, or whatnot.
+Right. Well, you know, and then somebody discovers
+a bug, well, how do you change it?
+Well, that's, that can be difficult. You know,
+you can and, and it has become, you know, kind of
+after some really bad experiences, it has become
+standard practice to insert upgrade mechanisms
+and things, but those, those add complexity and
+things can go wrong with them too. But yeah, go ahead.
+Yeah. Yeah. Yeah. Uh huh.
+Exactly. Who gets, if there's an upgrade mechanism,
+who gets the right to use that backdoor,
+upgrade backdoor and will it be used correctly?
+Will it be used in everybody's interest or in your
+own private selfish interest to steal all the
+money, for example? Right. Yeah. So, yeah. Yeah. So,
+so upgrades,
+and fixes of bugs are a very difficult
+problem. Right. Not unsolvable,
+but, you know, a very difficult problem. Yeah.
+Sorry. What?
+Oh, yeah. This is centralization. Sir, sir. In
+practice, very often, like, you know, one,
+close knit development team has the key, has
+the upgrade keys, you know, and yeah, if anybody can
+upgrade it, it's only them and they decide
+how it's going to be upgraded. So, um, yeah. So often,
+often the upgrade process can, you know, make
+it reintroduce centralization. Now, to be fair,
+this is only one of the many ways
+that blockchain cryptocurrency Dow projects can
+accidentally or intentionally become very centralized. Actually, you
+know, there's a lot of
+these cryptocurrency thing, you know, that, that, uh,
+that claim to be highly decentralized. But if
+you look at it from, you know, relevant
+metrics, you know, like the number of, the number of actual
+independent parties that actually hold most of the
+power in practice, whether for upgrading or mining
+or, you know, on various dimensions, often that's
+super small, like two or three party, you know,
+big parties hold basically all the power and,
+you know, and they turn out to be not very
+decentralized at all. Right. So, so, you know,
+you're right. This is one reason that, you know,
+these can be very centralized, but it's one
+of the many reasons of that guy. Yeah. Yeah. Yeah.
+But then, you know, there can, of course,
+uh, you know, of course, bugs can be security bugs,
+right? And security bugs can sometimes, sometimes be
+exploited, right?
+Exploitable bugs. And this is what most famously
+happened with a particular Dow, which was
+very, which was very prominently just called the
+Dow.
+Right. So there's an important difference between Dow's
+and the Dow, right? So who's heard of the
+Dow before? This was a famous incident where
+fairly early in the, as Ethereum was, was getting
+established where, um, somebody proposed a particular Dow
+kind of smart contract that
+it was basically trying to be a way
+to invest money, uh, into supporting projects. So, you know,
+kind of a meta development, you know, project,
+crowdfunding kind of smart contract. So, and
+so many people got so super excited about
+this that everybody was investing their Ethereum into
+the Dow, right? And it, it ballooned, you
+know, the amount of money in the pot supervised this one,
+but by this one smart contract ballooned into,
+into some significant, you know,
+fraction of the entire total value of the
+Ethereum blockchain at that time of the Ethereum currency.
+And then some mysterious anonymous hacker discovered a
+nice little recursion bug
+in the code and started actually exploiting it
+before there was any opportunity to fix or upgrade
+or anything like that, right? And this bug
+basically allowed them to exfiltrate the coin from, from
+the Dow to their own private mirror of
+the Dow, you know, their own version of it, where, from
+which they would eventually, there was kind of,
+it couldn't be immediately exploited. There was kind
+of a 30 day lockout, that kind of
+a 30 day cool down thing built in that apparently they didn't
+manage to work around. So, but they, you
+know, very quickly started to exfiltrate a lot of,
+large fraction of the coin from the main
+Dow to their private Dow, which 30 days later they would
+have been able to basically just take it
+all out and run away with it. But because this, you know,
+this project had become so, had accumulated, already
+accumulated such a large percentage
+of the total value of Ethereum, there were
+a lot of concerns among the whole community as well as
+the, you know, leader and leading developers of
+Ethereum, that, you know, if this project tanked
+because of this one bug, then all of
+Ethereum might tank with it, right? You know, that was a
+a real concern. And so there was this
+enormous debate between the, partly philosophical, between
+the, the code is lobby, you know, there
+was the side that said, well, the code is the code, the code
+is law, this, you know, attacker was exploiting
+a bug that was there, is there in the code, anybody
+could have seen the code, anybody else could
+have found the code and decided maybe this isn't such a
+great investment. Right? But of course, well, and
+then there were all the other people who had
+invested and didn't really want to lose all
+their money. Right? And so this is where the, you know,
+the, the geeky, you know, purist code is
+law, you know, philosophy came head to head in this giant
+battle with the, with the camps that said,
+hey, pragmatically, we don't want to lose our money.
+And, you know, and we also don't want
+all of Ethereum, the whole Ethereum project to tank,
+right? And so, so this, you know, so
+the, the majority, the main Ethereum
+developers in the Ethereum community actually decided to
+fix this, they, they tweaked the,
+the basic rules of Ethereum basically just, just
+to claw back that money and cancel this whole
+project, cancel the Dow and give every refund
+to everybody, their money, essentially. So, so the,
+you know, the majority basically rolled out a
+fix in this was Ethereum, they didn't have a way to
+fix the contract, they had to change a
+hacky theory to do this, right? And so this was basically
+the first, you know, all blockchain example of
+a too big, what we call a too big to fail
+operation. So you've heard this term, you usually
+we describe, use it to describe
+companies like in Switzerland, I would imagine like,
+SBB is probably too big to fail or Swiss,
+Swiss, Swiss post is totally too big to
+fail, right? You know, if Swiss post got into serious
+trouble, well, somebody would bail it out, right?
+At some level, because well, you know, if it failed,
+then actually maybe a better example would be,
+would be, I'm sorry,
+the bank that actually did come close to
+failing, right?
+Pretty sweet, thank you, thank you. Yeah. So
+it was indeed deemed by, you know, the highest levels
+as too big to fail, to let fail,
+you know, could have tanked the whole Swiss economy,
+the whole Swiss banking system. So let's make
+this, you know, special deal where, where, where it
+gets, sorry? It did fail, yeah, you're, it
+was in the process, it was absolutely in the process
+of failing, yeah. And, you know, it created
+this emergency situation that, okay, we can't let it
+completely fail because that's going to be bad
+for not just crazy, Swiss and their customers,
+it's going to be bad for all of
+Switzerland. So, you know, got to fix it somehow, right? And so,
+so that's what they, that's what they did.
+And that's what the, you know, kind of majority
+stakeholders of Ethereum did here, you know, the
+Dow was too big to fail, right? So, okay,
+they didn't do it. On the other hand,
+there was always, there was this vocal minority,
+the purists who said, no, code is law,
+that hacker was doing nothing wrong by exploiting
+something that was in the transparently in the
+code, right? We do not accept this Ethereum fix,
+right? Say they actually forked their own version
+of Ethereum. Anybody heard of Ethereum Classic?
+Yeah.
+Or ETC, right? So, that is a flavor,
+alternate flavor of Ethereum that was forked off the main one,
+precisely in opposition, kind of in philosophical opposition
+to, to this too big to fail logic,
+right? So, yeah, as far as I know,
+it's still around, right? Around and kicking, I'm not sure
+what its status or how many people are
+supporting or using it, but, you know, and often, you know,
+cryptocurrencies often, often do have forks in many
+times along these kind of philosophical
+differences that, you know, each group is not
+willing to, you know, kind of to go with the
+other's opinion, you know, so we're going to
+fork off our own cryptocurrency. So anyway,
+so this is just a little, little taste
+of some of the interesting, you know, things that have
+happened so far in this Tao space. There's
+a whole lot more I'd love to talk about, you know, but
+for lack of time, and hopefully we can
+come back to some of the relevant parts of this later, but,
+you know, so fascinating attempts to bring, you
+know, organization and democracy in some fashion
+onto blockchains with interesting effects. So, yeah, so
+thank you. I'll see you next week.

@@ -1,0 +1,1114 @@
+These subtitles have been generated automatically
+Hey, welcome.
+Yeah.
+Oh, I see everybody's everybody else is in
+the final end of semester crunch already in person attendance size and always gets low at the toward the end.
+But yeah, thank you for for coming in
+person.
+So, last week we started talking about this,
+these tensions between identity and identity online and anonymity online, especially in the context of the disposability of identities and the civil attack problem.
+Social bots and ballot stuffing and all the
+problems that that come with those so we'll continue this week on a related topic.
+I'm not sure pretty pretty much that topic
+but I want to focus a little bit more deeply on this question of the balance or tension between identity and anonymity and whether that's a true.
+So, so identity versus anonymity and so there's
+clearly attention there.
+But are there ways, you know, kind of
+making my optimistic side are there are there ways to to reduce this tension to somehow balance identity versus anonymity, right, and there's a and there's actually many potential ways to do that.
+And, you know, some are some are more
+known, you know, less known than others.
+So, maybe just to start with, let's, let's
+take a look at a couple columns.
+So, recap, we talked about some of some
+of these already last week, some identity technologies.
+Ways to achieve identity online when we want
+it, and then anonymity technologies.
+And then more centrally today's focus. So, in
+terms of identity technologies, we talked already about weak proxies.
+Right.
+IP addresses.
+Mac.
+Phone number.
+Stuff like that.
+We talked about.
+We talked about strong.
+ID checking.
+Such as in financial systems.
+What they call KYC, where you, you know,
+wave your ID card up to the to the video camera.
+We talked about biometric identity.
+Such as India's ad hard.
+Have any of you. So, so this is,
+we didn't talk about this yesterday last time, but there's also the world coin project.
+Any of you heard of this before, seen
+this.
+It's one of the world coin is one
+of these big Silicon Valley funded blockchain startups that is basically what their, their ambition is to do ad hard for the whole world in as a private entity. Yeah, yeah, exactly.
+Well, in fact, you know, creepy or still,
+they decided that the right way to do this is to build this special hardware that this eyeball scanning hardware they're focused on eyeballs on Irish scanning irises.
+And they built this globe like thing they
+call the orb.
+And it looks, it looks like a lot
+like Star Wars Death Star as far as I'm concerned, and they thought people would be naturally inclined to trust, you know, kind of have have the orb scan your eyeballs and you know trust us only good things will happen to that so I don't have a whole lot to say about world coin but
+you know, it's another example in that space.
+Of course they claim to have state of
+the art, you know, privacy technologies and stuff but I haven't actually seen any of the details or if, if there's anything behind them, but anyway, so there is biometric identity.
+Pro.
+We briefly talked about social trust networks,
+which were really kind of inspired by PGP
+type, pretty good privacy key signing parties and stuff.
+And then the other that I should have
+talked more about but didn't really have time with his has has been getting quite a bit of interest self sovereign identity, or SSI.
+So, who's heard of SSI for anyone.
+So, it's, it's an idea that's been around
+a while.
+And recently, quite a few governments and companies
+have gotten somewhat interested in the idea.
+And it's, it's basically a way to, to
+try to take the, take the data on on say ID card identity cards or diplomas or things like that attributes of your identity that different institutions can prove about you like, you know, the government attests that, you know, your name, age demographics on your ID card is
+your university attests that you have such and
+such degree that you've got at this time, you know, you know, these are, these are identity attributes, and the idea of self sovereign identity identity is basically, well everybody should have a digital wallet containing, you know, cryptographically signed
+with the, you know, records of these, these
+attributes information attributes, and you should be able to show, you know, to interact with third parties companies or you know what that you're going to interact that you want to buy things from get products from.
+And so for those interactions, you should be
+able to choose exactly which parts of your identity, namely which attributes to share and which not to. Right. And so it's kind of like a bit mask you can share any subset of these attributes you want in principle, and
+those identity attributes get get proven to the
+party you're proving them to and everything else about your identity should stay private by default.
+So that's the basic idea.
+Yeah, most traditional use cases of this for
+like as a kind of, of course, you know, there's various cryptography under underneath this that I won't get into typically but
+there's various details but just you know assuming
+it works.
+One of the classic use cases is buying
+alcohol right you need to prove your age. You should be able to walk into a store show something that proves that you, you know, are are of legal legal drinking age, but ideally it shouldn't have to it should be
+you shouldn't need to reveal your name or
+anything about to you even shouldn't even need to reveal your reveal your exact birthday to exact age it should just reveal the one bit of information are you are you legal or not.
+Right.
+That's, that's, you know, one of the quintessential
+use cases of self sovereign identity and it's, you know, it's partly part of partly motivated by privacy perspective.
+Right.
+So,
+so, you know, maybe I'll stop stop there
+for a minute before I get into the full fledged anonymity technologies. Any thoughts or questions or, you know, thoughts about SSI based on what I've said so far does it sound like a good idea sound like a bad idea.
+What might be good about it what might
+go wrong.
+Any thoughts.
+Yeah.
+Yeah, yeah. Yeah. So I great. Yeah, great
+observations. And I totally agree with you
+that like at least in principle in concept,
+it's, it's a great, it's a great idea. Right.
+To, you know, kind of give people control
+over what, what and how you share your, you know,
+different attributes of your identity. In terms of
+the user, you know, usability,
+good question. I don't know. There's a lot
+of different self sovereign identity projects,
+you know, it's, most of them aren't that
+well known, you know, only a few are deployed in some
+cases. And I'm sure they all have different
+levels of usability and then, you know, kind of the,
+you know, some, some probably better, better or
+worse than others.
+You don't necessarily always have to manually choose
+everything, you know, exactly what to
+share. And in fact, this gets to this
+comes to, you know, one of the, one of the difficulties,
+as I see it in this, in this
+whole idea, in practice, what's both what's easier
+from a usability perspective and what often happens,
+I think, is the party you're interacting with
+says, okay, you know, you want to log
+in and you want to buy something from us. This is the set of,
+you know, this is the, you know, set
+of identity attributes I need from you.
+And your, your two, your choices are basically
+yes or no, right. So yes, give those identity,
+those attributes or no, don't and walk away
+and we don't transact, right. So that makes it easier
+from a, you know, simplicity usability perspective, but
+you see any, any downsides or risks to that.
+Yeah, yeah. So you've probably seen this already
+on things services like login with Google,
+login with Apple, these federated login services where
+it kind of the website that wants to use
+your login kind of directs you to the
+identity provider and says, okay, this site wants these
+bits of information, yes or no. And if
+it's no, well, sorry, you don't get to use the service.
+So it's basically kind of dictated by the
+user of the service. And this, of course,
+somewhat uncomfortably limits the effective amount of individual
+choice you have. Your choice
+isn't really, you know, which parts of your
+identity are you comfortable revealing your choices.
+Are you willing to use this service at
+that cost or not or walk away, right? And
+one of the big problems in general is
+that, you know, so I brought up the proof of age example.
+One of the problems that I see with
+self sovereign identity is outside that proof of age example.
+I can't think of many other examples where
+a relying party wants to, you know, and can use
+self sovereign identity without asking many bits of
+information, things like at least age, like
+name, you know, maybe not age in some
+other cases, but, you know, companies are typically like,
+you know, financial institutions or businesses that you're
+going to be ordering stuff from. Well,
+you know, you're going to have to disclose
+your, you know, at least your name, probably your address,
+if it's, you know, if it's for online
+ordering or things like that, right, phone number. And,
+you know, even the first couple of fields
+of that kind that you disclose or that you have to
+disclose in order to engage in a transaction,
+basically gives away your whole identity. There's
+no anonymity anymore, right? So because, because, you
+know, that that information can be matched with
+a bazillion, the information in a bazillion other,
+you know, public information databases and stuff.
+Yes.
+Um,
+Right. Yeah. That used to be a good
+thing. Now it's definitely not seen as a good thing. Yeah.
+It's a great observation. Yeah. This has changed
+tremendously. And, you know, not just in one
+direction. It's kind of gone back and forth
+in a different complicated way. Right. So, especially,
+yeah, like, like in, you know, kind of
+in classic phone technologies. Yeah, you're right. It was
+totally standard practice that everybody in a whole
+city should be in the phone book by default,
+unless you work hard to get your name
+out of the phone book because you feel threatened or something.
+Right. But then, you know, kind of once
+mobile phones started dominating and spam phone spam became
+a big thing, you know, that was over
+those times were over. Right. So, you know, in terms of phone
+number privacy, you know, kind of it's completely
+flipped, you know, towards the towards the privacy
+side. On the other hand, looking at the
+internet, in a way, a lot has flipped the other way. Right.
+In the earlier in the early decades of
+the internet, you know, it was all about anonymity by default.
+Right. And, you know, the designers of the
+internet were super privacy and anonymity conscious.
+And but then, you know, we saw a
+lot of the negative, the downsides of that, you know, and,
+and there's been a, you know, kind of
+a lot more backlash and a lot more, you know, in, you know,
+recently, a lot of public sentiment has been
+more against anonymity. Anonymity is a bad thing on
+the internet. You know, we need more identity
+more, you know. So, yeah, you know, and I don't know if
+it'll how the trains will continue. But, you
+know, I'm sure part of it, part of that is, is because
+of this tension because between identity and anonymity
+and that, you know, the fact that,
+you know, each side has really there, there's
+really good things about both sides and, you know,
+kind of major risks in the other. And
+we haven't figured out how to manage those tensions, at
+least not, not for real. But we do
+have very interesting tools. So I want to go through
+some more of those, those tools. So, yeah,
+let's, let's look more towards the anonymity technology
+side. Right. So just to start with, I'll
+just mention a few that we,
+that we've already kind of discussed, say the
+natural anonymity
+of the internet, namely the fact that these
+weak process proxies like IP addresses,
+and so on, right, are not easily, are
+not that easily, you know, particularly easily correspond to
+trackable people, right. That is a form of
+weak anonymity that was kind of built into the internet
+from the start, right. This has many analogs.
+So MAC addresses as well.
+If you look in on cryptocurrencies like Bitcoin,
+so we have
+Bitcoin wallets. So these are basically cryptographic public
+keys.
+The wallet addresses and actually all the transactions
+are, you know, public on the
+blockchain, including the public key, but the public
+key doesn't have a name attached by default.
+Right. So, so these are basically pseudonyms, right.
+So numbers that don't by default, you know,
+reveal a name, but they get used persistently.
+And so if you see a pattern of
+use of a, you know, particular one of these proxies,
+you know, there's often ways to break that
+anonymity one way or another. So,
+yeah, what other, what other technologies can you
+think of
+ways there are to get stronger anonymity if
+you want.
+And in fact, some operating systems that are
+designed with privacy in mind, including is
+in my understanding all of Apple's now, and
+I don't know about the situation these days
+Android, when your devices are communicating over a
+network that they haven't yet authenticated
+themselves on in some way that is considered
+an unknown network and they're just trying to
+either log on or sense, you know, kind
+of, is this a network I could log on to? How should I
+display it on the list of potential Wi-Fi
+networks? When they're doing that, they're
+doing it with a random MAC address, not
+with your usual MAC address. So that kind of address,
+you know, address roaming, spoofing is, you know,
+kind of a built-in privacy feature in
+some respects, which is nice. It's limited. That
+kind of disappears usually the moment you're
+actually logged on to a network and then
+it uses the regular MAC address because there are,
+you know, advantages to practical advantages for, to
+the, you know, most networks being able to
+recognize when you come back. So you get
+the same IP address typically, or, you know, you get access
+to the services that you've authenticated for yourself
+to on that network and stuff. So,
+they don't, but, you know, you can often,
+you know, set it to use a random MAC address more often.
+Yeah, yeah. Good. So, but these are, you
+know, even if you change these and obfuscate them further,
+they're still, this still gives you only quite,
+quite weak anonymity, right? So somebody who has
+access to, to those servers or who can
+call up the system administrator can certainly kind of
+figure out like who, in principle, you know,
+who has this IP address now or who, if they
+maintain appropriate logs as ISPs are often required
+to these days, depending on the country,
+they can find out, well, who, who is
+this IP address assigned to at this point in the past, right?
+And they're often required to do this to
+aid in investigations when there's misbehavior, right?
+So there's, when the police are saying, you
+know, we've got a complaint about some,
+something bad happening coming from this IP address
+that was logged into this ISP at this
+particular time, who had that, which customer had
+that, they can usually answer. Yeah.
+Ah, okay. Let's, let's, let's voice it like,
+yeah, so to make, yeah, yeah, great, great.
+Voice obfuscation, great.
+When you, yeah, when you want to send
+a message and not have anybody
+recognizes it's from you, good point. Yeah. And
+of course, you know, with the,
+with the typical shadowy profile to go with
+it, if you have video, it's just, you know,
+a shadow of some talking head, right? The
+classic obfuscated voice. Yeah, you've got that.
+So there's, there's that. If you want to
+be anonymous in your internet communications,
+a little bit more strongly than, than, you
+know, and, and you don't want your ISP to be able to,
+you know, quite so easily see what you're
+doing, who you're talking to, you know, what not,
+there are alternatives, right? You, you,
+Yeah, yeah.
+Actually, let me edit this slightly
+to say open public networks, right?
+Just, yeah, especially networks that don't have a
+password at all
+or the password is posted on the wall
+for anyone to type in
+and nobody's tracking anything about who logs onto
+the network.
+And yeah, so especially if you are, you
+know,
+the combination of these two together, right?
+You know, so in principle, somebody on that
+network,
+you know, could be logging,
+watching and logging the other MAC addresses
+that they see on the network.
+And if you're using your regular persistent MAC
+address,
+you know, your actually, your anonymity is still
+kind of weak.
+That could be, that could totally be correlated.
+And that could be in principle anybody on
+that network,
+not just the owner of the network or
+the cost or something, right?
+So you're not that anonymous, but you know,
+if you're on one of those open public
+networks
+and using a random MAC address, then yeah,
+yeah,
+you're a lot more protected, at least from,
+you know,
+kind of someone just watching there.
+Yeah, good.
+So, but what if you want to, you
+know,
+what if you don't want to go to,
+you know, public network?
+You want to, you know, you want to
+do your stuff,
+whatever you want to do from home, right?
+Yeah.
+Yeah, great.
+Tor, right?
+Yeah.
+Mm-hmm.
+Sorry, but.
+It wouldn't be for the denial of the
+system.
+Yeah, exactly.
+Tor originally stands for the onion router,
+although I think these days they just call
+it Tor.
+I left a space above it because that's,
+that's kind of the bigger guns,
+but there's a, there's a, you know, smaller,
+easier step
+you could take along the way if you're
+not quite as,
+you know, quite paranoid enough to go to
+jump all the way to Tor,
+right?
+Great. Yeah. VPNs.
+Virtual private networks.
+And these are, these are, these, you know,
+can be and are used for anonymity,
+but they're used for other purposes too, right?
+So, you know, the ideas, you know, very
+basic, you know,
+you just sign up with a service,
+they run a proxy that relays all your
+traffic,
+you set up your device to, you know,
+relay all your inner internet check traffic through
+their
+relay proxy before it actually goes out to
+wherever you're
+browsing to, right?
+So it's, so it's,
+client,
+VPN relay, right?
+To the destination, to the server, right?
+So yeah, one, one hop, one intermediate hop
+relay.
+So that's,
+goes with VPNs.
+Yeah. So, so these can be and are
+used for anonymity,
+but they can also be used for other
+purposes.
+And they're popular for other purposes too.
+You might be aware, right?
+So, for example, just getting around geographic restrictions,
+like this service only serves people in the
+US
+and you don't look like you're coming from
+the US,
+so we're going to deny you service,
+or you're going to get a different catalog
+than the one,
+the different set of movies than the ones
+you want to watch,
+you know, whatever, right?
+So, so yeah, easy way to pretend to
+be in a different country
+to get access to different set of services.
+And, you know, maybe that's the bigger,
+more common use case for VPNs these days,
+even than privacy,
+but they still, they still typically,
+you know, market themselves on privacy.
+There's also a, actually, let me,
+let me move Tor once,
+a lot farther down because there is another
+intermediate step
+between VPNs and Tor, anybody?
+That's actually widely deployed
+and a lot of people are using, in
+fact, I use it.
+Yeah.
+Yeah, it is.
+Right?
+Yeah, it is.
+TLS, yes, but it's not.
+So, TLS is absolutely ubiquitous now
+for encrypted communication with the ultimate website,
+that you're talking with.
+So, TLS is kind of orthogonal.
+You know, hopefully all of your connections
+are using TLS indeed,
+but you use TLS for the end-to-end traffic
+from the client to your ultimate destination
+and neither the VPN relay nor anything else
+in the path,
+you know, should ever or needs to, you
+know,
+kind of be part of that TLS connection
+normally, right?
+So, TLS protects the end-to-end communication
+between source and destination.
+And then, you know, kind of the VPN
+relay
+is just kind of like, you know,
+pretending to be a bump in the network,
+right?
+So, it's not, so, you know,
+it's definitely helping your general privacy
+by, you know, protecting the end-to-end traffic,
+but it's not really making you anonymous per
+se, right?
+Because it's, you know, it doesn't,
+it's just a layer on top of TCP.
+The two TCP IP address endpoints are the
+same, right?
+With or without TLS, you know?
+So, but yeah, kind of right between VPNs
+and Tor,
+you know, the one-hot relay and the three-hot
+Tor, yeah.
+you know what I had in mind there
+but yeah it's a it's another certainly workable approach to
+to anonymity online yeah so has anybody heard
+of apple private relay sorry you
+bingo apple private relay yeah if you haven't
+heard of it it's it's uh it's one of apple services
+that's an optional kind of iCloud related service
+that you can it's basically just a button you can
+click uh
+oops
+and if you click that button that enable
+this service then basically whenever you're online
+when you're whenever you're going online um it's
+behind the scenes basically picking two
+intermediate hops it's a two two intermediate hop
+relay service um those two intermediate hops are
+run by run by apple um and they
+are typically in the same country or the same general geographic
+region you are so apple does not is
+not trying to compete with the VPN providers it explains you
+know they deliberately do not make it possible
+to lie about your you know what country you are
+using apple private relay you know you're always
+you know kind of the relay you'll get is always in
+the same country as you so it always
+you know kind of never lies about what country you're in but
+it you know in principle kind of obfuscates
+where you're coming from you know your connection is
+just coming from looks like it's coming from
+you know one of these bazillion you know apple servers
+in this general region right um and they
+even you know they they even take some some care to
+integrate it with other parts of the operating
+systems like the like the email system so when
+you're uh when your email your rich email
+is loading attachments um uh it'll be loading
+those attachments through private relay too so that
+the whoever is serving those attachments
+hopefully doesn't automatically figure out oh you know
+this is this is who's loading this email and
+yes my spam has succeeded right because this
+is a common kind of spammer's techniques and rich emails
+and then track you know where the requests
+for the attachments come from you know to see okay
+i my spam got there there there there
+and what else can we do with these IP addresses right so you
+know you know this is this is some
+of the many clever tricks the scammers play and you know apple
+has done some some good work uh you
+know to fight fight against this with some of these mechanisms yes
+I'm not an expert in all of the
+counter scam, cyber espionage kind of stuff.
+Certainly if we're talking about police and spy
+agencies and law enforcement agencies,
+they typically have access to a lot of
+tools that use exploits basically.
+If they have a target, they think a
+scammer is there at that IP address and it's running
+this slight, this old enough version of this
+operating system, oh, maybe we can send them
+an exploit and take over their operating system
+and turn on their camera, that's one way that
+it can be done.
+That's all, typically using the right software exploits
+is the general process and that's
+a huge, huge thing.
+That's what most of the law enforcement and
+spy agencies rely on as their bread and butter
+for this kind of thing.
+So the client makes a connection into this
+cloud of Tor relays,
+say to a first hop, then a second
+hop, then a third hop, and then out to some server, the destination.
+And the Tor people have particular justification for,
+well, why three hops?
+There's some interesting technical justification for why not
+two, why not four.
+But, well, just to dig into that a
+little bit, I mean, why more than one hop to start with?
+Mm-hmm.
+Well, with any of these relay-based approaches, there's
+going to be what we call an exit relay,
+kind of the last relay on any chain
+is going to be the relay that traffic looks like it's coming from to the external services.
+Right? So if you're looking from the perspective
+of the server who might be trying to track the client,
+any of these things are going to be
+kind of aggregating a bunch of clients' traffic into, you know, kind of traffic emerge that appears to emerge from this small set of exit relays.
+Right? So in that sense, I don't think
+the number of hops changes. I might be misunderstanding your question though.
+Yeah. But yeah. Yeah.
+Exactly.
+Yeah, exactly. You're with the VPN single hot
+relay, you're placing all of your eggs in one basket, as we say. Right? You're completely trusting that one party with your, that one server, that one relay.
+Because that relay knows, you know, sees both
+endpoints. It knows where the connection is coming from, where it's going to. Right?
+So it can completely de-anonymize you all by
+itself if it wants to, or if it's forced to, or if it's hacked, or, you know, speaking of exploits.
+Now, so that you can clearly see the
+motivation for Apple, you know, the Apple private relay approach of, you know, having two hops. Well, neither of those, neither of those two servers, at least individually, can see both connections.
+The first server sees where you are, your
+true IP address, where your connections are coming from, but it doesn't see where they're going to.
+The second server sees where your connections are
+going to, but doesn't see where their connections are coming from.
+I think you just see them coming from
+the other relay on your circuit. Right? So yeah.
+That's arguably a good hop, good improvement.
+So Tor, of course, you know, takes it
+one further step by having this middle relay. There's the entry relay, the middle relay, and the exit relay.
+And I would have to go reread the
+Tor paper, which is by the way one of the optional readings, if you're interested, for the reminder of exactly why they felt that the middle relay was really having a middle relay was really important.
+But basically, you know, it further reduces the
+chance that, you know, even two colluding relays could automatically de-anonymize you. Right? So yeah, so it makes sense.
+On the other hand, yeah, so Tor is
+a very, very interesting.
+I'm getting...
+Approach to getting anonymity. Let's...
+Let's look at it a little bit.
+So I kind of...
+Briefly, let me just blow up that picture,
+so we've got the client,
+the...
+Some relays and...
+The client is choosing some random path through
+some selection of the relays and, you know, making a connection to the server. Right?
+So without getting into too much technical details,
+actually, coming back to the encryption, what it's actually doing is it's opening, not TLS, but kind of TLS-like connections.
+So first of all, to the first relay
+and then through that, kind of using the first relay as a VPN to open a second connection through to the second one, and then uses those first two to open a connection through all of them to the third one, and then uses all of those three to wrap up the final end-to-end TLS connection to the final server.
+So that's why it's kind of an onion,
+especially at the client's side. Yeah.
+So this is a circuit-based protocol.
+When you first want to start talking to
+a particular destination, it's got to set up this whole set of circuits, kind of one hop at a time.
+This takes a little while, but then once
+those circuits are set up, they persist for minutes, hours, however long you're talking to that destination before they shut down.
+And each of the relays along the way
+keeps its state, keeps its ephemeral keys so that it can forward traffic, decrypt and forward traffic in both ways fairly efficiently.
+And so that's how Ford gives us relatively
+usable interactive speeds for browsing, even though your traffic is popping all through all these servers all around the world often.
+So it's still pretty typically a pretty noticeable
+slowdown, because it definitely costs, but it's usable. You can do private browsing.
+Right. So, yeah, so the clear attraction, you
+know, stronger anonymity, right?
+So, yeah, so since it's break time, let's
+go ahead and take the break and we'll talk about some of the limitations and weaknesses of Tor and when we come back and other anonymity technologies.
+Okay, let's continue. Yeah, so to continue on
+Tor a little bit more.
+Actually, one of the additional features I want
+to mention, this is just the kind of usual client to server picture.
+But Tor does more than that, right? So,
+you know, this is if you just want your identity, your identity as a client protected from some server, some normal server on the internet, right?
+But what if the server also wants to
+be anonymous?
+Right. Is that possible?
+Why might the server want to be anonymous?
+So, Tor in fact has this nice feature
+called hidden server hidden services.
+Yeah.
+Oh, interesting. Yes.
+Yeah.
+You're right. Good. You're right on. So, let's
+get I'll get there in a minute. So first let's focus on the the actual capability, technical capability and then we'll talk about what it gets used for.
+So, yeah, you know, one way, you know,
+you use Taurus through this three hop connection to the external server but what is what what you can do and what some servers do.
+You have a hidden server, which basically behaves
+like a client, right? It forms its own connection through three hops.
+And then at the last hop, it basically
+kind of posts its kind of its hidden service ID, which is basically a cryptographic, you know, a cryptographic thing.
+It looks like a, you know, kind of
+a instead of the usual URL, it looks like just a long IP address where the usual domain name would be.
+But this is basically, you know, a registry
+that Tor maintains of the current hidden hidden services that are running.
+And, you know, none of the Tor relays
+know where these hidden services are actually running because they only know, you know, some set of exit relays that know how to reach them, right?
+That these are the exit relays that the
+hidden service has opened a connection to in order to receive connections from outside, right?
+And so if this is client, you know,
+a client like Alice, who wants to go to the hidden service, then she's going to use her normal Tor connection to her normal exit relay.
+But then instead going out to, you know,
+the external world, it's basically just going to hop over here to this other relay in the Tor network.
+Well, it's going to, you know, look up
+there. Okay, who knows this hidden service. There's some technical stuff, hash, hash, and stuff going on. We don't need to get into the details now.
+But it's going to find, you know, one
+of the hidden services, exit relays.
+And then Alice's connection is going to, you
+know, go through Alice's three hops, then over to the, you know, exit relay of the hidden service, and it's going to go back the other way through the network to the hidden service, right?
+And that's the entire path of the request.
+And then the reply goes through the same six hops on the way back, right?
+All traffic, you know, to between the client
+and the hidden relay is normally going to go through six hops, rather than just three, right? Because the first three of those are protecting the user, the other three are protecting the hidden service, right?
+So, yeah, so, you know, it kind of
+works.
+And in fact, quite a few companies, and
+I even, even Apple, I think, and Facebook, I can't remember, various companies have actually made their regular servers, regular web service, also available via a tour hidden service.
+So they're not trying to hide at all,
+like everybody knows where to find Apple or, you know, Facebook or something, right? Why do you think they would do that? But, you know, sometimes you can also find, yeah, they advertise, yeah, you can find us on tour at this, you know, cryptograph, cryptic hex string, right?
+And you go there, and it's that website
+again.
+Any idea?
+It's kind of a one way to see
+it as, you know, just for, you know, just to oriented toward, you know, kind of toward privacy purors, toward the privacy crowd. Well, you know, we just like to, you know, interact with, you know,
+kind of makes it a tour native, you
+know, experience if you really want to live in the tour bubble, right? But that's probably not the most common reason.
+Another reason is, you know, for those clients
+that want to, you know, have reason to want to be anonymous, it can actually make the servers better.
+Because, well, especially if the server doesn't actually
+need or want all those three hops, the server can make a shorter route, right?
+Can can only go straight to the exit
+relay, publish its record on, you know, in tour, then the client, you know, is actually going to be connecting basically directly to the, you know, to the quote unquote hidden server, but not very hidden,
+but using this using this this hash ID,
+and, and, you know, way it's a way to more directly cryptographically authenticate, you know, the server you're you're trying to go to so you know there's there's some some subtle reasons there that that can be useful but
+Yeah, but okay, but let's come back to,
+you know, kind of the interesting applications, you know, besides. So, yeah, you're you're right.
+So this, you know, and, and there's, there's
+a term for this particular use of hidden services that has become kind of ubiquitous I don't think the tour people created it but Hollywood certainly has, it's a, you know, football that Hollywood has certainly carried and run with right.
+Great.
+The dark web.
+Yeah, so often in movies it's just used
+as a generic generic term like you know kind of, you know, like, yeah, there is this hidden dark web out there and let's pretend nobody, you know, nobody reputable, you know, actually knows what it is or where it is because it's just out there somewhere right but
+And you know these days, yeah, there are
+probably multiple dark webs but the original dark web is tour hidden services that the tour hidden service dark web right you know that that ecosystem in which, indeed, a lot of
+you know online vendors of shady gray market
+to black market products of different kinds put their services up as hidden sovereign hidden services right so vendors of illegal or not quite but suspicious you know because so
+yeah, so, yeah, speaking of fake IDs. Well,
+that's, that's one place to go. Right.
+There's all kinds of other things you can,
+you can find in these.
+Yeah, that's right. Yeah.
+Exactly the enemy of your enemy is your
+friend. Right. Exactly. So yeah, help the enemy of the other government you don't like by. Yeah, helping.
+Yeah, because yeah, regardless of you know where
+you are in the political space in that case you know you are supporting somebody else's freedom fighters. Right. Yeah, that's so.
+Yeah, indeed. So, so there can be many
+motivations including, you know, very express government supported, you know, and well financed motivations for, you know, running and supporting these kinds of dark web services right and some of them are, you know,
+okay there there's reasonably arguments that well you
+know some of some of these things might be technically illegal in some places but they shouldn't be right.
+Some some are, you know, illegal in certain
+places but not illegal in others and you know, having them available is a way that you know people who you know to whom these products should not be illegal but they're temporarily in a different country where they are
+temporarily going you know kind of they can
+legitimate you know so there are arguably plenty of legitimate uses for for these two right.
+But it does.
+So,
+you know what one of the one of
+the conundrums of the whole tour community has always been that well, you know, when you focus attention on just the regular client to ordinary server on the ordinary Internet that kind of connection.
+It's probably almost certainly true that the vast
+majority of that connection is just from privacy conscious people trying to, you know, avoid getting tracked and, you know, or, or, you know, and not trying to do anything illegal per se.
+In fact, many of the users of regular
+tour are include, you know, investigators for government investigators private investigators who want to investigate suspicious shady website out there on the regular Internet, and don't want to be immediately
+tagged as cops coming coming to poke around
+right.
+The fact that the whole tour is useful
+for, you know, the good guys do for sure. They, as the tour people, you know, regularly point out. On the other hand, it's a little, you know, kind of what percentage of the use of hidden services is legal versus not so legal.
+That's, that's a tougher, tougher question. So I'm
+not sure if anybody has has done studies of that more recently, but yeah, so, so it has often been the case that, you know, kind of you can expect that a high percent pretty high percentage of the hidden services are shady to illegal, you know,
+towards that that side of the spectrum, right?
+Not all but
+Yeah, so
+So there's the
+There's the
+Both the again both the appeals and risks.
+Okay, but
+The tour is, you know, by far from
+perfect either right so it's not
+So this
+For better or worse this anonymity is also
+quite imperfect
+So in particular from the very start there's
+it's been known that tour has been like all you know VPN relaying based approaches is weak to
+Traffic analysis
+So what this means is, you know, there's
+various ways to do this.
+But here, here's one one simple example. Suppose,
+suppose Alice is going to this hidden server on the dark web, right, and both the hidden server and Alice think that their anonymity is strongly protected, but it so happens that Alice and the hidden
+server that she's connected to are both in
+the same country and even maybe on this using the same ISP right so they're in the same country same region or you know under the same ISP and so there is an ISP here
+That has routers along Alice's connection into the
+tour relay and also there's a there's a router, you know, another router on the same ISP or ISP that's also in collusion with the cops or you know the spy agency whoever you care about that is also on the route out of tour to the
+hidden server now. And we're completely ignoring any
+the possible corruption or of any particular tour relays that's possible to by the way, you know, but even if there aren't any.
+And suppose there's there there just happened to
+be these two routers, and these two routers are watching the traffic that goes past, right. And let's call these routers a and B, right. A is going to see some connection it doesn't know what it's what else is associated with and it's
+going to see some encrypted traffic that goes
+that's going by there but it's going to have, you know, watch this connection it's it's going to see some blips in some pattern right.
+And so B is going to see some
+particular size with particular timings, right, and B is going to see some connection and probably slightly time shifted with some noise added.
+It's going to see, you know, a not
+too different pattern of blips of, you know, kind of usage pattern. Right.
+And so there's a well known statistical techniques
+to that actually work very efficiently and very scalably to compare signals. Right.
+Well, you know, among a big massive signals
+are the any two signals that look like just, you know, pretty close to time shifted versions of each other. Well, bingo, right. This kind of attack will, you know, basically immediately reveal that Alice is talking to that hidden server.
+You know, and you didn't have to track
+everything all the way through the tour network, because it just relies on the fact that well, you know, a packet that goes in from Alice and you know and comes out, you know, is going to come out toward the hidden server with some fairly low,
+reasonably predictable time delay and same with packets
+going back the other direction. Right.
+I don't know. So, you know, this attack
+has been known to be possible for a very long time since the beginning of, you know, since Tor was created and and it was just seen as a hopefully not too likely attack that not many, you know,
+ISPs or governments would have the ability to
+to exploit. Yeah.
+Yeah, absolutely. Yeah. And, and there are arguments
+to to doing that. On the other hand, one of the problems with anonymity is it, you know, if the attacker, who's trying to track you is watching for a long period of time, changing your route or things like that can can can
+can just as well hurt your anonymity, then
+help it.
+If, if there's anything correlatable between the two,
+you know, between your different kind of between your changes, right, because, you know, if they are correlatable at all, and they might be correlatable because, you know, you're, you're continuing a long term conversation with the same destination hidden server so maybe that's, you know, a point of correlation
+right or, you know, you know, the hidden
+server itself might be corrupted and, you know, kind of being and, and, you know, that's one of many ways where different connections from different points or through different routes might actually be be correlated.
+And if they are, then having your changing
+between routes actually gives the attack it like if the attacker has also corrupted some of the, you know, infiltrated the tour relay network, and also own some of the relays, which we can bet every every spy agency in the world probably
+has some number of tour relays just for
+this purpose right.
+Then the more changing you do increases the
+chance that one of those connected routes that you have randomly chosen is going to go through the adversaries, you know, one of the adversary servers right and and then the adversary only needs one to correlate the others and figure out exactly who you are.
+Right. So, it's a very difficult, you know,
+kind of potential, you know, kind of being dynamic versus making one guess and sticking with it. Right. It's a very difficult, you know, calculate cost benefit calculus because there are things that can work better and things that can go
+disasterously wrong each way. Yeah.
+Oh, I'm glad you asked that question.
+Well, probably not, unfortunately.
+Um, so it from from a certain perspective.
+Yes.
+I mean, there are.
+So, let's say,
+provable.
+There are or unconditional.
+Anonymity.
+Protocols.
+So, unconditional, you know, make that that comes
+with a big asterisk up there because, you know, kind of they all come with conditions right so they all make assumptions whether cryptographic assumptions or you know threat model assumptions so but what I mean there is protocols that are not vulnerable to this kind of traffic
+unless it's like they do not.
+They're not, you know, assuming the other the
+cryptographic and other, you know, threat model assumptions are satisfied, you know, no, you know, they can resist even an attacker who can watch everything right and omniscient attacker right.
+So, a couple, here's a couple interesting examples
+of such protocol.
+This is called a cascade.
+Mix net.
+Now I didn't talk about mix net so
+you know if I was if I was getting deep into anonymity I would first talk about mix nets before talking about tour because this was. Whoops.
+I'm going to say, lose my screen.
+There we go.
+Yeah, so mix nets were actually kind of
+the message the high delay this way the mix nets where the use net era version of tour before before, you know, interactive interactive web browsing, you know, and tour came about.
+But one way you and mix nets, you
+know, use something similar to this onion routing idea but but kind of add a message or packet level.
+And one of the things you can do
+one of the ways you can do this is have several servers ideally run own and run by independent parties.
+And you can take a bunch of a
+bunch of messages in a, you know, ideally big batch right message one through message K.
+And assume they're ready all at once in
+a big batch, right. And this whole batch of K messages goes into the first one. And we run a protocol of a mix or shuffle.
+And there's many kinds of these shuffle protocols
+the you know some simple ones and there's some much fancier cryptographic ones so a very interesting space of cryptographic algorithms is a proof of shuffle.
+And cryptographically prove that I correctly mixed or
+permuted a set of ciphertexts so you know, kind of outcomes the same set of, you know, messages only all mixed up and one is somewhere here and K is somewhere here and everything else is in some some random permutation that only that first mix server knows
+right.
+But if you do a proof of shuffle
+you can prove in zero knowledge that this is a correct shuffle I didn't add remove or change anything. Right.
+But nobody knows nobody but me this this
+mixed server knows what the exact permutation is so it's anonymizing it right.
+And you ideally get several mixed servers, you
+know, in independent under independent authorities to do the same thing.
+And they're kind of doing their own independent
+picking their own independent permutation outcomes, ultimately a permutation of what what went in. Now, again, you know, kind of under appropriate cryptographic and other threat model assumptions, you can prove that, you know, this protocol can preserve
+the anonymity, the anonymity of the, the ciphertext
+that went in the beginning, you know, and and present and also preserve good properties like correctness, you know, of the result coming out.
+Even if an adversary owns all but has
+compromised all but one of those mixed servers, and is watching everything on the network. Right. So this is a very powerful adversary that this kind of protocol can resist.
+And so that's, that's nice. Right. But you
+also see the kind of downside to this, this protocol right.
+Yeah.
+And they all, you know, to, to, to
+have this nice provable property. These requests all have to kind of come all together in one big batch, which means like if you're relying on kind of messages trickling in from lots of different parties.
+You know, everybody's message, you know, that arise
+first is going to have to wait until some big batch size has been, you know, it's just inherently a very high delay protocol if the messages are coming in, you know, trickling in over time, right.
+To more to get more anonymity, more security,
+you need a bigger batch size, that's going to mean more delay right and so this really only there's no not a chance at all that this is going to provide support interactive, you know, browsing of the kind that core tour was designed to do
+right.
+So that's the you know, it is, it'll
+never be a tour replacement replacement, right.
+And that's why this appeal.
+On the other hand, there, there is one
+very interesting application that this is quite good for, and it actually gets used for.
+So, there, there's a very specific application of
+anonymity that's very relevant to democracy.
+Yeah, voting, electronic voting, right, including the Swiss
+post system, the Swiss post has their electronic voting system.
+We'll talk about that on the last week,
+a little bit more, but that actually uses this particular structure.
+And it works fine in that case, because
+well votes are are very kind of the mixing only needs to be done once at the, just after the end of the election once all the, all the votes are collected by by ciphertext and the process of collecting a vote is basically
+already the process of collecting a big batch
+of slips of paper right and balance right.
+So, you know, in that case the application
+is naturally, you know, kind of this this structure is naturally naturally adapted to the application.
+Right. So, so that that works well there.
+There's another nice provable or unconditional anonymity protocol
+that I want to mention briefly called the dining cryptographers.
+Any of you heard of this yet, probably
+not, you've heard of dining philosophers though right.
+No, you'll get those in algorithms if you
+haven't yet. So when you take an algorithms course the dining philosophers is is a classic computer science proof of like an impossibility proof but this is a possibility proof not an
+impossibility thing. So the dining cryptographers is this
+really. So, so now, you know, one to give credit where credit credit is due mix next we're invented by this brilliant geek who I happened to know named David Chow.
+I think it was in like 1982 or
+something like that.
+Dining cryptographers were invented by this brilliant geek
+named David Chow.
+A few years later in 80 I can't
+remember six or nine and also later eighties.
+I know these are these two foundations for
+anonymous communications are all there is like I haven't like, you know, all of the tour and VPNs and all of the other appropriate all the other approaches to anonymous communications that I've ever seen and there's a lot of them.
+So I'll boil down to one or, you
+know, foundationally one or one of these two. So basically David Chow invented anonymous communication as as we know it.
+But so dining cryptographers is interesting as a
+contrast, because it does not rely on relay. So here's how it works briefly. So the illustration is you've got a some cryptographers sitting around the table.
+Just for simplicity, I'm going to pretend there's
+only three. So Alice, Bob and Charlie, there can be more.
+They're they're sitting around a table having dinner
+and the waiter comes and tells them well your dinner has been paid for by someone who wants to remain anonymous.
+Now these cryptographers being the suspicious cryptographers they
+are, they know that the NSA spooks are sitting at the next table, and they don't trust them at all and so the cryptographers are wondering okay was it one of us who paid the bill anonymously.
+If that's the case then all good, but
+or was it those NSA spooks over there that's trying to mess with us. Right. So we want to know if one of us paid the bill anonymously, or if it was someone else.
+So the cryptographers need basically a way to
+broadcast one bit of information but of course if it was one of them then they want to respect that anonymity because you know cryptographers are privacy conscious people right.
+So, you know they need to allow one
+of you know any of Alice, Bob and Charlie to say yeah I paid but keep who paid anonymous right so here's here's how they do it.
+So, each pair of cryptographers flips a coin,
+a random coin that only the two of them can see, like below the edge of the table or the third cryptographer, the other cryptographers can't see the coin.
+Right.
+And these are going to be zeros or
+ones let's just say for example this comes up one this comes up comes up zero and this comes up as another one.
+So, each of these coins can be seen
+by two cryptographers.
+Now what the cryptographers now.
+Let's say just for the sake of argument
+that it was actually Bob who paid this.
+Now what Bob now Bob wants to broadcast
+his additional one bit of information saying I paid but one that wants to be anonymous.
+What the cryptographers do is those who didn't
+pay. They look at the coin to the left and to the right they can they look at the coins that they can see X or them together and write them on an napkin on the table right so Charlie sees a one and a zero on on the side so he so X or is them into a one.
+So, the cryptographers can see also a one
+and a zero. So she's going to X or them together to get a one.
+Now Bob, who in this case actually paid
+sees to the two points you can see which is two ones, he's going to X or those together but he's also going to X or in his additional one bit.
+Right, so one X or one X or
+one is going to be one. Right.
+So, I should have put that here. Right.
+So now all the cryptographers can see these napkins on the table and they all they can all X or them together.
+And one one X or one X or
+one of course is one. And that just so happens to be the same as that.
+Magic, right. Why is this why does this
+work.
+Is it intuitively obvious.
+And it's always going to be that way
+if Bob didn't X or that in, then a zero would come out in the middle of the table.
+What's the key algorithmic idea. All you have
+to know is how X or works.
+exactly two napkins. Therefore, in the big final
+XOR that XORs all this together,
+all of the coins cancel out, right? Leaving
+only whatever was not a shared coin, right?
+Whatever was not the result of a shared
+coin, which is this bit that Bob XORed in or not, right?
+Yep, good. And you can also prove information
+theoretically that this protocol reveals absolutely
+nothing about which party sent that one bit.
+You know, if you see a one bit, no information at all
+about which cryptographer was responsible for introducing that
+one bit, right? So in that sense,
+it's absolutely perfect information theoretic anonymity, which you
+can't, you know, it's even
+better than the cryptographic anonymity that you can
+get with a cascade mix in principle, right?
+It's also nice in another way that mining
+cryptographers is actually parallelizable.
+This stuff can be done at once. Now,
+there's a lot of interesting challenges to make that practical.
+That has actually been the topic of quite
+a bit of my own research in the past years. So I
+had a phase in which I was doing
+a lot of research projects on making
+dining cryptographers communication practical and including a former,
+one of my first PhD students
+here at EPFL did something like this as
+his PhD thesis. And so it's interesting, it's still not,
+it's not a Tor competitor in terms of
+that kind of application. But you know, there's interesting
+things you can do with it. Now, yeah,
+any questions or comments? Yeah.
+Good question. Yes. So, absolutely. Now, so, yeah,
+you want, you want to broadcast many bit messages,
+not just one bit message. So conceptually, what
+you do is just rerun this protocol many times over
+and over for each bit you want. And
+then you basically are producing a broadcast, a shared
+broadcast chain, right? Where, you know, whoever wants
+to can can broadcast is kind of like an old
+fashioned ethernet where, you know, you had one
+wire and one person can broadcast at a time if two
+parties broadcast at the same time it collides
+and you get nothing. And so somebody has to back off,
+like ethernet CSMACD if you're, if you're familiar
+with that. But, you know, so there's ways to deal
+with that in principle. But also, once you
+do bring in cryptography, there's ways to make that
+very efficient, right? So these are just, you
+know, kind of random coins that can be generated in bulk
+by, you know, cryptographic hash algorithms and stuff.
+So, so it's, you know, there's a lot of
+challenges to making this work in practice. But,
+you know, just getting many bit messages is one of
+the easier challenges. One of the harder challenges
+is, well, what if any single one of these cryptography
+is just misbehaving and wants to just jam
+the channel, like prevent anybody from talking, right?
+Well, all the cryptographer needs to do is
+constantly XOR in random bits instead of doing
+what they're supposed to, right? And there are,
+that'll, that will perfectly jam the channel,
+make it completely useless for any, any, any
+communication. And also the disrupting cryptographer
+is also has perfect anonymity. So nobody can
+tell who, who to kick out, right? So that's, that's a
+problem, right? And so, you know, some of
+my research and others have focused on that. So,
+so, you know, making it more, you know,
+resisting those, those kinds of disruption, disruption attacks.
+Right? Yeah. But, yeah, so, so, you know,
+and there's ways to do that too.
+So, okay, so, so that's, that's, you know,
+kind of an overview of some of the interesting,
+you know, technologies for anonymous communication. So we
+only have a few minutes left. I want to,
+whoops, I want to briefly mention a few
+other, you know, less particularly communication oriented
+technologies that, that make me cautiously optimistic that
+some of these tensions between
+identity and anonymity can actually be resolved. So
+I last week I introduced, I mentioned the word
+accountable anonymity. So there's many things that this
+can mean and has meant in different details,
+but, but, you know, the general idea is,
+you know, can we enable people to be, be anonymous,
+like have even very strong anonymity, not, you
+know, not just Tor level of anonymity, but even,
+you know, kind of a perfect anonymity ideal,
+ideally, but not make, make those anonymous
+channels vulnerable to misbehavior. Now, just to give
+you kind of a quick selection of a few
+tools that are interesting and can be used
+for this, one is known generally as anonymous credentials.
+So these are typically cryptographic tokens that, that
+are kind of like the ones that you
+would use in say a self sovereign identity
+protocol to prove your identity, except you're not proving
+your identity, you're instead proving something about your
+identity that doesn't reveal your identity.
+Right. So there's many kinds of anonymous credentials,
+like proving the right
+proving the right to access a particular service,
+like say, I, I prove that I am a legitimate user
+who has access to this service, like I
+am an EPFL student who has the right to access this particular
+EPFL server, right, without actually revealing your super
+number or anything about you that
+directly would link you to say which EPFL
+student you are, right. So, so you can do that, that kind
+of thing with anonymous credentials or having a
+particular, having a particular property
+or attribute. For example, coming back to that
+age example of self sovereign identity,
+like I have an anonymous credential that proves
+that I am over the drinking age. So, hey, give me
+the, the drink please. So you can do
+that with anonymous credentials. Another thing is
+prove membership
+in a particular group or also that we
+can also call an anonymity set.
+Right. So say there's a, say there's a
+particular group in which, for example,
+maybe the actual members are well known, like
+the board of ACME Incorporated, of some company,
+right. So the board members of this company
+are, you know, publicly documented or, you know, or,
+too appropriate people, but you want to prove
+to, or, you know, you're a member of some group like
+this, you want to prove to somebody, maybe
+to other members of the group or maybe to somebody
+external, like a, like a reporter, because you're,
+you want to whistle blow on this, on this company.
+This company is involved in misbehavior and you
+want to be a whistleblower, right. Or, you know,
+various, various purposes. One thing you can do
+is prove using an anonymous credential of some kind,
+I am a member of this group, right,
+without revealing anything about which member you are.
+Right. So, kind of, so if you're like
+trying to prove to the report, you're the whistleblower,
+trying to prove to the reporter, you know,
+in principle, you can prove, yeah, I,
+I am, you know, have this status and
+have access to the information of, you know, misbehavior that
+I'm about to leak to you, right, without
+at least immediately revealing, okay, exactly who you are.
+Right. And there's, you know, there's ways to,
+right, out of time, there's also ways to use this.
+So, just briefly, related to this, we can
+create systems for anonymous
+reputation. So, allow users to participate on a
+deliberative or collaborative forum, post messages,
+an upvote or downvote, like or dislike other
+people's messages, and accrue reputation that you can use later
+without actually revealing who you are, right. So,
+make, make your anonymity non-disposable,
+right. So, you can, you don't want to
+misbehave because you'll lose the reputation you have,
+but nobody, you're not under, never under threat
+of being de-anonymized. So, we had one past project
+called a non-rep that was exactly about this,
+and it's a, it's an optional reading on the,
+on the Moodle page if you're interested. And
+of course, there's also
+anonymous cryptocurrency, which of various kind, which is
+a very interesting topic too,
+a digital cash, which David Chowm was also
+the inventor, the original inventor of basically,
+right. So, such as zero cash, which is
+also one of the optional readings, there's a lot,
+a lot of interesting stuff there too. So,
+yeah, so, so these are, you know, some of the many
+technologies that, you know, it's clear we have
+a lot of tools to, with which we can, you know,
+there are ways to make progress on resolving
+the, you know, kind of identity versus accountability
+conundrum, if we can figure out how to
+use them, right, and combine them and make them, make them
+really usable. So, you know, but it's, it's,
+it's very much a work in progress. Yeah. Okay.
+Yeah. Well, thank you. So, so, yeah, see
+you next week.

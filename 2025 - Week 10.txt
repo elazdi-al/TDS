@@ -1,0 +1,1246 @@
+These subtitles have been generated automatically
+Okay, welcome back.
+We've been talking about a
+bunch of different mechanisms,
+ideas, technological in some cases,
+economics, some cases, political,
+for different mechanisms
+that I've tried to adapt democracy or affect
+democracy
+in different ways.
+So now, starting this week and for the
+next couple of weeks,
+I want to kind of step back and
+look
+at some very, in the context of some
+of these ideas,
+look back at a very fundamental issue
+and focus on the general topic of, let's
+say,
+digital identity versus privacy and even anonymity.
+All right.
+So this has been an issue and attention
+from the very beginning, the formation of the
+internet,
+well, and long before, but kind of the
+notion of identity
+versus anonymity and our attitudes towards the balance
+and our attitudes around these issue really strongly
+affected the way the internet has formed
+and our basic parts of the internet.
+And it's really important to, in the way
+we think about,
+interactions on the internet today as well as
+in the past
+and in the future, right?
+How do we do identity?
+And when do we want or need identity
+for what purpose is?
+And when do we not want identity?
+When do we want the lack of identity?
+Right.
+So and the readings I gave you are
+kind of on what
+can go wrong if identity is not strong
+enough, right?
+And this is, sorry, a little under the
+weather here.
+My voice holds out.
+So maybe to set the topic broadly.
+So to what extent and for what purposes
+do you want stronger
+identities versus, say, risks of that and reasons
+you might want
+weaker identities?
+So can you think of kind of examples
+or arguments one way or another?
+Like for what purposes do you want stronger
+identities?
+What purposes would you think weaker identities?
+Great.
+Freedom of speech.
+Yeah, so it's an enabler, especially, you know,
+it's seen as an enabler of, say, protest.
+Resistance, you know, and general organization, especially in
+countries where people are not,
+you know, you know, don't have great freedoms
+normally, right? So yeah, you know, and from the
+very beginnings and the very foundations of the
+internet, the design of the earliest designers
+of the internet always had, you know, this
+in mind as one, you know, one way that, you know, kind of
+could, could the internet be a democratizer? Could
+the internet help people, you know, who don't have
+such great freedoms of speech? You know, could
+it help that, right? Yeah. Ah, yeah.
+Absolutely.
+Scams make, or weak identities make scams so
+much easier.
+If you, if you can, um, so, so
+the problem here is lack of accountability or, uh, or recourse, right?
+Right. And, you know, weak identities make it,
+uh, easy, you know, easy to, um, you know, impersonation.
+A lot of these scams, you know, rely
+in some way on impersonation, even if not impersonating a, you know, a real, a particular person, you know, impersonating some vague authority figure.
+I'm calling from the mail's up mayor's office.
+How many of you get regular phone calls from Swiss police department?
+Okay. Yeah. Yeah. So I'm surprised it's not
+everywhere. Okay. So I don't know. Do you know anything about that in particular?
+Yeah, yeah. Yeah, they do that in there
+too. Totally the FBI is calling you up. Yeah.
+So, you know, weak identities make, make that
+kind of thing easier. You, sorry, I, you wanted to say something earlier too, right?
+Yeah.
+Yeah.
+Mm hmm.
+Yeah.
+Things like just civility.
+Right. Kind of, um,
+so maintaining, you know, kind of reasonable
+behavior,
+incentivizing re, you know, reasonable behavior and holding
+people accountable if they're not behaving reasonably, like, you know,
+you know, uh, yeah, go ahead.
+Yeah.
+Uh huh. Yeah. Yeah. Absolutely. So, and there's
+two, two issues here, right?
+One which, you know, I think Instagram, you
+know, probably cares about a little bit, but not, you know, maybe you care about more is the, is the kind of invasiveness.
+Whoops.
+And especially the privacy invasiveness of identity, right?
+Having to show your ID, prove your ID.
+And do you really want to trust these
+platform, all of these platforms with all of that strong identity information.
+But what the platforms care about is, sorry.
+Ah, yeah. So what, what they want, right,
+is, is, uh,
+So, yeah,
+they want to track you to, to make
+more money advertising, right?
+So if you're, if your business is monetizing,
+you know, monetizing, you know, the internet, then yeah, you know, more tracking, more identity, you know, is better for that.
+Right.
+Yeah.
+Yeah.
+that identity comes at multiple levels,
+different levels of abstraction.
+And this is important in thinking about this,
+right?
+So there's the software
+or say platform level, right?
+Kind of who, how does Instagram know you
+or think they know you, right?
+Your account, there's also network level, for example,
+like IP address, right?
+And for other software that might use different
+proxies
+for your identity, there's,
+so there's other technological proxies for identity
+such as phone numbers, right?
+So, the way what's happened,
+any messenger apps traditionally identify someone,
+well, kind of we know you're someone with
+a phone number,
+that's what we care about, right?
+And, but yeah, it serves some purposes
+and not others, right?
+Yeah, another,
+another actually, so I actually should have put
+this
+over here because from the perspective of,
+the platforms and the advertisers,
+they want stronger identity for this purpose, right?
+So that they can sell ads about you
+and use your data to make more of
+a profit.
+But there's a very important reason that,
+if all of the platforms wanted,
+thought, we can't operate unless we check strong
+identities,
+they'd probably do it, right?
+They can afford it, but what's the real
+reason
+they do not do that, right?
+Even though, yeah, it would be totally good
+for their advertising bottom line, yeah?
+Well, I mean, they could write a contract
+saying,
+you cannot use Instagram or Facebook, et cetera,
+unless you show your ID, it's part of
+the terms of,
+they can put it in the terms of
+the conditions, right?
+Yeah, yeah, so, okay, yeah, there we go.
+So they are partly concerned with,
+like, do we want the exposure to this
+kind of trouble
+if we ask for strong identities and it
+leaks?
+So yeah, you're right, they are concerned with
+that.
+Yeah, yeah.
+You mean the platforms couldn't?
+Yeah, some of them want to be able
+to fake activity,
+yeah, potentially, but I'm not sure
+if that's a real strong reason.
+Some platforms are more kind of bot friendly
+than others.
+Twitter has been, slash X has been traditionally
+very like bot friendly, like, we love bots,
+right?
+A bunch of people's identity and everything that
+leaks.
+Absolutely.
+So this is certainly a big, you know,
+and I think increasingly increasing issue, right?
+So risk of leaks and, you know, exposure,
+legal exposure, financial exposure.
+If something goes wrong, you know, it's better
+not to have that kind of stuff than to, yeah.
+So, you know, many of the platforms do
+think that way.
+But there's actually another even simpler, more mundane
+reason that I know from talking to many of them that they do it, only do not want to stronger identities.
+Right? Yeah.
+Identity. Oh, use a patient like identity theft.
+Yeah.
+Why is that, why would that risk be,
+would that risk be stronger with, worse with stronger identities or better?
+Well,
+I think
+Yes.
+Mm hmm.
+Yeah. So, for example, yeah, like, you know,
+kind of this is already a well known problem with the habits of, you know, many hotels in many countries, you know, many of which are obligated to, you know, demand a for, you know, passport or form of ID, make a photocopy and store it there.
+And then somebody, you know, an insider or
+just anybody with that access to that box can go say, oh, this dude looks kind of similar to me.
+I wonder if I can get away with
+using his ID. Right. So, yeah, you know, this is not new to the internet, but you know, the same thing happened, the same risk happens like, you know, an insider in one of these platforms or something with that big access to that big identity database.
+Well, like this is a lot of, you
+know, goldmine for identity theft and misuse. So yeah, good point. But the mundane reason I have in mind actually has nothing to do with private privacy or security.
+It's totally stupid. Right. Convenience.
+Right. Just the inconvenience
+of, you know, ID verification and the potential,
+potential
+loss of users.
+Right. The platforms, you know, for many for
+like decades now, their number one mantra has been to achieve anything you want, you've got to grow, you've got to attract users, you've got to take a look at the
+world, you've got to get as many users
+as possible onto your platform in order to get your, get their eyeballs glued to your platform and sell them ads. So this, you know, of course figures into the advertising thing too.
+But, you know, to, to get advertising revenues,
+first you got to get the users and you do not want to impose roadblocks, you know, any, any more than necessary, you want to make it absolutely super convenient to sign on, you know, kind of get a get rid of any possible roadblocks
+and you absolutely have to. Right. So this
+has actually been the traditional reason that the platforms do not want to, you know, kind of impose any, any stronger checks, unless they really have to because well it's just, you know, it's just inconvenient, you know, and they do not want to scare users away
+by, you know, by, you know, invasive, you
+know, account creation, screening, you know, kind of processes that demand this and that and all kinds of stuff. They want a process where you say, okay, you want an account, okay, email address or phone number, you know, one basic thing, okay, you're on, okay, start, start browsing, start generating us advertising revenues, right.
+So, yeah. Now, we could envision maybe that
+being solvable, like if the internet had a kind of a common global identity framework if the internet knew how to identify people, right, but it doesn't, right, is kind of the platforms would have to, you know, each platform would typically have to do it separately, right.
+And so financial institutions do it because they
+kind of have to legally, but most platforms are pretty resistant, yeah.
+There actually are a lot of people without,
+you know,
+kind of legal documents, even some that officially
+have no legal nationality, stateless people,
+often refugees of many kinds are very,
+whoops, are very, very often in this category.
+Like you had identities, but it got, you
+know,
+burned in the war zone that got blown
+up or whatever
+when they had to flee, right?
+Yeah, yeah, so yeah, absolutely.
+There's these, you know, kind of ethical
+and exclusion reasons and, you know, coming back
+to,
+coming back to the basics of democracy,
+one of the principles is inclusion, right?
+Every, everyone, you know, should be included, you
+know,
+and we don't wanna exclude people from participation.
+And that's, you know, as we said, like
+right from the,
+you know, first lecture around about Usenet,
+that's one of the things that, you know,
+the early internet
+and Usenet really tried hard to, you know,
+be inclusive
+to kind of allow anybody to use it
+with no barriers
+or roadblocks and to a great degree, it
+succeeded,
+but, you know, and having weak identities
+was arguably part of that.
+And so it contributes to the inclusiveness of
+the internet,
+but yeah, it also contributes to these,
+these are the flip side problems, right?
+Good, yeah.
+Yeah, so, yeah, so these are good considerations
+to start with, start with.
+Now, let's,
+so let's focus a little bit on the
+particular problem,
+some of the particular problems.
+And then, you know, the symptoms, some of
+which we've,
+you know, we're kind of already mentioned here,
+like the, like the scans, things like that.
+But,
+but especially focusing on what we call, well,
+specific to computer science.
+But it's come into somewhat wider use.
+Any of you know what the term SIBOL
+comes from?
+Where did this term come from?
+So you haven't read the assigned reading yet.
+Shame on you.
+Nobody has read the assigned reading yet.
+Okay.
+That's okay.
+So it can.
+So it most recently comes from a great
+short paper called the SIBOL
+attack.
+Oops.
+By a great Microsoft researcher named John Dusser.
+But he didn't really invent the name later.
+Either he was in turn inspired by a
+much earlier event in what the
+60s or 70s.
+There was a book named by the title
+SIBOL.
+It was written by a psychiatrist or psychologist
+who has studied a
+particular interesting patient who had a particularly interesting
+case of multiple personality disorder.
+Like one woman who had like 20 some
+personalities in her head.
+Right.
+And it was a kind of super interesting.
+Just, you know, the book got got a
+lot of attention and was just
+very interesting because it was, you know, and
+this was a pseudonym,
+of course, for the real patient that doctor,
+you know, wrote a book about
+her, but didn't didn't use the real patient's
+name.
+So this is just the pseudonym that the
+doctor came up with for the
+patient, I guess.
+Right.
+So she was named with say SIBOL.
+Right.
+And John Dusser, you know, kind of around
+2000 ish when he wrote this
+book, you know, was observing how the internet,
+you know, has this
+seems to have this severe case of multiple
+personality disorder.
+Right.
+Which is basically comes from the weak identities.
+Right.
+So the fact that, you know, IP addresses
+by default are just numbers
+and don't automatically tell you practically anything about
+who's at
+the IP address or, you know, what they're
+doing or why or anything like that.
+And so it's basically about, you know, kind
+of the problems this creates
+for distributed systems and decentralized systems.
+If we want to build systems in this
+strong identity model, it tends to
+break a lot of things.
+It makes it easy to for a lot
+of things to break.
+Right.
+For example, as I mentioned, IP addresses,
+they're just information poor.
+They don't tell you anything about the reputation
+or kind of what, who's behind it, right?
+So that might be a problem,
+that might be a disadvantage,
+for purposes of scans and impersonation and stuff
+like that.
+On the other hand, it might be an
+advantage, right?
+I'm great. Hey, excellent.
+Who does? Yeah, no problem.
+Yeah. Yes.
+So only one of the problem is the
+actual weakness of the identity.
+The other big problem is identities are cheap,
+right?
+Disposable, right?
+And most importantly, very cheaply, automatically,
+synthesizable.
+And I'll even emphasize at scale, right?
+With computers, you don't, you know, if you
+don't have strong identities
+and you want to create fake identities on
+the internet,
+you don't have to be happy with one
+or two.
+If you're not happy with one or two,
+you can have a thousand.
+You can have a million.
+Just, you know, write some code, you know,
+and, you know,
+you can have as many identities as you
+want for pretty cheap.
+Yeah, you had a, yeah.
+In a minute, I'm gonna come to anti-Sibyl
+defenses, right?
+And this is an example, right?
+There's a number of interesting ways you can
+try
+to address the Sibyl attack.
+But before we even get there,
+I wanna emphasize that kind of there's two,
+the important point that there's kind of two
+fundamentally separate issues here, right?
+One is the fact that by default,
+say IP addresses or any kind of weak
+internet identity,
+even phone numbers to some degree are just
+numbers.
+They don't bring any information automatically
+about the person behind them if there is
+a person, right?
+That's part of the problem,
+which is relevant in some cases, right?
+The other part of the problem though,
+is the cheapness, the disposability
+and the synthesizability at scale, right?
+And these two aspects tend to get confounded.
+And but some of the problems we see
+with weak identities
+That's a pretty tough question. Hard to say.
+But I think, you know, I'm, as always, I'm an optimist. I see ways forward, right? You know, I don't, I don't know if they leave to a perfect solution or anything like that.
+like from the internet without any problems or
+anything that they're always going to have to rough on?
+Well, that's a tough question. That's a pretty
+tough question. Hard to say. But I think, you know, I'm,
+as always, I'm an optimist. I see ways
+forward, right? You know, I don't know if they lead to a
+perfect solution or anything, but I see ways
+that things could be made better anyway, right?
+And I think, yeah, one of the, and
+I think one of the ways
+things can be made better is to understand
+this separation, the, the, this fact that there are
+really two different problems, right?
+Right. So let me give you a couple
+examples, right?
+So let's call this problem A and let's
+call this problem B.
+So problem A, so, well, well, give me
+a, give me an example of, you know, a case that's,
+you know, a practical issue that happens that's
+very specific to, you know, problem A, the fact
+that identities don't have much information attached. Sorry?
+Hate speech. Yeah. Exactly. So great.
+You also had something? Yeah. Yeah. So, and,
+and these kinds of steps, right? You know,
+are already another good example where somebody is,
+you know, let's say carrying out blatant
+illegal behavior and using anonymity or, or the,
+the perception at least of anonymity
+to avoid getting caught or avoid being accountable,
+right?
+Right. So, so, you know, using, you know,
+anonymity or lack of a, of strong identity to
+avoid getting caught by the police and, you
+know, kind of, or, or, you know, by, you know, censored
+or anything for, for misbehaving, you know, right?
+So, yeah, so that's from the fact that, well,
+you know, identities don't let you track misbehavior
+back to the source in order to,
+in order to do something about that, right?
+On the other hand, what's, what's an example that's,
+you know, especially, you know, characteristic of problem
+B? Yeah. Great. Yeah.
+Great. So more, yeah, more generally, yeah. So
+especially in elections, but more generally,
+social bots, right? Social media bots that are
+trying to influence, you know, people's behavior,
+trying to push ideas to, you know, sometimes
+manipulate elections, sometimes just do other
+things, just get, you know, push this product
+to get more advertising revenues or, you know,
+something like that. So there's a lot of
+purposes that social bots are used for. And,
+and yeah, so that's a good example of
+this because, well, each of those, these bots is usually probably
+not that important by itself, right? These are,
+you know, the bots themselves are cheap, disposable,
+you know, automatically synthesized things, and many of
+them get caught. There's, you know,
+some user reports, hey, this is a, this
+looks like a bot shut it down. Their accounts get,
+get, you know, often get detected and killed
+by the platforms and stuff.
+But because they're cheap and disposable, well, the
+bot makers can always make more bots, right?
+And it's kind of more, it's, it's, it's,
+it's really like, you know, fighting this problem
+isn't about, you know, being able to track
+down or not who's behind the bot really.
+It's about like, not even being able to
+like, you know, the bots are coming too fast, right?
+It's a, it's a arms race of between
+bot creation, the constant creation of new bots,
+and detection, right? And the platforms, you know,
+all the platforms try to, you know,
+detect and get bots, at least, you know,
+misbehaving bots shut down. But, well, the bot creators,
+you know, he refining their ways to make
+more convincing bots that slip behind the,
+slip past the current detection schemes or, you
+know, you know, may often they rely on,
+you know, just humans to detect, you know,
+as they only even start detecting a bot when some human,
+you know, kind of reports, hey, I think
+this is a misbehaving bot. Can you do something about that?
+And some, you know, and so, you know,
+the creation, it can be fully automatic, whereas the detection,
+you know, requires human in the loop, you
+know, who's who's going to win, right? So, yeah, so,
+so that's, yeah, yeah, good, good examples of,
+of this issue, right?
+Um, yeah, other, other thoughts on, on either,
+on either side, right? Yeah.
+Yeah.
+Great.
+Also, things like, just email spam, you know,
+email spammers, the way they operate, you know,
+they're not, they're not, they're not sending spam,
+you know, kind of directly from their,
+you know, home machine, they, they rent or
+buy or, you know, time on these big, you know,
+kind of illegal or black market, gray market
+bot, bot nets, or they run their own in order to have
+a lot of, you know, machines from, you
+know, around the world, you know, spending,
+sending spam instead of, instead of themselves, right?
+And so, so, beside, you know, kind of
+the recent, recent election bots are trying to
+influence, influence a legitimate, you know, kind of
+normal elections. Another thing that has
+been happened before is people have tried to
+hell, hold, you know, votes on the internet for
+random things, not usually political elections, but there
+was this classic, uh, situation, I
+didn't already talk about the Dunesbury incident in,
+in a previous lecture. I think it was in my
+other course that I talked about it. Yeah.
+Um, where, yeah, you know, and this might be already
+a couple decades ago, but, uh, uh, in
+one of these, uh, cartoons, um, you know, wanted to be
+internet savvy and the, the, the, the author
+of this cartoon decided to, uh, decided, well,
+this cartoon character is going to go to
+college, but which college? So let's, let's ask the internet,
+which college should this character go? So, well,
+okay, democracy, let's hold a vote, right?
+You know, internet based vote on which college
+this cartoon character should go to, right? Um,
+and, uh, and, you know, so they set
+up this, this internet vote and, you know, because people
+did that, did this back then, you know,
+and people didn't realize back then just what a terrible
+idea this is. They decided, you know, okay,
+one vote per IP address. That's how we're gonna,
+that's, that's gonna be the way to, you
+know, prevent ballot stuffing, right? So
+each IP address gets one vote and then
+your IP address gets logged when you can't, can't vote
+anymore. Well, um, so this has, of course,
+two problems, right? One is a, one is a exclusion
+problem. So any of you, you can think
+of the reason why this is an exclusion problem. Some
+people who should get to vote didn't get
+to vote. Yeah.
+Yep.
+Yeah, yeah, indeed. Well, and in fact, this
+happens all the time, increasingly. It wasn't quite so
+per ubiquitous then, but now it's totally a
+network, network address translation. You know, if you,
+if you haven't, you know, encountered this yet,
+you will in, you know, networking courses and stuff.
+Most people don't have a, their own permanent
+IP address anymore because, because you just have
+a temporary, your whole home network and, you
+know, often many computers on campus networks
+share IP addresses dynamically, you know, because IP
+addresses, there's only four billion of them,
+you know, is there, there, there are still
+a 32 bit address space and IP version six hasn't been
+fully adopted, right? And so yeah, many people,
+you know, kind of don't have a permanent IP address.
+So if you're, if you and somebody else
+in your home or, you know, behind the same
+NAT IP address, try to, try to vote
+in this election, only the first one wins, right? Only
+the first one gets to vote at all,
+right? But then of course, the other big problem was that
+if you do have access to a lot
+of IP addresses, well, you can totally stuff the ballot, right?
+And so there are some enterprising MIT undergrads.
+Notice that, well, at that time, MIT had a
+Class A network, which, well, you know, once
+you take a networking course, if you're,
+don't know it all this already, a Class
+A network is, is one with, with an 8 bit prefix and 24 bits
+of network, right? Subnet, which means there were
+what 24, 24 million IP addresses on the,
+on the MIT network at the time, most
+of which were not used. So these, you know, the undergrads
+basically wrote a, wrote a little script that
+would, you know, dynamically change the IP address,
+you know, cast a vote in this, find
+the next sequential IP address that doesn't look like
+it's being used, cast a vote from there
+and keep repeating for, you know, hours or days, right?
+And so guess, guess which, which university happened
+to win this vote, right? So, so, yeah,
+yeah, so, and that's, that's kind of directly,
+you know, directly emerges from, you know,
+kind of the cheapness, the disposability, not just
+the weakness of, of, of identities, right?
+So, okay, so yeah, it's, it's time for,
+let's, let's take the break that we're due to and we'll,
+we'll look at a little bit deeper into,
+into different types of Sibyl attacks in different ways,
+you know, potential ways to, to address them.
+So let's come back at four, four, fifteen.
+Okay, let's, let's talk about,
+come to talk about different approaches to dealing
+with the Sibyl or, or, or BOT type
+attacks, right? And there, there's a lot of
+interesting potential ways to deal with them.
+Of course, there's, you know, weaker ways and
+stronger ways, less invasive ways and more invasive
+ways. Some examples. So I already mentioned one
+in the, the Dunesbury incident, right? So they,
+they tried a, a very weak way is
+to, so use weak identity proxies,
+such as IP address, right?
+Try to, you know, assume, assume real people
+have one IP address each and, you know, let,
+let people cast one vote per IP address.
+Well, yeah, that didn't work very well in this,
+this cartoonic example and in many other cases
+where it's been used. Yeah.
+Sorry. Tap chat. Great, great. Uh-huh.
+So actually, before I come to that, let
+me just feel this out. Of course, there are other proxies
+like phone numbers, which are maybe a little
+bit stronger, but still, still weak because real
+people can have multiple, even many phone numbers
+too, right? They're, they're just a little bit
+more expensive. Yeah.
+Yeah.
+Great. So MAC addresses can also, and sometimes
+are used as identity proxies. Also, ah, yeah,
+of course, email addresses, right? Basically, all the
+websites that are letting you, you know,
+create an account and just asking for an
+email address and nothing else. Well, you know, traditionally,
+that's what the platforms want because it doesn't
+scare away users too much, right? It's, it's a very
+easy requirement to satisfy for, you know, it's
+not that exclusionary because it's easy to get an
+email address, right? And so, you know, to
+be a civil attacker, a social bot attacker, you know,
+against email address verification, well, you at least
+have to know how to create a lot of email
+accounts. But yeah, that's not that hard, right?
+Furthermore, you know, as many people know, many,
+you know, for privacy reasons, many email address
+providers, including Google and Apple, allow you
+to have, you know, one, say, Google or
+Apple account and generate an infinite number of email
+addresses from them, right? So, in with, with
+email addresses, you can write your user ID
+plus anything you want, and it'll go to,
+I'll go to your user ID and Apple head. Yeah.
+Yeah, yeah. So, if you know, single use
+email addresses, yeah. So, so, so those are, yeah,
+email addresses have become super disposable, basically. Yeah.
+So these are, you know, among
+the weakest of the, of the identity proxies,
+right? Okay, but let's come back to CAPTCHA. So,
+CAPTCHA is interesting because it's trying to do
+something different. It's trying to distinguish
+humans from bots, right?
+Yeah. Sorry, this is getting kind of crowded
+together. Yeah. So, it was certainly an interesting
+idea and it has gotten used and it
+is getting used a lot, right? Yeah.
+Exactly. So the attacks on CAPTCHA systems have
+been getting much better, very fast, right?
+Especially with AI, right? So AI is getting
+really good at solving CAPTCHAs, right?
+So if you want to be a spammer,
+a DDoS attacker or something and get past CAPTCHA defenses,
+just invest in the best CAPTCHA solving AI,
+right? And that's one way to be on your way, yeah.
+Right. The recapture, yeah, which was used for
+AI training.
+Which was you know, a clever trick while
+it last, right?
+The problem here is, you know, both the
+attackers
+and the defenders have access to AI, right,
+and they can learn from each other, right?
+And here's the problem, you know, if you
+accept that we're stuck in the endless arms race,
+then we really are all doomed because look
+at the end point of where this arms race goes, especially the capture arms race, right?
+So, you know, coming back to, you know,
+how captures have been getting harder, right?
+For real people, for a good reason, right?
+Because of these attacks, right?
+So, the captures you're seeing now are a
+lot more obfuscated than the captures you saw, you know, five or ten years ago, right?
+So, the captures, and, you know, this has
+already been a problem for a while.
+So, they're getting harder, progressively harder for real
+people.
+And, you know, so for a long time
+there's been a class of people that has been, persistently has difficulty with captures, right?
+Because, and that class of people that has
+difficulty with captures is rapidly growing, right?
+Because the captures are getting harder, right? Because
+of these pressures, right?
+And, you know, this can be, well, because
+the captures are visually confusing.
+Many of them are, you know, it's really
+not clear what letter that is because it's obfuscated underneath these other random lines and colors and things like that, yeah?
+So, yeah, the audio alternative, of course, was
+created partly because of this problem, you know, that, you know, captures were recognized as, you know, effectively exclusionary to a lot of people, you know, who have difficulty with the visual thing, you know,
+or just because the visual thing is so
+hard, and yeah, you know, maybe the AI hasn't quite caught up on the audio side, trust me, it will suit, right?
+You know, kind of the, you're relying on
+the audio capture to be easier, well, just wait, right?
+So, yeah, so that's, you know, that's just
+part of the arms race, right?
+And so, you know, so the clear end
+point, you know, kind of the question is, will captures survive at all?
+Or are captures kind of like playing chess,
+where, you know, at some point, you know, the computer, the AIs get better on it than the real human is on average, right?
+Just a man, it's just a matter of
+how much you invest, right?
+So, you know, the moment, you know, kind
+of, and I don't know exactly when this line will be crossed, or is it already crossed, right?
+Just depending on, you know, how much you
+invest in your capture solving AI, right?
+So, so it, you know, it seems clear
+that eventually, probably, you know, AI, you know, will be better than real humans.
+At least doing this particular thing, right?
+It's not too hard to make that prediction.
+And, you know, at that point, you know,
+captures will be officially unusable, you know, anymore, unless you just want to, you know, basically exclude mostly real people without keeping the bots out at all, right?
+But they're already, you know, they're already exclusionary,
+right? That's clear. It makes it, you know, makes it difficult for some, often many real humans, right? So,
+so that's a persistent problem.
+Okay. Okay. Yeah, so, but captures were a
+great idea. Well, yeah.
+Okay.
+Mm hmm.
+You mean like a PKI, sorry, public, public
+key infrastructure certificate. Yeah. Great.
+Yeah. So that's, that's a nice, you know,
+example of a form of slightly stronger identity.
+So it's, it's, you know, sufficiently more costly
+and harder to get a, you know, a legitimate cryptographic certificate, you have to go to a PKI provider and, you know, kind of sign up and it's kind of a whole little process.
+And so it's, it's, so it's definitely stronger.
+But it has, you know, it's also costly
+and inconvenient.
+So there was, there was a time when,
+you know, PKI and cryptographic certificates were seen as the, you know, kind of the answer to the identity problem.
+But ultimately, they only ended up really getting
+adopted by websites. And so they're, they, they are seeing now as kind of the solution for the identity problem for websites, not for people.
+Right. Yeah.
+So great. So bootstrapping trust from Post-O-Mail.
+Right? And that's basically what the bank is
+trying to do. They're trying to make sure it's you and, of course, somebody who intercepted one letter that intended for you can't possibly intercept the other letter too.
+Right? I mean, they know that this is
+kind of a weak defense, but yeah, it's better than having everything come in the same letter, I guess.
+But yeah, they're just kind of trying to
+bootstrap trust from the Post-O-Service. Let's assume the Post-O-Service works and is reliable and people aren't intercepting your Post-O-Mail.
+And then, yeah. And yeah, here in Switzerland,
+it's even more common that, you know, the Swiss totally trust their Post-O-Service, even though from personal experience, I know they shouldn't.
+Things go wrong even here with Post-O-Mail. Right?
+So I had a few months where everything that was sent to me was getting black hole mysteriously, even though they knew exactly where I lived the whole time.
+But no, it was all either disappearing or
+being returned to sender or something. Yeah.
+Yeah. So these are good examples.
+So now, let's...
+Yeah. So let me, you know, coming back
+to this kind of this AV distinction I was making earlier, I want to push on that further and look at some of these defenses, plus others from this perspective,
+by differentiating what I would call proof of
+identity from what I call proof of personhood.
+Oh, this is... Has anybody heard the term
+proof of personhood before? Yeah. Yeah, I don't think it's that common yet, but...
+And it's still kind of an ongoing discussion
+about exactly what it means and what the distinction means. But the way I see it, an example of proof of identity, like what you're proving if you're trying to prove your identity,
+stronger identity is informally who you are. And
+usually this, we formulate this in terms of properties or attributes.
+Information about you. Right? So what's the simplest,
+most classic way you have to... You're often expected to prove your identity when you're just having a party?
+For example, yeah.
+Okay. You mean just a classic signature? Yeah.
+Okay. So your signature is one of your attributes that can be checked and verified. Right? So it's another identity proxy for your identity. You know, it's very traditionally used in the pre-online world. Yeah.
+But yeah.
+Right. Yeah. So online ID checks, right?
+Where you're expected to hold up your identity
+card and some probably AI thing is trying to make sure, yeah, it's the real person, real-life person, not just... I'm holding a photo of the same photo up there, you know.
+And it's, you know, trying to verify that,
+yeah, it's the same photo as the same person is on the ID card and the name matches, etc., etc. Right? So, but yeah. So this is an example of, you know, proof of... You know, I attempted a proof of identity process, but what they're checking there, they're checking things like photo and name.
+Yeah. So usually when you're meeting someone, you're
+not that worried about, you know, why would they lie about their name? Or if they do lie about their name, maybe they have a good reason, a privacy reason, which we can, you know, respect. Okay. You want to go under a pseudonym? Okay. Be a pseudonym. Whatever pseudonym you want, as long as you're a decent person. Right? You know.
+So, yeah. So usually when a business cares
+about your name, it's usually for some legal reason, right? Like, because they are legally obligated. So financial institutions are the classic example that, you know, that, you know, kind of are legally obligated to do this kind of thing.
+For this process called KYC, know your customer,
+right? So, because, you know, they're legally obligated to have records of who, according to some, you know, official ID, you know, by the name, and, you know, holds this account so that, you know, they're not going to be able to do this.
+But if that, if the account holder starts
+committing some kind of financial fraud, the police can go after that, right? So this is very much, you know, an accountability, especially for, you know, legal and financial investigation purposes, right?
+So anti-fraud and anti-money-lundry, right?
+So this is also called a KYC-AML, right?
+Anti-money-lundry is a common term they use, right?
+But usually even then, the bank totally doesn't
+care what your name is. The only thing they care about is that they are legally required to have attached a name to the account that the police or financial investigators or tax people or whatever could come out, come look at if needed, right?
+To track down, you know, fraudulent or suspicious
+activity, right?
+So they have to do that to keep
+that record and be able to attest that, well, we checked their identity. They don't even care if your identity is real. They don't care that much.
+They care that they have done this process
+and they can put a check mark and, you know, and basically have the legal coverage of the cover of having done this and done their due diligence on their customer to know their customers.
+That's what they mean. They don't actually know
+you. They don't know your favorite color or ice cream flavor or anything. They don't even care about your name.
+They care about being able to prove to,
+you know, some other lawyers down the line, if necessary, that they've done their due diligence and kept records and, you know, can't be sued on the basis of not having done that. Yeah.
+Yep.
+They want the date.
+Mm-hmm.
+Yeah. So, often, you know, various things as
+some of this is just again, you know, more stuff to track you down with for the police to track you down with if they ever need to, right?
+So, you know, and some of it is
+like, you know, very privacy invasive and, you know, very potentially trackable, but, well, you know, kind of they have there's these legal legal
+intentions, which are an especially big deal in
+the financial world when there's a lot of real money at stake, right? So they, they, they're accustomed to, you know, kind of leaving privacy a little bit farther behind in that case. Yeah.
+Yeah.
+So you're talking about in-person verification.
+But what are they verifying when you go
+in-person?
+Are you talking about when you go in-person
+to the government
+to check to sign up for a passport
+or something,
+or are you talking about somebody who's using
+that?
+Let's link to a live data base.
+So they have a big database,
+but what do they have in the database
+to identify you the next time?
+you know, kind of government initiated strong biometric
+identity, right?
+So they're all about building this big database
+of,
+you know, all 10 fingerprints and all the
+two irises
+of everyone who signs up and, you know,
+has the two eyes and the 10 fingers
+still.
+Not everybody does, right?
+You know?
+Of course, you know, yeah.
+And so they have this big database
+with all of those biometrics.
+And anytime you go back, you know,
+kind of and use the identity you're expected
+to authenticate,
+you know, biometrically, right?
+To check, is it really you, right?
+So it has some very appealing scalability advantages
+and ad defraud advantages.
+And, you know, kind of there's good reasons
+that the Indian government decided to do this,
+right?
+They had a huge problem, right?
+On the other hand, it's also a, you
+know,
+a really big fact, you know, target for,
+you know,
+privacy risks, leaks, you know,
+I bet I wonder how many spy agencies,
+you know,
+in other countries do not yet have copies
+of that database,
+you know, regularly infiltrated for all kinds
+of nefarious purposes.
+So, you know, it's, I understand the reason
+it's also super scary in many ways.
+But on the other hand, it's also not
+really unique
+because what the US and other governments
+have been doing forever, well, you know, biometric,
+what they call a biometric passport.
+Well, yeah, it might not have all of
+you,
+I'm not sure, you know, kind of which
+biometrics
+they all have to have, but they all
+have a photo
+at the bare minimum, right?
+You know, kind of forever identity cards
+have at least had to have a photo.
+That's a biometric, you know, it's,
+and so, you know, it might be just
+ordinary people
+at the office that you show up to,
+looking at the ID and saying, okay,
+it's, you know, making a human judgment
+is the same person, right?
+You know, that is a biometric identity verification.
+It's not a perfect one, but, you know,
+it's kind of worked for a long time,
+not perfectly, but kind of works, right?
+So, yeah, so that's one way to do
+it.
+So, but, but again, what you're trying to
+get
+is often not, you know, you're trying to
+get
+you know, authentication or, and especially in India's
+case,
+they were trying to fight fraud, like the,
+the actual, the real life example,
+analog of civil, civil attacks,
+where basically people were, you know,
+creating fake people, signing up fake people
+on the, on the rosters in order to,
+to get social benefits from, you know,
+kind of additional children you don't already have,
+you don't actually have or, or, you know,
+these,
+you know, kind of several uncles that are
+actually,
+you know, that actually died, but you're still
+getting reward
+and getting, you know, social benefits from them,
+right?
+You know, this was part, another part of
+the reason
+for motivation for ad hoc to, you know,
+reduce vulnerability to that kind of fraud.
+But, yeah, but, you know, but so it,
+it has some understandable advantages,
+but also comes with a lot of risks.
+There, there's a very simple case though.
+One of these properties that often,
+often people are interested in,
+that's just something about you, right?
+So it was actually mentioned, age verification, right?
+When you're just trying to, you know,
+this often comes with, you know, buying alcohol,
+you know,
+the vendor, the alcohol vendor, again,
+doesn't care about your name or anything about
+you,
+you know, hopefully not.
+They only care if you're legally old enough,
+you know,
+to satisfy the relevant minimum age law, right?
+So they, they don't even care.
+So yeah, the ID has your date of
+birth on it probably,
+but they don't care about what your date
+of birth is.
+They just care whether you're old enough, right?
+And so, so this motivates,
+and well, and so in the, in the
+case of,
+so, so identity typically focuses on these properties.
+What's your name?
+What's your social security number?
+What's your age?
+What's your gender?
+That's typically on the ID card too.
+And that's, that's, that's an exclusion and, you
+know,
+privacy risk problem too for all kinds of,
+all kinds of reasons, right?
+But yeah, so identity is, is attribute focused,
+right?
+But a lot of the applications totally don't
+care about,
+you know, what these specific attributes are.
+They care about accountability and, and defraud and,
+you know,
+things like that, right?
+Or just are you old enough, right?
+So, so this is what really kind of
+inspires the idea
+of proof of personhood, right?
+Can we, and this is, this is,
+this is my optimism,
+optimist side shining through now, right?
+Can we verify real people?
+Oops.
+Without identifying them.
+All right.
+So,
+so can we, you know, can we somehow
+achieve,
+you know, both privacy, even anonymity,
+even strong anonymity,
+without making the identities disposable, right?
+You know, without losing, you know,
+provide strong privacy, even anonymity
+without losing accountability, right?
+So,
+so I like this to use this term,
+accountable anonymity,
+because I think it's not an oxymoron, right?
+It might sound like an oxymoron,
+but I don't think it is.
+Yeah.
+term and since then a bunch of projects
+here and there have have have explored different
+approaches to proof of personhood. Right. So they're
+they're still fairly niche, most of
+them. So, you know, unsurprising if you've never
+heard of any of them. But there's there's
+lots of different approaches, but I would classify
+into four main approaches. One is the one I
+suggested like, so let's say in person. When
+I first first wrote about this, like, posted,
+and you know, 1520 years ago, now I'll
+come to that in a minute. So kind of like going to the
+government government office kind of do it, you
+know, kind of prove you're a person for real,
+a real life person with a real body.
+But yeah, so I'll come back to that in a minute.
+Approach two is basically based on social or
+trust networks. This is, you know, mostly related to
+the PKI, you know, or PGA, if any
+of you have ever heard of PGP key signing parties and things like
+that, Web of Trust kinds of things. There's
+a lot of exploration, especially in the blockchain
+crowd, you know, there's a lot of people
+interested in this kind of Web of Trust approach. And
+there's various ways. Yeah.
+So
+right, exactly. So it's, it's easy to solve
+with mass surveillance, right?
+So yeah, absolutely. China has this problem totally
+solved. I'm not sure if I like their solution,
+but you can't argue that they've solved the
+problem, right? So yeah, let's acknowledge that.
+And so, so there's also,
+ah, yeah, and the other approach, you can
+use biometric,
+biometric identity and authentication for proof of personhood
+as well. If you, you know, and you
+can even make it, you know, not as
+much of a privacy nightmare as I think ADHAR is, if you,
+you know, with some additional technical provisions that,
+in the way you use it. And actually,
+that's, that's a topic of some ongoing research.
+One of my PhD students is, is focusing on, you
+know, can we make biometrics, you know, less
+identity, less, less of a nightmare? I think that's
+still a, still an open question, but, but,
+you know, so, so yeah, you know, there's different,
+different ways, ways to do this with, with
+different tradeoffs. Let me, let me, since we're
+running out of time, let me briefly outline
+the, the in-person idea that I proposed quite a while ago,
+which I called pseudonym parties.
+And some of these more recent proof of
+personhood projects have actually tried to take it and make,
+make variations that actually take the process online,
+like to partly inspired by CAPTCHAs, actually,
+or, so let's, let's call this presence-based, right?
+You're trying to,
+you're trying to see if there's a real
+person there, right? And so, actually, before, before I
+get that, let me, let me say briefly,
+one of the more recent projects called IDENA, which is also
+presence-based, but, but online, where basically you have
+groups of people, it, it kind of gets groups
+of people to submit little CAPTCHA-like tests, they're,
+they're, they call it flip puzzles.
+But these have to be both created by
+people and solved by people for, for different reasons, so the,
+the classic CAPTCHA mechanism doesn't exactly work, but
+they basically say, okay, you want to sign up
+on this system, you, you, you have to
+come at, get online at this particular future time,
+you know, synchronously with a bunch of other
+participants who are also committing to do this,
+and you have to solve one or a
+couple of these, these little puzzles, I, I should have, they're,
+they're like a sequence of four pictures, and
+you see in both the real, the real order that the
+creator of the puzzle intended, they're just puzzle
+that a puzzle, you know, sequence of picture that
+in the correct order tells a story of
+some kind, and in a permuted order just makes no sense, right?
+So, and you have to, as a human,
+kind of prove you're a human by picking the one that has the,
+that tells the story, right? That makes sense,
+right? And so it's kind of like a CAPTCHA, but you
+have to do it at the same time
+as other people are, are doing it, and the idea of being, well,
+if there's only one of you, you'll have
+only one consciousness, it's going to be hard for a real
+person to, to do this, you know, many
+times for many different identities at once. Yeah.
+The AI? Yes. So I kind of expect
+so. I am personally skeptical that this will last long
+against AI. On the other hand, there's a
+really interesting experience paper about this identity
+system that I think, I think it's on
+the optional readings, I'll make sure it is, if it's not.
+It's been running for a number of years,
+and they, they haven't seen obvious evidence that,
+that AI was being used at scale to
+fake these, these challenges, right? You know, maybe that's
+just because the system is small enough that
+nobody, nobody with a big enough AI cares about it
+enough, right? But, but anyway, that a very
+different attack, you know, became a big problem
+for this system, because it's also a blockchain
+cryptocurrency system with money thing. Miners
+were just hiring real people to solve these,
+right? And that's something you can of course do with
+CAPTCHAs too, and, and people do just hire
+minions, real people, you know, who are solving these
+things and giving you their keys or their,
+their rewards or things like that, and they don't know,
+and, and anyway, so, so, you know, this
+is a, this is an interesting alternative that, you know,
+has been, has been tried, you know, I
+think it totally will be vulnerable to AI if it isn't already.
+But let me, let me come back to
+the in-person idea that, that was part of the inspiration for
+that and some of the other, these other
+system. I proposed that, well, you know, suppose we accept
+that, you know, once in a while, we
+got to get off our butts and go to something in person for real,
+and we make that, you know, preset a
+regular date, you know, date and time, and it can be in one or
+many places, depending, you know, the kind of
+the geography doesn't matter too much. But you just
+have to be a real person that goes
+in and is there at a particular time, in a room like this,
+by a particular deadline, right, or just outside
+or something, right. So be in a place,
+you know, by a designated time.
+So you, at the time, you know, at
+the deadline, you know, doors close, nobody else gets in,
+but you, and you can leave, you can
+leave anytime you want, but if you leave in the orderly fashion
+in the line or whatever, you get one
+digital token, one I was here token, you know, each, and this
+could be, you know, kind of associated with
+other events, a lecture, you know, other things.
+The token just attests that, you know, this
+corresponds to a real person that was there at
+that date and time, right. So, but it
+doesn't, you didn't have to show any ID, you could even,
+you know, wear a costume, wear a mask,
+so treat it as a Venetian carnival or something,
+if you really don't want to, you know,
+if you really care about anonymity, right.
+But because you get these tokens as you
+leave, you can't get in, get back in in the same cycle.
+And in the next cycle, they're all fresh,
+right, there's no connection from one to the other,
+you know, if you, if you want to,
+if you use these for voting or minting cryptocurrencies or
+something like that, you know, you have to,
+you have to show up each time if you, if you want to
+refresh your, your personhood token, right. Yeah. Maybe
+work is more, there are a lot of countries
+where any sort of thing like this will
+be very welcome for options and like. Perhaps. So, yeah.
+Yeah. Yeah.
+So, this is the big open question, right.
+So, is this practical? Will, will this ever work?
+Can the corruption risks be dealt with? Yeah.
+So, certainly there's risks of
+like corrupt group faking, you know, kind of
+like we, I held this, the Sydenham party and a
+thousand people attended, but there are a thousand
+fake people, right. Of course, you know, kind of,
+if you want to get this right, there
+has to be evidence, photographic evidence and, you know,
+in person, you know, kind of cross-checking, right.
+That's details that I, you know, don't have time
+to get into now, but, you know, I
+see ways to do that. But yeah, you know, so there are these,
+these risks and costs, certainly the, you know,
+convenience costs to the people of going in person,
+the cost of holding the events. On the
+other hand, there, there's one, yeah, so sorry, I know I'm
+out of time. There's one reason I'm actually
+optimistic that this could work, because there's
+been a form of institution that has been
+getting real people to, you know, a particular place and
+time fairly consistently across the globe for a
+very long time, for thousands of years, which is
+religion, right. Church, going to church of various
+kinds, services or whatever the religion has to
+be, happens to be, right. And, you know,
+you know, the rewards are not very large or tangible,
+usually. It's just, well, I go because I
+believe it has utility, right. And, you know, like that kind
+of thing, you know, there's also a, there's
+also a law, a big tradition of these kinds of events being,
+being doable at very low cost, right, if
+you figure out how to solve those problems, right.
+And then it, you know, then it becomes
+a kind of cost benefit situation and, you know, kind of will,
+will the people, you know, kind of see
+enough benefit to, to manage the cost, right. So,
+yeah, that the question is like, you know,
+is this practical at all is totally open.
+Another project in Zurich called EnCointer has for
+a number of years been experimenting with this
+kind of in-person thing with some success, not,
+not massive success, but some success. So, as well,
+so EnCointer is this, this other project, you
+can look it up if you're interested. It doesn't do
+quite exactly this. It does something a little
+bit different, but it's that general idea. But this is,
+you know, kind of still, these ideas are
+still, you know, kind of in their early years and it
+remains to be tested, right. You know, kind
+of, could it, could it really work? But the promise,
+you know, kind of the interesting idea is,
+well, we didn't have to check any ID, right. And these
+identities or, you know, personal proof or personhoods
+are not disposable, right. You, if you
+misbehave, you can lose one and be banned
+and you can't get another one until the next cycle, right.
+They might not send the police directly to
+your door, but at least they're not disposable, right.
+And so they're, you know, kind of trying
+to, trying to navigate this privacy identity
+balance. And, you know, again, we still don't
+know if this, if this is achievable, really. But,
+you know, I think we, it's something we
+need to be thinking about and, and researching instead of
+just giving up on privacy, like, like some
+people or some companies would like us to. So,
+okay. Well, sorry to go, go over a
+few minutes. Yeah. Thank you. And so see you next week. We'll
+go, we'll go deeper into privacy and anonymity
+and stuff, especially anonymity next week.

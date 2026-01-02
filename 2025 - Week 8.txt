@@ -1,0 +1,1116 @@
+These subtitles have been generated automatically
+So, two weeks ago, we got into kind of economically and financially motivated blockchain cryptocurrency
+topics, then we switched more to the back
+toward the kind of experimental democracy
+side with liquid democracy.
+This week, we'll flip back to the more
+economically motivated topics.
+So, let's look at a few interesting experimental,
+let's say, technologies or practices that
+really come out of economics to varying degrees
+of experimental interest.
+The first is really kind of mainstream.
+I didn't assign a reading on it.
+There are optional readings on it, but you're
+probably familiar with it already, which is...
+So we're going to look at economic market
+mechanisms that try to get some kind of social
+good out of economics in different ways, right?
+So the first that you're probably already familiar
+with is crowdfunding.
+So how many of you have participated in
+crowdfunding schemes out of curiosity?
+Donated?
+Great.
+Any of you run one?
+Propose something?
+Okay.
+Yeah.
+That idea, it's been out a while and
+it's really kind of gone mainstream.
+I think probably most people are at least
+aware of them and a lot of useful products have been crowdfunded.
+Next, so the two assigned readings are about
+slightly more niche topics that not everybody knows about.
+One is prediction markets.
+So how many of you have heard about
+these out of curiosity?
+I know, yeah, you mentioned it.
+Yeah.
+Good.
+And then even more recent experimental and experimental
+quadratic voting.
+So I think there's also a quadratic funding
+that's kind of a variation on crowdsourcing, but I wasn't planning to cover that.
+Any of you heard of quadratic voting before?
+Okay.
+Yeah.
+Okay.
+So I think these are all certainly interesting
+ideas worth studying, worth looking at and being aware of.
+As usual, as in everything we look at
+in this course, there are there are attractions, appeals and some risks and downsides and we want to look at all of those.
+Right.
+So let's start with, let's start with crowdfunding.
+Hopefully you're all familiar with the basic idea.
+Right.
+There's many.
+It usually happens on various online, online platforms.
+And then there's a lot of different types
+of events on which basically you, if you're a small group of people that thinks, well, you know, this, this idea, this product, this thing that, you know, wouldn't would be really nice to have.
+Well, write it up, write out a plan,
+a proposal.
+A plan for how, you know, how you
+the group of people is going to, going to implement it, you know, maybe a first, first cut proof of concept if you have it, things like that.
+And then it's kind of an advertising and
+see if well, will the community buy into it with donations, contribute contributions.
+You know, sometimes.
+Sometimes they're just donations and they're, they don't
+technically promise anything.
+Right.
+Or, in other cases, well, you're promised, you
+know, some reward like, like an early version of, you know, if it's crowdfunded board game, maybe you get, you know, a early, you know, a version of the board game or other, the other product, right.
+Or, or special, special returns, rewards.
+For, for the investors, right. So sometimes there's
+something promise something not right.
+But it's really writing on, you know, community
+interest. I do do people like the idea do they want this are they willing to put their money or their mouth is and fork over a little bit.
+Even if it's not a lot if a
+lot of people get interested. Still, it can, it can very quickly fund impressive projects.
+So, um, yeah, so what's your experience if
+you have any with crowdfunding campaigns or platforms out of curiosity, any, any relevant experience.
+Thoughts about the basic idea so far.
+You like the idea, not so great.
+Yeah, yeah, yeah.
+A lot of what scams yeah okay.
+Let's start the actually.
+I'm going to start the issues.
+And risks on the next page because we
+will need room for it. Right. So indeed, yeah, scams outright scams can be a significant problem. Right.
+You know, in principle, in many of these
+platforms you can post whatever yeah I'm going to, you know, create an alien spaceship. But actually I'm just going to run away with all the money.
+Right.
+It's, it actually is kind of surprising how
+not to car. Yeah, there are a lot of scams. But it's kind of surprising, you know, how not that common the scams are given that, you know, most mostly it's just totally totally trust right.
+And so no reason, you know, in a
+way, you know, if everybody was a pure rational economic actor like the economists like to think of them, they should all be scams right because what's what's holding, you know, any of these people
+should do what they promised. Right. Well, sometimes
+there are small incentives but yes.
+Yeah.
+Mm hmm.
+Yeah. Yeah, so they, you know, usually are
+not required to be that open. You know, sometimes they are voluntary but yeah.
+And it was.
+Yeah.
+Yeah.
+Exactly. Yeah. Whoever's running the project, they decide
+how it's run the pace.
+You know,
+Yeah.
+Yeah, you're right. Yeah, even if they're very
+well intentioned, maybe, you know, if the crowd, if the project is way more popular than they expected, and they're well intended and they really want to carry carry out, but then they're under this huge pressure to do that and like you suggest like, you know, we feel like they can't have a life anymore, you know, that can be a problem for the
+project for the actual funded project to sell.
+Yeah.
+Pressure.
+You know, work life balance for the actual
+funded project.
+These, these can certainly be issues.
+Yeah. On the other hand, you know, like
+I said, many of them are not scarce, many of these projects are legit people who really want to, you know, and intend to and often do carry through right which is which is nice.
+So it's, you know, based on trust and
+sometimes that trust is reasonably well placed.
+So, yeah, well, let's come back to the
+issues and risks more. What are some of the.
+So, you know, this is the basic basic
+idea what are some of the attractions what is it. What is crowdfunding good for.
+Right.
+Why do we want it why do why
+might we need it.
+Right. Yeah.
+More than what.
+Yeah.
+Yeah, projects that have a that kind of
+cater to a certain very small, you know, but present user population and probably aren't going to attract any kind of mainstream funding because yeah, it's just too niche.
+There are no, no regular investor in their
+right mind is going to is going to take this on because it's only this, you know, crazy little group of geeks that interested in this particular idea that it's, you know, ever going to be interested or even understand what's going on.
+Right. So yeah, it can, it can be
+successful.
+But actually crowd.
+It's it's not only so it's useful for
+that but it's not only useful for niche projects either.
+What if yeah.
+Yeah.
+Yeah, good.
+So, let's say, sidelined minorities.
+Who have and and any kind of communities.
+This can be local communities to sometimes.
+You know, sometimes do can and do use
+crowdfunding platforms that have been kind of ignored by by the larger societies they live in by their governments whatnot.
+Crowdfunding platforms have been used to fix local
+potholes that the government is just not like, you know, people are complaining and complaining and complaining this segment of road is dangerous.
+The potholes are terrible. The government will not
+fix it. Okay, let's, you know, start a crowdfunding campaign pull together the funds to fix those potholes make make it more safe. This has happened. Right. Yes.
+even crowd-funded political campaigns.
+And it can be used as a form
+of, as a funding source, in a form of, I think,
+as you kind of suggested, opposition or protest,
+right?
+So it can be, it can be, and
+sometimes is used as a very political thing.
+Yeah, exactly. Radio, art, projects, things like that.
+Yeah, yeah.
+Yeah, yeah. Good. Very good. Yeah, so these
+are all, you know, great examples of cases where, yeah, crowdfunding can be an often is
+successful in practice and some, and, you know,
+sometimes works. Good.
+Back to issues.
+What is crowdfunding, what might crowdfunding not be
+so good for? What else might go wrong? Yes.
+The problem is should be.
+Ah, yeah. Great point. If this is fixing
+those, those thought holes was supposed to be the government's job.
+We're gathering local community funds to do the
+government's job for them. The government said, oh, thank you, problem solved, we'll move on and continue ignoring you maybe even more than before.
+Right. So in that sense, yeah, you know,
+it might be truly, you know, kind of, you know, antithetical to the bigger, to do anything about the bigger problem, right? Yes.
+That makes David a lot of money.
+Yeah, it basically makes every makes arbitrary choices
+in, you know, kind of an objectively kind of unfair way, just whoever, whoever is loudest and does the does the best
+best job of writing the crowdfunding campaign.
+And yeah, exactly.
+So, yeah, so these two, yeah,
+these are two very good points.
+So one is, you know,
+so it might replace
+or,
+or,
+well, let's just say,
+so do government's job
+and reduce pressure that should be there
+for the government to do its own job,
+right?
+And then, yeah, so crowdfunding,
+the success of crowdfunding campaigns,
+who wins, who loses can be very arbitrary,
+right?
+And popularity-based, right?
+Or appearance-based, right?
+Is it really the most deserving projects
+that are getting all the attention
+or is it just the most flashy, though?
+Or the ones that just get lucky, right?
+Yeah.
+Now, here's it, coming back to the,
+kind of the issue of interaction with government,
+especially if we consider crowdfunding campaigns
+that are mostly of interest to particular neighborhoods,
+have some locality, right?
+Maybe it's about doing something in a particular
+neighborhood,
+physical or geographic neighborhood,
+or a certain demographic,
+which they quite commonly are.
+Of course, there's gonna be rich neighborhoods
+and there's gonna be poor neighborhoods, right?
+You look at crowdfunding campaigns
+that appeal to rich neighborhoods
+and similar crowdfunding campaigns
+that appeal to poor neighborhoods,
+independent of how interesting or deserving
+or well-designed the project is,
+we're gonna see disparities, right?
+In a way, so coming from the US,
+fortunately, this is less of a problem in
+Switzerland,
+but in the US, the education system,
+just primary education system,
+is extremely neighborhood-centric, right?
+So local governments basically are expected
+to pay the costs of primary education.
+Of course, there are rich neighborhoods
+and there are poor neighborhoods,
+and the quality of the primary education
+in a given neighborhood is absolutely
+a function of how rich, poor,
+or somewhere in between your neighborhood happens to
+be, right?
+So rich neighborhoods, well, they call for
+basically crowdfunding donations from their,
+kind of rich, no local neighborhoods all the
+time.
+They get a lot of money, they do
+a lot of great things,
+they get the latest computers in their computer
+room,
+the latest classes with better paid teachers
+and all this stuff, poor neighborhoods do not
+have that,
+right?
+So in a sense,
+and any mechanism like that,
+so you could say that just primary education
+in the US,
+I don't know how prevalent this is in
+some other countries,
+but hopefully not too prevalent in Europe,
+but it's kind of a crowdfunding-based solution,
+and it at the very least completely fails
+to do anything about disparities of wealth
+and maybe further accentuates it, right?
+So that's,
+so let's see,
+so the amount, kind of the success
+and the funding available depends highly
+on basically the wealth
+of the interested audience, right?
+The target audience, yeah.
+Mm-hmm
+Small small pockets and communities that just don't
+have the critical mass or funding to keep
+To maintaining their culture
+That's the same as me
+Yep, exactly. Mm-hmm. Yeah, so so this is
+Yeah, so great great points. So exactly so
+so we
+So I you know, there's there's something that
+is you know, very appealing and works for certain things and
+you know in in crowdfunding, but it's also
+important to
+You know consider that, you know, kind of
+in this bigger picture
+Who does it work for and by what
+distribution and is that you know
+Is that the right distribution or or not?
+Does it does it help improve societies? You know
+Or does it make make some problems worth
+such as such as
+wealth disparities culture disparities like linguistic disparity like
+educational disparities, right?
+so
+yeah, these are
+uh, you know important questions and you know
+some crowding crowdfunding projects, of course are
+You know very broad like, you know broad
+in terms of targeting kind of people geographically all over for for different
+types of people, right?
+But some might not be right. So it's
+it's
+uh
+Yeah, these are important issues any other so
+other other issues or
+benefits or risks to think about
+any other other thoughts on
+crowdfunding
+yes
+whereas all these other maybe more deserving projects
+are getting no attention.
+Yeah, so it's, yeah.
+So these are important issues to take account
+of,
+but before we consider relying on this kind
+of mechanism
+too deeply or too pervasively, I would say.
+Good.
+Okay, so I wanna cover a couple others
+though,
+but so first of all,
+let's talk a little bit about prediction markets.
+So you'll read an assigned, well, hopefully you
+read
+the assigned paper on this,
+but so what's the basic idea?
+It's, you know, what's the one sentence?
+Yep, exactly.
+Future not yet predicted outcomes of future events,
+such as, you know, elections.
+Like who's going to win this election in
+the future
+is kind of the quintessential example, right?
+Good.
+So of course, you know,
+this sounds pretty similar to gambling, right?
+Predict on this particular horse to win this
+future race,
+right?
+So what's the difference?
+Of course, you know, the economist,
+Great. Yeah, yeah. So can we, you know,
+to to throw around, yeah, so so the the the public.
+Or the market.
+Sets the price dynamically basically finds the price.
+And in print in principle this reveals information.
+Which arguably might be useful, right? It's a
+social good to have more better information, right? Yeah.
+So are you bringing this up as a
+risk or risk or as or as a justification like I like it's meaningful like it's like, yeah, so which horse wins isn't going to isn't going to make anybody's life better for sure.
+But which candidate wins might actually change things
+and and you know getting more people to put their money where their mouth is and and you know get the right candidate to win may and maybe you know revealing good information about about that in the process might be a good thing.
+Good. Good. Yeah. So, can we can we
+call it call this, you know, to be a little bit dangerously sloppy gambling for good.
+So I'm not I'm not sure if I
+totally agree with that but that's you know one way to one way to see this. Yeah, you know we're trying to trying to get good information about, you know, about events, possible future events that actually affect people's lives and so this is this is important it's not just betting on horses racing.
+Yeah. Good.
+Now,
+we clear on it. I haven't really covered
+exactly how it works. Right. So of course the article talks a little bit about it.
+But I mean the concept is super simple
+right if if I think if I think candidate Bob is going to win the election with three quarters probability with 35% chance.
+And you know maybe I'm willing to bet
+with someone who thinks the probability is lower and if somebody offer so so I would be willing to buy a share or token or on that candidate winning that will that will, you know, say, pay a dollar if the candidate wins and pay,
+zero if the candidate or pay one, you
+know, one Frank if the candidate wins pay zero if the candidate loses. If I think the candidate is 75% likely to win, then my expected, you know, return on that token would be 75 statistically 75 cents, right.
+So if I can buy one of these
+tokens for less than 75 cents like if somebody else thinks that the candidate is only 60% or 50% likely to win and is willing to sell me one of these tokens at 50 or 60% then I should be economically willing to buy it for, you know, for for 50 or 60% expecting
+you know, in expectation, I'm gonna, you know,
+with 1520% probability, I'm going to make I'm going to make money right in expectation right.
+Similarly somebody who's you know betting against will
+think you know say okay the price is too high I think it should be lower.
+You know, I'll sell I'll be on the
+other side sell one or or buy the the complimentary token that says, well this pays if you know one if the candidate loses and zero if the candidate went right so you create these in pairs basically and and
+you know one and then when the outcome
+is actually determined one is worth one the other is worth zero right.
+Yeah, so is it reasonably clear how how
+it actually works. Yeah, and then and then yeah how the how the market set prices well you know people people offer to buy and sell just like on a stock exchange right if, if I think the price, you know, if I think the current
+price is going to be too low, well
+maybe I'll I can make a profit by buying, you know, I'm, you know, one side of this deal. If a lot of people think that they'll raise the price to a certain equilibrium.
+If people are, you know, think the price
+is too high meaning that you know Canada is less likely to win than the current price indicates well you can, you can sell that will you know collectively prove push the price down.
+So we're using the market to create and
+reveal information. Right.
+And sometimes these, they've actually worked surprisingly well
+there's been studies that that show that you know in some cases the predictions that come out of prediction markets do a better job than the expert predictors of various kinds.
+So, yeah, not always but but sometimes.
+So, what do you think about the idea
+so benefits. So there, there's the appeal that kind of the public good, the information good appeal. What are some issues and risks you can think of.
+And many, yeah, one one form of manipulation
+that can and and I think sometimes does happen. Yeah, exactly. So you want to basically you have money, you're willing to spend it to create a perception that yeah this candidate is totally going to win right,
+because well you want to, you know, you,
+you want the candidate to win, and you're trying to, you know, basically perform a form of astro turfing, you know, spend money to create a perception that there's a groundswell of support for this candidate everybody thinks this candidate is going to win when in fact it's only you the whale that
+wants the candidate to win.
+You know, and is creating a, you know,
+manipulating the market to create a an actually in inaccurate perception.
+And maybe you win, maybe, you know, if
+you succeed in manipulating the perception, you can be, you can create a self fulfilling profit prophecy, right. So the end this is you know kind of the whole idea this might be the whole idea right.
+So without your manipulation, candidate never would have
+even been on the radar, let alone winning but because well, you know, this blip created by the whales investment got got that dark we call this a dark horse candidate right got it on the news cycle speaking of
+the news cycles, the journalists notice, hey, nobody
+heard about this. Hey, let's write a, let's write some articles on it, and then it gets goes kaboom right you know goes viral, and suddenly this you know completely non serious candidate is serious candidate and yeah you know self fulfilling
+policies can be a self fulfilling indeed.
+Of course, you know it's hard to predict
+of when that'll happen but it can certainly happen.
+Yeah, what else.
+Very good point.
+So, the prevalence of, let's say, good or
+useful information.
+Even in theory, even in the prediction market
+theory prediction markets are really only useful when for for situations where there's quite a bit of diffuse information, the way you know a lot of people have at least a little bit of good information.
+That doesn't always happen.
+Yeah.
+even if you're not deliberately trying to manipulate
+the thing, if it just turns out that,
+you know, kind of the, you know, there's
+a core strong correlation that, you know,
+kind of more wealthy people tend to prefer
+one outcome and less wealthy people tend to,
+tend to prefer the other, then well, for
+the wealthy people, this is, this is pocket change,
+for the not so wealthy people, this is
+real money. And that can, you know, just, you know,
+without anybody even intending to do anything wrong
+can, can be effective manipulation,
+drive the price in that direction, you know,
+irrespective of what the, you know,
+kind of independent probabilities of winning might be.
+Yeah.
+Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. Yeah. So
+there's for sure a lot of legal issues.
+Yeah. Like, is this actually legal? Under what
+conditions? For whom? Who, you know,
+is it gambling? Is it voting? Is it
+neither? Is it both? And to my knowledge, that hasn't been
+figured out definitively. Yeah. You know, it's, it's
+one of these gray areas where I, you know,
+as far as I know, the lawyers don't
+even want to touch, touch it if possible, right? Keep it
+offshore, right? Yes. Ah, good, good. Yes. Yeah.
+So loosely, that might fall under manipulation,
+but it's a very important, exactly. Mm hmm.
+Exactly. So it's in, when you're, when you actually
+know something, like, for example, you know, the
+candidate is, is actually soon going to,
+going to end the candidacy, right? Close the
+race because they decided, you know,
+something else came up or, or, you know,
+you know, you know something that most people don't,
+it's not diffuse information, it's special privileged information
+that only you have.
+Well, there's, you know, even, even, yeah, in
+financial markets, it would be, you know, highly
+prohibited to use that in this kind of
+market where, well, it's a big legal, uncertain legal
+mess. Well, is it strictly prohibited? What are
+the risks? Is it, or, you know, and certainly
+there's going to be the temptation to use
+that special information if you, if you happen to have
+it, right? So for sure. Good. Yes. Sorry,
+speak up a little bit more.
+Using it as a form of lobbying. Yeah.
+So like in the kind of in the manipulation
+category using it,
+Yeah, so it might be a way to
+push candidates in unconventional, use money to push candidates
+into a more open market.
+So, indeed, there's a lot of ways that
+this could be, could go wrong, could be misused.
+Yeah, and as far as I know, it's
+still very much kind of an open issue.
+Well, you know, are our prediction markets a
+good thing or a bad thing?
+Are they a potentially good thing but risky?
+Yeah, I think they should be allowed in
+some particular legal framework or not.
+Yeah.
+Ah, yeah, yeah, good point.
+So there has to be a definitive official
+source that, and if that's open to controversy, that can be a big problem.
+Like some, you know, crowd A thinks the
+outcome was this and crowd B thinks the outcome was that.
+Have you seen this happen? Has this happened
+in?
+Okay, yeah, yeah, I see. Yeah, yeah, so,
+good point. So that can certainly be bad.
+Now, let me just make a little bit
+more room.
+So, this is an outcome disagreement, right?
+And so this is, and in fact, this
+particular problem is absolutely isomorphic to a well-known problem in the whole blockchain cryptocurrency space that I briefly alluded to when we were talking about, remember when we were talking about smart contracts,
+the blockchain execution has to be deterministic. It
+can use information on the blockchain, but it can't get or use directly use external world information, like what the newspapers say about which candidate won, right?
+And so you could totally write a prediction
+market smart contract, but you can't reliably get the input. Somebody has to attest on the blockchain based on somebody say so that, well, this candidate actually won or lost, right?
+And that's something that, well, you know, that's
+going to be a single point of failure and there might be disagreement about that and it can create exactly the same problems and create, you know, two communities that say, hey, that's not what happened.
+Hey, you owe me this money, right? And
+entire blockchains have been forked over this. These kinds of disagreements in the past too. So, yeah, so, yeah, it's a, that can be a real problem.
+Okay, good. So it's break time. So let's
+good, good time to take the break. Let's come back at 415 and we'll talk about, about quadratic voting.
+Okay.
+So,
+let's talk about this very interesting idea called
+quadratic voting.
+So can you, can anyone briefly summarize the
+main idea from reading it in the paper or if you've seen the idea before, what's, what's the basic idea?
+Good. So you have some number of credits.
+If you want to do this in a, if you want to
+apply this in a more egalitarian democratic fashion,
+you might say, okay, everybody has
+10 credits or 100 credits, the equal amount
+for this vote. And then you spend them while
+you're casting votes. There are variants of quadratic
+voting applications where they
+envision actually using real money and that's where,
+where it would not be, you know, egalitarian
+to start with in that regard. But, you
+know, it can be used, it's a concept that can be
+used in different ways. But the key, of
+course, where the quadratic comes in, as you, as you
+said, you can, you can vote either for
+or against options typically, but to, to, you
+can cast positive or negative votes. To cast
+and vote, you have to spend n squared credits.
+And in a given, it's, it's kind of
+assumed that in a given voting, you know, situation,
+there might be a number of our orthogonal
+choices, elections, candidates options or things like this.
+So it's kind of a, you know, different
+races, different options, like so candidate or race
+or questions, A, B, C, D, E, right?
+So these might be different candidates, you know, Alice,
+Bob, Charlie, you know, or we're trying to
+decide between, or they might be different, yes, no
+questions on a for direct democracy, like, you
+know, and completely different questions.
+Question A is a yes or no question
+about healthcare and B is a yes or no question about
+some economic policy and C is, you know,
+something totally different, right? So there can be,
+you know, a number of potentially very different
+related or unrelated questions,
+candidates or, you know, topics on the ballot.
+And each voter, well, you have your bag,
+I'm a terrible artist, sorry. So this is
+your bag of 100 credits or however many, you know,
+each voter gets, right? And you decide how
+to, how to use those, these credits to either upvote
+or downvote, cast upvotes or downvotes on any
+of particular these questions or issues, right?
+So if you, let's say if you care
+a lot about candidate B, so you, you know, or question B,
+you, you, you completely, you, you don't care
+at all about the other questions on the ballot,
+but you really want, let's say, let's say
+these are yes, no questions, just to keep being simple,
+you really care about candidate, about question B,
+and you totally don't care at all about
+the other questions. And everybody has 100 credits.
+How do you vote?
+So you're gonna, you're gonna use, you're gonna
+use all 100 credits to cast
+10 votes, right? So pretend that's 10, it's
+not, sorry. Okay. So, you know, 100
+credits casts, you know, is good to cast
+10 votes for question, for question B, for example,
+or against question B, if you want to
+have a big influence against question B, right?
+So that's, that's one thing you could do
+with your 100 credits, right? Another thing you could do
+is, you know, divide it in two or
+divide it in four. And if you spread it out more, then,
+so if you, if you, for example, you
+know, kind of in the other case, if you, if there are a lot of
+questions, right, you could, you know, cast one
+credit each on 100 different
+credits, and you would be casting 100 votes
+total, right? So your voting power basically,
+you know, when you, you're, you're essentially rewarded,
+you know, you get additional voting
+power if you spread out, you know, your
+vote because of this quadratic rule. On the other hand,
+you can, you know, concentrate on one, you
+know, on one or just a few things that you care most
+about, but your voting, your effective voting power
+is going to be attenuated when you do that, right?
+So,
+so voting power is, is attenuated is smaller
+if you concentrate it.
+You're,
+you get more total effective voting power if
+it's spread out, right? So that's kind of the intuition.
+Now, why would we want this sounds weird,
+right?
+Why, what's the argument that this might be
+a good thing? And why N squared in particular,
+you know, there's a lot of choices of
+potential powers, N to the one is another, right? Just N,
+right? You know, 100 credits, divide them however
+you want, that's a, that's a four, you know, and
+then you get that many votes in each,
+each place, right? That's actually a form of voting that,
+you know, gets used. I think it's sometimes
+called cumulative, cumulative voting just
+to emulate number of votes, simple, simple linear,
+linear rule. But you could choose
+N to the Q and cubes could choose
+N to the 1.5 or 2.5, why N squared? Yes.
+Yeah, so there's an argument that this is
+kind of a sweet spot between attenuating
+concentrated votes, somewhat, but not too much for
+some definition of too much.
+So yeah, so there's that kind of sweet
+spot argument, but that doesn't necessarily mean
+it has to be specifically n square, right?
+You know, maybe I like n to the 2.5 better,
+you know, to me that's the sweet spot
+or n to the 1.5 might be somebody else's sweet spot.
+So yeah, you know, there is the sweet
+spot argument, but you know, different reasonable
+people might disagree on where the sweet spot
+is. On the other hand, there is a particular
+mathematical, a kind of economic incentive argument that
+leads to the authors to feel that,
+well, n squared in particular, exactly n squared
+is special.
+And it's a little, it's a little bit
+subtle, but interesting. Of course, the, you know, the math
+behind it, I, you know, even I haven't
+gotten deep into the precise, all of the details of the,
+of the economic argument and proof, but to
+try to, to try to summarize it succinctly,
+it's an incentive compatibility argument.
+Which basically says, well, the goal is to,
+is to incentivize participants,
+so to make it incentive compatible, to incentivize,
+to reveal, so this is a, this is
+a kind of an economic information revelation argument, exactly
+of the kind of general variety that prediction
+markets are based on, right? So we're trying to
+make a market and mechanism that incentive, incentivizes
+people voluntarily to reveal information
+about, yeah, do you, were you going to
+fill that in or another question, either way?
+Yeah, so even additional collection, usually like if
+you have these five questions on
+the ballot ABCDE, you would have, you know,
+they're separate things. You vote on each
+of them and you have the same influence
+on either. Quadratic voting is proposing this
+weird idea of like mixing them together. So
+whether you vote on all, at all on one, on
+one topic affects how much you can influence
+another top, right? So it's, it's, you know,
+the idea of pooling your influence. And yeah,
+so from a traditional, say, pure democratic
+perspective, like direct democracy perspective, yeah, this is
+weird. Why would you ever want
+to do that? Right? Because, well, you're supposed
+to be a good citizen in a direct democracy,
+you're supposed to read up and come up
+with a good decision and make an informed choice
+on each of those and your vote counts
+on each of them. Right? But quadratic voting is kind
+of taking things in a different direction and
+saying, you know, in a way it's doing a
+little bit, you know, kind of like the
+liquid democracy idea, trying to, trying to adapt
+to the kind of the reality that different
+voters are going to have different levels
+of interest in different topics are going to
+care more about some things than others.
+I totally don't care about a C and
+D, but I care a lot about B, right? And I want to
+influence B, right? So, so the argument here
+as well, let's pool, you know, pool these
+decisions and coming back to, you know, what,
+what is the basic premise is trying to incentivize
+participants to reveal information about their strength of
+preference. So this is really
+the key word. How strong do you feel
+about a particular question? Do you care a little,
+a lot, either positively or negatively, or not
+at all? Right? So, so the idea, you know,
+the goal in quadratic voting is for, you
+know, for you to, you know, voters to behave like,
+you know, rational participa economically rational participants looking
+for outcomes.
+And if you don't care at all about
+questions, a C and D, then your true strength of opinion
+on a C and D is zero, right?
+You are from an economically perspective, perspective not willing
+to pay a single cent on influencing the
+outcome of a C, a C and D, right? So your true preference
+is zero. And so the designers of quadratic
+voting wanted to say, okay, let's design a system that
+incentivizes people to actually pay zero, you know,
+if your strength of preference is zero,
+but if your strength of preference is higher,
+either positively or negatively on other things,
+let's say you actually do care about both
+B and E, right? But you care more about B than about E,
+right? So, you know, now here's the thing.
+If you just use, say, a linear,
+a linear rule like cumulative voting, you have
+10 credits, you care about more about B or B than
+than E, but you can take your, well,
+you, yeah, if you have 100 credits, well, you can divide them
+however you want, and they just affect B
+and E linearly, you know, the more you put on B, the
+less you can put on E and it
+just kind of varies linearly. And basically, well, there's no,
+you know, there's no direct incentive compatibility, like
+you don't, you know, win something or lose
+something by, you know, say, by expressing your
+true strength or relative strength of
+preference between B and E, you know, versus
+just, you know, putting half of your credits on each,
+like you, you, you achieve the same total
+voting power, whether you just, you know,
+put the same amount and put 50 credits
+on B and 50 credits on E, regardless of the fact that you
+actually care more about, about B. So you
+spend, you spend your 100 credits, you know, you, you do
+100 credits influence total worth of voting influence,
+but if you, if you put 75 credits on
+B and 25 credits on E, for example,
+well, you've spent 100, you've done 100 credits worth of
+influence, right? And so, and so yeah, you
+could do that, but there's no economic incentive to do
+what, you know, the, the authors say, you
+know, think is the right thing, which is to reveal your
+true strength of, of preference, right? So here,
+so here's why this magic N squared comes in.
+So the, the magic, let's say, of the
+N squared rule
+is basically this.
+To say to achieve,
+on say a question you care twice as
+much about, right?
+So, let's say I care twice as much
+about B, you know, as I do about E.
+And from economic, you know, pure economic theory,
+I would say my expected reward from B going my way is twice my expected reward, whatever kind of reward that is from E going my way.
+I care about both of them, but I,
+you know, I care B exactly twice as much as I care about E because, you know, in expectation, I expect twice the number of rewards from B as E, right?
+So, say that's the situation, then I would
+like to, I would like to influence both B and E, but I care, you know, I would like to achieve double the influence on a question to achieve double the influence.
+I, the participant must spend twice as much
+per vote, right?
+So, it's only exactly the quadratic rule that
+achieves that.
+So, so to, so if I want to,
+if I want to cast one vote at costs one credit, if I want to cast four votes.
+So, sorry, if I want to cast two
+votes that costs four credits, meaning that casts four to credits per vote, right?
+If you divide the number of credits you
+spend by the number of votes you get out of that spend, that particular spend on that particular question, right?
+So, the end square divide, you know, divides
+by N and you get an end left over, that's how N squared works, right?
+So, so your influence, so the cost per
+vote goes, increases exactly with N, right?
+And N square is absolutely unique in that
+way.
+You know, into the 1.5 or into the
+2.5, you know, will arguably not have this precise property, right?
+So, to achieve double the influence on a
+particular question, you know, you will have to spend exactly twice as much per, you know, credit in terms of credits per vote.
+And because, well, you know, in this example,
+you care twice as much about B as you do about E, you are going to, what you're going to do is divide your credits in, into basically, well, you're going to, so if you have 100 credits, you'll use 20 of them, right?
+To cast votes for here, you'll use 80
+of them to cast votes on here, right?
+Well, no, sorry, sorry, this works out if
+you have 10 credits total. Let's, so suppose you have 10 credits total, you spend eight of them to, no, that doesn't work either, sorry.
+It's, you can, you know, you can do
+the math, but let's see, I, so I was thinking, yeah, make it simple. Suppose you have five credits total, or you just divide your credits into five, you spend one here to get one vote, you spend four here to cast two votes, right?
+And you have achieved, you know, this, this
+goal of, you know, spending, influencing B twice as much as you influence E, right, by dividing your credits accordingly.
+And, you know, there's this economic, in part,
+argument that this is, you know, kind of the economically rational sweet spot, you know, kind of provable in some, you know, under some appropriate assumptions, right?
+So, really interesting idea, technically, right? Does this
+make sense?
+Questions on the basic idea, how it works?
+And where the N squared comes from?
+Okay, but that said, what do you think
+about it?
+Does it sound like a good idea? Would
+you like to vote on, on issues like this?
+You think it's a terrible idea, but, but,
+yeah.
+Did you look like you wanted to say
+something? Yeah.
+I felt like you were just saying, like,
+a country and made a system, I don't think the average person of the country would be taking the engaged, the registered.
+Yeah, okay, yeah, yeah.
+So, let's talk about issues and risks.
+There's obviously that, you know, just to understand,
+like, you know, the incentive compatibility argument, this is a deeply technical, very niche, geeky, you know, economist thing that no, you know, kind of no ordinary mortals in their right minds is ever going to, you know, get this right.
+So, so let's say comprehensibility, right.
+Accessibility
+to the general public.
+Of course, you could imagine running a big
+campaign and just saying, hey, you know, let's, you know, just persuade people. Yeah, this is the latest and greatest technology best technologically latest and greatest best way to voting.
+See the economists have proved that there's a
+theorem. And no, I know you don't understand it, but trust me. It's, you know, it's, it's a proof that this is the right way to vote.
+You know, maybe you could get a lot
+of people to believe you. Would you would you want to. So even even if you could suppose you could surmount the comprehensibility gap.
+What are some other.
+Yeah.
+How do you oh refill. Yeah, so again,
+there's there's different ways that they talk about to make this work. Yeah, kind of the kind of the obvious most arguably democratic way would be just like kind of in each cycle each voting cycle.
+Each participant get just automatically gets a refill
+of credits, right. So for, you know, for, you know, in Switzerland, Switzerland implemented this, you know, you have a vote every three months. Okay, you get a you get 100 credits.
+You know, each three months to vote on
+this batch of questions. And, you know, you use it or lose it next month you'll have a brand new batch of 100 credits, regardless of what you did in the last cycle.
+So that's one way you could do it.
+Of course, there's other ways you could do it too. Yeah.
+like the gambling problem.
+You put all your money on one thing
+and the hit is starting to hit.
+You don't have anything left over
+for these other topics that are actually important
+to you.
+All right?
+Yeah.
+And yeah, you've lost all your influence on
+those.
+Sorry, you're a loser.
+You lost your ability to influence those other
+topics.
+Sorry for your loss as they say.
+Yes.
+It's already a problem with normal politics.
+How many of you have heard the term
+distraction politics?
+So you can read about it.
+It's a kind of standard thing.
+If you want your particular,
+if you're a company with money
+and you want your particular issue to pass,
+what you do, well, you don't campaign for
+that
+because that might get the wrong kind of
+attention
+focused on that.
+What you want to do is get these
+other hot button issues
+distracting people away from the thing you care
+about
+so that to try to make sure nobody's
+really paying attention
+about this and kind of get your small
+group of supporters
+to vote in favor of that and hope
+that,
+well, most people just aren't paying attention
+and will either not vote at all
+or vote kind of without thinking or looking
+too closely.
+It sounds like a good idea, sure, that
+kind of thing.
+But if you've funded or done whatever you
+can
+to make sure the attention is over there,
+not at the issue you care about,
+this is where again, this idea,
+this thing of bright shiny objects, right?
+Comes into play in a big way, right?
+So even in normal voting,
+where you actually do have one equal vote
+on each of the issues, but you might
+not use
+your influence or use it carefully,
+but here, you might, as you said,
+basically be incentivized to kind of spend everything
+over on the bright shining object
+and not have any influence on the thing
+that actually really does matter to you
+and you should care about, yeah.
+Yeah, exactly. Good. Yeah. So the most interested
+or affected communities, right,
+must spend more, right, and effectively have less
+total influence, right? Yeah, if you care a lot about
+this particular, you know, the, you know, the
+gay rights thing that really personally affects you.
+And, you know, you feel like this absolutely
+has to pass. Yeah, I know all of these other
+things are important too. I would, I would,
+you know, do try to do something about that if those
+were independent. But yeah, this absolutely has to
+put everything I have. Well, that means, that
+means, yeah, I'm, you know, my effective total
+influence is going to be the square root of,
+you know, all of the, all of the
+other people who are kind of, yeah, all of them as, you know,
+okay, yes, yes, no, no, yes, yes, whatevs,
+you know. And yeah, so the more, you know, you could,
+you could say that this, you know, is
+absolutely not fair to the people who might be most strongly
+affected by, you know, the, by the decisions
+that really directly influence them. Yeah.
+So that could be a problem. So, you
+know, these are, these are interesting arguments, you know,
+for there are interesting arguments for and against
+this idea.
+So there's other things that can go wrong.
+How about mechanistically? Like, if you,
+what if you just want to cheat? You
+want to, you really care only about topic B.
+And you have your 100 credits, but you
+want to make them go farther than the quadratic voting
+process technically says you're supposed to be able
+to, you know, I want, I have 100 credits,
+I want to have more than the 10
+votes. I'm supposedly a lot of, yes.
+Yeah. Exactly.
+So if you can do under the table
+trading with other people, yeah, I will, I will, you know,
+use one of my votes to vote in
+my interest. I'll make a deal with nine other people.
+Each of you spend one vote on the
+issue I care about. I will spend one, one of my 10 votes
+or on each of the issues you each
+care about, right? And then we all are spreading our votes out.
+We all have much more total influence and
+I effectively get a lot more total influence on my
+issue. All of my conspirators also get collectively
+a lot more total influence on their issues and
+it's win, it's win-win for all of us
+little conspirator for our little cabal, right? So,
+yeah, so that's kind of a problem. Of
+course, you know, hopefully this is totally illegal to do
+this. I mean, if it was used in
+a real election setting, I imagine it would, you know, it had
+better be made illegal, right? Does that mean
+nobody's going to do it or, you know, is there a way to
+prevent it? Yeah.
+And I think that's the bottom line of
+things. Right now, I'm in my ballots and like in the US,
+have this situation where I can both
+learn the topic more but not on others
+and I might not and try to get
+educated
+about the topics that I know.
+Yeah, good.
+So, it kind of gives you permission,
+if not even maybe an incentive
+not to educate yourself, right?
+Do you know, study other topics.
+And get what, you know, Robert Dahl would
+call enlightened understanding.
+Remember, right?
+Yeah.
+So maybe this is, you know, if we
+want to encourage and, you know,
+persuade voters that, yeah, you know, these are
+important.
+These are all important things you should learn
+about all of them.
+Think about all of them care about all
+of them.
+Well, this is kind of a reason not
+to, right?
+Yeah.
+distraction politics manipulator.
+So this is, yeah, absolutely.
+So yeah, kind of get set the agenda
+so that kind of this, these hot button
+issue,
+you pump up the perceived importance
+of these particular hot button issues,
+get people to spend all their votes,
+voting power on those.
+They don't have any leftover to fight against
+you
+and what you actually want to use your
+small
+but important amount of voting power
+because everybody is distracted away
+from what you care about, right?
+Yes.
+Pardon me, it's making people feel like,
+for example, I said I want to make
+a law
+that's not like women's possible.
+And then they have another law just that,
+it should be that it is legal for
+women
+and like, there's still a little bit of
+add on that.
+Right, right.
+You could do that.
+Now, to try to channel the authors of
+quadratic voting
+in their defense, what I'm sure they would
+argue is,
+yeah, if there's something bad on the agenda,
+and there's something even worse on the agenda,
+and the worst thing is twice as bad
+as the bad thing,
+well, quadratic voting has you covered, right?
+Because, well, you spend twice the number of
+credits per vote
+voting against the worst thing as against the
+bad thing,
+you vote against both of those.
+And, you know, that's, and, you know,
+you're behaving as a good economically rational actor
+and then doing exactly what you're supposed to
+do, right?
+Maybe I'm misunderstanding.
+Okay.
+Any of you who then like eliminate women.
+Yeah, yeah.
+And because the women have spent their time.
+Okay.
+So it's a scare attack.
+They basically using it as a scare tactic
+to suck away voting
+power from what you actually care about.
+Yeah, yeah.
+Good, very good point.
+Yeah.
+Mm-hmm.
+Yeah.
+So absolutely.
+There is, you know, all kinds of potential
+ways
+you could envision this being manipulated in that
+way.
+Well, and the other thing, you know,
+when you brought up agenda setting, you know,
+just the choice like who gets to choose
+which issues go on the
+ballot at the same time, right?
+There's, there's a, you know, I'm sure that
+there's a lot you
+can do just by influencing that choice, you
+know,
+which, which things get in this bundle and
+which get pushed to
+the, to the next one or, you know,
+bumped up, right?
+That's going to, you know, that's going to
+matter for sure.
+Yeah.
+So anyway, um, yeah, I guess we're, we're
+about out of time,
+but yeah, yeah.
+So anyway, interesting idea.
+As you can see, I'm a little bit
+of a skeptic myself, despite
+the, I'm, I'm the here, here talking about
+it, but, you know,
+I think it might have a, might have
+a place in certain situations.
+I feel like, you know, there might be,
+there might be reasonable
+ways you might use it.
+And so I suggest, well, think, think about,
+you know, what
+might be a reasonable application that might mitigate
+the risks
+and issues.
+Yeah.
+Well, person, uh, I, you know, I don't
+think personally, I
+don't think there isn't, I, you know, a
+single ideal way.
+There's a lot, I mean, you know, I
+think I'm, um, I, I
+generally, I agree with the general consensus, election
+systems consensus that, you know, the experts are
+not, you
+know, kind of, there's no clear, you know,
+there, there's a lot
+of trade-offs and, you know, you know, kind
+of different systems
+with different advantages and disadvantages.
+Basically the, the, the one thing that, you
+know, all the
+experts agree on is that the, the system
+that the US uses is
+the worst possible, you know, the, the first,
+first, first
+past the post, uh, plurality voting, you know,
+basically has
+all the worst possible combination of features.
+And so nobody should be using that, but,
+you know, kind of,
+and which is why basically everywhere in Europe,
+you know,
+and the rest of the world has moved
+on.
+Um, but yeah, two, lots of different systems
+that
+have different, you know, advantages and disadvantages
+that, you know, I, I could, I could
+go on about.
+Um, personally, I actually love a lot of
+things about
+single transferable vote, which, which we covered briefly.
+Uh, there, there was a reading about it
+earlier, even though
+it certainly has complexity, I think it could
+be improved too.
+And I've, I've done, done a little bit
+of tentative research
+in that space, but, uh, uh, but yeah,
+I don't, I don't see a,
+you know, and maybe, maybe there will be
+a, you know, an ideal
+voting system, but it just hasn't been invented
+yet.
+So we need to, we need to invent
+it.
+So anyway, okay.
+Well, thanks.
+So good, uh, more to think about.
+And so I'll see you again next week.

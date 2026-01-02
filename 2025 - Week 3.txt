@@ -1,0 +1,1084 @@
+These subtitles have been generated automatically
+Welcome back. Hope you had a good break last week.
+So this week I want to talk about
+influence.
+So there were some readings. I hope you
+had a chance to read them because I want to discuss them some.
+All related to influence, different approaches to measuring,
+defining influence.
+So first of all, though, before we get
+into those, I'm going to ask, well, what are some...
+So what is influence fundamentally?
+And what are some forms? What are some
+ways we might measure influence or define influence?
+What is influence? Yeah.
+Yeah, so...
+So indirect...
+So a way to indirectly affect people's actions,
+beliefs.
+Yeah, yeah. Great.
+And there's... So it comes in a lot
+of forms naturally.
+It's hard to nail down precisely, but...
+But because we can influence each other in
+so many different complex ways, for better or worse.
+Sometimes intentionally, sometimes unintentionally.
+Right? So...
+We can influence each other just by talking,
+just by expressing opinions that somebody takes on without us even intending to influence them necessarily.
+Or sometimes we're trying to persuade people, hey,
+we should do this or we should not do that.
+And here are the reasons why. Persuasion is
+just deliberate attempt to influence.
+There's a lot of other forms of deliberate
+attempt to influence, for example.
+Like advertising, right? That's what advertising is all
+about.
+How about ways to measure influence? How can
+we measure influence? What ways can you think of? Yeah.
+Great, great. Yes. So let's look about measuring
+influence.
+And yeah, the paper, one of the papers
+I assigned, talked about what the network formerly known as Twitter.
+At that time it was still called Twitter.
+And they came up with these three different ways that they explored how to measure influence on Twitter.
+And what was it, in degree? Namely, which
+is basically number of followers, right?
+Follower count.
+Retweets.
+And mentions.
+Yeah, so these are three different interestingly contrasting
+ways of measuring influence just on one particular social network.
+Yeah. So, yeah, and since we're already into
+this, yeah, what did you think about these three influence metrics and what they discovered about them on Twitter?
+What are the properties? Why these three, what
+do they seem to indicate or not?
+Yeah.
+You start to speak up.
+Yep. So there in degree does not necessarily
+correlate perfectly with, with the highest highest influence in other respects, right? So why is that?
+They, there are, you know, several reasons, right?
+Yeah.
+Yeah.
+Yeah.
+Exactly. Yeah.
+Yeah.
+Yeah. So exactly. So those with, with high
+in degree, you know, weren't always necessarily engaging with their, with their followers and, and they found that, you know, this, this engagement is, is often important.
+Especially in, and for each of these metrics,
+they found that, you know, a different type of user people, company, people, companies, whatever tended to dominate, you know, and, and be the most influential by these different metrics.
+Right. Yeah. So like, like, yeah, as you
+pointed out, the mentions was nominated by dominated by celebrities. Everybody's talking about the celebrities.
+Whatever, whatever they happen to be saying. But,
+you know, the situation was quite, quite different. Like, like, and, and like, you know, retweets, often the source of the, of the original tweet, you know, might not be, you know, a high, might not be someone with a high direct follower account.
+Instead, it's might be an account that, that
+engages often with a smaller number of followers, but then those smaller number of followers send the, you know, retweet these into, into the big channels where they get only indirectly broadcast to large number of people.
+Right.
+Yeah, so there's a bunch of definitely a
+bunch of interesting non trivial effects there, determining, well, you know, kind of who actually has more influence or less influence depending on how you measure is quite complicated. Right.
+Yeah, there are other thoughts or observations on
+on the Twitter study.
+Yeah.
+Yeah.
+Yeah.
+Right, right. Yeah, so they found exactly so
+they found that people who consistently participated, who can consistently say post, you know, insightful.
+Or like, you know, comments and things that
+that others appreciate.
+Tweet on one topic.
+tend to increase right more rapidly than those
+who just say just post a lot or, you know, or, you know, have a lot of followers but don't really engage with them and so on. Right.
+So engagement is important and, you know, the
+one topic kind of being a becoming an authority on one topic where people, you know, go to I want to hear about this. Oh, you sound like an authority on that.
+I'm going to follow you listen to you
+retreat you, you know, things like that. Yeah.
+So.
+Yeah, so so that's that's very interesting. And
+now,
+what if we
+what if we, you know, venture into judging,
+considering what what kind of, you know, say out of out of these three forms of influence, which one sounds like more like the one the kind of influence you want to measure influence.
+By like what's, you know,
+if you want to derive social value of
+some kind, right, from an influence metric, how would you how would you judge an influence metric and how well or poorly an influence metric is doing.
+What job should an influence metric do and
+how do you measure it.
+To what extent it's stacking up to that
+purpose. Any thoughts.
+Yeah.
+Okay, good. Yeah, so that's a good argument
+that mentions how it has a certain seems to
+have a certain intrinsic importance in that it
+measures, you know, it seems to measure
+well what's important not enough to two people
+to mention in their casual conversation, whatever
+they're doing, whether they're, you know, whether they're,
+you know, interacting with
+the source of the mention or just interacting
+with each other completely irrespective of
+whoever is being mentioned. You know, it seems
+like, yeah, that they're, they're expressing,
+it seems like they're expressing in some way
+that well, this person, the mentioned person
+is important, right? Important to that. So, yeah,
+that's a, that's a, that's a good argument.
+Any counter arguments? Other, because this is one
+of these questions that I asked, you know, I, I,
+I feel like there's no right answer to
+this question. Yes.
+Yeah.
+Yeah.
+Yeah, good point. Okay, so you're saying, you
+know, retreats might be a good candidate because
+people who are, when people are retreating, they're
+making a direct judgment on the content.
+There's a, I think this is, this particular
+content is relevant, you know, relevant enough
+worth retreating, not just that, you know, kind
+of the, that person is interesting or is, is
+popular. Everybody's talking about him. So of course
+I have to talk about him too. But this
+particular piece of content by that person, I
+judge interesting enough to retreat. Yeah.
+Yeah, your your taking a deliberate personal action,
+not only to recognize, you know, to
+say, I judge this con content, you know,
+interesting, important enough, relevant enough to retreat.
+But I'm kind of pushing it.
+I'm joining in a project to get more
+people to see it, right?
+And, you know, at least to some degree
+consciously
+to the effect that, you know,
+people are conscious about their choice of what
+to retweet.
+Now, does that always mean that the content
+they retweet,
+are retweeting, you know, they're retweeting it
+because it's good, something they agree with?
+There are counter examples to that, obviously, right?
+Like, OMG, did you see what they,
+what, you know, that public figure said,
+or that, you know, what's going on over
+there, right?
+There are actually plenty of retweets like that.
+And so those can, you know,
+either accidentally or sometimes intentionally help,
+you know, you can end up helping, you
+know,
+kind of something you think is horrible,
+get more attention in that way.
+This is how many, how many of you,
+you heard the term the Barbara Streisand effect?
+The Streisand effect, yeah, you know,
+this happened, you know, this happened decades ago,
+you know,
+but, you know, when the celebrity Barbara Streisand
+tried to stamp out, you know,
+nasty things people were saying about her
+and she ended up just, you know, fanning
+the flames
+and then everybody was talking about her
+and this particular content a whole lot more,
+right?
+And so it became, you know, kind of
+one of these
+legendary events illustrating this that, you know,
+attempts to censor, you know,
+to, you know, kind of vehemently disagree with
+something
+can bring more attention to that, right?
+And so that can definitely happen.
+Yeah, but okay, so again, you know,
+I think there's, you know, there's no, you
+know,
+no clear answer.
+It's, you know, if there is any answer,
+it would have to depend on, you know,
+what kind of influence you actually measure,
+what is it you're trying to measure.
+Um, but let's, yeah, let's leave Twitter slash
+ex aside
+for the moment and come back to other
+metrics,
+other ways to measure influence.
+Can you think of other ways to measure
+influence
+that might be relevant in the big picture?
+Yeah.
+Plus.
+Yeah, yeah.
+So we're still in social media likes.
+Yeah.
+And yeah, you can definitely think of a
+lot of different ways
+to measure, measure influence on social media.
+And actually, you know, the paper I assigned
+you to read
+is just one of many, as you can
+imagine,
+very interesting research papers that study different forms
+of social media, especially this group
+that wrote this paper also did a lot
+of other very
+interesting papers studying, you know, kind of at
+large scale,
+different social networks at different times
+with different focus, you know,
+they did studies at Facebook and Reddit, I
+think,
+and other networks.
+They see, they see, you know, different metrics
+prove
+to be, you know, interesting to look at
+depending
+on the social network and they see different
+effects
+depending on the way those metrics are defined
+and the way people use them, right?
+So they're not all the same just because
+they have
+somewhat similar, you know, looking features.
+Yeah, so that's important.
+You could spend a lot of time studying
+different
+influence metrics on social media.
+But now let's back out of, you know,
+let's look at a bigger picture and outside
+of social media,
+right, in the real world.
+Now, I'm gonna come out and make a
+wild claim.
+I claim that the process of democracy
+is an influence metric.
+An attempt at defining an influence metric.
+Right, what kind of influence metric is,
+I mean, how does democracy work as an
+influence metric?
+Yeah.
+Yeah.
+Yeah, so voting, of course, is the point
+of measurement,
+right, right?
+The point of, you know, you're trying to
+measure,
+like in some way, but that's just the
+end of the process,
+right, not the beginning, and that's the end
+of a whole complex process, yeah.
+Yeah, see, that's exactly that.
+You mean, yeah, so having a democratic civilization
+as a goal, you mean, in that sense,
+or?
+Yeah.
+Yeah.
+Yeah, yeah, I see what you, yeah, it's,
+indeed it's, it's complicated that way. Yeah, yeah, go ahead.
+Sorry.
+Yeah, so at least, you know, that is,
+yeah, it's complicated, but that that is a key stage in which, you know, kind of the practice, the democratic practices at these key stages, moments we call votes, we're measuring
+what the people think about something, whether it's,
+you know, which of several candidates we want an office or yes or no on this ballot initiative or something like that.
+But before leading up to that point, there
+was presumably a whole big process of a test at least attempts to influence which we call campaigning, right.
+So the candidates come and say, hey, I'm
+running for, you know, for, for this position, you know, this is why you should vote for me and their parties maybe rally around them and help, help them try to advertise they go, they go on TV they go, you know, kind of do interviews.
+Of course, you know, that all of this
+campaigning leading up to the vote is, you know, an attempt to influence the vote. Right.
+So, you know, do an attempt to create
+influence that's, you know, maybe nobody really try, you know, measures, you know, kind of concretely, well, you know, I mean, there's pre election polls, which try to attempt to measure, you know, earlier
+in the day, you know, you know, you
+can see some snapshots about, you know, when poll people, you know, kind of in pollsters asking people on the street, well, what do you think of what this candidate said would you vote for them if you were voting today, even though the election isn't for three months, right.
+So, you know, you can try to measure
+the successor failure of that kind of campaign level influence but, but you know, yeah, the, the objective usually the objective throughout the whole candidacy cycle is to create enough influence, and then the vote is what's measuring, you know, kind of
+the success or not of, of, you know,
+each of the candidates influences or the, you know, kind of the how successful were the proponents of this initiative at getting convincing people that this is a good idea versus the success of the opponents convincing the people that this is a terrible idea definitely vote no right.
+So, in some sense, yeah, that that's, you
+know, that that's the voting process is measuring the outcome of attempts.
+Oops, can't spell to influence the public right.
+On the other hand, why is it that
+these candidates are seeking office.
+I mean, I'm sure that some of them
+are genuinely just really kind of interested in, you know, you know, these particular issues they think, you know, I got, you know, trying to trying to make the world a better place I think I know how I have some ideas how and that's great when when they do.
+And it's also often the case that candidates
+are attracted to, you know, kind of get a taste for, for office or for the promise of office or already have an office and want a bigger better office.
+What is it they're seeking.
+Yeah.
+Yeah, yeah. So, you know, a lot of
+candidates are very much office is office and power seeking right. Not all but
+there are actually strong incentives right, kind of,
+especially in, you know, kind of large countries with where, where it takes a lot of money and campaigning and a lot of commitment.
+You know, usually, you know, the only people
+who even go through this process are those with a taste for it that like, you know, yeah, I can do this and, and the rush of the, you know, the power and the stuff means something to them.
+Absolutely. Yeah. So there's huge advantages to having
+not only the money, of course, the money to
+run the campaign and stuff matters a lot,
+but also other things that are not directly money,
+things like having had the right education, like
+having been in the debate club in college and high
+school and having had a lot of practice
+debating on your feet, that kind of skill set. The skill set
+for a politician is not the same skill
+set as to do most other things, to be a typical computer
+scientist, for example. The two can cross, fortunately,
+but there are differences in the
+skills that tend to be most important. And
+the reality is, again, especially in the US and some
+other places where you went to school matters
+a lot, not only for the skill set, but also the
+connections you made, the political connections, people who
+can help you get that influence and
+campaign later and so on. But yeah, so
+all of that is going to influence, all those factors are going
+to influence in subtle and complex ways, whether
+a particular candidate wins or loses, not just
+their merits, obviously. But then many of these
+candidates are actually also seeking power in
+office because if once you get that office,
+you have a platform, people know you a lot more,
+that is also a means to more influence.
+Power feeds on itself, the attraction of power
+feeds on itself, and you discover you've got a
+knack for this, debating and this politics thing,
+you get a low-level office, you get
+more connections, more recognition, that gives you a
+bigger advantage when you want to move to
+campaign for a higher-level office. That's how politicians
+move up.
+So the point is here, in terms of
+a particular vote, the vote is an act of measuring,
+measurement of influence, I think that's clear, but
+it's also an event that participates in the
+cycle. And a lot of other informal forms
+of influence happen and are inevitably important
+throughout the other parts of that cycle, both
+before voting and now, before voting when all
+this campaigning is happening and after voting, once
+a particular candidate has gotten office
+and is using that office in part to
+become more prominent and get more influence, again, measured
+informally until the next voting cycle, we see
+how that influence has evolved.
+Yeah, so democracy is a complex influence process.
+It's not easy to measure all the factors precisely,
+but other than these very particular points we
+call votes where we're measuring,
+basically sampling moments in time.
+Yeah, let's keep that in mind.
+but some of the properties of this as
+we look some more at other forms of influence metrics,
+ways to measure and use influence.
+So we haven't yet discussed one of the
+other papers I assigned, the PageRank.
+What? So what do you, what's this, what's
+this about PageRank? What do you think about PageRank?
+Now, how many of you are familiar with
+the background of like why is PageRank so important?
+Why would I assign it as a paper?
+It's not that deep or difficult or, you know, as a technical word. Yeah.
+Exactly. Yeah. So PageRank, the paper was 1998,
+I think, but the result was Google, right?
+This was basically the, you know, the PhD
+work of Larry Page and Sergey Brin. This was their
+main invention. Now Google was not at all
+the first web search engine.
+Any of you, any of you remember or
+heard about any search engines before Google?
+Some of them still exist, actually, even though
+we hear about them rarely.
+One of them that predated, yeah. Yeah, good,
+good. Thank you. Yeah. So indeed, Yahoo predated Google
+not only as a search engine, but also
+as a big topic hierarchy, kind of a content and link organizer.
+It kind of doubled. But yeah, yeah, yeah,
+who ran a search engine before Google.
+But that even, you know, back then pre-Google's
+even Yahoo wasn't the most popular search engine,
+the biggest. And anybody, yeah. Firefox was a
+browser that came out a little bit. Well,
+it's a desentance of the Netscape browser, which
+was the Netscape navigator, which was,
+I think at that time, the big browser.
+But then it kind of open sourced and forked Firefox.
+But the Firefox browser, yeah, like, you know,
+fully adopted Google, but used other search
+engines before as the start page. And so
+technically, it's independent of the search
+engine, even though Firefox actually, in effect, for
+better or worse, played a big role in helping
+Google, you know, kind of get to come
+to prominence in its time. Anybody heard of Alta Vista?
+Yeah. Oh, great. Okay. Yeah. Yeah. So before
+Google, there was, yeah, there was Yahoo,
+there was Alta Vista, there were a few
+other smaller ones. But Alta Vista was the big one,
+right? And it worked pretty well. It scaled,
+you know, and Yahoo scaled. Okay. You know, they
+figured out Web, Webcrawler, they could actually deliver
+results. But why did Google take over and
+very quickly, completely dominate the web search, you
+know, because very soon, I can't remember
+how soon, but like, you know, within the
+year or two, like everybody, everybody was using
+Alta Vista before everybody was suddenly using Google,
+right? Yeah. Yeah. Well, how do you find,
+define accurate, though? I mean, I'm hammering, I'm
+like a monkey hammering some words into a
+search bar. I don't even really know what
+I want. How do you define accuracy?
+Bingo. Users were happy. Users were, you know,
+being monkeys typing words into the computer,
+and Google was making them happy. Yeah. Google
+was giving them results they liked, much more
+than Alta Vista. Right? Yeah. Yeah. So now,
+of course, yeah, you're right, that, you know,
+they were more accurate by some metric, but,
+you know, ultimately, you know, the metric was,
+you know, that came down to it was
+user happiness. They were, you know, a lot happier with the
+results Google was providing. Right. And, you know,
+if you, if you ask in a little bit more depth,
+basically what they all consistently said is, well,
+you know, I would enter these words into
+Alta Vista, I would come, it would give
+me three pages and I would have to hunt, hunt, hunt, hunt,
+hunt, hunt, wait down to midway down page
+three. I finally get something relevant to what I thought
+I was looking for. Right. Whereas with Google,
+I enter the same, you know, three or four words,
+and the top hit is exactly what I
+was looking for. Right. Or, or extremely relevant to, to what I
+was looking for, even if I didn't know
+exactly, I, it was a vague thing, just some, some vague words.
+But yeah, you know, the top few hits
+were at least close to what I was looking for. Yeah.
+the entire goal versus, did we lose something
+in the process of getting the education,
+the serendipitous encounters we might get
+along the way there can be interesting too.
+And in that regard, I have to call
+out Yahoo
+as the search engine, the pre-dated Google,
+where they actually had this bimodal thing.
+Well, yeah, they had a search engine
+that would just respond to search terms,
+but they also had this big,
+attempted to curated hierarchy of content
+with people actually managing it.
+And a little bit more in the classic
+library card
+kind of style where you would think, okay,
+what do I want?
+I'm gonna think it may be down somewhere
+below this
+in the hierarchy, click to the next page,
+click down,
+kind of down into a big hierarchy
+to search for what you're looking for.
+And you might see in the process,
+you might see other things that you didn't
+realize
+you were looking for, but oh, that sounds
+interesting too.
+And maybe I wanna read that too, right?
+So yeah, indeed, there's,
+and that was kind of in, that was
+part of the intent there
+that it should be a little bit more
+library like,
+not just straight to the point, right?
+Yeah, but for better or worse, Google,
+basically everybody who is regularly using search engines
+found that Google was just very consistently
+delivering something very obviously more relevant
+than other search engines when they entered it,
+kind of like the top few things would
+be very relevant.
+And that's why Google tick off.
+So since it's, yeah, since it's break time,
+let's go ahead and take the break,
+but we'll talk more about page rank and
+how it works
+and why it actually achieves, appeared to it,
+achieve this, these benefits.
+Okay, so see you, let's, yeah, see you
+in 15 at 4.15.
+Okay, can we continue?
+Yeah, so we left off at this question,
+why exactly did Google effectively take over
+because at least subjectively by everybody
+who was evaluating, people just liked the answers,
+they were getting better.
+Yeah, well, I mean, the short,
+I think the short simplistic answer is kind
+of clear.
+Google came successfully figured out a way
+to measure influence on the web that kind
+of worked.
+At least it kind of worked a lot
+better
+than the prior search engines did, right?
+So page rank is a way to measure
+influence on the web.
+How does it do it?
+So anybody wanna, can anyone quickly summarize?
+What's the essence of the idea?
+We've got a bunch of web pages, something
+out there, yeah.
+Sorry, count the backlinks, exactly, yeah.
+So if we put all of the list,
+all of the web pages twice,
+we've got websites A, B, C, and D,
+right?
+And so on, a lot more, the same
+A, B, C, and D.
+Well, we look at which web pages refer
+to which other web pages, right?
+Which one's linked to a given web page,
+right?
+So if B and C both link to
+A, then those are backlinks.
+Those are links from other web pages to
+A, right?
+And we're gonna count that as influence.
+And if C links to D, but only
+C links to D,
+then well, that's one unit of influence, right?
+So A is getting two incoming web pages
+worth of influence
+and D is getting one web page worth
+of influence, right?
+But is PageRank counting this influence,
+quote unquote, democratically?
+So do each of these backlinks count as
+one equal vote?
+taking an initial set of lights at the
+first,
+at the starting point of an iteration,
+maybe the websites do start out with equal
+weight.
+Every website counts as one unit,
+but then they count up, okay,
+in the first iteration, yeah,
+one unit goes to A, two units go
+to A,
+because A gets two back links from B
+and C,
+and D gets one unit,
+and maybe B gets zero units
+because nobody links to it, right?
+But that's just the first iteration, right?
+So, because after this first iteration,
+well, these numbers go here,
+so A has acquired two units of influence,
+so A now has weight two coming out,
+right?
+Anything, and D in this case has one
+unit of influence,
+so D has weight one coming into the
+next iteration, right?
+And so now these are not relevant anymore
+because they're for a different iteration,
+and now anything that A links to, well,
+let's say B,
+I'm changing the story here, sorry about that,
+but, and if D links to C,
+then in the next iteration,
+basically A is getting two units,
+and D and C is getting one,
+even though only one website linked to each
+of them,
+but A is a more important referrer
+because it got more weight
+in a previous iteration, right?
+And then, of course, if you do this
+naively,
+then the numbers might just kind of blow
+up
+and do crazy things,
+but they come out, have this nice process
+where at each iteration,
+they normalize each of these weights by this
+factor C,
+so that at the end of each iteration,
+all the websites in total add up to
+the same thing,
+you could call it one if you want,
+or N if they're in websites, whatever you
+want,
+normalize it to whatever you want, doesn't matter.
+And, yeah, and of course,
+as you iterate this process,
+this is the simple kind of,
+relatively simple kind of process
+that well, with certain important constraints,
+this basically converges
+with iterations.
+Now, how quickly it converges is another question.
+How many of you are familiar with linear
+programming,
+linear programming systems ever encountered those yet?
+Yeah.
+So, this is actually a simple form of,
+what this is doing is kind of a
+simple form
+of linear programming, right?
+Something that in principle,
+you can do with a linear programming solver,
+if you set it up right.
+Only most linear programming solvers don't work across
+at the scale of a web crawl of
+the whole internet, right?
+So that's what Google was doing,
+even from the very start,
+that your average standard LP solver
+will not have such an easy time with
+it.
+So, fortunately, it's the simple kind of linear
+programming
+solver that for which just simple iteration
+tends to do pretty well,
+even though there are kind of bad cases,
+you can synthesize for which this approach
+will take basically forever to converge
+or without not converge.
+But fortunately, the web appears not to be
+one of those bad cases, right?
+So, it worked.
+So this otherwise fairly simplistic,
+iterative refinement approach worked for Google, right?
+But yeah, so let's not...
+Now, this isn't the whole story, of course,
+right?
+So, there was also this...
+This is kind of the starting point of
+the algorithm,
+the basic idea,
+but there was also this notion of resistance,
+right?
+in the real algorithm.
+What was the counter example for where the
+situation where that would go wrong?
+Yes, exactly. So the problem ranks sinks.
+And yes, so this is just one or
+more nodes, any click of nodes that whoops.
+There we go in my back. Yeah, accidental
+gestures. So suppose we've got, you know, these nodes
+delegating to each other in a cycle, but
+nobody delegating outside of this cycle, and somebody,
+at least one node delegates into this cycle,
+right? So if you just run the basic iteration,
+you know, process, what's going to happen is
+that, you know, PageRank power kind of accumulates
+here and accumulates and accumulates and accumulates with
+respect to everyone else. What's the effect
+you're going to see? And, you know, I'll,
+if you don't do something about that.
+Right. So these are going to basically the
+ranks sinks are going to be all powerful.
+They're going to be gone, right? They're going
+to be the dictators of the web. Right.
+So and yeah, that that will happen because,
+you know, nothing is taking the power out,
+nothing is reducing them. But, you know, everything
+else is going on is progressively at
+each iteration, putting a little bit more power
+in without taking anything out, right, relative to
+the rest of the network. Right. So yeah,
+you know, so they correctly realize that, yeah, that
+that wouldn't be ideal. That's not really what
+they wanted. In particular, it would be a really
+easy way to game the system. The moments,
+you know, they published this paper, you know, they knew,
+well, people would be, you know, trying to
+optimize their Google, you know, rankings. And, well, if
+this was a really easy way to do
+that, then it wouldn't be long before people start exploiting
+that opportunity. Right. Yeah. So they had to
+do something about that. Yeah. And so what was the
+solution? Well, there's this, they have this constant,
+like, you know, every delegation. So
+well, one way you can, you can look
+at it as, as a universal tax, right, universal on,
+on page rank power, meaning everybody pays, you
+know, at each, at each iteration,
+we take, you know, some percentage, I don't
+know, 1%, let's just, for example,
+you know, what 1% of everybody's power goes
+into nowhere, we just remove it. Well, of course,
+it gets normalized away. But then that same
+1% of the power gets put back evenly distributed to everyone,
+to all the websites, right. So even though,
+you know, as if it was the first iteration, only on
+the first iteration, that's all of the power
+that, you know, everybody gets exactly one equal unit.
+But at the, all the subsequent iterations, everybody's
+getting a little bit of equal power,
+you know, a little sliver, not, not, not
+everything, right.
+Anybody heard of a universal basic income? Yeah.
+You see what, you know, page rank is
+implementing a universal basic income for, for websites,
+right.
+Basically by, you know, at each iteration, taxing
+everybody, right, taxing all of the page rank
+that's flowing and feeding, feeding, you know, some
+of it in equal measure back to,
+back to all the websites to make sure
+that these kinds of accumulations, you know, can't get two
+out of half, right. And, you know, that
+is one way to do it. It, it succeeds, right.
+Not, not necessarily perfect, but it did the
+job for Google. It made them, you know, the
+biggest tech company in the around, right. So,
+so not bad for a PhD thesis, right, or a couple
+PhD thesis. So, thoughts or questions on how
+it, other thoughts or questions on how it works.
+I'm not, you know, going to focus super
+deeply on, on the, you know, the technical aspects,
+but, but I think it's useful to understand.
+Yeah.
+Good question. You know what they haven't told
+me recently. I mean, I, I know many people at Google,
+but I am not sure. Yeah, of course,
+their algorithm has evolved enormously, you know, in the
+intervening decades. But my understanding is that this
+is more or less still the bait, you know,
+kind of the idea is still there, right.
+So, I think that's, that's, that's a good question.
+The idea is still there, right. Despite, you
+know, all the ways they've improved and tweaked it in all,
+all sorts of ways. I think, you know,
+the basic idea, you know, is still at least some, to some
+degree, what they're doing. But yeah.
+Yeah. Yeah. To allow them to monetize. Yeah.
+Well, that's, that's one of the interesting
+things though. Of course, yeah, yeah. You know,
+I mean, they did eventually figure out
+how to, you know, insert advertisements into their
+search results without people getting
+too angry and, you know, various things like
+that. But, um, so, you know, and there's a
+lot more subtleties now that Google does everything,
+not just search, you know, um, but for a very
+long time, you know what one of, you
+know, Google actually accidentally got a huge boost.
+They, you know, in the early years, they
+totally did not know how to monitor. They knew they
+had this great thing that everybody was happy
+with and people were, were loving and, you
+know, they were super happy that they had
+accidentally taken over the search engine
+space, but they themselves did not know how
+to monetize it, at least immediately in the early
+days. You know what, you know, what helped
+them tremendously, you know, with that monetization,
+you know, starting not long after coming back
+to this topic of Firefox. Well, and before that,
+next, next gate navigator, right? The breb, the
+browser is kind of realized that, well, you know,
+what people tend to want first is, you
+know, is, well, they don't want a big complicated page with,
+you know, home page, like kind of what,
+what should the browser show first as the default page?
+Well, you know, a lot of browsers had
+big complicated page, like this is the next gate page,
+and here's some links, this stuff you might
+like, or go to Yahoo and go into this deep hierarchy.
+Well, you know, the browsers, especially Firefox, you
+know, kind of realized that, well, what people
+often want is just a search engine, right?
+Preferably a good one, you know, and, and so they
+just decided, okay, we're just going to Google
+as a good search engine, we're going to just
+use Google as our default home page, right?
+And then it, you know, and so everybody was using,
+you know, using Google, because well, it was
+just, you know, giving, giving people what they wanted.
+And then, you know, it, yet, you know,
+they realized that, well, actually, one of the things that
+people look for is things that they want
+to shop for, the things that they want to buy. And,
+you know, here was the big monetization opportunity,
+namely, you know, namely,
+you know, when you're, you know, when people
+actually want, you know, search for products
+that, you know, are on sale, here or
+there, you know, advertisers are willing to pay to,
+you know, to, to, to have their results,
+you know, shown, you know, early, even if they're
+explicitly labeled as advertisements. So yeah, it's manipulation,
+but, but, you know, people don't,
+you know, Google discovered, you know, kind of
+accidentally that people don't seem to mind,
+you know, being hit with advertisements, if it's
+an advertisement for something I searched for,
+right, because I wanted to buy it. And
+so, yeah, the advertisement is actually very relevant to me,
+is it? Right? Yeah. So, and, and Google
+was kind of uniquely in that position. After that,
+everybody else was trying to, you know, jump
+on this internet advertising revenue bandwagon.
+Nobody else succeeded as well as Google, partly
+because the model just wasn't as, as a perfect,
+as a perfect fit. And also partly because,
+well, Google was already in Firefox, everybody was using,
+you know, had this lock in because it's
+the, it was the first browser that,
+the first search engine that everybody sees. Yeah.
+Some of them, some of them did, but,
+you know,
+and, and, you know, Google got some, you
+know, significant competitors along the way, coming
+and going, you know, you've heard of, you
+know, even, even recently, like Microsoft being, you
+know, and, and there, there were a lot
+of competitors before then that kind of came and went or came
+and stayed, but just didn't get super popular.
+The thing is, you know, Google had a huge head start.
+By, you know, they, they had, by the
+time, serious competition, you know, kind of entered the arena,
+they had built their infrastructure, their web crawling
+infrastructure. So they had the,
+you know, huge database of everything on the
+web. And you wanted to compete with them. Well,
+you have to start by not only trying
+to improve on their, on their basic algorithm. Yeah, you could,
+you could probably figure out a way to
+do that, but you also had to catch up with them in infrastructure
+and in the web crawling and, you know,
+kind of all of that stuff. And they were already miles ahead
+in that respect. And they kind of, you
+know, invested a lot and maintained that lead. And that's,
+you know, one of the things they, they
+still compete with on, you know, having this global,
+you know, Google in only infrastructure for all
+of these Google, Google services, right? They,
+you know, set the, you know, the, the
+bar for anybody to catch up is pretty high. And it was
+even early on. Yeah.
+That too. Yes.
+Exactly.
+Exactly. They had, and in fact, you know,
+even though Firefox helped Google, you know, early on,
+in the subsequent decades, it was everything, it
+was the other way. Like, you know,
+there was no way Firefox was going to
+switch to a different search engine because
+Google advertising, it was and is what supports
+Firefox basically, right? Because, you know,
+and you, you even think of switching to
+another web browser, you're shooting yourself, you're,
+you're cash cow in the foot, you're shooting
+your income in the foot, right? So that was, you know,
+the other way they, you know, very early
+on developed a very strong lock in that was, you know,
+very difficult for anyone else to overcome. Yeah.
+Yes. Good. Yeah. Thank you for bringing up
+this topic because that was the next topic
+that I wanted to get into, manipulation. Right?
+Yeah. So, we could see Google successfully
+headed off the easiest and most obvious way
+that somebody could manipulate their search
+engine, but did that close off all ways
+that their search engine can be manipulated? Absolutely
+not. Yeah. As you observed, there's actually a
+ton of ways people have come up with since then.
+Actually, one of the assigned readings for next
+week that I believe it's already shown on the
+website will be specifically about search engine manipulation.
+So, we'll get a little bit deeper
+into that topic for sure. But let's just
+kind of thinking ahead. How might you manipulate Google?
+Right? What did you just suggest? Put a
+web page up and yeah. Yeah. So, edit. Yeah. So, a lot of
+pages reference Wikipedia. So, just yeah. Edit a
+popular...
+So, many Wikipedia pages obviously have acquired significant
+page rank reputation apparently
+because yeah, they wind up at the very
+top of the search ranking. So, yeah. You want your own site
+to get some reputation. Just put a link
+to your site in that Wikipedia page and yeah, for the win.
+Right? Doesn't always work. But yeah, I want
+to see what... Yeah.
+And does it seem like that you think
+it's called manipulation?
+Yeah. Good question. So, is this good manipulation
+or bad manipulation? Maybe some manipulation is
+useful. Like maybe, you know, that Wikipedia page
+is about a topic and your web page is actually
+really the best authority on that topic. Or
+maybe that Wikipedia page is about certain medical
+product and you are the producer of one
+of the two medical products, you know, addressing the
+medical condition that Wikipedia page is about. So,
+this is arguably actually super relevant
+information. Right? Your link should be on the
+Wikipedia page and if it isn't there yet,
+you are helping society by putting it there.
+That's one argument. Of course, all of the product
+makers see it that way regardless of, you
+know. So, yeah, yeah. So, it can be this kind of influence,
+can totally be for good or for bad
+depending on how you look and who's judging. So, how do you judge?
+Yes? Here's outside field of SEO. Search engine
+optimization. Yeah. SEO. Yeah. This is a big thing.
+Again, next week we're going to get deeper
+into that, you know, with some readings. Yeah. So,
+because I think this is important to, you
+know, to think about, to understand to some degree,
+yeah, how this has developed, you know, and
+what like the science, you know, and art of search engine
+manipulation and how sophisticated it has become. Yeah.
+Now bring the, bring out the big guns of AI
+to manipulate even further and yeah, let's see
+what happens next. Yeah. Yeah. It's really,
+you know, and of course, Google is, you
+know, busily trying to use their own AI, develop and use
+their own AI to detect these manipulation attempts.
+So, it's AI defense against AI offense. And,
+you know, it's a really good question. What's
+actually going to happen there? So, I think it's,
+you know, recurring question we should come back
+to. But yeah, we'll look deeper into
+search engine manipulation next week for sure. Yeah.
+But okay. So, so yeah, just editing Wikipedia
+can for better or worse be a way
+to manipulate Google. Who's heard of, there's other ways though.
+Who's heard of the term Google bombing? Is
+this still a term that's going around?
+I mean, maybe Google has, you know, has
+gotten good enough at, at resisting these attempts at
+manipulation so they aren't so effective anymore. But
+I think they still can be, you know, somewhat
+effective. Well, here's the thing. If you, if
+you, so, you know, what, a detail that I didn't really
+get into here was that, of course, you
+know, of course, Google needs to associate these links,
+you know, these aren't just, just links per
+se, you know, just raw links, but they're associated
+with, with potential search terms associated with words.
+So, so Google wants to use this so that,
+you know, if you have, you know, if,
+if several sites, sites link to be with, in the context of
+some particular word, like, you know, like, you
+know, potato chips or something, right, then
+searches for potato chips are going to be,
+you know, kind of more likely to go to site B. So,
+Google is going to infer that, well, you
+know, maybe, maybe, you know, B site B as an authority on
+potato chips are very relevant, you know, kind
+of when, when people search for potato chips,
+you know, a lot of websites thinks that,
+that B is an authority and, you know,
+on potato chips. So maybe we should send
+them there, right. Well, with Google bombing,
+you just take advantage of that, right. So
+it's kind of a, it can be kind of a collective sport.
+You want to associate an arbitrary word with
+some arbitrary link that maybe that word has
+nothing to do with, but you're doing this
+in fun, maybe, or for some other reason, you just, you
+know, call up a bunch of your friends
+or post on a big forum of, you know, kind of similarly minded
+people say, hey, wouldn't it be fun if
+this word was, was associated in Google with this link?
+Can you all just post, you know, anywhere
+on your web pages, your home pages, Wikipedia,
+anything, you know, you, you can conveniently get
+on the web, you know, this word with this link,
+right, attached. And then if you, you know,
+succeed in getting a lot of people to do it,
+you're just using informal, your informal influence, your
+social networking, posting on
+Twitter or whatever, Reddit, you know, kind of
+wherever people listen to you. And if a lot of
+people do that, then a lot of web
+pages will have this link associated with this word. And
+it will, you know, kind of propagate up,
+maybe get to the very top of, you know, Google search
+result for that word. And the effects can
+be hilarious, believe me. Yeah, do you have a question?
+Yeah. Indeed. So that might be deliberate search
+engine manipulation of the kind where we're going
+to study a little bit more, more next
+week, because yeah, there's totally ways to do that,
+you know, deliberately, of course, you can get
+in trouble if Google just detects that you're
+doing that. But, but, you know, there can
+other be other more innocent explanations too, just like,
+well, that, you know, that thing used to
+be there, but it got changed for other unrelated
+reasons. And it no longer says that there,
+but on a different page, if Google hasn't just hasn't
+caught up with that yet. So, you know,
+and it's, it's often actually hard to, you know,
+to tell the difference between, you know, kind
+of innocent and nefarious
+reasons for that kind of thing happening, right?
+But anyway, yeah, so just, you know, as an example
+of what people have successfully used Google bombing
+for, so get many friends, followers, whatever,
+to post a word, you know, a word
+or term, you know, with a particular
+link, right? And Google's page rank algorithm does
+its job, right? You know, when, when there are,
+indeed, on the web, a bunch of web
+pages with varying amounts of, you know, page rank, all of
+which are, you know, kind of linking to
+this particular link in the context of this particular
+word, well, it's supposed to give the, you
+know, increase the page rank. That's the evidence,
+that is the influence metric. There, it's supposed
+to raise them up, regardless of whether, you know,
+whether, you know, the reasons that might be
+behind this, right? Now, in, in the particular
+instance of this has happened many times, actually,
+in the particular instance, I remember most clearly,
+there was a particular, very in the US,
+a particular very right-wing political candidate
+that was running for office in Texas, if
+I remember correctly, and on a very kind of
+conservative family values, pristine, let's be all pristine
+and all moral and everything, and I
+think you would very anti, anti GLBT in
+particular, and, and some, you know, kind of, some of the
+activists on the other side said, okay, let's
+come up with a really horrible word of some kind,
+just get a, have a contest, an internet
+contest to invent, what's the most horrible word we can
+invent to associate this candidate's name with, right?
+So they actually had a contest to, to
+propose a word that, you know, didn't even
+exist before, but propose a definition for that word,
+also totally concocted, but then, you know, that
+was just the start, but then they were going to use
+all the, they used all the publicity they
+got from this, having, holding this contest to say, okay,
+everybody, here's the winner of the contest, everybody
+edit your web pages to have, you know,
+this particular newly concocted word linked to this
+political candidate's webpage, right?
+And they did that, they successfully Google bombed.
+No, actually, it was the candidate's name, sorry,
+now it wasn't an arbitrary word, but, but it is
+the candidate's name associated with this concocted word,
+right? And, and they successfully
+basically got Google to manipulate Google to, you
+know, anytime anybody entered the candidate's
+names, you know, the very first or second
+search hit would be this webpage that essentially defines
+the candidate's last name in this very offensive
+way, which I won't repeat the details of, but you
+can only imagine, right? So, so, but yeah,
+you know, so this, this definitely can happen, and we'll,
+we'll dive deeper into that, you know, kind
+of the, the search engine manipulation vulnerabilities
+later, right? Yeah, other other thoughts on, on
+page rank.
+Okay, well, okay, so if not, we're, we're,
+we're about out of out of time anyway, so, so we'll dive
+more into that next week. So, thank you.
+And I'll see you, I'll see you next week. Have a good,
+have a great week.
