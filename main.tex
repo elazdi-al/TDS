@@ -1,0 +1,93 @@
+\documentclass[10pt, a4paper]{article}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+
+% Compact title
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{1.5ex plus 0.5ex minus .2ex}{0.5ex plus .2ex}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    \vspace*{\fill}
+    {\Huge \textbf{Technologies of Democratic Societies}\par}
+    \vspace*{\fill}
+\end{titlepage}
+
+\textbf{The Big Picture.}
+This course asks a simple question: \textit{Does technology help democracy or hurt it?}
+We don't just ask "how do we build it?" but "what should we build?" We look at the gap between the \textbf{dream} (everyone has a voice) and the \textbf{reality} (spam, fake news, and surveillance).
+
+\section*{Part 1: The Dream (Licklider's Vision, 1968)}
+Long before the internet, J.C.R. Licklider dreamed of a future where computers would help people think and work together better.
+
+\textbf{Communication is "Modeling," not just Sending.}
+Licklider argued that real communication isn't just sending a file to someone. It's about properly understanding what is in the other person's head (their "mental model"). He believed computers would help us show these models to each other, making teamwork faster and smarter than face-to-face meetings.
+
+\textbf{The "OLIVER" (Digital Assistant).}
+He predicted we would all have a digital assistant (he called it an OLIVER) that knows what we like and helps us filter information. Today, these are the algorithms and AI bots we interact with.
+
+\textbf{Communities based on Interest, not Location.}
+He predicted that people would form groups based on what they \textit{love}, not just where they \textit{live}. This would make life happier and more productive.
+
+\textbf{The Warning: The Digital Divide.}
+He also worried: If only rich people have computers, will this new power be a privilege for a few, or a right for everyone?
+
+\section*{Part 2: The Experiment (Usenet, 1979)}
+Usenet was the first real attempt to build this dream. It was the "grandfather" of Reddit and Twitter—a global network where anyone could post a message for the world to see.
+
+\textbf{How it worked (Simple Version):}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{UUCP (Copying Files):} It started with a simple trick. One computer would call another over a phone line and "copy" a file to it.
+    \item \textbf{Gossip Protocol:} That computer would then call another, and another. Like a rumor spreading in a school, eventually, every computer had the message.
+    \item \textbf{Newsgroups:} Instead of emailing one person ("To: Bob"), you posted to a topic ("To: Unix-Lovers").
+\end{itemize}
+
+\textbf{The Philosophy: No Bosses, No Censorship.}
+Usenet was \textbf{Decentralized}. No single company owned it. It was run by regular people (admins) connecting their computers.
+It was designed to be \textbf{Censorship Resistant}. If one computer blocked a message, the "gossip" would just find another path around it. This meant total Freedom of Speech.
+
+\textbf{Why it Failed: The Spam Explosion.}
+Because the system was designed to never block anyone, it couldn't block bad actors.
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Limitless Spam:} In 1994, lawyers Canter \& Siegel posted an ad for "Green Cards" to every single group. This proved you could use Usenet for free advertising.
+    \item \textbf{Signal-to-Noise Collapse:} Soon, Usenet was full of junk. It became too hard to find the real conversations. People left for places like Reddit where moderators could delete the junk.
+\end{itemize}
+
+\section*{Part 3: The Scorecard (Dahl's Criteria)}
+How do we judge if a technology like Usenet is actually "democratic"? We use Robert Dahl's 5 rules for a democracy.
+
+\textbf{The Base Rule: We are all Competent.}
+Democracy assumes that every adult is smart enough to decide what is best for themselves.
+
+\textbf{1. Effective Participation (Can you be heard?)}
+\textit{Rule:} Everyone must have a real chance to speak and be heard \textit{before} a decision is made.
+\textit{Usenet's Grade:} \textbf{Fail.} Technically everyone could speak, but because of all the spam/noise, nobody could actually be heard.
+
+\textbf{2. Voting Equality (One Person, One Vote).}
+\textit{Rule:} When it's time to decide, my vote and your vote must count exactly the same.
+\textit{Usenet's Grade:} \textbf{Fail.} Because there were no ID checks, one person could make 100 fake accounts ("Sock Puppets") and vote 100 times.
+
+\textbf{3. Enlightened Understanding (Do you know the truth?)}
+\textit{Rule:} You need access to the truth and different facts to make a smart choice.
+\textit{Usenet's Grade:} \textbf{Mixed.} It promised access to all human knowledge, but without filters, it was easy to get lost in lies or junk data.
+
+\textbf{4. Control of the Agenda (Who decides what we discuss?)}
+\textit{Rule:} The people (not a king or a CEO) must decide what topics are important.
+\textit{Usenet's Grade:} \textbf{Good start, poor finish.} At first, anyone could start a topic. Later, spammers hijacked the attention, effectively controlling what everyone saw.
+
+\textbf{5. Inclusiveness (Is everyone invited?)}
+\textit{Rule:} Every adult subject to the rules must be allowed to join.
+\textit{Usenet's Grade:} \textbf{Pass.} It was famously open. If you could get to a computer, you were in.
+
+\hrulefill
+
+\textbf{Bottom Line.}
+Usenet proves that \textbf{Uncensored Speech} (freedom to say anything) is not the same as \textbf{Democracy} (freedom to decide together). Without rules to stop abuse (like spam or fake voters), the democratic process breaks down.
+
+
+\end{document}

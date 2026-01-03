@@ -1,0 +1,820 @@
+The search engine manipulation effect (SEME) and its
+possible impact on the outcomes of elections
+Robert Epstein1 and Ronald E. Robertson
+American Institute for Behavioral Research and Technology, Vista, CA 92084
+
+Edited by Jacob N. Shapiro, Princeton University, Princeton, NJ, and accepted by the Editorial Board July 8, 2015 (received for review October 16, 2014)
+
+Internet search rankings have a significant impact on consumer                    Primacy effects in particular have been shown to have a favor-
+choices, mainly because users trust and choose higher-ranked                   able influence on the formation of attitudes and beliefs (18–20),
+results more than lower-ranked results. Given the apparent power               enhance perceptions of corporate performance (21), improve rat-
+of search rankings, we asked whether they could be manipulated                 ings of items on a survey (22–24), and increase purchasing behavior
+to alter the preferences of undecided voters in democratic                     (25). More troubling, however, is the finding that primacy effects
+elections. Here we report the results of five relevant double-blind,           have a significant impact on voting behavior, resulting in more
+randomized controlled experiments, using a total of 4,556 un-                  votes for the candidate whose name is listed first on a ballot (26–
+decided voters representing diverse demographic characteristics                32). In one recent experimental study, primacy accounted for a
+of the voting populations of the United States and India. The fifth            15% gain in votes for the candidate listed first (30). Although
+experiment is especially notable in that it was conducted with
+                                                                               primacy effects have been shown to extend to hyperlink clicking
+                                                                               behavior in online environments (33–35), no study that we are
+eligible voters throughout India in the midst of India’s 2014 Lok
+                                                                               aware of has yet examined whether the deliberate manipulation of
+Sabha elections just before the final votes were cast. The results of
+                                                                               search engine rankings can be leveraged as a form of persuasive
+these experiments demonstrate that (i) biased search rankings can
+                                                                               technology in elections. Given the power of order effects and the
+shift the voting preferences of undecided voters by 20% or more,               impact that search rankings have on consumer attitudes and be-
+(ii) the shift can be much higher in some demographic groups, and              havior, we asked whether the deliberate manipulation of search
+(iii) search ranking bias can be masked so that people show no                 rankings pertinent to candidates in political elections could alter
+awareness of the manipulation. We call this type of influence,                 the attitudes, beliefs, and behavior of undecided voters.
+which might be applicable to a variety of attitudes and beliefs,                  It is already well established that biased media sources such as
+the search engine manipulation effect. Given that many elections               newspapers (36–38), political polls (39), and television (40) sway
+are won by small margins, our results suggest that a search engine             voters (41, 42). A 2007 study by DellaVigna and Kaplan found,
+company has the power to influence the results of a substantial                for example, that whenever the conservative-leaning Fox televi-
+number of elections with impunity. The impact of such manipula-                sion network moved into a new market in the United States,
+tions would be especially large in countries dominated by a single             conservative votes increased, a phenomenon they labeled the
+search engine company.                                                         Fox News Effect (40). These researchers estimated that biased
+                                                                               coverage by Fox News was sufficient to shift 10,757 votes in
+                                   |
+search engine manipulation effect search rankings   | Internet influence |     Florida during the 2000 US Presidential election: more than
+                    |
+voter manipulation digital bandwagon effect                                    enough to flip the deciding state in the election, which was
+                                                                               carried by the Republican presidential candidate by only 537
+                                                                               votes. The Fox News Effect was also found to be smaller in
+R   ecent research has demonstrated that the rankings of search
+    results provided by search engine companies have a dramatic
+impact on consumer attitudes, preferences, and behavior (1–12);
+                                                                               television markets that were more competitive.
+                                                                                  We believe, however, that the impact of biased search rankings
+                                                                               on voter preferences is potentially much greater than the influ-
+this is presumably why North American companies now spend                      ence of traditional media sources (43), where parties compete in
+more than 20 billion US dollars annually on efforts to place re-
+sults at the top of rankings (13, 14). Studies using eye-tracking                  Significance
+technology have shown that people generally scan search engine
+results in the order in which the results appear and then fixate on                We present evidence from five experiments in two countries
+the results that rank highest, even when lower-ranked results are                  suggesting the power and robustness of the search engine
+more relevant to their search (1–5). Higher-ranked links also                      manipulation effect (SEME). Specifically, we show that (i) bi-
+draw more clicks, and consequently people spend more time on                       ased search rankings can shift the voting preferences of un-
+Web pages associated with higher-ranked search results (1–9). A                    decided voters by 20% or more, (ii) the shift can be much
+recent analysis of ∼300 million clicks on one search engine found                  higher in some demographic groups, and (iii) such rankings can
+that 91.5% of those clicks were on the first page of search results,               be masked so that people show no awareness of the manip-
+with 32.5% on the first result and 17.6% on the second (7). The                    ulation. Knowing the proportion of undecided voters in a
+study also reported that the bottom item on the first page of                      population who have Internet access, along with the pro-
+results drew 140% more clicks than the first item on the second                    portion of those voters who can be influenced using SEME,
+page (7). These phenomena occur apparently because people trust                    allows one to calculate the win margin below which SEME
+search engine companies to assign higher ranks to the results best                 might be able to determine an election outcome.
+suited to their needs (1–4, 11), even though users generally have
+no idea how results get ranked (15).                                           Author contributions: R.E. and R.E.R. designed research, performed research, contributed
+   Why do search rankings elicit such consistent browsing be-                  new reagents/analytic tools, analyzed data, and wrote the paper.
+
+havior? Part of the answer lies in the basic design of a search                The authors declare no conflict of interest.
+engine results page: the list. For more than a century, research               This article is a PNAS Direct Submission. J.N.S. is a guest editor invited by the Editorial
+has shown that an item’s position on a list has a powerful and                 Board.
+persuasive impact on subjects’ recollection and evaluation of that             Freely available online through the PNAS open access option.
+item (16–18). Specific order effects, such as primacy and recency,             1
+                                                                                To whom correspondence should be addressed. Email: re@aibrt.org.
+show that the first and last items presented on a list, respectively,          This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+are more likely to be recalled than items in the middle (16, 17).              1073/pnas.1419828112/-/DCSupplemental.
+
+
+
+E4512–E4521 | PNAS | Published online August 4, 2015                                                                www.pnas.org/cgi/doi/10.1073/pnas.1419828112
+                                                                                                                                                                            PNAS PLUS
+an open marketplace for voter allegiance. Search rankings are                            also asked how likely they would be to vote for one candidate or
+controlled in most countries today by a single company. If, with                         the other on an 11-point scale ranging from −5 to +5, as well as
+or without intervention by company employees, the algorithm                              to indicate which of the two candidates they would vote for if the
+that ranked election-related information favored one candidate                           election were held that day.
+over another, competing candidates would have no way of                                     The subjects then spent up to 15 min gathering more infor-
+compensating for the bias. It would be as if Fox News were the only                      mation about the candidates using a mock search engine we had
+television network in the country. Biased search rankings would, in                      created (called Kadoodle), which gave subjects access to five
+effect, be an entirely new type of social influence, and it would be                     pages of search results with six results per page. As is usual with
+occurring on an unprecedented scale. Massive experiments con-                            search engines, subjects could click on any search result to view
+ducted recently by social media giant Facebook have already in-                          the corresponding Web page, or they could click on numbers at
+troduced other unprecedented types of influence made possible by                         the bottom of each results page to view other results pages. The
+the Internet. Notably, an experiment reported recently suggested                         same search results and Web pages were used for all subjects in
+that flashing “VOTE” ads to 61 million Facebook users caused                             each experiment; only the order of the search results was varied
+more than 340,000 people to vote that day who otherwise would                            (Fig. 1). Subjects had the option to end the search whenever they
+not have done so (44). Zittrain has pointed out that if Facebook                         felt they had acquired sufficient information to make a sound
+executives chose to prompt only those people who favored a par-                          decision. At the conclusion of the search, subjects rated the
+ticular candidate or party, they could easily flip an election in favor of               candidates again. When their ratings were complete, subjects
+that candidate, performing a kind of “digital gerrymandering” (45).                      were asked (on their computer screens) whether anything about
+   We evaluated the potential impact of biased search rankings                           the search rankings they had viewed “bothered” them; they were
+on voter preferences in a series of experiments with the same                            then given an opportunity to write at length about what, if any-
+general design. Subjects were asked for their opinions and voting                        thing, had bothered them. We did not ask specifically whether
+preferences both before and after they were allowed to conduct                           the search rankings appeared to be “biased” to avoid false pos-
+research on candidates using a mock search engine we had cre-                            itives typically generated by leading or suggestive questions (47).
+ated for this purpose. Subjects were randomly assigned to groups                            Regarding the ethics of our study, our manipulation could have
+
+
+
+
+                                                                                                                                                                            PSYCHOLOGICAL AND
+                                                                                                                                                                            COGNITIVE SCIENCES
+in which the search results they were shown were biased in favor                         no impact on a past election, and we were also not concerned that it
+of one candidate or another, or, in a control condition, in favor                        could affect the outcome of future elections, because the number of
+of neither candidate. Would biased search results change the                             subjects we recruited was small and, to our knowledge, included no
+opinions and voting preferences of undecided voters, and, if so,                         Australian voters. Moreover, our study was designed so that it did
+by how much? Would some demographic groups be more vul-                                  not favor any one candidate, so there was no overall bias. The study
+nerable to such a manipulation? Would people be aware that                               presented no more than minimal risk to subjects and was approved
+they were viewing biased rankings? Finally, what impact would                            by the Institutional Review Board (IRB) of the American Institute
+familiarity with the candidates have on the manipulation?                                for Behavioral Research and Technology (AIBRT). Informed con-
+                                                                                         sent was obtained from all subjects.
+Study 1: Three Experiments in San Diego, CA                                                 In aggregate for the first three experiments in San Diego, CA,
+To determine the potential for voter manipulation using biased                           the demographic characteristics of our subjects (mean age,
+search rankings, we initially conducted three laboratory-based                           42.5 y; SD = 18.1 y; range, 18–95 y) did not differ from char-
+experiments in the United States, each using a double-blind                              acteristics of the US voting population by more than the following
+control group design with random assignment. For each of the
+experiments, we recruited 102 eligible voters through newspaper
+and online advertisements, as well through notices in senior
+recreation centers, in the San Diego, CA, area.* The advertise-
+ments offered USD$25 for each subject’s participation, and
+subjects were prescreened in an attempt to match diverse de-
+mographic characteristics of the US voting population (46).
+   Each of the three experiments used 30 actual search results
+and corresponding Web pages relating to the 2010 election to
+determine the prime minister of Australia. The candidates were
+Tony Abbott and Julia Gillard, and the order in which their
+names were presented was counterbalanced in all conditions.
+This election was used to minimize possible preexisting biases by
+US study participants and thus to try to guarantee that our
+subjects would be truly “undecided.” In each experiment, sub-
+jects were randomly assigned to one of three groups: (i) rankings
+favoring Gillard (which means that higher-ranked search results
+linked to Web pages that portrayed Gillard as the better candi-
+date), (ii) rankings favoring Abbott, or (iii) rankings favoring
+neither (Fig. 1 A–C). The order of these rankings was deter-
+                                                                                         Fig. 1. Search rankings for the three experiments in study 1. (A) For subjects
+mined based on ratings of Web pages provided by three inde-                              in group 1 of experiment 1, 30 search results that linked to 30 corresponding
+pendent observers. Neither the subjects nor the research assis-                          Web pages were ranked in a fixed order that favored candidate Julia Gillard,
+tants who supervised them knew either the hypothesis of the                              as follows: those favoring Gillard (from highest to lowest rated pages), then
+experiment or the groups to which subjects were assigned.                                those favoring neither candidate, then those favoring Abbott (from lowest
+   Initially, subjects read brief biographies of the candidates and                      to highest rated pages). (B) For subjects in group 2 of experiment 1, the
+rated them on 10-point Likert scales with respect to their overall                       search results were displayed in precisely the opposite order so that they
+impression of each candidate, how much they trusted each                                 favored the opposing candidate, Tony Abbott. (C) For subjects in group 3 of
+candidate, and how much they liked each candidate. They were                             experiment 1 (the control group), the ranking favored neither candidate.
+                                                                                         (D) For subjects in groups 1 and 2 of experiment 2, the rankings bias was
+                                                                                         masked slightly by swapping results that had originally appeared in positions
+*Although all participants claimed to be eligible voters in the prescreening, we later
+                                                                                         4 and 27. Thus, on the first page of search results, five of the six results—all
+ discovered that 6.9% of subjects marked “I don’t know” and 5.2% of subjects marked      but the one in the fourth position—favored one candidate. (E) For subjects
+ “No” in response to a question asking “If you are not currently registered, are you     in groups 1 and 2 of experiment 3, a more aggressive mask was used by
+ eligible to register for elections?”                                                    swapping results that had originally appeared in positions 3 and 28.
+
+
+Epstein and Robertson                                                                                                PNAS | Published online August 4, 2015 | E4513
+                                                                                                                                 Fig. 2. Clicks on search results and time allocated to
+                                                                                                                                 Web pages as a function of search result rank, ag-
+                                                                                                                                 gregated across the three experiments in study 1.
+                                                                                                                                 Subjects spent less time on Web pages correspond-
+                                                                                                                                 ing to lower-ranked search results (blue curve) and
+                                                                                                                                 were less likely to click on lower-ranked results (red
+                                                                                                                                 curve). This pattern is found routinely in studies of
+                                                                                                                                 Internet search engine use (1–12).
+
+
+
+margins: 6.4% within any category of the age or sex measures;             scale from −5 to +5, that they would vote for one candidate or
+14.1% within any category of the race measure; 18.7% within any           the other if the election were held today. Before Web research,
+category of the income or education measures; and 21.1% within            we found no significant differences among the three groups with
+any category of the employment status measure (Table S1). Sub-            respect to the likelihood of voting for one candidate or the other
+jects’ political inclinations were fairly balanced, with 20.3% iden-      [Kruskal–Wallis (K–W) test: χ2(2) = 1.384, P = 0.501]. Following
+tifying themselves as conservative, 28.8% as moderate, 22.5% as           Web research, the likelihood of voting for either candidate in the
+liberal, and 28.4% as indifferent. Political party affiliation, how-      bias groups diverged from their initial scale values by 3.71 points
+ever, was less balanced, with 21.6% identifying as Republican,            in the predicted directions [Mann–Whitney (M–W) test: u =
+19.6% as Independent, 44.8% as Democrat, 6.2% as Libertarian,             300.5, P < 0.01]. Notably, 75% of subjects in the bias groups
+and 7.8% as other. In aggregate, subjects reported conducting an          showed no awareness of the manipulation. We counted subjects
+average of 7.9 searches (SD = 17.5) per day using search engines,         as showing awareness of the manipulation if (i) they had clicked
+and 52.3% reported having conducted searches to learn about               on the box indicating that something bothered them about the
+political candidates. They also reported having little or no famil-       rankings and (ii) we found specific terms or phrases in their
+iarity with the candidates (mean familiarity on a scale of 1–10, 1.4;     open-ended comments suggesting that they were aware of bias in
+SD = 0.99). On average, subjects in the first three experiments           the rankings (SI Text).
+spent 635.9 s (SD = 307.0) using our mock search engine.                     In experiment 2, we sought to determine whether the pro-
+   As expected, higher search rankings drew more clicks, and the          portion of subjects who were unaware of the manipulation could
+pattern of clicks for the first three experiments correlated              be increased with voter preferences still shifting in the predicted
+strongly with the pattern found in a recent analysis of ∼300              directions. We accomplished this by masking our manipulation
+million clicks [r(13) = 0.90, P < 0.001; Kolmogorov–Smirnov test          to some extent. Specifically, the search result that had appeared
+of differences in distributions: D = 0.033, P = 0.31; Fig. 2] (7). In     in the fourth position on the first page of the search results fa-
+addition, subjects spent more time on Web pages associated with           voring Abbott in experiment 1 was swapped with the corre-
+higher-ranked results (Fig. 2), as well as substantially more time        sponding search result favoring Gillard (Fig. 1D). Before Web
+on earlier search pages (Fig. 3).                                         research, we found no significant differences among the three
+   In experiment 1, we found no significant differences among the
+three groups with respect to subjects’ ratings of the candidates before
+Web research (Table S2). Following the Web research, all candidate                                                 160
+ratings in the bias groups shifted in the predicted directions com-
+                                                                          Average time per search result page(s)
+
+
+
+
+pared with candidate ratings in the control group (Table 1).                                                       140
+
+   Before Web research, we found no significant differences among
+                                                                                                                   120
+the three groups with respect to the proportions of people who said
+that they would vote for one candidate or the other if the election                                                100
+were held today (Table 2). Following Web research, significant
+differences emerged among the three groups for this measure                                                         80
+
+(Table 2), and the number of subjects who said they would vote for
+                                                                                                                    60
+the favored candidate in the two bias groups combined increased by
+48.4% (95% CI, 30.8–66.0%; McNemar’s test, P < 0.01).                                                               40
+   We define the latter percentage as vote manipulation power
+(VMP). Thus, before the Web search, if a total of x subjects in                                                     20
+
+the bias groups said they would vote for the target candidate, and                                                  0
+if, following the Web search, a total of x’ subjects in the bias
+groups said they would vote for the target candidate, VMP =
+                                                                                                                         Pg.1   Pg.2             Pg.3             Pg.4             Pg.5
+ðx′ − xÞ=x. The VMP is, we believe, the key measure that an ad-
+                                                                                                                                          Search result page
+ministrator would want to know if he or she were trying to ma-
+nipulate an election using SEME.                                          Fig. 3. Amount of time, aggregated across the three experiments in study 1, that
+   Using a more sensitive measure than forced binary choice, we           subjects spent on each of the five search pages. Subjects spent most of their time on
+also asked subjects to estimate the likelihood, on an 11-point            the first search page, a common finding in Internet search engine research (1–12).
+
+
+E4514 | www.pnas.org/cgi/doi/10.1073/pnas.1419828112                                                                                                             Epstein and Robertson
+                                                                                                                                                              PNAS PLUS
+           Table 1. Postsearch shifts in voting preferences for study 1
+                                                                                          Mean deviation from control (SE)
+
+           Experiment           Candidate             Rating              Gillard bias               u              Abbott bias              u
+
+           1                     Gillard           Impression             1.44 (0.56)*              761.0         −1.52 (0.56)**           380.5
+                                                   Trust                  1.26 (0.53)**             779.0         −1.85 (0.48)**           330.5
+                                                   Like                   0.26 (0.54)               615.5         −1.73 (0.65)**           387.0
+                                 Abbott            Impression            −2.29 (0.73)**             373.0          1.11 (0.72)**           766.5
+                                                   Trust                 −2.02 (0.63)**             384.0          0.67 (0.76)             679.0
+                                                   Like                  −1.55 (0.71)               460.5          1.17 (0.64)*            733.0
+           2                     Gillard           Impression             0.97 (0.65)               704.0         −2.38 (0.79)***          325.0
+                                                   Trust                  0.94 (0.72)               691.5         −2.17 (0.74)**           332.5
+                                                   Like                   0.55 (0.76)               639.5         −1.82 (0.66)**           378.0
+                                 Abbott            Impression            −1.44 (0.81)*              395.5          1.17 (0.75)*            742.0
+                                                   Trust                 −0.79 (0.81)               453.5          1.85 (0.72)**           774.5
+                                                   Like                  −1.44 (0.70)*              429.0          0.64 (0.71)             690.0
+           3                     Gillard           Impression             1.44 (0.73)*              717.5         −0.55 (0.69)             507.5
+                                                   Trust                  0.47 (0.70)               620.0         −0.23 (0.56)             466.5
+                                                   Like                   0.44 (0.65)               623.5         −0.41 (0.70)             528.5
+                                 Abbott            Impression            −0.32 (0.70)               534.0          1.26 (0.60)*            750.5
+                                                   Trust                 −0.73 (0.65)               498.5          1.50 (0.58)**           795.0
+                                                   Like                  −0.50 (0.61)               496.0          0.88 (0.62)             681.5
+
+
+
+
+                                                                                                                                                              PSYCHOLOGICAL AND
+                                                                                                                                                              COGNITIVE SCIENCES
+           *P < 0.05, **P < 0.01, and ***P < 0.001: Mann–Whitney u tests were conducted between the control group and each of the bias groups.
+
+
+
+groups with respect to subjects’ ratings of the candidates (Table             experiment 2, although the difference between these percentages
+S2). Following the Web research, all candidate ratings in the bias            was not significant (χ2 = 2.264, P = 0.07).
+groups shifted in the predicted directions compared with candi-                  In experiment 3, we sought to further increase the proportion
+date ratings in the control group (Table 1).                                  of subjects who were unaware of the manipulation by using a
+   Before Web research, we found no significant differences                   more aggressive mask. Specifically, the search result that had
+among the three groups with respect to voting proportions (Table 2).          appeared in the third position on the first page of the search
+Following Web research, significant differences emerged among                 results favoring Abbott in experiment 1 was swapped with the
+the three groups for this measure (Table 2), and the VMP was                  corresponding search result favoring Gillard (Fig. 1E). This mask
+63.3% (95% CI, 46.1–80.6%; McNemar’s test, P < 0.001).                        is a more aggressive one because higher ranked results are
+   For the more sensitive measure (the 11-point scale), we found              viewed more and taken more seriously by people conducting
+                                                                              searches (1–12).
+no significant differences among the three groups with respect to                Before Web research, we found no significant differences
+the likelihood of voting for one candidate or the other before                among the three groups with respect to subjects’ ratings of
+Web research [K-W test: χ2(2) = 0.888, P = 0.642]. Following                  candidates (Table S2). Following the Web research, all candidate
+Web research, the likelihood of voting for either candidate in the            ratings in the bias groups shifted in the predicted directions
+bias groups diverged from their initial scale values by 4.44 points           compared with candidate ratings in the control group (Table 1).
+in the predicted directions (M-W test: u = 237.5, P < 0.001). In                 Before Web research, we found no significant differences among
+addition, the proportion of people who showed no awareness of                 the three groups with respect to voting proportions (Table 2). Fol-
+the manipulation increased from 75% in experiment 1 to 85% in                 lowing Web research, significant differences did not emerge among
+
+
+          Table 2. Comparison of voting proportions before and after Web research by group for studies 1 and 2
+                                                      Simulated vote
+                                                        before Web                          Simulated vote
+                                                         research                         after Web research
+
+          Study         Experiment     Group       Gillard      Abbott         χ2         Gillard        Abbott           χ2             VMP
+
+          1                 1              1           8           26         5.409         22               12         8.870*        48.4%**
+                                           2          11           23                       10               24
+                                           3          17           17                       14               20
+                            2              1          16           18         2.197         27                7        14.274***      63.3%***
+                                           2          20           14                       12               22
+                                           3          14           20                       22               12
+                            3              1          17           17         2.199         22               12         3.845         36.7%*
+                                           2          21           13                       15               19
+                                           3          15           19                       15               19
+          2                 4              1         317          383         1.047        489              211      196.280***       37.1%***
+                                           2         316          384                      228              472
+                                           3         333          367                      377              323
+
+             McNemar’s test was conducted to assess VMP significance. VMP, percent increase in subjects in the bias groups combined who said
+          that they would vote for the favored candidate.
+          *P < 0.05; **P < 0.01; and ***P < 0.001: Pearson χ2 tests were conducted among all three groups.
+
+
+Epstein and Robertson                                                                                        PNAS | Published online August 4, 2015 | E4515
+the three groups for this measure (Table 2); the VMP, however, was                            40.3%; McNemar’s test, P < 0.001). When weighted using the same
+36.7% (95% CI, 19.4–53.9%; McNemar’s test, P < 0.05).                                         demographics via classical regression poststratification (52) (Table
+  For the more sensitive measure (the 11-point scale), we found                               S4), the VMP was 33.5% (95% CI, 30.1–37.0%, McNemar’s test,
+no significant differences among the three groups with respect to                             P < 0.001).
+the likelihood of voting for one candidate or the other before                                   For the more sensitive measure (the 11-point scale), we found no
+Web research [K-W test: χ2(2) = 0.624, P = 0.732]. Following                                  significant differences among the three groups with respect to the
+Web research, the likelihood of voting for either candidate in the                            likelihood of voting for one candidate or the other before Web re-
+bias groups diverged from their initial scale values by 2.62 points                           search [K-W test: χ2(2) = 2.790, P = 0.248]. Following Web research,
+in the predicted directions (M-W test: u = 297.0, P < 0.001).                                 the likelihood of voting for either candidate in the bias groups di-
+Notably, in experiment 3, no subjects showed awareness of the                                 verged from their initial scale values by 3.03 points in the predicted
+rankings bias, and the difference between the proportions of                                  directions (M-W test: u = 1.29 × 105, P < 0.001). As one might expect
+subjects who appeared to be unaware of the manipulations in                                   of a more Internet-fluent sample, the proportion of subjects showing
+experiments 1 and 3 was significant (χ2 = 19.429, P < 0.001).                                 no awareness of the manipulation dropped to 91.4%.
+  Although the findings from these first three experiments were                                  The number of subjects in study 1 was too small to look at
+robust, the use of small samples from one US city limited their                               demographic differences. In study 2, we found substantial dif-
+generalizability and might even have exaggerated the effect size (48).                        ferences in how vulnerable different demographic groups were
+                                                                                              to SEME. Consistent with previous findings on the moderators
+Study 2: Large-Scale National Online Replication of Experiment 3                              of order effects (30–32), for example, we found that subjects
+To better assess the generalizability of SEME to the US population                            reporting a low familiarity with the candidates (familiarity less
+at large, we used a diverse national sample of 2,100 individuals†                             than 5 on a scale from 1 to 10) were more vulnerable to SEME
+from all 50 US states (Table S1), recruited using Amazon’s Me-                                (VMP = 38.7%; 95% CI, 34.9–42.4%; McNemar’s test, P < 0.001)
+chanical Turk (mturk.com), an online subject pool that is now                                 than were subjects who reported high familiarity with the candi-
+commonly used by behavioral researchers (49, 50). Subjects (mean                              dates (VMP = 19.3%; 95% CI, 9.1–29.5%; McNemar’s test, P <
+age, 33.9 y; SD = 11.9 y; range, 18–81 y) were exposed to the same                            0.05), and this difference was significant (χ2 = 8.417, P < 0.01).
+aggressive masking procedure we used in experiment 3 (Fig. 1E).                                  We found substantial differences in vulnerability to SEME
+Each subject was paid USD$1 for his or her participation.                                     among a number of different demographic groups (SI Text).
+   Regarding ethical concerns, as in study 1, our manipulation could                          Although the groups we examined were overlapping and some-
+have no impact on a past election, and we were not concerned that                             what arbitrary, if one were manipulating an election, information
+it could affect the outcome of future elections. Moreover, our study                          about such differences would have enormous practical value. For
+was designed so that it did not favor any one candidate, so there was                         example, we found that self-labeled Republicans were more
+no overall bias. The study presented no more than minimal risk to                             vulnerable to SEME (VMP = 54.4%; 95% CI, 45.2–63.5%;
+subjects and was approved by AIBRT’s IRB. Informed consent was                                McNemar’s test, P < 0.001) than were self-labeled Democrats
+obtained from all subjects.                                                                   (VMP = 37.7%; 95% CI, 32.3–43.1%; McNemar’s test, P <
+   Subjects’ political inclinations were less balanced than those in                          0.001) and that self-labeled divorcees were more vulnerable
+study 1, with 19.5% of subjects identifying themselves as con-                                (VMP = 46.7%; 95% CI, 32.1–61.2%; McNemar’s test, P < 0.001)
+servative, 24.2% as moderate, 50.2% as liberal, and 6.3% as                                   than were self-labeled married subjects (VMP = 32.4%; 95% CI,
+indifferent; 16.1% of subjects identified themselves as Re-                                   26.8–38.1%; McNemar’s test, P < 0.001). Among the most vul-
+publican, 29.9% as Independent, 43.2% as Democrat, 8.0% as                                    nerable groups we identified were Moderate Republicans (VMP =
+Libertarian, and 2.9% as other. Subjects reported having little or                            80.0%; 95% CI, 62.5–97.5%; McNemar’s test, P < 0.001), whereas
+no familiarity with the candidates (mean, 1.9; SD = 1.7). As one                              among the least vulnerable groups were people who reported a
+might expect in a study using only Internet-based subjects, self-                             household income of $40,000 to $49,999 (VMP = 22.5%; 95% CI,
+reported search engine use was higher in study 2 than in study 1                              13.8–31.1%; McNemar’s test, P < 0.001).
+[mean searches per day, 15.3; SD = 26.3; t(529.5)‡ = 6.9, P <                                    Notably, awareness of the manipulation not only did not nullify
+0.001], and more subjects reported having previously used a                                   the effect, it seemed to enhance it, perhaps because people trust
+search engine to learn about political candidates (86.0%, χ2 =                                search order so much that awareness of the bias serves to confirm
+204.1, P < 0.001). Subjects in study 2 also spent less time using                             the superiority of the favored candidate. The VMP for people who
+our mock search engine [mean total time, 309.2 s; SD = 278.7;                                 showed no awareness of the biased search rankings (n = 1,280) was
+t(381.9)‡ = −17.6, P < 0.001], but patterns of search result clicks                           36.3% (95% CI, 32.6–40.1%; McNemar’s test, P < 0.001), whereas
+and time spent on Web pages were similar to those we found in                                 the VMP for people who showed awareness of the bias (n = 120)
+study 1 [clicks: r(28) = 0.98, P < 0.001; Web page time: r(28) =                              was 45.0% (95% CI, 32.4–57.6%; McNemar’s test, P < 0.001).
+0.98, P < 0.001] and to those routinely found in other studies (1–12).                           Having now replicated the effect with a large and diverse
+   Before Web research, we found no significant differences                                   sample of US subjects, we were concerned about the weaknesses
+among the three groups with respect to subjects’ ratings of the                               associated with testing subjects on a somewhat abstract election
+candidates (Table S3). Following the Web research, all candidate                              (the election in Australia) that had taken place years before and
+ratings in the bias groups shifted in the predicted directions                                in which subjects were unfamiliar with the candidates. In real
+compared with candidate ratings in the control group (Table 3).                               elections, people are familiar with the candidates and are
+   Before Web research, we found no significant differences among                             influenced, sometimes on a daily basis, by aggressive campaign-
+the three groups with respect to voting proportions (Table 2).                                ing. Presumably, either of these two factors—familiarity and
+Following Web research, significant differences emerged among the                             outside influence—could potentially minimize or negate the influ-
+three groups for this measure (Table 2), and the VMP was 37.1%                                ence of biased search rankings on voter preferences. We therefore
+(95% CI, 33.5–40.7%; McNemar’s test, P < 0.001). Using post-                                  asked if SEME could be replicated with a large and diverse sample
+stratification and weights obtained from the 2010 US Census (46)                              of real voters in the midst of a real election campaign.
+and a 2011 study from Gallup (51), which were scaled to size for
+age, sex, race, and education, the VMP was 36.7% (95% CI, 33.2–                               Study 3: SEME Evaluated During the 2014 Lok Sabha
+                                                                                              Elections in India
+                                                                                              In our fifth experiment, we sought to manipulate the voting pref-
+†
+As in study 1, although all participants claimed to be eligible voters in the prescreening,
+                                                                                              erences of undecided eligible voters in India during the 2014 na-
+we later discovered that 4.7% of subjects marked “I don’t know” and 2.6% of subjects          tional Lok Sabha elections there. This election was the largest
+marked “No” in response to a question asking “If you are not currently registered, are        democratic election in history, with more than 800 million eligible
+you eligible to register for elections?”                                                      voters and more than 430 million votes ultimately cast. We ac-
+‡
+Degrees of freedom adjusted for significant inequality of variances (Welch’s t test).         complished this by randomly assigning undecided English-speaking
+
+E4516 | www.pnas.org/cgi/doi/10.1073/pnas.1419828112                                                                                            Epstein and Robertson
+                                                                                                                                                                 PNAS PLUS
+                         Table 3. Postsearch shifts in voting preferences for study 2
+                                                                                       Mean deviation from control (SE)
+
+                         Candidate               Rating                Gillard bias           u            Abbott bias             u
+
+                         Gillard               Impression             0.65 (0.10)***      288,299.5       −1.25 (0.12)***      168,203.5
+                                               Trust                  0.61 (0.10)***      283,491.0       −1.21 (0.11)***      167,658.5
+                                               Like                   0.50 (0.10)***      279,967.0       −1.25 (0.11)***      166,544.0
+                         Abbott                Impression            −0.96 (0.13)***      189,290.5        1.35 (0.12)***      326,067.0
+                                               Trust                 −1.09 (0.14)***      183,993.0        1.31 (0.12)***      318,740.5
+                                               Like                  −0.85 (0.13)***      195,088.5        0.94 (0.11)***      302,318.0
+
+                         ***P < 0.001: Mann–Whitney u tests were conducted between the control group and each of the bias groups.
+
+
+
+voters throughout India who had not yet voted (recruited through                        stratification (Table S7), the VMP was 9.5% (95% CI, 8.3–
+print advertisements, online advertisements, and online subject                         10.7%; McNemar’s test, P < 0.001).
+pools) to one of three groups in which search rankings favored ei-                         To obtain a more sensitive measure of voting preference in study
+ther Rahul Gandhi, Arvind Kejriwal, or Narendra Modi, the three                         3, we asked subjects to estimate the likelihood, on three separate
+major candidates in the election.§                                                      11-point scales from −5 to +5, that they would vote for each of the
+   Subjects were incentivized to participate in the study either                        candidates if the election were held today. Before Web research,
+with payments between USD$1 and USD$4 or with the promise                               we found no significant differences among the three groups with
+that a donation of approximately USD$1.50 would be made to a                            respect to the likelihood of voting for any of the candidates (Table
+prominent Indian charity that provides free lunches for Indian                          S6). Following Web research, significant differences emerged
+
+
+
+
+                                                                                                                                                                 PSYCHOLOGICAL AND
+                                                                                                                                                                 COGNITIVE SCIENCES
+children. (At the close of the study, a donation of USD$1,457                           among the three groups with respect to the likelihood of voting
+was made to the Akshaya Patra Foundation.)                                              for Rahul Gandhi and Arvind Kejriwal but not Narendra Modi
+   Regarding ethical concerns, because we recruited only a small                        (Table S6), and all likelihoods shifted in the predicted directions
+number of subjects relative to the size of the Indian voting                            (Table 4). The proportion of subjects showing no awareness of
+population, we were not concerned that our manipulation could                           the manipulation in experiment 5 was 99.5%.
+affect the election’s outcome. Moreover, our study was designed                            In study 3, as in study 2, we found substantial differences in
+so that it did not favor any one candidate, so there was no overall                     how vulnerable different demographic groups were to SEME (SI
+bias. The study presented no more than minimal risk to subjects                         Text). Consistent with the findings of study 2 and previous
+and was approved by AIBRT’s IRB. Informed consent was                                   findings on the moderators of order effects (30–32), for example,
+obtained from all subjects.                                                             we found that subjects reporting a low familiarity with the can-
+   The subjects (n = 2,150) were demographically diverse (Table                         didates (familiarity less than 5 on a scale from 1 to 10) were more
+S5), residing in 27 of 35 Indian states and union territories, and                      vulnerable to SEME (VMP = 13.7%; 95% CI, 4.3–23.2%;
+political leanings varied as follows: 13.3% identified themselves as                    McNemar’s test, P = 0.17) than were subjects who reported high
+politically right (conservative), 43.8% as center (moderate), 26.0%                     familiarity with the candidates (VMP = 10.3%; 95% CI, 8.0–
+as left (liberal), and 16.9% as indifferent. In contrast to studies 1                   12.6%; McNemar’s test, P < 0.001), although this difference was
+and 2, subjects reported high familiarity with the political candi-                     not significant (χ2 = 0.575, P = 0.45).
+dates (mean familiarity Gandhi, 7.9; SD = 2.5; mean familiarity                            As in study 2, although the demographic groups we examined
+Kejriwal, 7.7; SD = 2.5; mean familiarity Modi, 8.5; SD = 2.1). The                     were overlapping and somewhat arbitrary, if one was manipu-
+full dataset for all five experiments is accessible at Dataset S1.                      lating an election, information about such differences would have
+   Subjects reported more frequent search engine use compared with                      enormous practical value. For example, we found that subjects
+subjects in studies 1 or 2 (mean searches per day, 15.7; SD = 30.1),                    between ages 18 and 24 were less vulnerable to SEME (VMP =
+and 71.7% of subjects reported that they had previously used a                          8.9%; 95% CI, 5.0–12.8%; McNemar’s test, P < 0.05) than were
+search engine to learn about political candidates. Subjects also spent                  subjects between ages 45 and 64 (VMP = 18.9%; 95% CI, 6.3–
+less time using our mock search engine (mean total time, 277.4 s;                       31.5%; McNemar’s test, P = 0.10) and that self-labeled Christians
+SD = 368.3) than did subjects in studies 1 or 2. The patterns of search                 were more vulnerable (VMP = 30.7%; 95% CI, 20.2–41.1%;
+result clicks and time spent on Web pages in our mock search engine                     McNemar’s test, P < 0.001) than self-labeled Hindus (VMP =
+was similar to the patterns we found in study 1 [clicks, r(28) = 0.96;                  8.7%; 95% CI, 6.3–11.1%; McNemar’s test, P < 0.001). Among
+P < 0.001; Web page time, r(28) = 0.91; P < 0.001] and study 2 [clicks,                 the most vulnerable groups we identified were unemployed males
+r(28) = 0.96; P < 0.001; Web page time, r(28) = 0.92; P < 0.001].                       from Kerala (VMP = 72.7%; 95% CI, 46.4–99.0%; McNemar’s
+   Before Web research, we found one significant difference                             test, P < 0.05), whereas among the least vulnerable groups were
+among the three groups for a rating pertaining to Kejriwal, but                         female conservatives (VMP = −11.8%; 95% CI, −29.0%–5.5%;
+none for Gandhi or Modi (Table S6). Following the Web re-                               McNemar’s test, P = 0.62).
+search, most of the subjects’ ratings of the candidates shifted in                         A negative VMP might suggest oppositional attitudes or an
+the predicted directions (Table 4).                                                     underdog effect for that group (54). No negative VMPs were
+   Before Web research, we found no significant differences among                       found in the demographic groups examined in study 2, but it is
+the three groups with respect to voting proportions (Table 5).                          understandable that they would be found in an election in which
+Following Web research, significant differences emerged among                           people are highly familiar with the candidates (study 3). As a
+the three groups for this measure (Table 5), and the VMP was                            practical matter, where a search engine company has the ability
+10.6% (95% CI, 8.3–12.8%; McNemar’s test, P < 0.001). Using                             to send people customized rankings and where biased search
+poststratification and weights obtained from the 2011 India Census                      rankings are likely to produce an oppositional response with
+data on literate Indians (53)—scaled to size for age, sex, and lo-                      certain voters, such rankings would probably not be sent to them.
+cation (grouped into state or union territory)—the VMP was 9.4%                         Eliminating the 2.6% of our sample (n = 56) with oppositional
+(95% CI, 8.2–10.6%; McNemar’s test, P < 0.001). When weighted                           responses, the overall VMP in this experiment increases from
+using the same demographics via classical regression post-                              10.6% to 19.8% (95% CI, 16.8–22.8%; n = 2,094; McNemar’s
+                                                                                        test: P < 0.001).
+                                                                                           As we found in study 2, awareness of the manipulation appeared
+§
+English is one of India’s two official languages, the other being Hindi.                to enhance the effect rather than nullify it. The VMP for people
+
+Epstein and Robertson                                                                                           PNAS | Published online August 4, 2015 | E4517
+               Table 4. Postsearch shifts in voting preferences for study 3
+                                                                                                            Mean (SE)
+
+               Candidate                 Rating                     χ   2
+                                                                                    Gandhi bias            Kejriwal bias           Modi bias
+
+               Gandhi               Impression                   3.61               −0.16 (0.06)           −0.21 (0.06)           −0.30 (0.06)
+                                    Trust                       21.19***             0.14 (0.06)           −0.04 (0.07)           −0.20 (0.06)
+                                    Like                        12.99**             −0.09 (0.07)           −0.17 (0.06)           −0.34 (0.06)
+                                    Voting likelihood           10.79**              0.16 (0.07)           −0.04 (0.07)           −0.18 (0.07)
+               Kejriwal             Impression                  17.75***            −0.30 (0.06)           −0.11 (0.06)           −0.39 (0.05)
+                                    Trust                       26.69***            −0.17 (0.07)            0.15 (0.06)           −0.16 (0.06)
+                                    Like                        24.74***            −0.31 (0.06)            0.05 (0.06)           −0.23 (0.06)
+                                    Voting likelihood           13.22**             −0.03 (0.06)            0.17 (0.07)           −0.12 (0.06)
+               Modi                 Impression                  24.98***            −0.22 (0.06)           −0.21 (0.06)            0.12 (0.05)
+                                    Trust                       18.78***            −0.04 (0.06)           −0.10 (0.06)            0.23 (0.06)
+                                    Like                        16.89***            −0.16 (0.05)           −0.09 (0.06)            0.19 (0.06)
+                                    Voting likelihood           31.07***            −0.07 (0.07)           −0.10 (0.06)            0.33 (0.06)
+
+               **P < 0.01 and ***P < 0.001: for each rating, a Kruskal–Wallis χ2 test was used to assess significance of group differences.
+
+
+
+who showed no awareness of the biased search rankings (n =                       more than enough, according to the researchers, to have had a
+2,140) was 10.5% (95% CI, 8.3–12.7%; McNemar’s test, P <                         “decisive” effect on a number of close elections in 2000 (40).
+0.001), whereas the VMP for people who showed awareness of the                      Political scientists have identified two of the most common
+bias (n = 10) was 33.3%.                                                         methods political candidates use to try to win elections. The core
+   The rankings and Web pages we used in study 3 were selected                   voter model describes a strategy in which resources are devoted
+by the investigators based on our limited understanding of Indian                to mobilizing supporters to vote (59). As noted earlier, Zittrain
+politics and perspectives. To optimize the rankings, midway                      recently pointed out that a company such as Facebook could
+through the election process we hired a native consultant who was                mobilize core voters to vote on election day by sending “get-out-
+familiar with the issues and perspectives pertinent to undecided                 and-vote” messages en masse to supporters of only one candi-
+voters in the 2014 Lok Sabha Election. Based on the recommen-                    date. Such a manipulation could be used undetectably to flip an
+dations of the consultant, we made slight changes to our rankings                election in what might be considered a sort of digital gerrymandering
+on 30 April, 2014. In the preoptimized rankings group (n = 1,259),               (44, 45). In contrast, the swing voter model describes a strategy in
+the VMP was 9.5% (95% CI, 6.8–12.2%; McNemar’s test, P <                         which candidates target their resources toward persuasion—
+0.001); in the postoptimized rankings group (n = 891), the VMP                   attempting to change the voting preferences of undecided voters
+increased to 12.3% (95% CI, 8.5–16.1%; McNemar’s test, P <                       (60). SEME is an ideal method for influencing such voters.
+0.001). Eliminating the 3.1% of the subjects in the postoptimization                Although relatively few voters have actively sought political in-
+sample with oppositional responses (n = 28), the VMP increased to
+                                                                                 formation about candidates in the past (61), the ease of obtaining
+24.5% (95% CI, 19.3–29.8%; n = 863).
+                                                                                 information over the Internet appears to be changing that: 73% of
+Discussion                                                                       online adults used the Internet for campaign-related purposes
+                                                                                 during the 2010 US midterm elections (61), and 55% of all regis-
+Elections are often won by small vote margins. Fifty percent of
+                                                                                 tered voters went online to watch videos related to the 2012 US
+US presidential elections were won by vote margins under 7.6%,
+and 25% of US senatorial elections in 2012 were won by vote                      election campaign (62). Moreover, 84% of registered voters in the
+margins under 6.0% (55, 56). In close elections, undecided voters                United States were Internet users in 2012 (62). In our nationwide
+can make all of the difference, which is why enormous resources                  study in the United States (study 2), 86.0% of our subjects reported
+are often focused on those voters in the days before the election                having used search engines to get information about candidates.
+(57, 58). Because search rankings biased toward one candidate                    Meanwhile, the number of people worldwide with Internet access
+can apparently sway the voting preferences of undecided voters                   is increasing rapidly, predicted to increase to nearly 4 billion by
+without their awareness and, at least under some circumstances,                  2018 (63). By 2018, Internet access in India is expected to rise from
+without any possible competition from opposing candidates,                       the 213 million users who had access in 2013 to 526 million (63).
+SEME appears to be an especially powerful tool for manipu-                       Worldwide, it is reasonable to conjecture that both proportions will
+lating elections. The Australian election used in studies 1 and 2                increase substantially in future years; that is, more people will have
+was won by a margin of only 0.24% and perhaps could easily                       Internet access, and more people will obtain information about
+have been turned by such a manipulation. The Fox News Effect,                    candidates from the Internet. In the context of the experiments we
+which is small compared with SEME, is believed to have shifted                   have presented, this suggests that whatever the effect sizes we have
+between 0.4% and 0.7% of votes to conservative candidates:                       observed now, they will likely be larger in the future.
+
+           Table 5. Comparison of voting proportions before and after Web research for study 3
+                            Simulated vote before Web                            Simulated vote after Web
+                                     research                                            research
+
+           Group           Gandhi      Kejriwal         Modi        χ2        Gandhi        Kejriwal       Modi            χ2            VMP
+
+           1                115           164           430       3.070         144           152           413        16.935**       10.6%***
+           2                112           183           393                     113           199           376
+           3                127           196           430                     117           174           462
+
+              McNemar’s test was conducted to assess VMP significance. VMP, percent increase in subjects in the bias groups combined who said
+           that they would vote for the favored candidate.
+           **P < 0.01; and ***P < 0.001: Pearson χ2 tests were conducted among all three groups.
+
+
+E4518 | www.pnas.org/cgi/doi/10.1073/pnas.1419828112                                                                                    Epstein and Robertson
+                                                                                                                                                                                       PNAS PLUS
+    The power of SEME to affect elections in a two-person race                                search results and Web pages are easy to perceive; it is the pattern
+can be roughly estimated by making a small number of fairly                                   of rankings that people cannot see. This invisibility makes SEME
+conservative assumptions. Where i is the proportion of voters                                 especially dangerous as a means of control, not just of voting
+with Internet access, u is the proportion of those voters who are                             behavior but perhaps of a wide variety of attitudes, beliefs, and
+undecided, and VMP, as noted above, is the proportion of those                                behavior. Ironically, and consistent with the findings of other re-
+undecided voters who can be swayed by SEME, W—the maxi-                                       searchers, we found that even those subjects who showed aware-
+mum win margin controllable by SEME—can be estimated by                                       ness of the biased rankings were still impacted by them in the
+the following formula: W = ipupVMP.                                                           predicted directions (75).
+    In a three-person race, W will vary between 75% and 100% of its                              One weakness in our studies was the manner in which we chose to
+value in a two-person race, depending on how the votes are dis-                               determine whether subjects were aware of bias in the search rank-
+tributed between the two losing candidates. (Derivations of formulas                          ings. As noted, to not generate false-positive responses, we avoided
+in the two-candidate and three-candidate cases are available in SI                            asking leading questions that referred specifically to bias; rather, we
+Text.) In both cases, the size of the population is irrelevant.                               asked a rather vague question about whether anything had bothered
+    Knowing the values for i and u for a given election, along with                           subjects about the search rankings, and we then gave subjects an
+the projected win margin, the minimum VMP needed to put one                                   opportunity to type out the details of their concerns. In so doing, we
+candidate ahead can be calculated (Table S8). In theory, con-                                 probably underestimated the number of detections (47), and this is a
+tinuous online polling would allow search rankings to be opti-                                matter that should be studied further. That said, because people who
+mized continuously to increase the value of VMP until, in some                                showed awareness of the bias were still vulnerable to our manipu-
+instances, it could conceivably guarantee an election’s outcome,                              lation, people who use SEME to manipulate real elections might not
+much as “conversion” and “click-through” rates are now opti-                                  be concerned about detection, except, perhaps, by regulators.
+mized continuously in Internet marketing (64).                                                   Could regulators in fact detect SEME? Theoretically, by rating
+    For example, if (i) 80% of eligible voters had Internet access,                           pages and monitoring search rankings on an ongoing basis, search
+(ii) 10% of those individuals were undecided at some point, and                               ranking bias related to elections might be possible to identify and
+(iii) SEME could be used to increase the number of people in the                              track; as a practical matter, however, we believe that biased
+
+
+
+
+                                                                                                                                                                                       PSYCHOLOGICAL AND
+                                                                                                                                                                                       COGNITIVE SCIENCES
+undecided group who were inclined to vote for the target candidate                            rankings would be impossible or nearly impossible for regulators
+by 25%, that would be enough to control the outcome of an election                            to detect. The results of studies 2 and 3 suggest that vulnerability
+in which the expected win margin was as high as 2%. If SEME were                              to SEME can vary dramatically from one demographic group to
+applied strategically and repeatedly over a period of weeks or months                         another. It follows that if one were using biased search rankings to
+to increase the VMP, and if, in some locales and situations, i and u                          manipulate a real election, one would focus on the most vulner-
+were larger than in the example given, the controllable win margin                            able demographic groups. Indeed, if one had access to detailed
+would be larger. That possibility notwithstanding, because nearly                             online profiles of millions of individuals, which search engine
+25% of national elections worldwide are typically won by margins                              companies do (76–78), one would presumably be able to identify
+under 3%,¶ SEME could conceivably impact a substantial number of                              those voters who appeared to be undecided and impressionable
+elections today even with fairly low values of i, u, and VMP.                                 and focus one’s efforts on those individuals only—a strategy that
+    Given our procedures, however, we cannot rule out the pos-                                has long been standard in political campaigns (79–84) and continues
+sibility that SEME produces only a transient effect, which would                              to remain important today (85). With search engine companies
+limit its value in election manipulation. Laboratory manipula-                                becoming increasingly adept at sending users customized search
+tions of preferences and attitudes often impact subjects for only a                           rankings (76–78, 86–88), it seems likely that only customized rank-
+short time, sometimes just hours (65). That said, if search                                   ings would be used to influence elections, thus making it difficult or
+rankings were being manipulated with the intent of altering the                               impossible for regulators to detect a manipulation. Rankings that
+outcome of a real election, people would presumably be exposed                                appear to be unbiased on the regulators’ screens might be highly
+to biased rankings repeatedly over a period of weeks or months.                               biased on the screens of select individuals.
+We produced substantial changes not only in voting preferences                                   Even if a statistical analysis did show that rankings consistently
+but in multiple ratings of attitudes toward candidates given just                             favored one candidate over another, those rankings could always be
+one exposure to search rankings linking to Web pages favoring                                 attributed to algorithm-guided dynamics driven by market forces—
+one candidate, with average search times in the 277- to 635-s                                 so-called “organic” forces (89)—rather than by deliberate manip-
+range. Given hundreds or thousands of exposures of this sort, we                              ulation by search engine company employees. This possibility
+speculate not only that the resulting attitudes and preferences                               suggests yet another potential danger of SEME. What if election-
+would be stable, but that they would become stronger over time,                               related search results are indeed being left to the vagaries of market
+much as brand preferences become stronger when advertise-                                     forces? Do such forces end up pushing some candidates to the top
+ments are presented repeatedly (66).                                                          of search rankings? If so, it seems likely that those high rankings are
+    Our results also suggest that it is a relatively simple matter to                         cultivating additional supporters for those candidates in a kind of
+mask the bias in search rankings so that it is undetectable to virtually                      digital bandwagon effect. In other words, for several years now and
+every user. In experiment 3, using only a simple mask, none of our                            with greater impact each year (as more people get election-related
+subjects appeared to be aware that they were seeing biased rank-                              information through the Internet), SEME has perhaps already
+ings, and in our India study, only 0.5% of our subjects appeared to                           been affecting the outcomes of close elections. To put this another
+notice the bias. When people are subjected to forms of influence                              way, without human intention or direction, algorithms have per-
+they can identify—in campaigns, that means speeches, billboards,                              haps been having a say in selecting our leaders.
+television commercials, and so on—they can defend themselves                                     Because search rankings are based, at least in part, on the
+fairly easily if they have opposing views. Invisible sources of influ-                        popularity of Web sites (90), it is likely that voter preferences
+ence can be harder to defend against (67–69), and for people who                              impact those rankings to some extent. Given our findings that
+are impressionable, invisible sources of influence not only persuade,                         search rankings can in turn affect voter preferences, these phe-
+they also leave people feeling that they made up their own minds—                             nomena might interact synergistically, causing a substantial in-
+that no external force was applied (70, 71). Influence is sometimes                           crease in support for one candidate at some point even when the
+undetectable because key stimuli act subliminally (72–74), but                                effects of the individual phenomena are small.jj
+                                                                                                 Our studies produced a wide range of VMPs. In a real elec-
+                                                                                              tion, what proportion of undecided voters could actually be
+¶
+    Some of the data applied in the analysis in this publication are based on material from
+    the “European Election Database.” The data are collected from original sources and
+                                                                                              jj
+    prepared and made available by the Norwegian Social Science Data Services (NSD).               A mathematical model we developed—highly conjectural, we admit, and at this point
+    NSD is not responsible for the analyses/interpretation of the data presented here.             unverifiable—shows the possible dynamics of such synergy (Fig. S1).
+
+
+
+Epstein and Robertson                                                                                                          PNAS | Published online August 4, 2015 | E4519
+shifted using SEME? Our first two studies, which relied on a                                    to detect, and most people are relatively powerless when trying
+campaign and candidates that were unfamiliar to our subjects,                                   to resist sources of influence they cannot see (66–68). Of greater
+produced overall VMPs in the range 36.7–63.3%, with de-                                         concern in the present context, when people are unaware they
+mographic shifts occurring with VMPs as high as 80.0%. Our                                      are being manipulated, they tend to believe they have adopted
+third study, with real voters in the midst of a real election, pro-                             their new thinking voluntarily (69, 70).
+duced, overall, a lower VMP: just 10.6%, with optimizing our                                       Third, candidates normally have equal access to voters, but this
+rankings raising the VMP to 12.3% and with the elimination of a                                 need not be the case with search engine manipulations. Because
+small number of oppositional subjects raising the VMP to 24.5%,                                 the majority of people in most democracies use a search engine
+which is the value we would presumably have found if our search                                 provided by just one company, if that company chose to manip-
+rankings had been optimized from the start and if we had ad-                                    ulate rankings to favor particular candidates or parties, opponents
+vance knowledge about oppositional groups. In the third study,                                  would have no way to counteract those manipulations. Perhaps
+VMPs in some demographic groups were as high as 72.7%. If a                                     worse still, if that company left election-related search rankings to
+search engine company optimized rankings continuously and                                       market forces, the search algorithm itself might determine the
+sent customized rankings only to vulnerable undecided voters,                                   outcomes of many close elections.
+there is no telling how high the VMP could be pushed, but it                                       Finally, with the attention of voters shifting rapidly toward the
+would almost certainly be higher than our modest efforts could                                  Internet and away from traditional sources of information (12,
+achieve. Our investigation suggests that with optimized, targeted                               61, 62), the potential impact of search engine rankings on voter
+rankings, a VMP of at least 20% should be relatively easy to                                    preferences will inevitably grow over time, as will the influence of
+achieve in real elections. Even if only 60% of a population had                                 people who have the power to control such rankings.
+Internet access and only 10% of voters were undecided, that                                        We conjecture, therefore, that unregulated election-related
+would still allow control of elections with win margins up to                                   search rankings could pose a significant threat to the democratic
+1.2%—five times greater than the win margin in the 2010 race                                    system of government.
+between Gillard and Abbott in Australia.
+                                                                                                Materials and Methods
+Conclusions
+                                                                                                We used 102 subjects in each of experiments 1–3 to give us an equal number
+Given that search engine companies are currently unregulated,                                   of subjects in all three groups and both counterbalancing conditions of
+our results could be viewed as a cause for concern, suggesting                                  the experiments.
+that such companies could affect—and perhaps are already                                           Nonparametric statistical tests such as the Mann–Whitney u and the
+affecting—the outcomes of close elections worldwide. Restricting                                Kruskal–Wallis H are used throughout the present report because Likert
+search ranking manipulations to voters who have been identified                                 scale scores, which were used in each of the studies, are ordinal.
+as undecided while also donating money to favored candidates                                       In study 3, the procedure was identical to that of studies 1 and 2; only the
+would be an especially subtle, effective, and efficient way of                                  Web pages and search results were different: that is, Web pages and search
+wielding influence.                                                                             results were pertinent to the three leading candidates in the 2014 Lok Sabha
+   Although voters are subjected to a wide variety of influences                                general elections. The questions we asked subjects were also adjusted for a
+during political campaigns, we believe that the manipulation of                                 three-person race.
+search rankings might exert a disproportionately large influence
+over voters for four reasons:                                                                   ACKNOWLEDGMENTS. We thank J. Arnett, E. Clemons, E. Fantino, S. Glenn,
+   First, as we noted, the process by which search rankings affect                              M. Hovell, E. Key, E. Loftus, C. McKenzie, B. Meredith, N. Metaxas, D. Moriarty,
+voter preferences might interact synergistically with the process                               D. Peel, M. Runco, S. Stolarz-Fantino, and J. Wixted for comments; K. Robertson
+by which voter preferences affect search rankings, thus creating a                              for image editing; V. Sharan for advice on optimizing search rankings in the
+sort of digital bandwagon effect that magnifies the potential                                   India study; K. Duncan and F. Tran for assistance with data analysis; J. Hagan
+                                                                                                for technical assistance; and S. Palacios and K. Huynh for assistance in
+impact of even minor search ranking manipulations.                                              conducting the experiments in study 1. This work was supported by the
+   Second, campaign influence is usually explicit, but search                                   American Institute for Behavioral Research and Technology, a nonpartisan,
+ranking manipulations are not. Such manipulations are difficult                                 nonprofit organization.
+
+
+ 1. Joachims T, et al. (2007) Evaluating the accuracy of implicit feedback from clicks and      12. Purcell K, Brenner J, Rainie L (2012) Pew Research Center’s Internet & American Life
+    query reformulations in web search. Association for Computing Machinery Transactions            project: Search engine use 2012. Available at perma.cc/NF6C-JCPW. Accessed June 30,
+    on Information Systems 25(2):7.                                                                 2015.
+ 2. Pan B, et al. (2007) In Google we trust: User’s decisions on rank, position, and rele-      13. Learmonth M (2010) What big brands are spending on Google. Available at perma.cc/
+    vance. J Comput Mediat Commun 12(3):801–823.                                                    5L3B-SPTX. Accessed June 30, 2015.
+ 3. Guan Z, Cutrell E (2007) An eye tracking study of the effect of target rank on web          14. Econsultancy (2012) SEMPO state of search marketing report 2012. Available at
+    search. Proceedings of the Special Interest Group for Computer-Human Interaction                perma.cc/A3KH-6QVB. Accessed June 30, 2015.
+    Conference on Human Factors in Computing Systems (ACM, New York), pp 417–420.               15. Gerhart S (2004) Do Web search engines suppress controversy? First Monday
+ 4. Lorigo L, et al. (2008) Eye tracking and online search: Lessons learned and challenges          9(1):1111.
+    ahead. J Am Soc Inf Sci Technol 59(7):1041–1052.                                            16. Ebbinghaus H (1913) Memory: A Contribution to Experimental Psychology (No. 3)
+ 5. Granka LA, Joachim T, Gay G (2004) Eye-tracking analysis of user behavior in www                (Teachers College, Columbia Univ, New York).
+    search. Proceedings of the 27th Annual International Association for Computing              17. Murdock BB (1962) The serial position effect of free recall. J Exp Psychol 64(5):482–488.
+    Machinery Special Interest Group on Information Retrieval Conference on Research            18. Asch SE (1946) Forming impressions of personality. J Abnorm Psychol 41:258–290.
+    and Development in Information Retrieval (ACM, New York, NY), pp 478–479.                   19. Lund FH (1925) The psychology of belief. J Abnorm Soc Psych 20(1):63–81.
+ 6. Agichtein E, Brill E, Dumais S, Ragno R (2006) Learning user interaction models for         20. Hovland CI (1957) The Order of Presentation in Persuasion (Yale Univ Press, New
+    predicting web search result preferences. Proceedings of the 29th Annual In-                    Haven, CT).
+    ternational Association for Computing Machinery Special Interest Group on In-               21. Baird JE, Zelin RC (2000) The effects of information ordering on investor perceptions:
+    formation Retrieval Conference on Research and Development in Information                       An experiment utilizing presidents’ letters. J Financial Strategic Decisions 13(3):71–80.
+    Retrieval (ACM, New York, NY), pp 3–10.                                                     22. Tourangeau R, Couper MP, Conrad FG (2013) “Up means good” The effect of screen
+ 7. Chitika (2013) The value of Google result positioning. Available at perma.cc/7AGC-HTDH.         position on evaluative ratings in web surveys. Public Opin Q 77(1, Suppl 1):69–88.
+    Accessed June 30, 2015.                                                                     23. Krosnick JA, Alwin DF (1987) An evaluation of a cognitive theory of response order
+ 8. Optify (2011) The changing face of SERPS: Organic CTR. Available at perma.cc/KZ5X-78TL.         effects in survey measurement. Pub Op Quarterly 51(2):201–219.
+    Accessed June 30, 2015.                                                                     24. Stern MJ, Dillman DA, Smyth JD (2007) Visual design, order effects, and respondent
+ 9. Jansen BJ, Spink A, Saracevic T (2000) Real life, real users, and real needs: A study and       characteristics in a self-administered survey. Surv Res Methods 1(3):121–138.
+    analysis of user queries on the web. Inf Process Manage 36(2):207–227.                      25. Miller JE (1980) Menu Pricing and Strategy (CBI Publishing, Boston).
+10. Spink A, Wolfram D, Jansen BJ, Saracevic T (2001) Searching the web: The public and         26. Ho DE, Imai K (2008) Estimating causal effects of ballot order from a randomized
+    their queries. J Am Soc Inf Sci Technol 53(3):226–234.                                          natural experiment the California alphabet lottery, 1978–2002. Pub Op Quarterly
+11. Silverstein C, Marais H, Henzinger M, Moricz A (1999) Analysis of a very large web              72(2):216–240.
+    search engine query log. Association for Computing Machinery Special Interest Group         27. Chen E, Simonovits G, Krosnick JA, Pasek J (2014) The impact of candidate name order
+    on Information Retrieval Forum 33(1):6–12.                                                      on election outcomes in North Dakota. Elect Stud 35:115–122.
+
+
+
+E4520 | www.pnas.org/cgi/doi/10.1073/pnas.1419828112                                                                                                               Epstein and Robertson
+                                                                                                                                                                                                   PNAS PLUS
+28. Krosnick JA, Miller JM, Tichy MP (2004) An unrecognized need for ballot reform.            63. Cisco (2014) VNI Global IP Traffic Forecast, 2013–2018. Available at perma.cc/AE9R-
+    Rethinking the Vote, eds Crigler A, Just M, McCaffery E (Oxford Univ Press, New                JSHL. Accessed June 30, 2015.
+    York), pp 51–74.                                                                           64. Ash T, Ginty M, Page R (2012) Landing Page Optimization: The Definitive Guide to
+29. Koppell JG, Steen JA (2004) The effects of ballot position on election outcomes. J Polit       Testing and Tuning for Conversions (John Wiley & Sons, Indianapolis).
+    66(1):267–281.                                                                             65. Kraus SJ (1995) Attitudes and the prediction of behavior: A meta-analysis of the
+30. Kim N, Krosnick JA, Casasanto D (2014) Moderators of candidate name-order effects              empirical literature. Pers Soc Psychol Bull 21(1):58–75.
+    in elections: An experiment. Polit Psychol, 10.1111/pops.12178.                            66. Zajonc RB (2001) Mere exposure: A gateway to the subliminal. Curr Dir Psychol Sci
+31. Miller JM, Krosnick JA (1998) The impact of candidate name order on election out-              10(6):224–228.
+    comes. Pub Op Quarterly 62(3):291–330.                                                     67. Berger J, Fitzsimons G (2008) Dogs on the street, pumas on your feet: How cues in the
+32. Pasek J, et al. (2014) Prevalence and moderators of the candidate name-order effect            environment influence product evaluation and choice. J Mark Res 45(1):1–14.
+    evidence from statewide general elections in California. Pub Op Quarterly 78(2):416–439.   68. Brasel SA, Gips J (2011) Red bull “gives you wings” for better or worse: A double-edged
+33. Murphy J, Hofacker C, Mizerski R (2006) Primacy and recency effects on clicking be-            impact of brand exposure on consumer performance. J Consum Psychol 21(1):57–64.
+    havior. J Comput Mediat Commun 11(2):522–535.                                              69. Fransen ML, Fennis BM, Pruyn ATH, Das E (2008) Rest in peace? Brand-induced
+34. Ansari A, Mela CF (2003) E-customization. J Mark Res 40(2):131–145.                            mortality salience and consumer behavior. J Bus Res 64(10):1053–1061.
+35. Drèze X, Zufryden F (2004) Measurement of online visibility and its impact on Internet     70. Bargh JA, Gollwitzer PM, Lee-Chai A, Barndollar K, Trötschel R (2001) The automated
+    traffic. J Interact Market 18:20–37.                                                           will: Nonconscious activation and pursuit of behavioral goals. J Pers Soc Psychol 81(6):
+36. Chiang CF, Knight BG (2011) Media bias and influence: Evidence from newspaper                  1014–1027.
+    endorsements. Rev Econ Stud 78(3):795–820.                                                 71. Pronin E, Kugler MB (2007) Valuing thoughts, ignoring behavior: The introspection
+37. Druckman JN, Parkin M (2005) The impact of media bias: How editorial slant affects             illusion as a source of the bias blind spot. J Exp Soc Psychol 43(4):565–578.
+    voters. J Polit 67(4):1030–1049.                                                           72. Winkielman P, Berridge KC, Wilbarger JL (2005) Unconscious affective reactions to
+38. Gerber A, Karlan DS, Bergan D (2009) Does the media matter? A field experiment                 masked happy versus angry faces influence consumption behavior and judgments of
+    measuring the effect of newspapers on voting behavior and political opinions. Am               value. Pers Soc Psychol Bull 31(1):121–135.
+    Econ J Appl Econ 1(2):35–52.                                                               73. Karremans JC, Stroebe W, Claus J (2006) Beyond Vicary’s fantasies: The impact of
+39. Morwitz VG, Pluzinski C (1996) Do pools reflect opinions or do opinions reflect polls?         subliminal priming and brand choice. J Exp Soc Psychol 42(6):792–798.
+    The impact of political polling on voters’ expectation, preferences, and behavior.         74. Légal JB, Chappé J, Coiffard V, Villard-Forest A (2012) Don’t you know that you want
+    J Consum Res 23(1):53–67.                                                                      to trust me? Subliminal goal priming and persuasion. J Exp Soc Psychol 48(1):358–360.
+40. DellaVigna S, Kaplan E (2007) The Fox News effect: Media bias and voting. Q J Econ         75. Mills J, Aronson E (1965) Opinion change as a function of the communicator’s at-
+
+
+
+
+                                                                                                                                                                                                   PSYCHOLOGICAL AND
+                                                                                                                                                                                                   COGNITIVE SCIENCES
+    122(3):1187–1234.                                                                              tractiveness and desire to influence. J Pers Soc Psychol 1(2):173–177.
+41. Lakoff G (1987) Women, Fire and Dangerous Things (Univ of Chicago Press, Chicago).         76. Bi B, Shokouhi M, Kosinski M, Graepel T (2013) Inferring the demographics of search
+42. DeMarzo PM, Vayanos D, Zwiebel J (2003) Persuasion bias, social influence, and                 users: Social data meets search queries. Proceedings of the 22nd International Con-
+    unidimensional opinions. Q J Econ 118(3):909–968.                                              ference on World Wide Web (International World Wide Web Conferences Steering
+43. Fogg BJ (2002) Persuasive Technology: Using Computers to Change What We Think                  Committee, Republic and Canton of Geneva, Switzerland), pp 131–140.
+    and Do (Morgan Kaufmann, San Francisco).                                                   77. Yan J, et al. (2009, April). How much can behavioral targeting help online advertis-
+44. Bond RM, et al. (2012) A 61-million-person experiment in social influence and political        ing? Proceedings of the 18th International Conference on World Wide Web (ACM,
+    mobilization. Nature 489(7415):295–298.
+                                                                                                   New York), pp 261–270.
+45. Zittrain J (2014) Engineering an election. Digital gerrymandering poses a threat to
+                                                                                               78. Weber I, Castillo C (2010) The demographics of web search. Proceedings of the 33rd
+    democracy. Harvard Law Review Forum 127(8):335–341.
+                                                                                                   Annual International Association for Computing Machinery Special Interest Group on
+46. US Census Bureau (2011) Voting and registration in the election of November 2010.
+                                                                                                   Information Retrieval Conference on Research and Development in Information Re-
+    Available at perma.cc/DU9N-C6XT. Accessed June 30, 2015.
+                                                                                                   trieval (ACM, New York), pp 523–530.
+47. Loftus EF (1996) Eyewitness Testimony (Harvard Univ Press, Boston).
+                                                                                               79. Mayer WG (2008) The Swing Voter in American Politics (Brookings Institution Press,
+48. Kühberger A, Fritz A, Scherndl T (2014) Publication bias in psychology: A diagnosis
+                                                                                                   Washington, DC).
+    based on the correlation between effect size and sample size. PLoS One 9(9):e105825.
+                                                                                               80. Cox GW (2010) Swing voters, core voters, and distributive politics. Political Representation,
+49. Paolacci G, Chandler J (2014) Inside the Turk: Understanding mechanical Turk as a
+                                                                                                   eds Shapiro I, Stokes SC, Wood EJ, Kirshner AS (Cambridge Univ Press, Cambridge, MA),
+    participant pool. Curr Dir Psychol Sci 23(3):184–188.
+50. Berinsky AJ, Huber GA, Lenz GS (2012) Evaluating online labor markets for experi-              pp 342–357.
+                                                                                               81. Bickers KN, Stein RM (1996) The electoral dynamics of the federal pork barrel. Am J
+    mental research: Amazon.com’s mechanical turk. Polit Anal 20(3):351–368.
+51. Gates GJ (2011) How many people are lesbian, gay, bisexual and transgender?                    Pol Sci 40(4):1300–1325.
+                                                                                               82. Dahlberg M, Johansson E (2002) On the vote-purchasing behavior of incumbent
+    Available at perma.cc/N7P2-TXHV. Accessed June 30, 2015.
+52. Gelman A, Hill J (2006) Data Analysis Using Regression and Multilevel/Hierarchical             governments. Am Polit Sci Rev 96(1):27–40.
+                                                                                               83. Stein RM, Bickers KN (1994) Congressional Elections and the Pork Barrel. J Polit 56(2):
+    Models (Cambridge Univ Press, Boston).
+53. Census of India (2011) Population enumeration data. Available at perma.cc/4JKF-                377–399.
+                                                                                               84. Stokes SC (2005) Perverse accountability: A formal model of machine politics with
+    UWQZ. Accessed June 30, 2015.
+54. Simon HA (1954) Bandwagon and underdog effects and the possibility of election                 evidence from Argentina. Am Polit Sci Rev 99(3):315–325.
+                                                                                               85. Mayer WG (2012) The disappearing–but still important–swing voter. Forum 10(3):
+    predictions. Pub Op Quarterly 18(3):245–253.
+55. Leip D (2012) Dave Leip’s atlas of U.S. presidential elections. Available at perma.cc/         1520.
+                                                                                               86. Agichtein E, Brill E, Dumais S (2006) Improving web search ranking by incorporating user
+    G9YF-6CPE. Accessed June 30, 2015.
+56. Rogers D, Cage F (2012) US house and senate elections 2012. Available at perma.cc/             behavior information. Proceedings of the 29th Annual International Association for
+    5QSK-FNCL. Accessed June 30, 2015.                                                             Computing Machinery Special Interest Group on Information Retrieval Conference on
+57. Cabletelevision Advertising Bureau (2012) CAB undecided voters study 2012. Avail-              Research and Development in Information Retrieval (ACM, New York), pp 19–26.
+    able at perma.cc/T82K-YC38. Accessed June 30, 2015.                                        87. Ahmed A, Aly M, Das A, Smola AJ, Anastasakos T (2012) Web-scale multi-task feature
+58. Rutenberg J (2012) Obama campaign endgame: Grunt work and cold math. Available                 selection for behavioral targeting. Proceedings of the 21st Association for Computing
+    at perma.cc/X74D-YNM5. Accessed June 30, 2015.                                                 Machinery International Conference on Information and Knowledge Management
+59. Cox GW, McCubbins MD (1986) Electoral politics as a redistributive game. J Polit 48(2):        (ACM, New York), pp 1737–1741.
+    370–389.                                                                                   88. Chen Y, Pavlov D, Canny JF (2009) Large-scale behavioral targeting. Proceedings of
+60. Lindbeck A, Weibull JW (1987) Balanced-budget redistribution as the outcome of                 the 15th Association for Computing Machinery Special Interest Group on Knowledge
+    political competition. Public Choice 52(3):273–297.                                            Discovery in Data International Conference on Knowledge Discovery and Data Mining
+61. Smith A (2011) Pew Research Center’s Internet & American Life Project: The Internet            (ACM, New York), pp 209–218.
+    and campaign 2010. Available at perma.cc/3U9R-EUQQ. Accessed June 30, 2015.                89. Höchstötter N, Lewandowski D (2009) What users see—Structures in search engine
+62. Smith A, Duggan M (2012) Pew Research Center’s Internet & American life project:               results pages. Inf Sci 179(12):1796–1812.
+    Online political videos and campaign 2012. Available at perma.cc/5UX2-LELJ. Ac-            90. Page L, Brin S, Motwani R, Winograd T (1999) The PageRank Citation Ranking:
+    cessed June 30, 2015.                                                                          Bringing Order to the Web. Technical Report (Stanford InfoLab, Palo Alto, CA).
+
+
+
+
+Epstein and Robertson                                                                                                            PNAS | Published online August 4, 2015 | E4521
+
