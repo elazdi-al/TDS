@@ -1,0 +1,499 @@
+AEA Papers and Proceedings 2018, 108: 33–37
+https://doi.org/10.1257/pandp.20181002
+
+Quadratic Voting: How Mechanism Design
+Can Radicalize Democracy†
+By Steven P. Lalley and E. Glen Weyl*
+Vickrey (1961) launched mechanism design
+as a project to implement Lerner’s (1944)
+“socialist” dreams of welfare optimality absent
+a benevolent and omniscient planner. When
+Vickrey became a Nobel Laureate, he announced
+that he planned to bring this vision to the broader
+public using the “bully pulpit” the prize afforded
+him, but he sadly died days later. Furthermore,
+while Vickrey’s ambitions gained some early
+adherents (Tideman and Tullock 1976), experience (Ausubel and Milgrom 2005; Rothkopf
+2007) and Vickrey’s own warnings suggested
+his exact scheme was usually impractical.
+Thus, while mechanism design transformed
+economic theory, the novel mechanisms it suggests have largely been treated as a series of
+insightful theoretical curiosities of little practical relevance or applied in quite narrow settings,
+for example to spectrum and internet advertising
+auctions (Milgrom 2004; Edelman, Ostrovsky,
+and Schwarz 2007). In a book that will come out
+as this article does (Posner and Weyl forthcoming), one of us aims to revive the more radical
+ambitions of mechanism design and suggest
+they may offer a solution to the economic, political, and social crisis of our times.
+Perhaps the most glaring element of that crisis
+has been the struggles of democracies to resolve
+majority-minority conflicts and the resulting
+ascendancy of “populist” tyrannies of the majority or plurality. This oldest and most persistent
+problem of democracy seems particularly to
+
+lend itself to Vickrey’s approach both because of
+its sweeping scope and because the basic problem seems to be precisely the lack of markets.
+One-person-one-vote (1p1v) rations a single
+unit of influence on any collective decision to each
+voter, preventing potential Pareto-improving
+trade. When we complain about the failure of
+standard democracy to account for intensity of
+preference or knowledge (Hirschman 1982), we
+mean that it blocks trades where some citizens
+would be willing to give up their influence on
+some issues to gain more influence on others.
+Furthermore, given that the standard market system of exchange may be derived as a limit of
+Vickrey’s procedure in a large society (Tideman
+and Plassmann 2017), it seems natural that
+applying a similar logic to public goods could
+yield a solution.
+Yet, to our knowledge, prior to our work on
+the subject no simple and flexible pricing system for collective decisions that could apply to
+common settings such as binary decisions had
+been proposed.1 Groves and Ledyard (1977)
+and Hylland and Zeckhauser (1980) suggested
+closely related market systems for choosing continuous public goods, but groups of voters rarely
+directly choose continuous public goods. Here
+we propose a simple version of Hylland and
+Zeckhauser’s scheme for the common setting of
+communities making repeated binary collective
+decisions. As with the market system for private
+goods, it is the large population limit (this time
+for public goods) of Vickrey’s scheme and we
+will show that it is the unique way to price votes
+that achieves optimality in a “price-taking”
+model analogous to the conditions under which
+markets achieve optimality.
+
+* Lalley: Department of Statistics, University of
+Chicago, 5747 S. Ellis Avenue, Chicago, IL 60637 (email:
+lalley@galton.uchicago.edu); Weyl: Microsoft Research,
+One Memorial Drive, Cambridge, MA 02142, and Yale
+University, Department of Economics and Law School
+(email: glenweyl@microsoft.com). This is the final of many
+versions of a paper, to which countless colleagues have contributed. They all have our gratitude, but errors are our own.
+†
+Go to https://doi.org/10.1257/pandp.20181002 to visit
+the article page for additional materials and author disclosure statement(s).
+
+1
+Slightly after the first draft of this paper circulated,
+Goeree and Zhang (2017) proposed a closely related mechanism, though one applicable only in a narrower scope.
+
+33
+
+34
+
+MAY 2018
+
+AEA PAPERS AND PROCEEDINGS
+
+I. Price-Theoretic Model
+
+Consider a society of ​N​voters ​i = 1, … , N​
+where many binary collective decisions (e.g.,
+referenda or choice of leaders) arise. To create
+the opportunity for market trade, each voter is
+endowed with a large stock of “voice credits”
+that they may spend influencing the outcome of
+these decisions. As is common in the analysis
+of markets for private goods (Willig 1976), we
+assume there are enough issues and that each is
+sufficiently inconsequential that every voter has
+a quasi-linear “continuation value” for retaining
+voice credits for future votes. As in the theory
+of fair resource allocation (Varian 1974), we
+assume that voice credits have been distributed
+in a manner (such as equal division) considered
+fair by the relevant society in the sense that maximizing total equivalent continuation value in
+units of voice credits defines social optimality.
+Consider some particular decision. Call the
+value that voters would receive, in units of voice
+credits, for seeing alternative ​
+A​prevail over
+alternative ​B​ ​2​ui​​​​ , with negative values indicating
+a preference for ​B​over A
+​ ​. The community votes
+to determine which alternative is implemented,
+with each voter choosing a continuous number of
+votes ​​vi​​​​either positive or negative depending on
+which alternative she favors. ​A​is implemented
+just when ​​∑ i​ ​​ ​vi​​​  ≥ 0​. Each voter pays a cost
+​c​(​vi​​​)​​voice credits for her votes where ​c​is differentiable, convex, even, and strictly increasing
+in ​​  ​vi​ ​​ ​​to a central clearing house. We describe ​c​
+as a vote pricing rule.
+A game-theoretic analysis would specify
+beliefs of each voter about the distribution of
+values and derive an equilibrium strategy. We
+conduct such an analysis, which involves narrow assumptions about beliefs and behavior and
+statistical subtleties, elsewhere (Lalley and Weyl
+2017). We focus here instead on a price-taking
+approximation (Weyl forthcoming) that appears
+to be valid more broadly (Weyl 2017) and shows
+simply the core logic.
+We thus assume that each voter, in deciding how many votes to purchase, weighs the
+marginal cost of an additional vote against the
+perceived chance the vote will be pivotal in
+swinging the election. The price-taking assumption we adopt, originally proposed by Mueller
+(1973) and Laine (1977), is that all voters agree
+on this marginal pivotality of votes p​ ​on this
+issue (though of course they may differ across
+
+| |
+
+issues). Under this assumption, a rational voter
+will choose ​​v​i​​​ to maximize ​2​u​i​​  p​vi​​​  − c​(​vi​​​)​​. By
+our assumption that vote credits are distributed
+fairly, society wishes to implement A
+​ ​ exactly
+when ​​∑ i​ ​​ ​u​i​​  ≥ 0​. We say a vote pricing rule is
+robustly optimal if, for every p​ > 0​  , ​N​, and vector ​u​ , each price-taking voter i​​chooses votes
+​​v​ i⁎​  ​​ so that ∑
+​​ i​ ​​ ​v​ i⁎​  ​​has the same sign as ∑
+​​ i​ ​​ ​ui​​​​.
+II. Uniqueness
+
+Our main result is that the set of robustly optimal vote pricing rules are precisely the set of
+quadratic rules.
+THEOREM 1: A vote pricing rule is robustly
+optimal if and only if it is quadratic.
+PROOF:
+See our online Appendix.
+The central idea of the omitted formal proof
+is that quadratic functions are the only ones
+with linear derivatives and thus the only functions where a voter buying votes equates her
+marginal benefit and cost at a number of votes
+proportional to her value. Consider the class of
+vote pricing rules c​(x) = ​x​​  a​​ for ​a > 1​. The
+first-order condition for voter optimization is,
+by differentiation,
+	​2p​ui​​​  = a ​​(​vi​​​)​​​  a−1​   ⇒​
+( i) ( a )
+
+2p
+	​​v​​​  = sign​​u​​​ ​ ​​ _
+​  ​ ​​​ 
+i
+
+_
+​  1  ​
+
+a−1
+
+| |
+
+1
+_
+
+​ ​​ ​  u​i​​  ​​​  ​  a−1 ​​  .​
+
+If ​a = 2​this leads to ​​v​ i⁎​  ​​ proportional to ​​ui​​​​ and
+thus robust optimality. For any other a​ ​  , ​​v​ i⁎​  ​​ is not
+proportional to ​​u​i​​​and thus the costly voting rule
+will be suboptimal for some arrangements of
+values and ​p​.
+In contrast, consider the extremes of ​a → 1​
+(as voting cost approaches linear) and ​a → ∞​
+(as voting cost becomes very convex). In the
+former case, the power on u​
+​​i​​​ determining ​​v​ i⁎​  ​​
+becomes infinite and thus voters with only
+slightly greater values will vote infinitely more.
+Linear voting thus leads to dictatorship of the
+most intense voter, as in Casella, LlorenteSaguer, and Palfrey (2012). This reflects the
+common intuition against vote trading: allowing
+it will lead to capture by the most intense special
+interests.
+
+VOL. 108
+
+QUADRATIC VOTING: HOW MECHANISM DESIGN CAN RADICALIZE DEMOCRACY
+
+In the case of a​ → ∞​ 
+, the power on u​
+​​i​​​
+approaches ​0​so all voters buy exactly one vote
+in the direction of their preference as in 1p1v. In
+this sense, QV is an optimal intermediate point
+between the extremes of dictatorship and majority rule. It is the one vote pricing rule under
+which voters who intend only their own gain are
+led, as if by an invisible hand, to advance the
+interests of society. We refer to voting based on a
+quadratic pricing rule as Quadratic Voting (QV)
+for obvious reasons.
+III. Practical Promise
+
+While price-taking is a useful heuristic, it is
+unlikely to literally hold in game theoretic models of voter behavior. In other work, we have
+considered a variety of these models. In Lalley
+and Weyl (2017) we analyze the most canonical case from the game theoretic literature, in
+which voters’ values are drawn independently
+and identically from a known value distribution
+and act as rational, risk-neutral expected utility
+maximizers. We show that under appropriate
+conditions and in all symmetric Bayes-Nash
+equilibria in large populations the price-taking
+assumption approximately holds for almost all
+voters and, thus, that the welfare losses from QV
+decay generically at a rate _
+​​ 1 ​​as the population
+N
+grows. In another parallel to markets, this is the
+same rate of convergence of private goods markets toward efficiency as competition grows.
+The structure of game theoretic equilibrium
+is quite subtle and thus our rigorous mathematical proof of this result is long and technical. However, taking the approximations that
+we rigorously prove hold in this case to hold,
+appropriately adjusted, in other cases and
+using numerical methods allows analysis of
+QV for other environments. In Chandar and
+Weyl (2017) one of us, with another coauthor,
+considers the baseline model in smaller populations for a range of distributions numerically
+and finds that the welfare lost from QV relative
+to the optimum is very small (rarely more than
+a few percentage points) while that lost under
+1p1v may easily be near 100 percent.
+In Weyl (2017) one of us uses these approximations to allow for collusion, uncertainty about
+the value distribution, and the possibility that
+voters are not perfectly rational and consequentialist. In some of these settings QV performs
+
+35
+
+better than in our baseline and it rarely has more
+than a very small welfare loss, again in contrast
+to 1p1v. Furthermore, laboratory experiments
+on QV (Goeree and Zhang 2017; Cárdenas,
+Mantilla, and Zárate 2014) are largely consistent
+with these robustness conclusions. While participants do not play precisely as game theoretic
+equilibrium would predict, votes are generally
+linearly proportional to values with some noise,
+leading to outcomes much closer to optimal than
+1p1v.
+Each of these results has important limitations on its own; some are in stylized, or specific experimental, settings, while others are
+approximate or numerical. Together, however,
+we believe they suggest significant promise as
+they illustrate the robustness of this simple yet
+(approximately) optimal voting rule. This contrasts with other voting rules which are either
+optimal, but widely seen as too fragile to apply
+in practice, or which do not aim at optimality.
+In the first category, the most famous proposal
+was Vickrey’s original scheme as refined by
+Clarke (1971) and Groves (1973), the first fully
+optimal mechanism. However, this approach is
+extremely sensitive to collusion by even a very
+small group (Ausubel and Milgrom 2005). It
+also requires large and highly uncertain expenditures of money that make it heavily dependent
+on using real money rather than voice credits
+(Greenberg, Mackay, and Tideman 1977), a possibility that may be unjust given the inequality
+of wealth in most societies (Laurence and Sher
+2017; Ober 2017). As noted in our introduction,
+to address these problems, Groves and Ledyard
+(1977) and Hylland and Zeckhauser (1980)
+proposed a mechanism closely related to QV,
+but only applicable to continuous public goods
+problems, which rarely arise in practical applications. Other optimal mechanisms proposed in
+the literature are even less robust (Weyl 2017).
+Given this, practical attention has primarily
+focused on mechanisms that do not aspire to even
+approximate optimality, such as ones that do not
+allow expression of preference intensity (Brams
+and Fishburn 1978) or are like QV but with a
+linear costly voting function (Casella 2005;
+Hortala-Vallve 2012) and thus induce dictatorship of the most intense voters.
+QV aims to combine the simplicity and practicality of this latter group of designs with an
+approximation to the optimality of the first. This
+has allowed applications to polling and survey
+
+36
+
+MAY 2018
+
+AEA PAPERS AND PROCEEDINGS
+
+research (Quarfoot et al. 2017; Holland 2017),
+where evidence from initial studies shows significant improvements over existing methods of
+preference elicitation. Higher-stakes applications
+to politics (Posner and Weyl 2015) or corporate
+governance (Posner and Weyl 2014) remain far
+more speculative and are not advisable without
+further experimentation at smaller scales.
+IV. Radical Democracy, Radical Markets
+
+However, cautious but increasingly ambitious experimentation seems warranted given
+the potential of QV to create a truly radical democracy in several senses. First, and
+most mechanically, QV may also be viewed
+as individuals receiving votes equal to the
+square root or radical of the voice credits they
+spend. Second, QV gets to the roots of what
+the framers of modern democratic institutions,
+such as Alexander Hamilton, the Marquis de
+Condorcet, and Jeremy Bentham, viewed as
+the aim of democracy: to ensure the state serves
+the general happiness of the people maximally.
+Third, QV radically expands the rights of citizens to fully and freely express their political
+views, liberating them from the straightjacket
+of 1p1v influence rationing. In this sense, it
+shows how mechanism design can suggest
+fundamental and yet also practical reforms of
+social institutions.
+Yet Vickrey’s vision has nearly as much to
+give to markets for private as public goods. A
+follower of Henry George, Vickrey was skeptical of private property and the central argument
+of his 1961 classic was that auctioning assets
+ensured their efficient allocation. On the other
+hand, Myerson and Satterthwaite (1983) show
+allocative efficiency is impossible beginning
+from private ownership. One can imagine many
+assets (other than personal property) being
+continuously auctioned for rental according
+to Vickrey’s favored English auction, much as
+occurs with internet advertising slots. However,
+rather than the revenue being appropriated by a
+web platform, it could be returned to the public in equal shares as a social dividend, much as
+envisioned by George. Such a Vickrey Commons
+would on the one hand take the logic of the free
+market to its furthest extreme, while on the other
+hand abolish private property and most inequality. It is the natural private goods markets analog
+of the radical market logic of QV.
+
+As with the direct application of Vickrey’s
+schemes to collective decisions, a Vickrey
+Commons would face a host of practical challenges and variations on it, such as that proposed
+by Weyl and Zhang (2017), are of greater practical relevance. Yet as a thought experiment it,
+along with QV, illustrates the potential to break
+the deadlocked ideologies of left and right that
+plague our society. For mechanism designers to
+realize this potential, they will have to broaden
+their horizons beyond both narrow applications
+and impractical theory, to learn to be at once idealistic and pragmatic, to deploy rigor flexibly,
+and to account for sociological, psychological,
+legal, and other factors that they have traditionally shied away from given their analytical
+intractability. Here we tried to illustrate briefly
+the challenges and promise of such an approach.
+REFERENCES
+Ausubel, Lawrence M., and Paul Milgrom. 2005.
+
+“The Lovely but Lonely Vickrey Auction.”
+In Combinatorial Auctions, edited by Peter
+Cramton, Yoav Shoham, and Richard Steinberg, 17–40. Cambridge, MA: MIT Press.
+Brams, Steven J., and Peter C. Fishburn. 1978.
+“Approval Voting.” American Political Science
+Review 72 (3): 831–47.
+Cárdenas, Juan Camilo, César Mantilla, and
+Román David Zárate. 2014. “Purchasing Votes
+
+without Cash: Implementing Quadratic Voting Outside the Lab.” https://www.aeaweb.
+org/aea/2015conference/program/retrieve.
+php?pdfid=719.
+Casella, Alessandra. 2005. “Storable Votes.”
+Games and Economic Behavior 51 (2): 391–
+419.
+Casella, Alessandra, Aniol Llorente-Saguer, and
+Thomas R. Palfrey. 2012. “Competitive Equi-
+
+librium in Markets for Votes.” Journal of Political Economy 120 (4): 593–658.
+Chandar, Bharat K., and E. Glen Weyl. 2017.
+“Quadratic Voting in Finite Populations.”
+http://ssrn.com/abstract=2571026.
+Clarke, Edward H. 1971. “Multipart Pricing of
+Public Goods.” Public Choice 11 (1): 17–33.
+Edelman, Benjamin, Michael Ostrovsky, and
+Michael Schwarz. 2007. “Internet Adver-
+
+tising and the Generalized Second-Price
+­Auction: Selling Billions of Dollars Worth of
+­Keywords.” American Economic Review 97
+(1): 242–59.
+
+VOL. 108
+
+QUADRATIC VOTING: HOW MECHANISM DESIGN CAN RADICALIZE DEMOCRACY
+
+Goeree, Jacob K., and Jingjing Zhang. 2017. “One
+
+Man, One Bid.” Games and Economic Behavior 101: 151–171.
+
+Greenberg, Joseph, Robert Mackay, and Nicolaus Tideman. 1977. “Some Limitations of the
+
+Groves-Ledyard Optimal Mechanism.” Public
+Choice 29 (2S): 129–37.
+Groves, Theodore. 1973. “Incentives in Teams.”
+Econometrica 41 (4): 617–31.
+Groves, Theodore, and John Ledyard. 1977.
+“Optimal Allocation of Public Goods: A Solution to the ‘Free Rider’ Problem.” Econometrica 45 (4): 783–810.
+Hirschman, Albert O. 1982. Shifting Involvements: Private Interests and Public Action.
+Princeton, NJ: Princeton University Press.
+Holland, Alisha C. 2017. “Square Miles: The Spatial Politics of Mass Infrastructure.” Unpublished.
+Hortala-Vallve, Rafael. 2012. “Qualitative Voting.” Journal of Theoretical Politics 24 (4):
+526–54.
+Hylland, Aanund, and Richard Zeckhauser. 1980.
+“A Mechanism for Selecting Public Goods
+when Preferences must be Elicited.” Unpublished.
+Laine, Charles R. 1977. “Strategy in Point Voting: A Note.” Quarterly Journal of Economics
+91 (3): 505–07.
+Lalley, Steven P., and E. Glen Weyl. 2017. “Nash
+Equilibria for Quadratic Voting.” https://arxiv.
+org/abs/1409.0264.
+Laurence, Ben, and Itai Sher. 2017. “Ethical
+Considerations on Quadratic Voting.” Public
+Choice 172 (1-2): 195–222.
+Lerner, Abba P. 1944. The Economics of Control:
+Principles of Welfare Economics. New York:
+MacMillan.
+Milgrom, Paul. 2004. Putting Auction Theory to
+Work. Cambridge, UK: Cambridge University
+Press.
+Mueller, Dennis C. 1973. “Constitutional Democracy and Social Welfare.” Quarterly Journal of
+Economics 87 (1): 60–80.
+Myerson, Roger B., and Mark A. Satterthwaite.
+
+1983. “Efficient Mechanisms for Bilateral
+Trading.” Journal of Economic Theory 29 (2):
+265–81.
+
+37
+
+Ober, Josiah. 2017. “Equality, Legitimacy, Inter-
+
+ests, and Preferences: Historical Notes on
+­Quadratic Voting in a Political Context.” Public Choice 172 (1-2): 223–32.
+Posner, Eric A., and E. Glen Weyl. 2014. “Quadratic Voting as Efficient Corporate Governance.” University of Chicago Law Review 81
+(1): 251–72.
+Posner, Eric A., and E. Glen Weyl. 2015. “Voting
+Squared: Quadratic Voting in Democratic Politics.” Vanderbilt Law Review 68 (2): 441–500.
+Posner, Eric A., and E. Glen Weyl.Forthcoming.
+Radical Markets: Uprooting Capitalism and
+Democracy for a Just Society. Princeton, NJ:
+Princeton University Press.
+Quarfoot, David, Douglas von Kohorn, Kevin
+Slavin, Rory Sutherland, David Goldstein, and
+Ellen Konar. 2017. “Quadratic Voting in the
+
+Wild: Real People, Real Votes.” Public Choice
+172 (1-2): 283–303.
+Rothkopf, Michael H. 2007. “Thirteen Reasons
+Why the Vickrey-Clarke-Groves Process is
+Not Practical.” Operations Research 55 (2):
+191–97.
+Tideman, Nicolaus, and Florenz Plassmann. 2017.
+“Efficient Bilateral Taxation of Externalities.”
+Public Choice (1-2): 109–30.
+Tideman, T. Nicolaus, and Gordon Tullock. 1976.
+“A New and Superior Process for Making
+Social Choices.” Journal of Political Economy
+84 (6): 1145–1159.
+Varian, Hal R. 1974. “Equity, Envy, and Efficiency.” Journal of Economic Theory 9 (1):
+63–91.
+Vickrey, William. 1961. “Counterspeculation,
+Auctions, and Competitive Sealed Tenders.”
+Journal of Finance 16 (1): 8–37.
+Weyl, E. Glen. Forthcoming. “Price Theory.”
+Journal of Economic Literature.
+Weyl, E. Glen. 2017. “The Robustness of Quadratic Voting.” Public Choice 172 (1-2):
+75–107.
+Weyl, E. Glen, and Anthony Lee Zhang. 2017.
+“Depreciating Licenses.” https://ssrn.com/
+abstract=2744810.
+Willig, Robert D. 1976. “Consumer’s Surplus Without Apology.” American Economic
+Review 66 (4): 589–97.
+
+

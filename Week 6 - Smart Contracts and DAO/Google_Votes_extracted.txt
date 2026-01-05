@@ -1,0 +1,620 @@
+Technical Disclosure Commons
+Defensive Publications Series
+
+June 05, 2015
+
+Google Votes: A Liquid Democracy Experiment
+on a Corporate Social Network
+Steve Hardt
+Lia C. R. Lopes
+
+Follow this and additional works at: http://www.tdcommons.org/dpubs_series
+Recommended Citation
+Hardt, Steve and Lopes, Lia C. R., "Google Votes: A Liquid Democracy Experiment on a Corporate Social Network", Technical
+Disclosure Commons, ( June 05, 2015)
+http://www.tdcommons.org/dpubs_series/79
+
+This work is licensed under a Creative Commons Attribution 4.0 License.
+This Article is brought to you for free and open access by Technical Disclosure Commons. It has been accepted for inclusion in Defensive Publications
+Series by an authorized administrator of Technical Disclosure Commons.
+
+Hardt and Lopes: Google Votes: A Liquid Democracy Experiment on a Corporate Social
+
+Google Votes: A Liquid Democracy
+Experiment on a Corporate Social
+Network
+Abstract
+This paper introduces Google Votes, an experiment in liquid democracy built on Google's internal
+corporate Google+ social network. Liquid democracy decision-making systems can scale to cover large
+groups by enabling voters to delegate their votes to other voters. This approach is in contrast to direct
+democracy systems where voters vote directly on issues, and representative democracy systems where
+voters elect representatives to vote on issues for them. Liquid democracy systems can provide many of the
+benefits of both direct and representative democracy systems with few of the weaknesses. Thus far, high
+implementation complexity and infrastructure costs have prevented widespread adoption. Google Votes
+demonstrates how the use of social-networking technology can overcome these barriers and enable
+practical liquid democracy systems. The case-study of Google Votes usage at Google over a 3 year
+timeframe is included, as well as a framework for evaluating vote visibility called the "Golden Rule of
+Liquid Democracy".
+
+Introduction
+Effective decision making is a challenge for any structured group. It can be time consuming, inefficient
+and frustrating since it depends on many different aspects of group dynamics (Postmes, Spears and
+Cihangir 2001). Democratic decision-making systems have great promise since 1) they can take input
+from many group members with diverse knowledge and experience, and 2) the generated decisions gain
+legitimacy from the democratic nature of the process improving chances for successful execution (Council
+of Europe 2008). Many decision-making systems take the name "democracy" and claim to follow ideas in
+accordance with the meaning of the original Greek word δημοκρατία, "rule of the people" (Liddell and
+Scott 1889). In practice, they often have low group engagement and only small sub-groups of people
+contribute ideas and decide among them (Noveck 2009; Serrano 2015).
+This paper argues that liquid democracy is a particularly promising form for democratic decision-making
+systems and building liquid democracy systems on social-networking software is a practical approach. It
+presents the Google Votes system built on Google's internal corporate Google+ social network. Google
+Votes is an experiment in applying liquid democracy to decision-making in the corporate environment. It
+was developed in 20% time (Schmidt and Rosenberg 2014) by a small group of Google engineers. The
+concepts related to the topic will be described next, followed by an overview of the system and the specific
+case study of 3 years usage at Google.
+
+Liquid Democracy
+Democratic voting systems generally employ a form of direct democracy where everyone votes directly, or
+representative democracy where a small set of representatives vote on behalf of the larger group (Ford
+2002). Figure 1 gives a direct democracy example where voters (circles) vote (solid-head arrows) directly
+on issues (squares), and a representative democracy example where voters elect (open-head arrows)
+representatives (large circles) who vote on issues.
+
+Published by Technical Disclosure Commons, 2015
+
+2
+
+Defensive Publications Series, Art. 79 [2015]
+
+Figure 1. Direct and Representative Democracy
+Direct democracy offers control, accountability, and fairness, but engagement falls off in large groups
+since voters generally do not have time or expertise to vote on everything (Ford 2002). Representative
+democracy is considered to scale to large groups better than direct democracy because: 1) Representatives
+can specialize and become experts who spend more of their time and effort understanding group-related
+decisions, and 2) discussions concerning group decisions involve fewer people, primarily just the
+representatives (Miler III 1969). But representative democracy has problems with transparency,
+accountability, high barriers to entry in becoming a representative, abuses of power, focus on superficial
+aspects of candidates, and decisions being influenced by the election process itself, e.g. election cycle
+effects (Hirst 1990; Woolley 1991).
+With liquid democracy (aka. delegable proxy) voters may delegate voting power to other voters, but can
+also choose to override delegations and vote directly. Moreover, participants can change delegations at
+any time. Delegation is transitive, a vote can pass through several delegation links before being counted
+on an issue (Behrens, Kistner, Nitsche and Swierczek 2014). Figure 2 gives a liquid democracy example
+where voters (circles) delegate (open-head arrows) to other voters and voters vote (closed-head arrows)
+on issues (squares). The ability to override and vote directly gives the control, fairness, and transparency
+of direct democracy. Person F would normally have delegated their vote on issue [1] to person H through
+the path F⇾G⇾H→[1], but instead F overrode the delegation and voted directly on [1].
+
+Figure 2. Liquid Democracy
+The ability to delegate voting power allows liquid democracy to scale to large groups as well as
+representative democracy does. People who have others delegating to them are much like representatives
+in representative democracy systems, becoming specialists for group decisions and voting with greater
+power. For example in Figure 2, many people delegate directly or indirectly to person H, making H a
+powerful delegate. Liquid democracy systems tend to be meritocracies. As a person becomes more of an
+expert on issues facing the group, more people trust and delegate to them. The increased voting power can
+incentivize them to further increase their expertise and effectiveness. The opposite effect occurs when the
+delegate becomes less effective. This feedback process gives accountability and curbs abuses of power.
+The ability to change delegations at any time eliminates many election-related distractions and
+distortions. There is no election-cycle and delegates must continuously prove their worth. And, they can
+do so in incremental manner, instead of wasting time and energy on all-or-nothing elections. The lack of
+elections lowers barriers to entry for non-delegate group members to start taking on leadership
+
+http://www.tdcommons.org/dpubs_series/79
+
+3
+
+Hardt and Lopes: Google Votes: A Liquid Democracy Experiment on a Corporate Social
+
+responsibility. The person can attract a small number of delegators by serving their interests, and then
+either aim to grow delegated power or not, depending on their goals. Liquid democracy allows people with
+varying levels of skill, time and energy commitment, and numbers of like-minded people to contribute at
+proportional levels.
+Delegates can be people well-known to those who delegate, instead of representatives who are likely not
+well-known. The transitive nature of delegation means that people do not need to know experts directly,
+they can "know people who know people" and their votes will follow a chain of trust (Ford 2002). These
+factors reduce the focus on superficial aspects of candidates. As shown in Figure 2, person F trusts G to
+make good decisions. F doesn't necessarily know H, but G trusts H. So, F's vote flows to H. Contrast this
+with a representative democracy election, where F would likely be choosing among candidates with whom
+F has no personal connection. F might very well be swayed by superficial aspects of the candidates instead
+of any rational reason to favor one candidate over another.
+
+The Golden Rule of Liquid Democracy
+In the context of liquid democracy, define vote transparency as the guarantee that users can see all votes
+cast on their behalf including those cast through multiple delegation links, which is desirable to create
+user trust. Making all votes visible to everyone creates vote transparency at the expense of privacy,
+possibly compromising people’s ability to vote honestly. Making all votes secret maximizes privacy, but
+violates transparency by compromising the ability of voters to verify the actions of their delegates. This is
+similar to the way in which the votes of elected representatives on issues are usually public, while the
+votes to elect them are usually private.
+The designers of Google Votes propose a general framework to define the space of all vote-transparencycompliant policies for liquid democracy systems and name it "The Golden Rule of Liquid Democracy":
+If I give you my vote, I can see what you do with it.
+Treating the set of delegations and votes as a graph, we observe the minimal transparency-compliant
+vote-visibility graph is the transpose of the vote delegation graph. Every delegation link must have a
+corresponding vote-visibility link in the opposite direction. Vote-visibility is transitive. Figure 3 illustrates
+direct and delegated votes on two issues, categorized Food and IT respectively, and the corresponding
+minimal vote-visibility graph needed to satisfy vote transparency. In the latter, open-head arrows indicate
+'has-votes-visible-to' relations. If the system supports delegations links constrained to specific categories
+(as Google Votes does), then the minimal transparency-compliant visibility links only need to cover issues
+with corresponding categories. Since delegation links can be added and removed at any time, the visibility
+links only need to cover the time-frames when their matching delegation links exist.
+
+Figure 3. Delegation and Vote-Visibility Graphs
+The vote-visibility restrictions of the Golden Rule are unidirectional. A user could receive delegated power
+from another user without knowing about that user or their votes. Many vote-transparency-compliant
+policies are possible. One compliant policy (which Google Votes uses) is to make all votes publicly visible
+to the voting group. A second compliant policy is to start with all votes private and with incoming
+
+Published by Technical Disclosure Commons, 2015
+
+4
+
+Defensive Publications Series, Art. 79 [2015]
+
+delegations disallowed. Then a user can choose to declare themselves a "politician" which simultaneously
+makes their voting record public and allows incoming delegations. A third compliant policy starts with
+votes private, and then requires explicit approval for accepting any delegation along with its
+corresponding vote-visibility.
+
+Liquid Democracy and Social Networks
+In recent years, use of social networking software has become ubiquitous. A social network's userrelationship graph bears similarity to a liquid democracy delegation graph, and a liquid democracy system
+can be built on top of an existing social network (Wiersma 2013; Boldi, Bonchi, Castillo, and Vigna, 2011).
+As an analogy, consider an electric wire. It carries information or power. Currently, social networks carry
+only information. Liquid democracy allows social networks to carry power as well, decision-making
+power.
+Any group-decision-making tool faces high barriers to adoption since it has no value until a critical mass
+of people adopt it. This is even more true for liquid democracy systems since a network of delegations
+must be established. Specifically, liquid democracy systems have requirements common to any
+democratic group-decision-making system such as:
+●
+
+Verifiable identity for vote counting.
+
+●
+
+Mechanisms to cast votes and count votes.
+
+●
+
+Means for issue creators to publicize issues and for voters to discover relevant issues.
+
+●
+
+Fostering meaningful discussion on issues.
+
+As well as requirements particular to liquid democracy:
+●
+
+Establishing and managing delegation relationships.
+
+●
+
+Providing feedback on delegated-voting activity - because a user's votes depend on the votes and
+delegations of others.
+
+●
+
+Educating users on the use of liquid democracy.
+
+Building the liquid democracy system on a social network fulfills or partially fulfills many of these
+requirements. Users of the social network become the voter base and identity verification uses
+mechanisms provided by the social network. Even social networks that allow account creation with weak
+verification such as simple email confirmation generally have invite-only grouping mechanisms, e.g.
+Google+ Communities (Gundotra 2012) and Facebook Groups (Hicks 2010). Groups can use these
+mechanisms to implement their own stronger verification.
+Social networks provide messaging capabilities which can be leveraged for issue publicity, discovery, and
+discussion. Users can influence others since personal recommendations contribute to individual shifts of
+opinion (Price, Nir and Capela 2006). The messaging capabilities can be used for communications related
+to establishing delegation relationships, providing feedback on voting activity, and sending educational
+messages.
+The liquid democracy system must implement its own mechanisms for vote casting, vote counting, and
+delegation management.
+
+http://www.tdcommons.org/dpubs_series/79
+
+5
+
+Hardt and Lopes: Google Votes: A Liquid Democracy Experiment on a Corporate Social
+
+Google Votes System
+System overview
+Google Votes is a web application integrated with Google's internal corporate Google+ social network.
+Since internal Google+ accounts are synchronized with Google's corporate employee database, voter
+identity is assured. Google Votes complies with the Golden Rule of Liquid Democracy by making votes
+and issues visible to all Google employees, called Googlers. Google Votes uses Google+ posts as the basis
+for vote and issue discussions.
+The main top-level pages of Google Votes are the issue and the ballot pages. An issue contains a list of
+options. Issues are created and edited as drafts with a "What You See Is What You Get" interface and then
+locked-in and opened for voting. Issues may be restricted to groups of users. Each user with permission to
+see an issue can vote to express their preference and can change their vote until the issue closing time. To
+minimize bias, options in issues are presented in per-user random order with incremental results hidden
+until the issue closes. If desired, a voting user can receive an email notification with the final results.
+Issue creators can choose to group related issues into a ballot or to leave issues as standalone pages. For
+example, Figure 4 shows a ballot for a Google Food Fair where one of the issues is a vote on unsweetened
+teas. After the user votes on tea, Google Votes navigates to the next issue in the ballot. To eliminate
+arbitrary order bias, issues in ballots are presented in a per-user random order. Google Votes uses a cardbased user interface paradigm. This allows the layout to work on devices with widely different screen
+sizes such as handhelds, tablets, laptops, and desktop machines. Depending on context, square cards can
+represent ballots, issues, options, or users.
+Issue
+Ballot
+
+Figure 4. Ballot and Issue
+
+Published by Technical Disclosure Commons, 2015
+
+6
+
+Defensive Publications Series, Art. 79 [2015]
+
+Voting styles and tally methods
+Google Votes supports 5 different voting styles in the user interface, each with one or more tally methods
+to count votes and determine winners. When creating a new issue, the creator selects a specific voting
+style and tally method which do not change over the issue lifetime. At vote time, users can click an
+informational link for detailed information on the style and method. Table 1 gives examples of all voting
+styles.
+Yes/No
+Select one of two possible
+options.
+Plurality
+Select one of multiple options.
+
+Approval
+Select multiple options.
+
+Score
+Rate options from 1-5 stars.
+2 tally methods
+Ranked
+Drag-n-drop in preference order.
+2 tally methods
+
+Table 1. Voting Styles
+For issues in all voting styles, Google Votes generates a ranked list of options after voting closes, i.e. first,
+second, third place, etc. Ties are permitted. Figure 5 gives an example of a two-way tie for third place. The
+tally method combines the cast votes to decide the ranking. For yes/no, plurality, and approval voting,
+Google Votes provides a single tally method which is simple per-option vote summation. For score voting,
+Google Votes provides max-score and average-score tally methods to combine the 5-star votes. The
+primary difference between max-score and average-score rankings is max-score treats unmarked options
+as 1 star (lowest value) while average-score ignores unmarked options (Smith n.d.).
+
+http://www.tdcommons.org/dpubs_series/79
+
+7
+
+Hardt and Lopes: Google Votes: A Liquid Democracy Experiment on a Corporate Social
+
+Figure 5. Closed Issue Results
+For ranked voting, Google Votes provides the Schulze and Borda tally methods. Although many ranked
+voting methods exist, the Arrow Impossibility Theorem proves no single one can be ideal (Arrow 1963).
+The default voting method in Google Votes is ranked voting tallied with a variation of the Schulze method
+(Schulze 2011). Google Votes adds a user-visible heuristic score to the Schulze ranking to help users
+distinguish between issues with a clear winner and close races, score details fall outside this paper's scope.
+Google Votes used the Borda count (Borda 1781) for all issues created before Schulze was supported. In
+practice, the algorithms can produce different results. The voting data for the 194 ranked issues created
+over 3 years of Google Votes usage were compared and the two algorithms produce different first-place
+winners for 21 issues. Google Votes designers chose Schulze over Borda for Schulze's many desirable
+properties including clone independence and Condorcet compliance (Schulze 2011).
+
+Unbiased and biased sharing
+Google Votes provides social network sharing to address the "discovery and publicity" problem. Users
+discover relevant issues to vote on and receive vote recommendations from other users in their social
+network. Two types of sharing are distinguished with separate mechanisms for each (Table 2).
+
+Published by Technical Disclosure Commons, 2015
+
+8
+
+Defensive Publications Series, Art. 79 [2015]
+
+Unbiased sharing
+Share an issue.
+
+Biased sharing
+Share a vote on an issue.
+
+Table 2. Unbiased and biased sharing
+With unbiased sharing, a user shares an issue giving no preference over the options. The message includes
+issue-specific information such as the issue title and issue overview image. A common use-case is when
+the creator of an issue wants to attract votes and generate an accurate aggregate group preference. Issue
+sharing is available on the issue page at any time.
+With biased sharing, a user shares an issue along with their specific vote. The message includes votespecific information including the name and image of the most preferred option. A common use-case is
+when a voter wants to influence the issue outcome and convince others to cast similar votes. Users receive
+the option to share their vote immediately after they vote.
+
+Discussion aggregation
+An important part of the decision making process is discussion and deliberation. Google Votes shows all
+Google+ posts related to an issue on the issue page itself with options for sorting and filtering by social
+network affinity (Figure 6). So, even though relevant posts may be widely spread across the Google+
+network, at vote time a user can see the entire discussion and perhaps make a better-informed decision.
+Google Votes uses the same underlying technology to aggregate comments as is used to integrate Google+
+comments with YouTube comments and Blogger comments (Janakiram and Zunger, 2013; Zunger 2013).
+
+http://www.tdcommons.org/dpubs_series/79
+
+9
+
+Hardt and Lopes: Google Votes: A Liquid Democracy Experiment on a Corporate Social
+
+Figure 6. Discussion Aggregation
+
+Delegated Voting in Google Votes
+It is assumed that users generally have experience with direct and representative democracy, but not with
+liquid democracy. Google Votes uses a learn-as-you-go approach to teach liquid democracy concepts. To
+start with, the system can function as a traditional direct democracy voting system, and works well for
+users not familiar with the delegation features. Delegation features are introduced at key points in user
+interaction flows, targeting users likely to benefit from delegated voting. At times Google Votes borrows
+familiar concepts from representative democracy to describe aspects of liquid democracy.
+Google Votes implements delegation by category at the issue level. A category is a short string like "food"
+or "events". The creator of an issue assigns the issue a single category. Although the low-level voting
+engine supports multiple categories, for simplicity the Google Votes system allows only a single category
+per issue. A delegation is a directed link from one user to another user annotated with a category. When a
+user casts a vote on an issue, the vote is counted as one vote for them plus one vote for every user who has
+
+Published by Technical Disclosure Commons, 2015
+
+10
+
+Defensive Publications Series, Art. 79 [2015]
+
+delegated to them in the category of the issue. This does include indirect votes from transitive chains of
+delegation. But it does not include votes from delegating users who voted directly or voted via a different
+delegate closer to them in the delegation chain.
+
+Democracy Dashboard / Voting Page
+Google Votes maintains a voting page for every user and users can see other users' voting pages. Since
+liquid democracy makes no distinction between representatives and the general public, the voting page
+must be useful to people who have delegations from others, to people who have delegations to others, and
+to people who have both. The voting page displays all issues and ballots the user created and all votes the
+user cast. From a user's own voting page, the user can add and remove delegations to other users and can
+view delegations from others to them (Figure 7).
+
+Figure 7. Democracy Dashboard / Voting Page
+The list of votes includes delegated votes where another user cast the vote on behalf of the user. Clicking a
+vote marked as "delegated" shows the issue page with information on who cast the vote on the user's
+behalf. The voting page acts as a real-time "Democracy Dashboard" whereby a user can see all voting
+activity including what has been done "in their name".
+
+Delegation advertisements
+To assist in generating delegation relationships, Google Votes supports delegation advertisements. These
+are messages sent over Google+ where a user says why others should delegate to them. The posts include
+a link giving the viewer a chance to view the potential delegate's voting record and a mechanism to add a
+delegation (Figure 8). In addition to the user feeling rewarded as others delegate, the user's expertise and
+popularity is reinforced as delegating users see other users who have delegated. Thus, delegation
+advertisements can enable group leaders and potential leaders to build and reinforce their reputation
+which fosters greater group participation (Koh, Kim, Butler and Bock 2007).
+
+http://www.tdcommons.org/dpubs_series/79
+
+11
+
+Hardt and Lopes: Google Votes: A Liquid Democracy Experiment on a Corporate Social
+
+Figure 8. Sending a Delegation Advertisement
+To educate users on delegation and delegation advertisements, Google Votes displays a teaser message
+"Increase your voting power" immediately after voting. Users who have just engaged with the system by
+voting can be intrigued by the idea of increased voting power and encouraged to try out delegation
+features.
+
+Voting power estimates
+To give users more feedback on how delegation can help them, Google Votes provides a voting power
+estimate on every issue at vote time. It tells users how many votes they would have if they voted and who
+would be delegating to them. For users with no delegated power, Google Votes says "Voting power: 1 vote"
+to hint there is a way to get more than 1 vote. And clicking this gives a secondary entry point to send
+delegation advertisements, see previous. Note, it is only possible for this voting power value to be an
+estimate. The exact voting power is only set when the issue closes and the final tally occurs. Up until that
+time delegation relationships can change to increase or decrease voting power, and people delegating to
+the user may vote directly which decreases voting power.
+
+Delegated vote notifications
+As part of providing delegated-voting feedback, Google Votes sends Google+ posts to users when others
+cast votes on their behalf (Figure 9). This gives transparency to users on how their votes are being used. If
+the user agrees with the vote, they do nothing. The notification serves to increase confidence that their
+delegate is representing them well. If the user disagrees, they can vote directly and override the delegated
+vote. Here, the notification serves both as a discovery mechanism for an interesting issue and as a chance
+to prevent an unwanted vote. If the user disagrees not just with that one vote but with how their delegate
+is voting in general, the user can remove their delegation. Now, the notification serves as a warning
+mechanism that their delegate is not representing their interests.
+For full disclosure and for compliance with Google+ privacy policies, Google Votes always prompts the
+user before sending a Google+ post in their name. So, as a person with delegated power submits a vote,
+they immediately receive a warning that notifications will be sent to everyone delegating to them. At this
+time, they can choose to cast a "personal vote" which means they decline all incoming delegations and use
+only their own single vote. No notifications need to be sent for personal votes.
+
+Published by Technical Disclosure Commons, 2015
+
+12
+
+Defensive Publications Series, Art. 79 [2015]
+
+Figure 9. Delegated vote notification
+
+Figure 10. GoogleServe 2014 Logo
+
+Google Votes at Google
+From March 2012 to February 2015, Googlers using Google Votes have created 370 issues, 131 of them
+grouped into 30 ballots. Google Votes has been visited by 20,000 Googlers, with 15,000 casting over
+87,000 votes (including delegated votes). Issues with category "food" have the highest number of votes
+cast, over 73,000, and the largest number of issues, at 150. Other popular categories are "googleserve" (a
+volunteer work program at Google), "coding" (topics related to software engineering), "rews" (Real Estate
+and Workplace Services which includes the Food team as well as other workplace teams) and "googlestore" (company-internal Google Store).
+Of the total vote count across all issues, 3.6% were delegated votes. This is a small percentage but is
+significant considering effectively all users were new to the concept of delegated voting. Delegation
+advertisements were effective, 486 delegation advertisements were sent and 355 delegations currently
+exist.
+Google Votes project leadership purposely chose food-related decisions as the primary initial theme and
+coordinated with Google Workplace Services to run food issues. Google has a strong food culture with free
+snacks and meals at on-campus cafes and free snacks at numerous microkitchens near work areas. Food
+decisions have wide appeal, affecting the daily lives of Googlers in all product areas. Food-related issues
+have produced lively discussions and led to high voter engagement. These issues gave space for product
+experimentation with little risk of failure on Google mission-critical decisions. In addition to providing
+real-world Google Votes usage, the food voting project set and met goals to increase Googler participation
+in food-related decisions and to improve the efficiency of the Google Food team in making meal and snack
+decisions.
+The largest usage of Google Votes was for an event called the "Mountain View Microkitchen Food Fair"
+that took place in Google headquarters in Mountain View, California. During one day in September 2013,
+food vendors offered samples to several thousand Googlers (Louisville Business First 2013) in booths with
+a QR code that Googlers could scan to access a ballot with 25 categories of snacks (chips, energy drinks,
+chocolate, food bars, etc). In addition to the QR code, the Food team created a short link to the ballot and
+publicized it via email lists, Google+, and posters. Voting remained open for the week following the food
+fair.
+Google Votes received over 175 thousand pageviews during the week of the fair and almost 4600 Googlers
+cast over 62 thousand votes. The average pages viewed per visit was 18, showing that most people voted
+for almost all categories. 30% of the visits came from Google+ showing the success of social-network
+sharing. Only 8.5% of the votes were cast by mobile devices, which included all the QR code votes. This
+
+http://www.tdcommons.org/dpubs_series/79
+
+13
+
+Hardt and Lopes: Google Votes: A Liquid Democracy Experiment on a Corporate Social
+
+low number may be due to the dynamics of the live event and extra steps in the authentication process for
+mobile device access.
+The fair produced good examples of delegation usage. One Googler has a vegan diet and so advertised his
+expertise on both Google+ and an internal vegan mailing list. He received delegations from 14 people
+which counted towards his food fair votes. Relative to votes overall, the fair had a larger proportion of
+delegated votes at 4.7%.
+The results of the food fair became the basis of Google Mountain View microkitchen selections. The first
+place winners in all categories along with a number of the runner-ups became stocked in microkitchens. A
+smaller food fair was held a month later for the San Bruno, California Google office. It was also successful
+with 38% of all San Bruno Googlers voting and the results used for San Bruno microkitchen selections.
+The second largest usage of Google Votes was to decide the logos for GoogleServe 2012 and GoogleServe
+2014 (Marbin 2012; Marbin 2014). Over 2 thousand Googlers voted for the 2014 logo (Figure 10), and
+about 600 for the 2012 logo. GoogleServe is an annual event where Googlers volunteer in their local
+communities, e.g. in 2014 over 12 thousand Googlers participated worldwide.
+Other than food fairs, Google Votes food decisions included lunch menus, the burger of the month,
+cooking classes, and other snack and food options such as flavors of frozen yogurt. Other than
+GoogleServe, non-food issues included several team t-shirt designs, a Halloween costume contest,
+building amenity names, items for the Google internal store, and Java programming language coding
+standards.
+Successful issues were run using all supported voting styles. Yes/no worked well for a ballot of true/false
+trivia questions in a team-bonding exercise. Plurality worked for a two-option tote bag issue that did not
+fit the yes/no paradigm. Approval voting fit well for the food fairs since it requires only a single "approve"
+user click per option and there were many options, 202 options in the Mountain View Food Fair. Score
+voting worked for a robot-naming contest which also had many options, 51, and the contest organizers
+wanted more per-user information than simple approval. Ranked voting worked as a good default for the
+majority of issues.
+
+Conclusion
+Although democratic decision-making systems have enjoyed many successes, the implementations in
+direct and representative democracy systems have not lived up to the potential of democracy. The
+ubiquity of internet communications and social-networking software enables new forms of decisionmaking systems. Practical liquid democracy systems combining the best of direct and representative
+democracy systems are now possible. The Google-internal experiment, Google Votes, demonstrates that it
+is possible to implement a liquid democracy system on a social network in a scalable manner with a
+gradual learning curve.
+
+Future Work
+Features under consideration for Google Votes include:
+
+●
+
+Issue recommendations - based on voting patterns by the user and the user's close social-network
+connections.
+
+●
+
+Delegate recommendations - based on voting pattern similarities and social network affinity.
+
+●
+
+Delegation-network change notifications - notify delegates when they gain and lose power to
+further encourage the meritocracy feedback aspects of the system.
+
+●
+
+Issue lifecycle notifications - e.g. notification when an issue is about to close.
+
+●
+
+Rule-based notifications - e.g. user requests notification when a vote is cast on their behalf for all
+issues categorized 'purchasing'.
+
+Published by Technical Disclosure Commons, 2015
+
+14
+
+Defensive Publications Series, Art. 79 [2015]
+
+●
+
+Private vote-visibility policies - see the "explicit politician" and "explicit delegation acceptance"
+approaches in "The Golden Rule of Liquid Democracy" above.
+
+REFERENCES
+Arrow, K. J. 1963. Social Choice and Individual Values. Cowles Commission for Research in Economics
+Monograph 2nd edition.
+Behrens, J. Kistner, A., Nitsche, A. and Swierczek B. 2014. The Principles of LiquidFeedback. Berlin:
+Interaktive Demokratie eV.
+Boldi, P., Bonchi, F., Castillo, C., and Vigna, S. 2011. “Viscous democracy for social networks,”
+Communications of the ACM, vol. 54, n. 6, pp. 129-137.
+Borda, J. C. 1781. Memoire sur les elections au scrutin. Paris: Historia de l ‘academie des sciences pour.
+English Translation by De Grazia, A., 1953. Isis 44.
+Council of Europe 1989. White Paper on Intercultural Dialogue - “Living Together As Equals in Dignity,”
+i n Council of Europe Publishing, Strasburg. www.coe.int/t/dg4/intercultural/source/
+white%20paper_final_revised_en.pdf, accessed 21 February 2015.
+Ford, B. 2002. “Delegative democracy,” Manuscript. www.brynosaurus.com/deleg/deleg.pdf, accessed 21
+February 2015.
+Google 2014. “2014 Financial Tables,” in Investor Relations. investor.google.com/financial/tables.html,
+accessed 21 February 2015.
+G u n d o t r a , V . 2 0 1 2 . “ G o o g l e + : C o m m u n i t i e s a n d p h o t o s , ” i n Google Official Blog.
+googleblog.blogspot.com/2012/12/google-communities-and-photos.html, accessed 21 February 2015.
+Hicks, M. 2010. “New Groups: Stay Closer to Groups of People in Your Life,” in Notes by Facebook.
+www.facebook.com/notes/facebook/new-groups-stay-closer-to-groups-of-people-in-yourlife/434700832130, accessed 21 February 2015.
+Hirst, P. Q. 1990. Representative democracy and its limits. Cambridge: Polity Press.
+Janakiram, N. and Zunger, Y. 2013. “Turning comments into conversations that matter to you,” in
+YouTube Official Blog. youtube-global.blogspot.com/2013/11/youtube-new-comments.html, accessed
+21 February 2015.
+Koh, J., Kim, Y., Butler, B., and Bock, G. 2007. “Encouraging Participation in Virtual Communities,”
+Communications of the ACM, vol. 50, n. 2, pp. 68-73.
+Liddell, R. H., and Romano, C. A. 1989. An Intermediate Greek-English Lexicon, Oxford: Clarendon
+Press. www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0058%3Aentry
+%3Ddhmokrati%2Fa, accessed 21 February 2015.
+Louisville Business First, 2013. “A look at Google through tea-colored glasses,” in Louisville BizBlog.
+www.bizjournals.com/louisville/blog/2013/09/a-look-at-google-through-tea-colored.html, accessed
+21 February 2015.
+Marbin, S. 2012. “GoogleServe 2012: More skills-based service,” in Google Official Blog.
+googleblog.blogspot.com/2012/07/googleserve-2012-more-skills-based.html, accessed 21 February
+2015.
+Marbin, S. 2014. “GoogleServe 2014: More opportunities to give back globally,” in Google Official Blog.
+googleblog.blogspot.com/2014/07/googleserve-2014-more-opportunities-to.html, accessed 21
+February 2015.
+Miler, J. C., III 1969. “A program for direct and proxy voting in the legislative process,” Public choice, 7(1),
+pp. 107-113.
+Noveck, B. S. S. 2009. Wiki government: how technology can make government better, democracy
+stronger, and citizens more powerful. Brookings Institution Press.
+
+http://www.tdcommons.org/dpubs_series/79
+
+15
+
+Hardt and Lopes: Google Votes: A Liquid Democracy Experiment on a Corporate Social
+
+Postmes, H. G., and Scott, R., 1889. “Quality of Decision Making and Group Norms,” in Journal of
+Personality and Social Psychology, Vol 80(6), pp. 918-930.
+Price, V., Nir, L., and Capella, J. 2006. “Normative and informal influences in online political
+discussions,” Communication Theory, 16(1), pp. 47-74.
+Schmidt, E. and Rosenberg, J. 2014. How Google Works - "20 percent time". New York, NY: Grand
+Central Publishing.
+Schulze, M. 2014. “A new monotonic, clone-independent, reversal symmetric, and condorcet-consistent
+single-winner election method,” Social Choice and Welfare, 36(2), pp. 267-303.
+Serrano, L., 2015. “The Challenges of Group Decision Making: Worldview Interviews Lindred Greer,” in
+Worldview Stanford worldview.stanford.edu/blog/challenges-group-decision-making-worldviewinterviews-lindred-greer, accessed 19 May 2015.
+Smith, W. D. n.d. “Averaging versus Totaling,” in RangeVoting.org. rangevoting.org/Averaging.html,
+accessed 21 February 2015.
+Takesaki-Lagae, K., 1999. “Helping Others”. Unpublished manuscript.
+Wiersma, W. 2013. “Transitive Delegative Democracy through Facebook for More Permanent Online
+Movements: How it Could Address the Democratic Deficit, and How it Could Attain Critical Mass,”
+18th International Conference on Alternative Futures and Popular Protest, Manchester, March 25
+2013. www.wybowiersma.net/pub/AltFutures2013/Wiersma,Wybo,Transitive_delegative_democracy
+_through_Facebook.pdf, accessed 21 February 2015.
+Woolley, J. T. 1991. “Institutions, the election cycle, and the presidential veto,” American Journal of
+Political Science, pp. 279-304.
+Zunger, Y. 2013. “Bringing Google+ Comments to Blogger,” in Google Official Blog.
+googleblog.blogspot.com/2013/04/bringing-google-comments-to-blogger.html, accessed 21 February
+2015.
+
+Published by Technical Disclosure Commons, 2015
+
+16
+
+

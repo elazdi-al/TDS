@@ -1,0 +1,376 @@
+POLICYFORUM
+ECONOMICS
+
+The Promise of Prediction Markets
+
+The ability of groups of people to make
+predictions is a potent research tool that should
+be freed of unnecessary government restrictions.
+
+P
+
+1Department of Economics, Stanford University, Stanford,
+
+CA 94305, USA. 2College of Business, University of South
+Florida, Tampa, FL 33620, USA. 3Stuart School of Business,
+Illnois Institute of Technology, Chicago, IL 60661, USA.
+4Reg-Markets Center at American Enterprise Institute,
+Washington, DC 20036, USA. 5Department of Economics,
+George Mason University, Fairfax, VA 22030, USA.
+6Department of Economics, California Institute of
+Technology, Pasadena, CA 91125, USA. 7University of
+Chicago Law School, Chicago, IL 60637, USA. 8Kauffman
+Foundation, Kansas City, MO 64110, USA. 9Department of
+Economics, University of Iowa, Iowa City, IA 52242, USA.
+10Kellogg Graduate School of Management, Northwestern
+University, Evanston, IL 60208, USA. 11School of Public
+Policy, University of Maryland, College Park, MD 20742,
+USA. 12Department of Economics, Yale University, New
+Haven, CT 06520, USA. 13Chapman University School of
+Law, Orange, CA 92866, USA. 14Graduate School of
+Business, Stanford University, Stanford, CA 94305, USA.
+15Yale School of Management, New Haven, CT 06520,
+USA. 16Haas School of Business, University of California,
+Berkeley, CA 94720, USA. 17School of Information,
+University of California, Berkeley, CA 94720, USA. 18The
+Wharton School, University of Pennsylvania, Philadelphia,
+PA 19104, USA. 19Department of Economics, Dartmouth
+College, Hanover, NH 03755, USA.
+*Author for correspondence. E-mail: rhahn@aei.org.
+
+6
+
+Information Revelation Through Time
+
+4
+
+2
+
+0
+150
+
+120
+
+90
+
+60
+
+30
+
+0
+
+Days until election
+
+Information revelation through time. Data are from the Iowa Electronic Markets for markets predicting the
+two-party vote shares from the 1988, 1992, 1996, and 2000 presidential elections (19). The vertical axis
+plots the average absolute difference between the market prediction and the actual vote share. In the week
+immediately before the election, the market erred by an average of 1.5 percentage points compared with an
+average error of 2.1 percentage points for the final Gallup poll. The longer-run forecasting performance of
+the market is also impressive, with an average error of only 5 percentage points 150 days before the election,
+a time when polls have much larger errors when interpreted as predictions. Calculations are based on data
+available at www.biz.uiowa.edu/iem.
+
+these markets reflect employees’ expectations about the likelihood of a homeland
+security threat, the nationwide extent of a flu
+outbreak, the success of a new drug treatment, the sales revenue from an existing
+product, the timing of a new product launch,
+and the quality of a recently introduced software program.
+These markets could assist private firms
+and public institutions in managing economic
+risks, such as declines in consumer demand,
+and social risks, such as flu outbreaks and
+environmental disasters, more efficiently.
+Unfortunately, however, current federal
+and state laws limiting gambling create significant barriers to the establishment of
+vibrant, liquid prediction markets in the
+United States. We believe that regulators
+should lower these barriers by creating a legal
+safe harbor for specified types of smallstakes markets, stimulating innovation in
+both their design and their use (9).
+How and Why Prediction Markets Work
+
+An example will help to clarify the prediction
+market concept. Consider a contract that pays
+$1 if Candidate X wins the presidential elec-
+
+www.sciencemag.org
+
+SCIENCE
+
+VOL 320
+
+Published by AAAS
+
+tion in 2008. If the market price of an X contract is currently 53 cents, an interpretation is
+that the market “believes” X has a 53%
+chance of winning. Prediction markets reflect
+a fundamental principle underlying the value
+of market-based pricing: Because information is often widely dispersed among economic actors, it is highly desirable to find a
+mechanism to collect and aggregate that
+information. Free markets usually manage
+this process well because almost anyone can
+participate, and the potential for profit (and
+loss) creates strong incentives to search for
+better information. To be sure, a lively debate
+has arisen about whether prediction market
+prices are subject to various biases, which
+might diminish their accuracy as an aggregation mechanism (10–14). However, prediction markets have been used with success in a
+variety of contexts.
+
+Downloaded from http://science.sciencemag.org/ on December 5, 2019
+
+rediction markets are forums for trading contracts that yield payments based
+on the outcome of uncertain events.
+There is mounting evidence that such markets
+can help to produce forecasts of event outcomes with a lower prediction error than conventional forecasting methods. For example,
+prediction market prices can be used to
+increase the accuracy of poll-based forecasts
+of election outcomes (1) (see the figure), official corporate experts’ forecasts of printer
+sales, and statistical weather forecasts used
+by the National Weather Service.
+Several researchers emphasize the potential of prediction markets to improve decisions (2–5). The range of applications is virtually limitless—from helping businesses
+make better investment decisions to helping
+governments make better fiscal and monetary policy decisions.
+Prediction markets have been used by
+decision-makers in the U.S. Department of
+Defense (6), the health care industry (7), and
+multibillion-dollar corporations such as
+Eli Lilly, General Electric, Google, France
+Telecom, Hewlett-Packard, IBM, Intel, Microsoft, Siemens, and Yahoo (8). The prices in
+
+Average absolute forecast error
+(Vote share %)
+
+Kenneth J. Arrow,1 Robert Forsythe,2 Michael Gorham,3 Robert Hahn,4* Robin Hanson,5
+John O. Ledyard,6 Saul Levmore,7 Robert Litan,8 Paul Milgrom,1 Forrest D. Nelson,9
+George R. Neumann,9 Marco Ottaviani,10 Thomas C. Schelling,11 Robert J. Shiller,12
+Vernon L. Smith,13 Erik Snowberg,14 Cass R. Sunstein,7 Paul C. Tetlock,15 Philip E. Tetlock,16
+Hal R. Varian,17 Justin Wolfers,18 Eric Zitzewitz19
+
+Legal Impediments
+
+The use of prediction markets has been
+greatly deterred by state and federal laws
+restricting Internet gambling because at
+least some of these laws are plausibly understood to cast serious doubts on prediction
+
+16 MAY 2008
+
+877
+
+POLICYFORUM
+markets. Currently, eight states bar Internet
+gambling outright. In 2006, President Bush
+signed the Unlawful Internet Gambling
+Enforcement Act, designed to crack down
+on such gambling.
+The legal questions here are complex, but
+to create a prediction market in the United
+States that is unambiguously legal, one must
+run a regulatory gauntlet (15). In principle,
+these difficulties could be avoided by creating prediction markets outside the United
+States, but this approach could suppress innovation and reduce opportunities to aggregate
+information and improve decisions. It would
+be better for U.S. authorities to clarify the circumstances under which prediction markets
+are plainly legal.
+
+We suggest that two steps should be taken to
+facilitate the use of prediction markets while
+still meeting the legitimate concerns of lawmakers and regulators.
+(i) The Commodity Futures Trading
+Commission (CFTC), the federal regulatory
+agency that oversees futures market activity,
+should establish safe-harbor rules for selected
+small-stakes markets. One limited safe harbor
+is the no-action letter, in which the CFTC market oversight staff confirms in writing that it
+will not recommend enforcement action if the
+recipient acts in specified ways. The only prediction market to receive a no-action letter (in
+1992) is the Iowa Electronic Markets (16),
+which is run by professors at the University of
+Iowa and which initially focused on presidential elections. Although such no-action letters
+reduce the chances of legal action under other
+state and federal laws, they may not be adequate. We would therefore urge the CFTC to
+explore other approaches to ensuring safe harbors, for example, formal rules or guidance
+approved by the commission.
+We suggest that three types of entities be
+eligible for safe harbor treatment. The first
+would be not-for-profit research institutions,
+including universities, colleges, and think
+tanks wishing to operate exchanges similar to
+the Iowa Electronic Markets. The second
+would be government agencies seeking to do
+research similar to that of nongovernmental
+research institutions. The third group would
+consist of private businesses and not-forprofits that are not primarily engaged in
+research, which would only be allowed to
+operate internal prediction markets with their
+employees or contractors.
+In all cases, markets would be limited to
+small-stakes contracts. Although the definition of small stakes is somewhat arbitrary, we
+use the term to mean an exchange in which
+
+878
+
+16 MAY 2008
+
+VOL 320
+
+SCIENCE
+
+Published by AAAS
+
+gambling markets do not.
+Conclusion
+
+We have suggested some modest reforms at
+the federal level that we hope will facilitate
+the development of prediction markets.
+These markets have great potential for improving social welfare in many domains.
+American leadership in this area is likely to
+encourage parallel efforts in other countries,
+speeding the development of this tool. The
+first step in helping prediction markets
+deliver on their promise is to clear away regulatory barriers that were never intended to
+inhibit socially productive innovation.
+References and Notes
+1. J. Berg, F. Nelson, T. Rietz, Int. J. Forecast., in press.
+2. R. Hanson, IEEE Intell. Syst. 14, 16 (1999).
+3. R. Hahn, P. Tetlock, Harvard J. Law Pub. Pol. 28, 213
+(2005).
+4. C. Sunstein, Infotopia: How Many Minds Produce
+Knowledge (Oxford Univ. Press, New York, 2006).
+5. E. Snowberg, J. Wolfers, E. Zitzewitz, Q. J. Econ., 122,
+807 (2007).
+6. R. Hanson, T. Ishikida, J. Ledyard, C. Polk, Proceedings of
+the ACM International Conference on Electronic
+Commerce, Pittsburgh, PA, 30 September to 3 October
+2003 [Association for Computing Machinery (ACM),
+New York, 2003], p. 272.
+7. P. M. Polgreen, F. Nelson, G. Neumann, Clin. Infect. Dis.
+44, 272 (2007).
+8. B. Cowgill, J. Wolfers, E. Zitzewitz, “Using prediction
+markets to track information flows: Evidence from
+Google,” Dartmouth College (2008); www.bocowgill.com/
+GooglePredictionMarketPaper.pdf.
+9. K. Arrow et al., “Statement on prediction markets,”
+AEI-Brookings Joint Center Related Publication No. 07-11
+(May 2007); available at Social Science Research
+Network (SSRN), http://ssrn.com/abstract=984584.
+10. J. Wolfers, E. Zitzewitz, “Interpreting prediction market
+prices as probabilities,” Stanford Graduate School of
+Business (2005).
+11. C. Manski, Econ. Lett. 91, 425 (2006).
+12. C. Sunstein, Infotopia: How Many Minds Produce
+Knowledge (Oxford Univ. Press, New York, 2006).
+13. M. Ottaviani, P. N. Sørensen, J. Eur. Econ. Assoc. 5, 554
+(2007).
+14. P. Tetlock, “Liquidity and prediction market efficiency”
+(March 2008); available at SSRN: http://ssrn.com/
+abstract=929916.
+15. R. Hahn, P. Tetlock, J. Regul. Econ. 29, 265 (2006).
+16. No-action letter from Andrea M. Corcoran, Director,
+Commodity Futures Trading Commission (CFTC) Division
+of Trading and Markets, to George R. Neumann, Professor
+of Economics, University of Iowa (5 February 1992);
+www.cftc.gov/files/foia/repfoia/foirf0503b002.pdf.
+17. R. Shiller, Macro Markets: Creating Institutions for
+Managing Society’s Largest Economic Risks (Oxford Univ.
+Press, Oxford, 1993).
+18. On May 1, 2008, the CFTC requested public comment on
+the appropriate regulatory treatment of prediction markets. “Commodity Futures Trading Commission, Concept
+release on the appropriate regulatory treatment of event
+contracts” (May 2008); www.cftc.gov/stellent/groups/
+public/@lrfederalregister/documents/file/e8-9981a.pdf.
+19. J. Wolfers, E. Zitzewitz, J. Econ. Perspect. 18, 107 (2004).
+20. The views expressed here represent those of the authors
+and do not necessarily represent the views of the institutions with which they are affiliated. Support provided by
+the Reg-Markets Center at AEI (www.reg-markets.org).
+
+www.sciencemag.org
+
+10.1126/science.1157679
+
+Downloaded from http://science.sciencemag.org/ on December 5, 2019
+
+Breaking the Legal Impasse
+
+the total amount of capital deposited by any
+one participant may not exceed some modest
+sum, perhaps something like $2000 per year.
+The exchanges themselves would be notfor-profit but would be allowed to charge
+modest fees to recoup administrative and regulatory costs. Brokers and paid advisers
+would be barred, reducing the risks that contracts would be sold to inappropriate or vulnerable customers or that customers would be
+charged fees above the amounts needed to
+maintain the markets. Exchanges would be
+self-regulated, leaving them with the responsibility to make reasonable efforts to keep
+markets free from fraud and manipulation.
+For its part, the CFTC should allow contracts that price any economically meaningful
+event. This def inition could allow for
+contracts on political events, environmental
+risks, or economic indicators, such as those
+offered by the Iowa Electronic Markets, but
+would presumably not include contracts on
+the outcomes of sports events.
+The contracts qualifying under this safe
+harbor would also create opportunities
+for more efficient risk allocation (17).
+Although the small-stakes nature of these
+markets would necessarily limit their usefulness for hedging risk, they could serve as
+proofs of concept for larger-scale markets
+that could be developed under alternative
+regulatory arrangements.
+The CFTC should allow researchers to
+experiment with several aspects of prediction
+markets—fee structures, incentives against
+manipulation, liquidity requirements and the
+like—with the goal of improving their design.
+Prediction markets are in an early stage, and if
+their promise is to be realized, researchers
+should be given flexibility to learn what kinds
+of design are most likely to produce accurate
+predictions. Of course, exchanges would
+need to inform their customers so that they
+are aware of the risks and benefits of participating in these markets.
+(ii) Congress should support the CFTC’s
+efforts to develop prediction markets (18). To
+the extent that the CFTC incurs costs in promoting innovation, Congress should provide
+the necessary funding. More fundamentally,
+Congress should explore alternative ways of
+securing a legal framework for prediction
+markets if the CFTC’s existing authority
+proves inadequate. In particular, Congress
+should specify that a no-action letter, or similar mechanism, preempts overlapping state
+and federal antigambling laws. Because
+Congress did not intend the CFTC to regulate
+gambling, it is important to design new regulations so that socially valuable prediction
+markets easily qualify for the safe harbor but
+
+The Promise of Prediction Markets
+Kenneth J. Arrow, Robert Forsythe, Michael Gorham, Robert Hahn, Robin Hanson, John O. Ledyard, Saul Levmore, Robert
+Litan, Paul Milgrom, Forrest D. Nelson, George R. Neumann, Marco Ottaviani, Thomas C. Schelling, Robert J. Shiller, Vernon
+L. Smith, Erik Snowberg, Cass R. Sunstein, Paul C. Tetlock, Philip E. Tetlock, Hal R. Varian, Justin Wolfers and Eric Zitzewitz
+
+Science 320 (5878), 877-878.
+DOI: 10.1126/science.1157679
+
+http://science.sciencemag.org/content/320/5878/877
+
+REFERENCES
+
+This article cites 8 articles, 0 of which you can access for free
+http://science.sciencemag.org/content/320/5878/877#BIBL
+
+PERMISSIONS
+
+http://www.sciencemag.org/help/reprints-and-permissions
+
+Use of this article is subject to the Terms of Service
+Science (print ISSN 0036-8075; online ISSN 1095-9203) is published by the American Association for the Advancement of
+Science, 1200 New York Avenue NW, Washington, DC 20005. The title Science is a registered trademark of AAAS.
+© 2008 American Association for the Advancement of Science
+
+Downloaded from http://science.sciencemag.org/ on December 5, 2019
+
+ARTICLE TOOLS
+
+

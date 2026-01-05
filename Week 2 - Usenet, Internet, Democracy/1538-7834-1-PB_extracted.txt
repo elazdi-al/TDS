@@ -1,0 +1,947 @@
+Proceedings of the Fourth International AAAI Conference on Weblogs and Social Media
+
+Measuring User Inﬂuence in Twitter: The Million Follower Fallacy
+Meeyoung Cha∗
+
+Hamed Haddadi†
+∗
+†
+
+Fabrı́cio Benevenuto‡
+
+Krishna P. Gummadi∗
+
+Max Planck Institute for Software Systems (MPI-SWS), Germany
+Royal Veterinary College, University of London, United Kingdom
+‡
+CS Dept., Federal University of Minas Gerais (UFMG), Brazil
+
+a minority of users, called inﬂuentials, excel in persuading
+others (Rogers 1962). This theory predicts that by targeting these inﬂuentials in the network, one may achieve a
+large-scale chain-reaction of inﬂuence driven by word-ofmouth, with a very small marketing cost (Katz and Lazarsfeld 1955). A more modern view, in contrast, de-emphasizes
+the role of inﬂuentials. Instead, it posits that the key factors determining inﬂuence are (i) the interpersonal relationship among ordinary users and (ii) the readiness of a
+society to adopt an innovation (Watts and Dodds 2007;
+Domingos and Richardson 2001). This modern view of inﬂuence leads to marketing strategies such as collaborative
+ﬁltering. These theories, however, are still just theories, because there has been a lack of empirical data that could be
+used to validate either of them. The recent advent of social
+networking sites and the data within such sites now allow
+researchers to empirically validate these theories.
+Moving from theory into practice, we ﬁnd that there are
+many other unanswered questions about how inﬂuence diffuses through a population and whether it varies across topics and time. People have different levels of expertise on
+various subjects. When it comes to marketing, however, this
+fact is generally ignored. Marketing services actively search
+for potential inﬂuencers to promote various items. These
+inﬂuencers range from “cool” teenagers, local opinion leaders, all the way to popular public ﬁgures. However, the advertised items are often far outside the domain of expertise
+of these hired individuals. So how effective are these marketing strategies? Can a person’s inﬂuence in one area be
+transferred to other areas?
+In this paper, we present an empirical analysis of inﬂuence patterns in a popular social medium. Using a large
+amount of data gathered from Twitter, we compare three different measures of inﬂuence: indegree, retweets, and mentions.1 Focusing on different topics, we examine how the
+three types of inﬂuential users performed in spreading popular news topics. We also investigate the dynamics of an
+individual’s inﬂuence by topic and over time. Finally, we
+characterize the precise behaviors that make ordinary individuals gain high inﬂuence over a short period of time.
+
+Abstract
+Directed links in social media could represent anything
+from intimate friendships to common interests, or even
+a passion for breaking news or celebrity gossip. Such
+directed links determine the ﬂow of information and
+hence indicate a user’s inﬂuence on others—a concept
+that is crucial in sociology and viral marketing. In this
+paper, using a large amount of data collected from Twitter, we present an in-depth comparison of three measures of inﬂuence: indegree, retweets, and mentions.
+Based on these measures, we investigate the dynamics of user inﬂuence across topics and time. We make
+several interesting observations. First, popular users
+who have high indegree are not necessarily inﬂuential
+in terms of spawning retweets or mentions. Second,
+most inﬂuential users can hold signiﬁcant inﬂuence over
+a variety of topics. Third, inﬂuence is not gained spontaneously or accidentally, but through concerted effort
+such as limiting tweets to a single topic. We believe that
+these ﬁndings provide new insights for viral marketing
+and suggest that topological measures such as indegree
+alone reveals very little about the inﬂuence of a user.
+
+Introduction
+Inﬂuence has long been studied in the ﬁelds of sociology,
+communication, marketing, and political science (Rogers
+1962; Katz and Lazarsfeld 1955). The notion of inﬂuence
+plays a vital role in how businesses operate and how a society functions—for instance, see observations on how fashion
+spreads (Gladwell 2002) and how people vote (Berry and
+Keller 2003). Studying inﬂuence patterns can help us better understand why certain trends or innovations are adopted
+faster than others and how we could help advertisers and
+marketers design more effective campaigns. Studying inﬂuence patterns, however, has been difﬁcult. This is because
+such a study does not lend itself to readily available quantiﬁcation, and essential components like human choices and
+the ways our societies function cannot be reproduced within
+the conﬁnes of the lab.
+Nevertheless, there have been important theoretical studies on the diffusion of inﬂuence, albeit with radically different results. Traditional communication theory states that
+
+1
+
+Indegree is the number of people who follow a user; retweets
+mean the number of times others “forward” a user’s tweet; and
+mentions mean the number of times others mention a user’s name.
+
+c 2010, Association for the Advancement of Artiﬁcial
+Copyright 
+Intelligence (www.aaai.org). All rights reserved.
+
+10
+
+The Twitter dataset used in this paper consists of 2 billion
+follow links among 54 million users who produced a total of
+1.7 billion tweets. We refer readers to our project webpage
+http://twitter.mpi-sws.org/ for a detailed description of the
+dataset and our data sharing plan.
+Our study provides several ﬁndings that have direct implications in the design of social media and viral marketing:
+
+In contrast, a more modern view of information ﬂow emphasizes the importance of prevailing culture more than the
+role of inﬂuentials. Some researchers have reasoned that
+people in the new information age make choices based on
+the opinions of their peers and friends, rather than by inﬂuentials (Domingos and Richardson 2001). These researchers
+argued that direct marketing through inﬂuentials would not
+be as proﬁtable as using “network”-based advertising such
+as collaborative ﬁltering.
+The traditional inﬂuentials theory has also been criticized
+because its information ﬂow process does not take into account the role of ordinary users. In order to compare the
+role of inﬂuentials and ordinary users, researchers have developed a series of simulations, in which information ﬂows
+freely between users, and a user adopts an innovation when
+he is inﬂuenced by more than a threshold of the sample population (Watts and Dodds 2007). Inﬂuentials were deﬁned
+as those in the top 10% of inﬂuence distribution. The simulation showed that inﬂuentials initiated more frequent and
+larger cascades than average users, but they were neither
+necessary nor sufﬁcient for all diffusions, as suggested in
+the traditional theory. Moreover, in homogeneous networks,
+inﬂuentials were no more successful in running long cascades than ordinary users. This means that a trend’s success
+depends not on the person who starts it, but on how susceptible the society is overall to the trend (Watts 2007). In fact,
+a trend can be initiated by any one, and if the environment is
+right, it will spread. Therefore, Watts dubbed early adopters
+or opinion leaders “accidental” inﬂuentials.
+The above competing ideas have remained as hypotheses
+for several reasons. First is the lack of data that could be
+used to empirically test them. Although there exist a handful
+of empirical studies on word-of-mouth inﬂuence (Leskovec,
+Adamic, and Huberman 2007; Cha, Mislove, and Gummadi
+2009), no work has been conducted on the relative order
+of inﬂuence among individuals. A second issue is the variety of ways that inﬂuence has been deﬁned (Watts 2007;
+Goyal, Bonchi, and Lakshmanan 2010). It has been unclear
+what exactly inﬂuence means. Finally, decades have passed
+since the inﬂuentials theory appeared. Even if the theory
+was reasonably accurate when it was proposed, things have
+changed and now we have much more variability in the ﬂow
+of inﬂuence. In particular, online communities have become
+a signiﬁcant way we receive new information and inﬂuence
+in such communities needs to be explored. In this paper, we
+investigate the notion of inﬂuence using a large amount of
+data collected from a popular social medium, Twitter.
+
+1) Analysis of the three inﬂuence measures provides a better
+understanding of the different roles users play in social
+media. Indegree represents popularity of a user; retweets
+represent the content value of one’s tweets; and mentions
+represent the name value of a user. Hence, the top users
+based on the three measures have little overlap.
+2) Our ﬁnding on how inﬂuence varies across topics could
+serve as a useful test for answering how effective advertisement in Twitter would be if one is to employ inﬂuential
+users. Our analysis shows that most inﬂuential users hold
+signiﬁcant inﬂuence over a variety of topics.
+3) Ordinary users can gain inﬂuence by focusing on a single topic and posting creative and insightful tweets that
+are perceived as valuable by others, as opposed to simply
+conversing with others.
+These ﬁndings provide new insights for viral marketing.
+The ﬁrst ﬁnding in particular indicates that indegree alone
+reveals little about the inﬂuence of a user. This has been
+coined the million follower fallacy by Avnit (Avnit 2009),
+who pointed to anecdotal evidence that some users follow
+others simply for etiquette—it’s polite to follow someone
+who’s following you—and many do not read all the broadcast tweets. We have empirically demonstrated that having a
+million followers does not always mean much in the Twitter
+world. Instead, we claim that it is more inﬂuential to have
+an active audience who retweets or mentions the user.
+
+Deﬁning inﬂuence on Twitter
+We start by reviewing studies of diffusion of inﬂuence and
+related work on inﬂuence propagation on Twitter.
+
+Background
+There are a number of conﬂicting ideas and theories about
+how trends and innovations get adopted and spread.
+The traditional view assumes that a minority of members in a society possess qualities that make them exceptionally persuasive in spreading ideas to others. These exceptional individuals drive trends on behalf of the majority of ordinary people. They are loosely described as being informed, respected, and well-connected; they are called
+the opinion leaders in the two-step ﬂow theory (Katz and
+Lazarsfeld 1955), innovators in the diffusion of innovations
+theory (Rogers 1962), and hubs, connectors, or mavens in
+other work (Gladwell 2002). The theory of inﬂuentials is
+intuitive and compelling. By identifying and convincing a
+small number of inﬂuential individuals, a viral campaign can
+reach a wide audience at a small cost. The theory spread well
+beyond academia and has been adopted in many marketing
+businesses, e.g., RoperASW and Tremor (Gladwell 2002;
+Berry and Keller 2003).
+
+Measuring inﬂuence on Twitter
+The Merriam-Webster dictionary deﬁnes inﬂuence as “the
+power or capacity of causing an effect in indirect or intangible ways.” Despite the large number of theories of inﬂuence in sociology, there is no tangible way to measure such
+a force nor is there a concrete deﬁnition of what inﬂuence
+means, for instance, in the spread of news.
+In this paper, we analyze the Twitter network as a news
+spreading medium and study the types and degrees of inﬂuence within the network. Focusing on an individual’s potential to lead others to engage in a certain act, we highlight
+
+11
+
+three “interpersonal” activities on Twitter. First, users interact by following updates of people who post interesting
+tweets. Second, users can pass along interesting pieces of
+information to their followers. This act is popularly known
+as retweeting and can typically be identiﬁed by the use
+of RT @username or via @username in tweets. Finally, users can respond to (or comment on) other people’s
+tweets, which we call mentioning. Mentioning is identiﬁed
+by searching for @username in the tweet content, after excluding retweets. A tweet that starts with @username is
+not broadcast to all followers, but only to the replied user. A
+tweet containing @username in the middle of its text gets
+broadcast to all followers. These three activities represent
+the different types of inﬂuence of a person:
+
+us to gather large amounts of data. We used the Twitter API
+to gather information about a user’s social links and tweets.
+We launched our crawler in August 2009 for all user IDs
+ranging from 0 to 80 million. We did not look beyond 80
+million, because no single user in the collected data had a
+link to a user whose ID was greater than that value. Out of 80
+million possible IDs, we found 54,981,152 in-use accounts,
+which were connected to each other by 1,963,263,821 social
+links. We gathered information about a user’s follow links
+and all tweets ever posted by each user since the early days
+of the service. In total, there were 1,755,925,520 tweets.
+Nearly 8% of all user accounts were set private, so that only
+their friends could view their tweets. We ignore these users
+in our analysis. The social link information is based on the
+ﬁnal snapshot of the network topology at the time of crawling and we do not know when the links were formed.
+The network of Twitter users comprises a single disproportionately large connected component (containing 94.8%
+of users), singletons (5%), and smaller components (0.2%).
+The largest component contains 99% of all links and tweets.
+Our goal is to explore inﬂuence of users, hence we focus on
+the largest component of the network, which is conceptually
+a single interaction domain for users.
+Because it is hard to determine inﬂuence of users who
+have few tweets, we borrowed the concept of “active users”
+from the traditional media research (Levy and Windhal
+1985) and focused on those users with some minimum level
+of activity. We ignored users who had posted fewer than 10
+tweets during their entire lifetime. We also ignored users
+for whom we did not have a valid screen name, because this
+information is crucial in identifying the number of times a
+user was mentioned or retweeted by others. After ﬁltering,
+there were 6,189,636 users, whom we focus on in the remainder of this paper. To measure the inﬂuence of these 6
+million users, however, we looked into how the entire set of
+52 million users interacted with these active users.
+
+1. Indegree inﬂuence, the number of followers of a user,
+directly indicates the size of the audience for that user.
+2. Retweet inﬂuence, which we measure through the number of retweets containing one’s name, indicates the ability of that user to generate content with pass-along value.
+3. Mention inﬂuence, which we measure through the number of mentions containing one’s name, indicates the ability of that user to engage others in a conversation.
+
+Related work on Twitter
+Several recent efforts have been made to track inﬂuence
+on Twitter. The Web Ecology Project tracked 12 popular Twitter users for a 10-day period and grouped a user’s
+inﬂuence into two types: conversation-based and contentbased (Leavitt et al. 2009). This work concluded that news
+media are better at spreading content, while celebrities are
+better at simply making conversation. Our work extends
+their notion of inﬂuence and uses extensive data to further
+examine the spatial and temporal dynamics of inﬂuence.
+More recently, a PageRank-like measure has been proposed to quantify inﬂuence on Twitter (Weng et al. 2010).
+The authors found high link reciprocity (72%) from a nonrandom sample of 6,748 Singapore-based users, and argued
+that high reciprocity is indicative of homophily. They then
+exploited this fact in computing a user’ inﬂuence rank. Our
+study, however, contradicts the observation about high reciprocity; near-complete data of Twitter shows low reciprocity
+(10%). Thus, we predict that social links on Twitter represent an inﬂuence relationship, rather than homophily. Accordingly, we ask what are the different activities on Twitter
+that represent inﬂuence of a user and to what extent a person’s inﬂuence varies across tweet topic and time.
+
+Methodology for comparing user inﬂuence
+For each of the 6 million users, we computed the value of
+each inﬂuence measure and compared them. Rather than
+comparing the values directly, we used the relative order of
+users’ ranks as a measure of difference. In order to do this,
+we sorted users by each measure, so that the rank of 1 indicates the most inﬂuential user and increasing rank indicates a less inﬂuential user. Users with the same inﬂuence
+value receive the average of the rank amongst them (Buck
+1980). Once every user is assigned a rank for each inﬂuence
+measure, we are ready to quantify how a user’s rank varies
+across different measures and examine what kinds of users
+are ranked high for a given measure.
+We used Spearman’s rank correlation coefﬁcient
+
+6 (xi − yi )2
+(1)
+ρ=1−
+N3 − N
+as a measure of the strength of the association between two
+rank sets, where xi and yi are the ranks of users based on
+two different inﬂuence measures in a dataset of N users.
+Spearman’s rank correlation coefﬁcient calculation is a nonparametric test; the coefﬁcient assesses how well an arbi-
+
+Characteristics of the top inﬂuentials
+We describe how we collected the Twitter data and present
+the characteristics of the top users based on three inﬂuence
+measures: indegree, retweets, and mentions.
+
+Dataset
+We asked Twitter administrators to allow us to gather data
+from their site at scale. They graciously white-listed the IP
+address range containing 58 of our servers, which allowed
+
+12
+
+trary monotonic function could describe the relationship between two variables, without making any other assumptions
+about the particular nature of the relationship between the
+variables. Our inclusive and complete dataset guarantees reliability of the correlation estimates. The closer ρ is to +1
+or −1, the stronger the likely correlation. A perfect positive
+correlation is +1 and a perfect negative correlation is −1.
+
+
+
+
+
+
+
+
+
+Comparing three measures of user inﬂuence
+
+
+
+To see what kinds of users are the most inﬂuential, we visited
+the Twitter pages of the top-20 users based on each measure.
+
+
+
+
+
+
+ 
+
+Figure 1: Venn diagram of the top-100 inﬂuentials across
+measures: The chart is normalized so that the total is 100%.
+
+The top inﬂuentials The most followed users span a wide
+variety of public ﬁgures and news sources. They were
+news sources (CNN, New York Times), politicians (Barack
+Obama), athletes (Shaquille O’Neal), as well as celebrities
+like actors, writers, musicians, and models (Ashton Kutcher,
+Britney Spears). As the list suggests, indegree measure is
+useful when we want to identify users who get lots of attention from their audience through one-on-one interactions,
+i.e., the audience is directly connected to inﬂuentials.
+The most retweeted users were content aggregation services (Mashable, TwitterTips, TweetMeme), businessmen
+(Guy Kawasaki), and news sites (The New York Times, The
+Onion). They are trackers of trending topic and knowledgeable people in different ﬁelds, whom other users decide to
+retweet. Unlike indegree, retweets represent inﬂuence of a
+user beyond one’s one-to-one interaction domain; popular
+tweets could propagate multiple hops away from the source
+before they are retweeted throughout the network. Furthermore, because of the tight connection between users as suggested in the triadic closure (Granovetter 1973), retweeting
+in a social network can serve as a powerful tool to reinforce
+a message—for instance, the probability of adopting an innovation increases when not one but a group of users repeat
+the same message (Watts and Dodds 2007).
+The most mentioned users were mostly celebrities. Ordinary users showed a great passion for celebrities, regularly
+posting messages to them or mentioning them, without necessarily retweeting their posts. This indicates that celebrities
+are often in the center of public attention and celebrity gossip is a popular activity among Twitter users.
+If retweets represent a citation of another user’s content, mentions represent a public response to another user’s
+tweet—the focus of a tweet is on content for retweets, while
+the focus is on the replied user for mentions. This can be
+conﬁrmed from the usage of conventions in tweets: 92% of
+tweets that had a RT or via marker contained a URL and
+97% of them also contained the @username ﬁeld. This
+means that retweets are about the content (indicated by the
+embedded URL) and that people typically cite the authentic source when they retweet. However, fewer than 30% of
+tweets that were classiﬁed as mentions contained any URL,
+indicating that a mention is more identity-driven.
+Across all three measures, the top inﬂuentials were generally recognizable public ﬁgures and websites. Interestingly,
+we saw marginal overlap in these three top lists. These top20 lists only had 2 users in common: Ashton Kutcher and
+Puff Daddy. The top-100 lists also showed marginal over-
+
+
+
+
+
+lap, as shown in Figure 1, indicating that the three measures
+capture different types of inﬂuence.
+Relative inﬂuence ranks In order to investigate how the
+three measures correlate, we compared the relative inﬂuence
+ranks of all 6 million users (Table 1). We see a moderately
+high correlation (above 0.5) across all pairs. However, the
+high correlation appears to be an artifact of the tied ranks
+among the least inﬂuential users, e.g., many of the least connected users also received zero retweet and mention. To
+avoid this bias, we focused on the set of relatively popular users. We considered users in the top 10th and 1st percentiles based on indegree, in the hope that users who get
+retweeted or mentioned must have some followers.
+Table 1: Spearman’s rank correlation coefﬁcients
+Correlation
+All
+Top 10% Top 1%
+Indegree vs retweets
+0.549
+0.122
+0.109
+Indegree vs mentions 0.638
+0.286
+0.309
+Retweets vs mentions 0.580
+0.638
+0.605
+After this ﬁltering step, the top users showed a strong
+correlation in their retweet inﬂuence and mention inﬂuence.
+Sampling the top users based on retweets or mentions leads
+to similar results. This means that, in general, users who get
+mentioned often also get retweeted often, and vice versa. Indegree, however, was not related to the other measures. We
+conclude that the most connected users are not necessarily
+the most inﬂuential when it comes to engaging one’s audience in conversations and having one’s messages spread.
+Discussion of methodology Normalizing retweets and
+mentions by total tweets would yield a different measure
+of inﬂuence, which might have led to very different results.
+When we tried normalizing the data, we identiﬁed local
+opinion leaders as the most inﬂuential. However, normalization failed to rank users with the highest sheer number of
+retweets as inﬂuential. Therefore, in this paper, we use the
+sheer number of retweets and mentions without normalizing
+these values by the total tweets of a user.
+Other measures such as the number of tweets and outdegree (i.e., the number of people a user follows) were not
+found to be useful, because they identiﬁed robots and spammers as the most inﬂuential, respectively. Therefore, we do
+not use these measures.
+
+13
+
+Topic
+Iran
+Swine
+Jackson
+
+Table 2: Summary information of the three major topics events studied
+Period
+Keywords
+Users
+Tweets
+Jun 11—Aug 10 #iranelection, names of politicians 302,130
+1,482,038
+May 3—July 2
+Mexico ﬂu, H1N1, swine
+239,329
+495,825
+Jun 25—Aug 24 Michael Jackson, #mj
+610,213
+1,418,356
+
+Finally, we calculated indegree based on the snapshot of
+the network at the time of crawling in 2009, because we
+do not know the time when each follow link was formed.
+For the calculation of retweets and mentions, however, we
+used longitudinal data (i.e., since the beginning of the Twitter service in 2006). This difference could have resulted in
+a weaker correlation between indegree and the other inﬂuence measures (Table 1). Nevertheless, nearly three quarters
+of Twitter users joined in 2009, suggesting that the effect on
+the correlation would have been minimal.
+
+Audience
+22,177,836
+20,977,793
+23,550,211
+
+from diverse genres. These properties make this group ideal
+for studying how a user’s inﬂuence varies across vastly different topic genres.
+
+Distribution of the inﬂuence ranks
+To get a measure of inﬂuence for a given topic, we count
+only the retweets and mentions a user spawned on the given
+topic. Because indegree is invariant across topics, we do not
+use the measure in this analysis.
+Before investigating the dynamics of inﬂuence across topics, we ﬁrst need to understand the high-level characteristics of user inﬂuence, such as the degree to which users’
+inﬂuence can differ. Figure 2 displays the inﬂuence ranks
+of users based on retweets and mentions across the Iran,
+Swine, and Jackson topics. The inﬂuence ranks are calculated for each topic and a user’s rank may differ for different
+topics. The plots show a straight line on a log-log plot, a
+property that is referred to as the power-law characteristic.
+The power-law pattern is indicative of the fact that users’
+degree of inﬂuence can differ by orders of magnitude: the
+top inﬂuentials were retweeted or mentioned disproportionately more times than the majority of users. This suggests
+that utilizing top inﬂuentials has a great potential payoff in
+marketing strategy.
+
+Does inﬂuence hold across different topics?
+Having deﬁned three different measures of inﬂuence on
+Twitter, we now investigate whether a user’s inﬂuence varies
+by topic genres. In order to investigate this, we ﬁrst need to
+ﬁnd users who tweeted about a diverse set of topics.
+
+Methodology for identifying target topics
+To ﬁnd as many users to monitor as possible, we picked three
+of the most popular topics in 2009 that were considered engaging and revolutionary in Twitter2 : the Iranian presidential election, the outbreak of the H1N1 inﬂuenza, and the
+death of Michael Jackson. While all three topics were popular, they span political, health, and social genres. To extract
+tweets relevant to these events, we ﬁrst identiﬁed the set of
+keywords describing the topics by consulting news websites
+and informed individuals. Using the selected keywords, we
+then identiﬁed relevant tweets by searching for the keywords
+in the tweet dataset.
+Table 2 displays the keywords and the total number of
+users and tweets for each topic. We focused on a period of
+60 days starting from one day prior to the start of each event.
+We limited the study duration because popular keywords
+were typically hijacked by spammers after certain time. The
+table also shows the total number of users who received any
+tweet on the topic (termed audience). Each topic reached
+an audience of over 20 million, indicating that over 40% of
+users in Twitter were aware of at least one of the three topics.
+Among the users who tweeted about any of these topics,
+fewer than 2% discussed all three topics. Although 2% is a
+small fraction, this set contains 13,219 users, which is a large
+enough sample size for statistical analysis. These users were
+generally well connected; they had on average 2,037 followers, and together reached an audience of 16 million. Furthermore, none of these users were dedicated to these three
+topics; no user had dedicated more than 60% of their tweets
+to these topics. This means that the set of 13,219 users is
+enthusiastic about sharing thoughts on popular news topics
+
+Number of retweets
+
+10000
+Iran
+Swine
+Jackson
+
+1000
+100
+10
+1
+0
+1
+
+10
+
+100
+1000
+User ranks
+
+10000
+
+Number of ment ons
+
+(a) Retweet inﬂuence ranks
+1000
+Iran
+Swine
+Jackson
+
+100
+10
+1
+0
+1
+
+10
+
+100
+1000
+User ranks
+
+10000
+
+(b) Mention inﬂuence ranks
+
+2
+
+The top Twitter trends identiﬁed by the Twitter Research team
+are listed at http://tinyurl.com/yb4965e.
+
+Figure 2: Distribution of user ranks for a given topic
+
+14
+
+Ranks (Sw ne, Jackson)
+
+Variation of a user’s inﬂuence across topics
+Next, in order to examine how volatile a user’s rank is across
+different topics, we compare the relative order of inﬂuence
+ranks across topics in Table 3. For the same reason we previously discussed in Table 1, we ignore the least popular users
+who have tied ranks and focus on the set of relatively popular users, as measured by indegree. The top 10th and 1st
+percentiles included 1,322 and 132 users, respectively.
+
+100
+
+Swine
+Jackson
+
+80
+60
+40
+20
+0
+0
+
+Table 3: Spearman’s rank correlation coefﬁcients over topics
+Retweet
+Mentions
+Topics
+Top 10% 1% Top 10% 1%
+Iran vs. Swine
+0.54
+0.62
+0.59
+0.68
+Iran vs. Jackson
+0.48
+0.54
+0.59
+0.63
+Swine vs. Jackson
+0.55
+0.50
+0.80
+0.68
+
+5
+
+10
+
+15
+
+20
+
+Ranks (Iran)
+
+Figure 3: Users’ retweet inﬂuence ranks over topics
+
+The rise and fall of inﬂuentials over time
+Many factors—social, political, and economical—affect
+popularity and inﬂuence of individuals and organizations. In
+online social media, such dynamics is facilitated by easy entry of competition. It only costs 140 characters to generate
+a tweet for any user. Likewise, it will be challenging for inﬂuentials to maintain their status when many emerging local
+opinion leaders and evangelists enter the arena.
+Here we analyze the dynamics of individual’s inﬂuence
+over time in two ways. First, we track the popularity of top
+inﬂuentials over a long term period and check how well they
+maintain their ranks. Second, we focus on users who increased their inﬂuence in a speciﬁc topic over a short time
+period, in order to understand what behaviors make ordinary
+individuals inﬂuential.
+
+The rank correlation is generally high (above 0.5) and gets
+stronger for the top 1% of users. Mentions show an even
+stronger correlation across topics than retweets. This means
+that a popular user who is good at spawning mentions from
+others can do so over a wide range of topics, more easily
+than when she is retweeted over diverse topics. Among topic
+pairs, Swine and Jackson showed the highest correlation for
+the top 10% of well-connected users for both the retweet and
+mention inﬂuence. This is perhaps due to the more social
+nature of these two events, which differs from the Iran topic
+where special interest groups like politicians and bloggers
+played a major role.
+Given that the rank correlation gets stronger for users with
+high indegree, we investigated how widely the ranks of the
+top listed users change by topic. Figure 3 shows the retweet
+ranks of the top users in the Iran topic against the relative
+retweet ranks of the same users in the Swine and Jackson
+topics. It is clear from the ﬁgure that the top 5 users in
+the Iran topic retained their relative ranks in the other two
+topics. These users were Mashable, CnnBrk, TweetMeme,
+Time, and BreakingNews, who were all in the category of
+authoritative news sources and content trackers. The mention inﬂuence also showed a similar trend (not shown here);
+most inﬂuentials ranked consistently high amongst different
+topics. And we have observed this trend not only for the
+hyper-inﬂuentials: moderate inﬂuentials like opinion leaders and evangelists also had consistent inﬂuence ranks over
+diverse topics, as shown in Table 3.
+Our ﬁndings about the highly skewed ability of users to
+inﬂuence others (Figure 2) and the strong correlation in a
+user’s inﬂuence rank across different topics (Table 3) together lead to two interesting conclusions. First, most inﬂuential users hold signiﬁcant inﬂuence over a variety of topics. This means that local opinion leaders and highly popular
+ﬁgures could indeed be used to spread information outside
+their area of expertise. In fact, new advertisement campaigns
+have recently been launched that insert advertisement links
+into a popular person’s tweet (Fiorillo 2009). Second, the
+power-law trend in the difference among inﬂuence of individuals indicates that it is substantially more effective to target the top inﬂuentials than to employ a massive number of
+non-popular users in order to kick start a viral campaign.
+
+Maintaining engagement of the top inﬂuentials
+Out of all 6 million active users in the Twitter network, we
+picked the top 100 users based on each of the three measures: indegree, retweets, and mentions. We used all the
+tweets ever posted on Twitter in identifying these inﬂuentials. Due to the overlap we discussed in Figure 1, there
+were 233 distinct users, whom we call all-time inﬂuentials.
+In order to see how the inﬂuence of these all-time inﬂuentials varied over time, we tracked their inﬂuence scores over
+an 8 month period from January to August 2009.
+To get a time-varying measure of inﬂuence, we counted
+the number of retweets and mentions the all-time inﬂuentials spawned in every 15 days over the 8 month period.
+Because we only know the indegree information based on
+the ﬁnal snapshot of the Twitter network, we do not use this
+measure. For each user, we computed a single explanatory
+variable P: the probability that a random tweet posted on
+Twitter during a 15 day period is a retweet (or a mention) of
+that user. Normalizing by the total number of tweets posted
+on Twitter is essential to cancel out any variable effect on the
+data and allows the underlying characteristics of the data sets
+to be compared. For instance, because the Twitter network
+quadrupled over time in terms of the registered users, the total volume of tweets merely increased over time. Hence, if
+we didn’t normalize the results, the trend wouldn’t be interesting. Google similarly normalizes the data when analyzing
+their search trends (Ginsberg et al. 2009).
+Figure 4 displays the time evolution of the normalized
+retweets and mentions of the 233 all-time inﬂuential users.
+
+15
+
+0.004
+Mention probability P
+
+Retweet probability P
+
+0.0015
+Top 10 users
+Top 11 100
+Top 101 233
+
+0.0012
+0.0009
+0.0006
+0.0003
+0
+
+Top 10 users
+Top 11 100
+Top 101 233
+
+0.003
+0.002
+0.001
+0
+
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Jun
+
+Jul
+
+Aug
+
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Time (year 2009)
+
+Time (year 2009)
+
+(a) Retweet inﬂuence
+
+(b) Mention inﬂuence
+
+Jun
+
+Jul
+
+Aug
+
+Figure 4: The temporal evolution of retweets and mentions for the all-time inﬂuential users. For each data point, the error bars
+are centered on the average retweet (or mention) probability, and they extend up and down by two standard deviations.
+Although the values of P appear small, they account for
+a large volume of retweets and mentions: a single most
+popular inﬂuential user spawned up to 20,000 retweets and
+50,000 mentions over a random 15 day period. In order to
+capture the trend in more detail, we classiﬁed the inﬂuentials into three groups based on indegree: the top 10 users,
+who were mostly the mainstream news sources; the next 90
+users, who were mainly celebrities; and the rest, who were a
+mixed group of public ﬁgures and opinion leaders that competed with the traditional mass media.
+The evolution of the retweet probability in Figure 4(a)
+shows that all three groups mildly increased their inﬂuence
+over time. Large error ranges for the top 10 users indicate a
+much wider variability in the popularity of this group. The
+growth, however, is marginal for all three groups. We conjecture that the marginal increase is due to the limited number of tweets users post a day. Broadcasting too many tweets
+puts even popular users at a risk of being classiﬁed as spammers. Hence, Twitter users should moderate the number of
+broadcast tweets in order to avoid crossing their followers’
+information processing limit.
+The evolution of the mention probability in Figure 4(b)
+shows distinct patterns for the three groups. The top 10
+users fell in popularity over time; the next group had consistent inﬂuence scores over time; and the last group (the least
+connected among the three) increased their popularity over
+time. Users in the last group, surprisingly, spawned on average more mentions than the top 100 users. While this trend
+is counter-intuitive at ﬁrst, the differences between mentions
+and retweets can explain the trend.
+The mainstream news organizations in the ﬁrst group are
+retweeted the most, but they are not mentioned the most.
+This is because their names come up mostly when their content get retweeted; it is hard for media sources to engage
+users with their identities alone. The second group, comprised of celebrities, is more often mentioned than retweeted
+because of their name value. Their tweets also get retweeted,
+when inﬂuence is transferred across topics (Table 3). Evangelists in the last group successfully increased their inﬂuence. While many factors could explain this phenomenon,
+our manual inspection revealed that these users put signiﬁ-
+
+cant efforts in conversing with others (e.g., replying to their
+audience). In a sense, they need self-advertisement the most,
+because mass media and celebrities have many other on- and
+off-line channels of to promote themselves.
+While our ﬁndings provide an interesting view of how different groups of people maintain their popularity, we should
+also emphasize that our analysis is in retrospect but not
+causal. These ﬁndings are based on the set of users who
+ultimately became popular. We also mention that all inﬂuentials put efforts in posting creative and interesting tweets,
+as shown from the high correlation in their retweet ranks.
+
+Rising inﬂuence of the ordinary users
+Finally we examined the users who increased their inﬂuence
+over a short time period to understand what behaviors make
+ordinary users inﬂuential. We focused on the set of users
+who talked about only one news topic, out of the three news
+topics in Table 2, and picked the top 20 users for each news
+topic based on indegree. We call these users topical inﬂuentials. The topical inﬂuentials included dedicated accounts
+like iranbaan, oxfordgirl, and TM Outbreak who suddenly
+became popular over the course of the event. These users
+were literally unheard-of at the beginning of the news events
+and didn’t receive any retweets or mentions prior to the relevant news event. The list also included users like kevinrose
+(the founder of digg.com) and 106andpark (BET.com’s music video site) who were already popular on a speciﬁc topic,
+and used the news events to extend their popularity.
+We tracked the inﬂuence scores of the 60 topical inﬂuentials over the 8 month in 2009. Again, we computed the
+variable P as the probability that a random tweet posted in
+a 15 day period is a retweet (or a mention) to that user. Figure 5 displays the temporal evolution of inﬂuence for the
+topical inﬂuentials. Overall, the inﬂuence scores are much
+lower than that of the global inﬂuentials in Figure 4. This is
+expected since topical inﬂuentials had 3 to 180 times fewer
+followers than the global inﬂuentials.
+Inﬂuentials on Swine ﬂu experienced relatively stable inﬂuence scores for both retweets and mentions. This is because no single day involved a catastrophic event due to
+Swine ﬂu. Inﬂuentials on the Iran election increased their
+
+16
+
+Mention probability P
+
+Retweet probability P
+
+0.0005
+Iran
+Jackson
+Swine
+
+0.0004
+0.0003
+0.0002
+0.0001
+0
+
+0.0006
+
+Iran
+Jackson
+Swine
+
+0.0004
+
+0.0002
+
+0
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Jun
+
+Jul
+
+Aug
+
+Jan
+
+Feb
+
+Mar
+
+Apr
+
+May
+
+Time (year 2009)
+
+Time (year 2009)
+
+(a) Retweet inﬂuence
+
+(b) Mention inﬂuence
+
+Jun
+
+Jul
+
+Aug
+
+Figure 5: The temporal evolution of retweets and mentions for the topical inﬂuential users
+
+References
+
+retweet inﬂuence substantially during the peak of the election in June and July, but they did not spawn many mentions. Our data shows that these inﬂuentials actively spread
+information about protests and controversial news. Inﬂuentials on Michael Jackson experienced a mild increase in their
+retweet inﬂuence in June, whereas their mention inﬂuence
+surged during the same time period. Our manual inspection
+revealed that users who limit their tweets to a single topic
+showed the largest increase in their inﬂuence scores.
+
+Avnit, A. 2009. The Million Followers Fallacy, Internet Draft,
+Pravda Media. http://tinyurl.com/nshcjg.
+Berry, J., and Keller, E. 2003. The Inﬂuentials: One American in
+Ten Tells the Other Nine How to Vote, Where to Eat, and What to
+Buy. Free Press.
+Buck, W. 1980. Tests of Signiﬁcance for Point-Biserial Rank Correlation Coefﬁcients in the Presence of Ties. Biometrical Journal
+22(2):153–158.
+Cha, M.; Mislove, A.; and Gummadi, K. P. 2009. A MasurementDriven Analysis of Information Propagation in the Flickr Social
+Network. In WWW.
+Domingos, P., and Richardson, M. 2001. Mining the Network
+Value of Customers. In ACM SIGKDD.
+Fiorillo, J. 2009. Twitter Advertising: Pay-Per-Tweet, Wikinomics.
+http://tinyurl.com/d89uu9.
+Ginsberg, J.; Mohebbi, M. H.; Patel, R. S.; Brammer, L.; Smolinski, M. S.; and Brilliant, L. 2009. Detecting Inﬂuenza Epidemics
+Using Search Engine Query Data. Nature 457.
+Gladwell, M. 2002. The Tipping Point: How Little Things Can
+Make a Big Difference. Back Bay Books.
+Goyal, A.; Bonchi, F.; and Lakshmanan, L. V. S. 2010. Learning
+Inﬂuence Probabilities In Social Networks. In ACM WSDM.
+Granovetter, M. 1973. The Strength of Weak Ties. American
+Journal of Sociology 78(6).
+Katz, E., and Lazarsfeld, P. 1955. Personal Inﬂuence: The Part
+Played by People in the Flow of Mass Communications. New York:
+The Free Press.
+Leavitt, A.; Burchard, E.; Fisher, D.; and Gilbert, S. 2009. The
+Inﬂuentials: New Approaches for Analyzing Inﬂuence on Twitter.
+Web Ecology Project, http://tinyurl.com/lzjlzq.
+Leskovec, J.; Adamic, L. A.; and Huberman, B. A. 2007. The
+Dynamics of Viral Marketing. ACM Trans. on the Web (TWEB).
+Levy, M., and Windhal, S. 1985. Media Gratications Research,
+Chapter The Concept of Audience Activity. Sage.
+Rogers, E. M. 1962. Diffusion of Innovations. Free Press.
+Watts, D., and Dodds, P. 2007. Inﬂuentials, Networks, and Public
+Opinion Formation. Journal of Consumer Research.
+Watts, D. 2007. Challenging the Inﬂuentials Hypothesis. Word of
+Mouth Marketing Association.
+Weng, J.; Lim, E.-P.; Jiang, J.; and He, Q. 2010. TwitterRank:
+Finding Topic-Sensitive Inﬂuential Twitterers. In ACM WSDM.
+
+Conclusions
+This paper analyzed the inﬂuence of Twitter users by employing three measures that capture different perspectives:
+indegree, retweets, and mentions. We found that indegree
+represents a user’s popularity, but is not related to other important notions of inﬂuence such as engaging audience, i.e.,
+retweets and mentions. Retweets are driven by the content
+value of a tweet, while mentions are driven by the name
+value of the user. Such subtle differences lead to dissimilar
+groups of the top Twitter users; users who have high indegree do not necessarily spawn many retweets or mentions.
+This ﬁnding suggests that indegree alone reveals very little
+about the inﬂuence of a user.
+Focusing on retweets and mentions, we studied the dynamics of inﬂuence across topics and time. Our spatial analysis showed that most inﬂuential users can hold signiﬁcant
+inﬂuence over a variety of topics. The top Twitter users
+had a disproportionate amount of inﬂuence, which was indicated by a power-law distribution. Our temporal analysis identiﬁed how different types of inﬂuentials interact with
+their audience. Mainstream news organizations consistently
+spawned a high level of retweets over diverse topics. In contrast, celebrities were better at inducing mentions from their
+audience. This is because the name value of the mention inﬂuentials helped them get responses from others, rather than
+any inherent value in the content they posted.
+Finally, we found that inﬂuence is not gained spontaneously or accidentally, but through concerted effort. In order to gain and maintain inﬂuence, users need to keep great
+personal involvement. This could mean that inﬂuential users
+are more predictable than suggested by theory (Watts 2007),
+shedding light on how to identify emerging inﬂuential users.
+
+17
+
+

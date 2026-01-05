@@ -1,0 +1,699 @@
+Acta Politica, 2005, 40, (284–298)
+r 2005 Palgrave Macmillan Ltd 0001-6810/05 $30.00
+www.palgrave-journals.com/ap
+
+Experimenting with a Democratic Ideal:
+Deliberative Polling and Public Opinion
+James S. Fishkina and Robert C. Luskinb
+a
+Department of Communication, Stanford University, Stanford, CA 94305, USA.
+E-mail: jfishkin@stanford.edu
+b
+Department of Government, Texas University, Austin, USA.
+E-mail: rcl@mail.la.utexas.edu
+
+The values of deliberation and political equality have proven hard to achieve
+simultaneously. Deliberative Polling, which embodies both, provides a useful
+window on deliberative democracy. The results, responding to ‘defeatist,’
+‘extenuationist,’ and ‘alarmist’ critiques, show that ordinary people can deliberate,
+that they benefit from doing so, and that the process neither biases nor polarizes
+their opinions.
+Acta Politica (2005) 40, 284–298. doi:10.1057/palgrave.ap.5500121
+Keywords: Deliberative Polling; deliberative democracy; political equality; informed opinion
+
+Introduction
+Democratic reform has long striven to realize the apparently contrary values of
+political equality and deliberation. The American system initially emphasized
+deliberation, then progressively added institutions serving political equality.1
+Primaries, recall elections, and the direct election of US Senators have given
+the public more voice in choosing its representatives. Initiatives and referenda
+have given it more ability to make policy directly. Polling has had a similar if
+more advisory effect.
+But this march toward political equality has had the unintended consequence
+of diminishing deliberation (Fishkin, 1991). As innumerable surveys have
+shown, most ordinary citizens know and think remarkably little about politics
+(Luskin, 1987; Kinder, 1998; Price, 1999). Thus decisions by referendum
+involve far less deliberation than decisions by legislatures, and even decisions
+by legislatures may involve less deliberation than they used to, before
+legislators had primaries, direct election campaigns (in the case of the US
+Senate), and poll results to worry about.
+This tension between political equality and deliberation is hardly unique to
+the US. While the details differ from country to country, the democratic world
+has seen a general trend toward ever more direct democracy. The franchise has
+
+James S. Fishkin and Robert C. Luskin
+Deliberative Polling
+
+285
+
+expanded, referenda have proliferated, and even mass primaries for candidate
+selection, indigenous to the US, have been spreading. But the same rip tide is
+everywhere evident. Giving the mass public, which is not generally very
+deliberative, more say has meant decreasing the level of deliberation behind
+political decision-making. As political equality has gone up, deliberation has
+gone down.
+
+Deliberation and Political Equality
+But let us sketch what we mean by ‘political equality’ and, especially,
+‘deliberation.’ By political equality we mean equal consideration of
+everyone’s preferences, where ‘everyone’ refers to some relevant population
+or demos, and ‘equal consideration’ means a process of equal counting so
+that everyone has the same ‘voting power’ (an equal chance of being the
+decisive voter, when the voters are described anonymously, without reference
+to past voting patterns or current preferences). Note that everyone can still
+have the same voting power if the voters are a subset of the population selected
+by lot.2
+The root of deliberation is ‘weighing,’ which could be collective, individual,
+or both — involving discussion, rumination, or both. For present purposes, we
+take deliberation to be a weighing of competing considerations through
+discussion that is:3
+Informed (and thus informative). Arguments should be supported by
+appropriate and reasonably accurate factual claims.
+Balanced. Arguments should be met by contrary arguments.
+Conscientious. The participants should be willing to talk and listen, with
+civility and respect.
+Substantive. Arguments should be considered sincerely on their merits, not
+how they are made or who is making them.
+Comprehensive. All points of view held by significant portions of the
+population should receive attention.4
+While excluding much everyday conversation, these criteria are still relatively
+undemanding. They do not require any particular style or quality of thought,
+much less the acceptance of any given premises. They are strictly procedural.
+They stop far short, for example, of notions of deliberation requiring that
+participants reason on the basis of philosophical principles that everyone can
+be expected to accept (Cohen, 1997; Gutmann and Thompson, 2003).5
+Viewed as a continuum, deliberation so defined is attainable. Even the real
+world sees some; experimental conditions can induce much more. This enables
+us to move from thought experiments to real experiments — to observe the
+effects of increasing deliberation. For the controversial stipulations required to
+complete a thought experiment, we can substitute the behavior of the
+Acta Politica 2005 40
+
+James S. Fishkin and Robert C. Luskin
+Deliberative Polling
+
+286
+
+participants in an actual experiment — not behind a hypothetical veil of
+ignorance but in the actual world of politics and policy.6
+
+Deliberation vs Political Equality?
+In some respects, we have painted the deliberation-equality tradeoff too
+starkly. For one thing, much of the discussion among political elites is
+posturing or negotiation rather than deliberation. Minds may change on
+concrete legislative proposals, but often because negotiation has altered the
+details or the context (as in logrolling) rather than because minds have changed
+on more fundamental values or empirical premises. Legislators are representatives, after all, and elected to support or oppose certain things (and because
+they already do so). They are also constrained by their parties. So even elitelevel politics is not necessarily that deliberative.
+Theoretically, indeed, it may even be the mass public that has the greater
+possibility of real deliberation. Citizens are not bound by constituencies or
+parties and — in electorates of any size — are not casting votes worth
+surveilling or bargaining over. They have no need to posture or negotiate.
+Hence they are freer to alter their views, and not just on the merits of concrete
+legislative proposals but also on more fundamental questions of what is and
+what should be.
+As matters stand — and are likely to stand — however, this is only a
+possibility. For most people, most of the time, politics is merely ‘a side show in
+the great circus of life’ (Dahl, 1961). Most people think and know little about
+politics. They discuss it, moreover, mainly with others very like themselves and
+sharing similar views (Ulbig and Funk, 1999; Mutz and Martin, 2001;
+Huckfeldt et al., 2004). And that is unlikely to change very much. Not for the
+public as a whole, at least.
+Conventional polling
+In the beginning, public opinion polling combined aspirations for both political
+equality (via scientific sampling) and deliberation. The pioneering figure
+George Gallup touted polling as a serious instrument of democratic reform,
+calling it the ‘sampling referendum’ and painting it as a way of scaling up the
+democracy of the New England town meeting to the whole nation.
+Today, the New England town meeting idea has, in a sense, been restored.
+The wide distribution of daily newspapers reporting the views of statesmen
+on issues of the day, the almost universal ownership of radios which bring
+the whole nation with the hearing of any voice, and now the advent of the
+sampling referendum which produces a means of determining quickly the
+Acta Politica 2005 40
+
+James S. Fishkin and Robert C. Luskin
+Deliberative Polling
+
+287
+
+response of the public to debate on issues of the day, have in effect created a
+town meeting on a national scale (Gallup, 1939).
+Gallup thought that the media and polling would together allow people to hear
+political leaders’ opinions and both hear and express their own.
+Good modern polling, based on random sampling, does serve political
+equality, since simple random sampling is just selection by lot, but it still entails
+no real deliberation. Thus most of the opinions captured by conventional
+polling are cognitively threadbare. The typical respondent answering the
+typical political attitude item has barely ever thought about the question before
+being interviewed and can call on precious little information in answering it.
+These top-of-the-head responses are what Converse (1964) famously called
+‘nonattitudes,’ although ‘minimal attitudes’ (Luskin, 1987) may more often be
+closer to the still-sad reality.
+So conventional polling has inevitably disappointed Gallup’s hopes. It has
+indeed altered the texture of modern democracy, but not by taking it any closer
+to the virtues of the New England town meeting.7 The opinions it tallies are not
+informed by any thorough airing or consideration of alternative views. Rather,
+they reflect normal, everyday levels of inattention and disengagement. They
+express public opinion as it is — seasoned strongly by neither information nor
+reflection.
+
+Deliberative Polling and Deliberative Democracy
+But what if the level of deliberation could be raised, if not for the whole
+public, at least for a random sample thereof? What if polling could be
+made deliberative? Deliberative Polling (Fishkin, 1991, 1995) explores this
+possibility by exposing random samples to balanced information, encouraging them to weigh opposing arguments in discussions with heterogeneous interlocutors, and then harvesting their more considered opinions.
+It is a way, at least in miniature, of serving both deliberation and equality.
+The deliberation lies in the learning, thinking, and talking that distinguish
+Deliberative Polls from conventional ones. The political equality stems
+from random sampling. In theory, every citizen has an equal chance
+of being chosen to participate, and on average, over infinitely repeated
+sampling from the same population, the sample would resemble the
+population exactly.8
+This solution to the problem of combining political equality and deliberation
+actually dates back to ancient Athens, where deliberative microcosms of
+several hundred chosen by lot made many key decisions. With the demise of
+Athenian democracy, it fell into desuetude, then oblivion. As noted, the public
+opinion poll revived random sampling but without deliberation. Deliberative
+Acta Politica 2005 40
+
+James S. Fishkin and Robert C. Luskin
+Deliberative Polling
+
+288
+
+polling, in recombining the two, is an empirical exploration of deliberative
+democracy.
+To flesh out some more of the design, a Deliberative Poll begins by drawing
+and interviewing a random sample. It is important for representativeness and
+political equality that the sampling be random rather than by self-selection,
+proximity (‘convenience sampling’), or quota. Only random sampling assures
+everyone an equal probability of being chosen to participate. Only random
+sampling leads to samples that average out, over infinitely repeated sampling,
+to the population. Only random sampling allows measurement of the degree of
+certainty associated with the sample estimates (in the form of ‘estimated
+standard errors,’ ‘margins of error,’ ‘confidence intervals,’ ‘levels of statistical
+significance,’ etc.).
+Those agreeing to participate are sent carefully balanced briefing materials,
+laying out the major arguments for and against policy proposals prominent in
+elite-level discussions. Embedded in these arguments are both empirical
+premises, which are relatively debatable, and more purely factual information,
+which is not. The document, which is also made publicly available, is meant to
+provide a starting point for discussion. Typically, an advisory board of issue
+stakeholders vet it for balance and accuracy.
+The participants are then brought to a single site for the deliberations,
+typically lasting a weekend. During the weekend, they alternate between
+discussing the issues in randomly assigned small groups and putting questions
+formed in the small group discussions to panels of policy experts and policymakers in plenary sessions. The small groups are led by trained moderators,
+who maintain an atmosphere of civility and mutual respect, encourage the
+diffident, restrain the loquacious, and ensure that all the major proposals and
+all the major arguments for and against them in the briefing document get aired.
+The panelists in the plenary sessions respond to the questions formed in the
+small groups. These are not simple questions of fact, to which there are
+undebatably right and wrong answers. Rather, they concern the policy
+alternatives’ consequences and costs, the tradeoffs they may entail, and the
+like. Given that the answers are generally debatable — indeed are the stuff of
+debate — it is important that the panelists represent a balanced set of
+perspectives. The composition of the panels, like the briefing document is often
+supervised by an advisory board.
+The participants answer questions about their views both when first
+interviewed (just before being invited to participate) and again at the end of
+the deliberative weekend. A good many Deliberative Polls add one or more
+(quasi) control groups — independent random samples that do not deliberate
+— to provide assurance that the changes we see stem from the deliberative
+treatment rather than from contemporaneous great-world influences affecting
+everyone.9
+Acta Politica 2005 40
+
+James S. Fishkin and Robert C. Luskin
+Deliberative Polling
+
+289
+
+The treatment, consisting of everything that happens between the moment of
+recruitment and the end of the weekend, can be broken down into several
+weeks of unstructured, at-home deliberation anticipating the weekend and the
+structured on-site deliberation during the weekend itself. During the
+anticipatory period, the participants, knowing that they will be part of a
+visible (usually televised) event, begin to discuss the issues more with family,
+friends, and co-workers, to pay more attention to relevant stories in the media,
+and even, in some cases, to research the issues in the library or on the web.
+This anticipatory deliberation, while important, is less than ideal in a couple
+of respects. It is, for one thing, socially homogeneous. People tend to talk with
+people like themselves — from the same social circles and circumstances. In the
+second place, like most real-word deliberation, it is imbalanced. People tend to
+turn to sources of information and conversational partners they already agree
+with. On-site, by contrast, the discussion is balanced (thanks, as necessary, to
+the moderators), and the discussion groups mostly heterogeneous (thanks to
+random assignment). The anticipatory deliberation is real-world deliberation,
+with its existing limitations, only quantitatively greater. The on-site deliberation is not only quantitatively still greater but qualitatively different — closer
+to the deliberative ideal. The briefing documents and expert panels are
+balanced, the moderators enforce balance in the small group discussions, and
+random assignment makes for heterogeneous discussion partners. In short, the
+participants are forced to consider alternative arguments and points of view
+and to discuss them with others very unlike themselves.
+The on-site deliberations have typically been telecast in one fashion or
+another. Often the plenary sessions have been broadcast. Sometimes both they
+and some of the small group discussions are taped and edited for later
+broadcast. The Deliberative Poll has been called ‘a poll with a human face’
+(McCombs and Reynolds, 1999) because it gives a human face, and voice, to
+the process of informed opinion change.
+
+Deliberative Polling and the Objections to Deliberative Democracy
+Not everyone working in this intersection of political theory and empirical
+political science is a fan of deliberative democracy. Three prominent objections
+can be characterized as:
+Defeatist. This objection is that deliberation is impossible. The public is too
+confused, inconsistent, and ignorant to be able to be worth consulting about
+policy issues (Schumpeter, 1942; Posner, 2004a, b). Any efforts to consult a
+‘public voice’ will be delusive, so it is best not to try.
+Extenuationist. This second objection is that deliberation is unnecessary. The
+public can use heuristics and simple cues to approximate its more informed
+Acta Politica 2005 40
+
+James S. Fishkin and Robert C. Luskin
+Deliberative Polling
+
+290
+
+preferences (Popkin, 1992; Lupia and McCubbins, 1998). Deliberation is thus a
+waste of time.10
+Alarmist. The third objection is that deliberation is harmful. It can be done
+(contra the defeatists) and can alter preferences (contra the extenuationists) but
+alters them for the worse. Inevitably, certain groups, and their preferences, are
+advantaged in public discussion (Sanders, 1997). Within discussion groups,
+moreover, majorities tend to become larger and opinions more extreme — not
+as a function of the strength of competing arguments but simply as a function
+of the initial balance of opinion (Sunstein, 2003).
+Deliberative Polling provides a means of examining these objections
+empirically. The results say something about whether or not the mass public
+is capable of deliberation, something about the extent to which deliberation
+makes a difference, and something about the extent to which it polarizes
+preferences across discussion groups and privileges certain people’s preferences
+within them.
+Here are some relevant patterns in the results of the analyses we have done to
+date:
+1. The participants are representative. We start with high-quality random
+samples, and then compare the respondents who choose to attend, an
+admittedly self-selected subsample, with those who do not. Both
+demographically and attitudinally, the statistically significant differences
+are remarkably few and typically modest. The participants are generally a
+bit older, better educated, and more interested in and knowledgeable about
+the topic than the nonparticipants, but not by much. The usual biases in
+self-selection appear to be nearly erased by the unusual incentives for
+participation. Thus the participant sample, like the interview sample, is
+highly representative. (Fishkin and Luskin, 1999, Luskin et al., 2002, 2004)
+Political equality is served.
+2. Opinions often change. At the individual level, some opinions always
+change, with some participants moving one way, and some the other. Some
+portion of that could be just the random bouncing-around of stillunderdeveloped attitudes. But more impressively and consequentially,
+there is usually some statistically significant net change as well. Well more
+than half of the policy attitude items we have posed have shown
+statistically significant net change, as have a still larger fraction of the
+much smaller number questions about vote intention. Some of these
+changes have been extremely large (Fishkin and Luskin, 1999, Luskin
+et al., 1999a, 1999b, 2000, 2002, 2004).
+3. Vote intentions often change. These changes have tended to be still more
+statistically significant, as well as substantively larger. In Britain, on the
+eve of the 1997 general election, for example, the Tories and Labour each
+lost about 10% and the Liberal Democrats gained about 20% of our
+Acta Politica 2005 40
+
+James S. Fishkin and Robert C. Luskin
+Deliberative Polling
+
+291
+
+sample’s votes (Luskin et al, 1999a). In Australia in 1999, support for the
+referendum proposal to make the country a Republic increased by 16%
+(Luskin et al., 2000). Only in the case of the 2000 Danish referendum on
+the euro was there no appreciable change, presumably because the Danish
+public was already comparatively well informed about EU matters after six
+previous referendums on them (Hansen, 2003).
+4. The participants gain information. We regularly ask questions gauging the
+factual information the participants possess about the topics under
+discussion. Less regularly, we add a question or two tapping more general
+political knowledge, as of the party’s locations on a liberal–conservative or
+left–right dimension. The results show impressive information gains
+(Fishkin and Luskin, 1999; Luskin et al., 1999a, 1999b, 2000, 2002,
+2004). Not everybody masters every fact, to be sure, but it is a rare topicspecific information item that does not show a statistically significant
+average gain. Mean gains of around 10% are extremely common. Some are
+distinctly larger, a few gigantic. In the 1999 Australian Deliberative Poll on
+the country’s becoming a republic, the percentage knowing that ‘under the
+referendum proposal, the prime minister ‘could remove the president at
+any time but must later obtain approval from the house of representatives’
+rose from 16 to 73% (Luskin et al., 2000). The participants also seem to
+gain some greater knowledge of politics more generally, as the percentages
+correctly locating the major parties on a liberal–conservative or left–right
+scale generally increase.
+5. The changes in opinions and votes and the information gains are related.
+By and large, the preference changes are information-driven, in the sense
+that it is the participants who emerge knowing the most who
+disproportionately account for the net change in the sample as a whole
+(Luskin et al., 2002, 2004).
+6. The changes in opinions and votes are unrelated to social location.
+Regressions of both signed and absolute preference change on the panoply
+of available sociodemographic variables produce R2 s just barely above
+zero, precious few statistically significant individual coefficient estimates,
+and insignificant F-statistics (meaning that the null hypothesis that none of
+the regressors has any effect cannot confidently be rejected). There is no
+appreciable tendency for people of given sorts to change more one in one
+direction than the other, nor to change to greater or lesser degree (Luskin
+et al., 2002).
+7. Policy attitudes and vote intentions tend to be more predictable, and to hinge
+more on normatively desirable criteria, after deliberation than before. Thus
+regressions of policy attitudes on collections of values and empirical
+premises that ought to affect them tend to carry bigger adjusted R2 s after
+deliberation than before. Similarly, US primary election voters tend to give
+Acta Politica 2005 40
+
+James S. Fishkin and Robert C. Luskin
+Deliberative Polling
+
+292
+
+much greater weight than the control group to the candidates’ policy
+positions in deciding how to vote (Iyengar et al., 2005).
+8. Single-Peakedness increases. Defining single-peakedness as a matter of
+degree (as the size of the largest subset whose policy preferences are singlepeaked in the traditional binary sense, divided by the size of the sample),
+we find that deliberation increases single-peakedness, at least on issues that
+are not already highly salient and where preferences are not already singlepeaked (List et al., 2000). The participants may not agree more after
+deliberating, but they do seem to agree more in this sense about what they
+are agreeing or disagreeing about. The importance of this result is that
+single-peakedness (in this continuous sense) reduces the probability of
+Arrovian preference cycles undermining the meaning of majority rule.
+9. The increases in single-peakedness and information gains are related. The
+increases in single-peakedness stem primarily from those participants
+emerging most informed (List et al., 2000).
+10. Preferences do not necessarily ‘polarize’ across discussion groups. Sunstein’s
+(2003) arguments would lead one to expect that they should. But about
+half the small groups polarize, but about half do not (Luskin et al., 2002,
+2004).11
+11. Preferences do not necessarily homogenize within groups. Conformity
+mechanisms would lead one to expect convergence. Or, to the extent that
+the initial distribution of opinions affects the distribution of arguments
+expressed, initially popular positions may simply receive more support in
+the discussion, which might also produce convergence. In fact, however,
+the variance of opinion sometimes decreases, sometimes increases (Luskin
+et al, 2002, 2004). One reason may be that the moderators, enforcing
+balance, keep the distribution of opinions expressed from resembling too
+closely the initial distribution of opinions.
+12. Balanced deliberation tends to promote balanced learning. Given facts
+are sometimes more comfortable for one side of an argument than the
+other. Our evidence in this case comes from just one Deliberative Poll. In
+the Danish Deliberative Poll before the euro referendum, some of the
+factual information was more comforting to the ‘yes’ camp, some to the
+‘no’ camp. We also, uncharacteristically, had an additional wave of
+measurement on arrival on-site. Thus we could see that in the period
+leading up to the deliberative weekend, during which the participants
+deliberated with family, friends, and coworkers in imbalanced fashion, yes
+supporters learned more of the ‘yes facts,’ and no supporters more of the
+‘no facts’ but that during the weekend itself, with its balanced deliberation,
+the yes supporters picked up more of the ‘no facts’ they had hitherto
+avoided, and the no supporters more of the ‘yes facts’ they had avoided
+(Hansen, 2003).
+Acta Politica 2005 40
+
+James S. Fishkin and Robert C. Luskin
+Deliberative Polling
+
+293
+
+What, then, do these results say about the objections to deliberative
+democracy? First, defeatism. One suggestive result is 6. That the changes of
+opinion and vote intention are largely uninfluenced by sociodemographic
+factors, including education suggests that the process seems to be accessible to
+all social strata. Other relevant results are that the participants learn quite a lot
+and that the opinion changes tend to be driven by that learning (4 and 5).
+People may ordinarily not know or think much about politics and have poorly
+developed political views as a result, but it is clearly possible for them to learn
+and thus change their views as appropriate. Not every participant learns or
+changes measurably in a Deliberative Poll, but many do.
+In addition, 8 and 9 indicate that deliberation lessens the collective
+confusions of mass democracy, creating a shared public space for public
+opinion. Hence Posner’s (2004) claim that public consultation will lead to
+confusion and the antinomies of rational choice is exactly wrong. If anything,
+the desirability of avoiding preference cycles argues for deliberation, although
+we note Mackie’s (2003) recent argument that Riker’s (1982) anxieties about
+cycles were overstated from the beginning.
+Next, extenuationism. The implication of the extenuationist position is that
+getting people to learn and think about an issue should not greatly change their
+views. They are already at or near their ‘full-information’ preferences. But 2
+and 3, backed up by 4 and 5, falsify this claim. So, only a shade less directly,
+does 7. Post-deliberation attitudes and vote intentions are different, sometimes
+dramatically different — because many of the participants are thinking and
+learning more about the issues, and realizing that the positions they initially
+held were not where they really wanted to be.
+Finally, alarmism. Sunstein’s (2003) ‘law of group polarization’ is that a
+discussion group whose mean position is one side of an attitude scale will tend,
+post-discussion, to move further out on the same side. He points to two reasons
+for this effect: the imbalance in the argument pool and ‘social comparison’
+(conformity) mechanisms. The evidence from mock jury experiments does seem
+to support Sunstein’s position.
+But our small groups are not juries, and the kind of deliberation we are
+seeking to foster is not that of the jury room. There is no immediate collective
+outcome, no verdict, to be reached and no requirement of consensus, not to
+mention unanimity.12 The ‘voting,’ moreover, occurs only in the ‘secret ballot’
+of the final confidential questionnaire, which may limit social comparison
+effects. The deliberation in a Deliberative Poll is mainly everyday political
+conversation improved — more informed, more balanced, more conscientious,
+more substantive and more comprehensive. The element of balance may be
+particularly important, in equalizing the argument pool. Thus 10 and to some
+extent 11 indicate, as Sunstein (2003) himself has acknowledged, that
+Deliberative Polling data do not support the ‘law of group polarization.’
+Acta Politica 2005 40
+
+James S. Fishkin and Robert C. Luskin
+Deliberative Polling
+
+294
+
+The other deliberative pathology cited by alarmists is the domination of the
+discussions by more privileged members of the society, presumptively welleducated and articulate white males. In this case, we can report only
+impressions — both ours and the participants’ — but have the data to do
+more. It should be noted that the moderators try to ensure that no one
+dominates the discussion and that everyone has a chance to talk, but the extent
+to which they succeed in this effort is an empirical question. One relevant
+observation is that overwhelming majorities of the participants indicate, in
+response to a question in post-deliberation questionnaires, that in their view
+the discussions were not dominated by only a few of their number. That is our
+impression too. Sometimes the moderator has to restrain a particularly voluble
+participant or two to achieve this result, but usually that is not even necessary.
+A simple, less subjective approach we intend trying would be to see if the other
+participants routinely move in the direction of the views the members of
+privileged groups (say, educated white males) come in with. We hope to report
+on this in the near future. At some later point, more ambitiously, we hope to
+analyze recordings of small group sessions with this among many other issues
+in mind.
+
+From Thought Experiments to Real Experiments
+‘Thought experiments’ imagining what people would decide under morally
+relevant counterfactual conditions have become a staple of contemporary
+political theory (Fishkin, 1992). But why not move beyond armchair
+empiricism? If a counterfactual situation is morally relevant, why not do a
+real social science experiment to see what the appropriate counterfactual
+might actually look like? And if that counterfactual is both discoverable
+and normatively relevant, why not then let the rest of the world know
+about it?
+Like Rawls’s ‘original position,’ Deliberative Polling, in gauging what people
+would think if they thought, knew, and talked more about the issues, has some
+recommending force — to policy-makers and, at least conditionally, to the
+public itself. While citizens should consider the merits of policy and electoral
+choices for themselves, they do take cues from conventional polling results.
+Deliberative Polling offers similar but better cues, resting on a more informed
+and thoughtful consideration of the issues by the sample.
+The experimental treatment is avowedly, intentionally aimed at creating a
+counterfactual. The treatment sets the participants to deliberating more
+intensively than most of them ever do in real life, and the deliberation is more
+informed, balanced, substantive, conscientious, and comprehensive than in real
+life. Many experiments are similarly counterfactual. Each explanatory variable
+has some naturally occurring range, and the object of the treatment is
+Acta Politica 2005 40
+
+James S. Fishkin and Robert C. Luskin
+Deliberative Polling
+
+295
+
+sometimes to move individual subjects up or down within that range,
+sometimes to move them above or below it. How many people spend
+significant time comparing the lengths of lines projected onto a screen in front
+of them, in the company of other people insisting that obviously shorter lines
+are longer (Asch, 1956), to cite one famous example? But even it were not
+common in everyday experimentation, the counterfactual element in Deliberative Polling would be essential. The key in this effort to fuse normative and
+empirical research agendas is to create a treatment condition embodying the
+appropriate normative relevance.
+The design has, and needs, both internal and external validity, the wellknown distinction being that internal validity concerns questions of cause and
+effect, while external validity concerns questions of generalization (Campbell
+and Stanley, 1963). How sure can we be that x’s apparent effect on y is really
+x’s effect on y, rather than either y’s effect on x or the effect of some other
+variable z confounded with x? That is the question of internal validity. How
+sure can we be that the treatments, measurements, and subjects generalize to
+the outside-world phenomena we are trying to characterize? That is the
+question of external validity. Well-done surveys are high on external validity,
+well done experiments high on internal validity.
+What is important to us is to get a maximally reliable picture of
+a counterfactual public forming and revising its opinions under normatively desirable conditions. High internal validity implies some assurance
+that any changes of opinion stem from the deliberative treatment
+(and mediating variables like information). High external validity implies
+some assurance that what we see is what we would see if we could subject
+the whole public to the same treatment. Without the former, we could not
+have much confidence we were seeing deliberative public opinion. Without
+the latter, we could not have much confidence we were seeing deliberative
+public opinion.
+Many questions remain, above all concerning the contributions of the
+individual elements of the deliberative treatment. How much does each of the
+qualities we have incorporated into our definition of deliberation matter? How
+much difference would it make to keep the treatment the same but settle for
+real-world levels of balance, say? How much do the presence and behavior of
+the moderators matter? The sociodemographic and attitudinal heterogeneity of
+the small groups? How much of the effect occurs during the anticipatory
+period, and how much during the weekend? How much difference do the
+briefing materials make? What difference would it make to replace them with
+easy access to a variety of real-world journals of opinion like the New Republic
+and the National Review (which might increase information but would surely
+reduce balance)? What difference would it make to the occurrence of
+polarization in Sunstein’s sense to make the harvesting of opinions less
+Acta Politica 2005 40
+
+James S. Fishkin and Robert C. Luskin
+Deliberative Polling
+
+296
+
+confidential? And so forth. We have only begun to investigate how deliberation
+produces the effects we have documented.
+References
+Asch, S.E. (1956) ‘Studies of independence and conformity: a minority of one against a unanimous
+majority’, Psychological Monographs 70: (Whole No. 416).
+Campbell, D.T. and Stanley, J.C. (1963) Experimental and Quasi-Experimental Designs for
+Research, Chicago: Rand-McNally.
+Cohen, J. (1997) ‘Procedure and Substance in Deliberative Democracy’, in J. Bohman and W. Rehg
+(eds.) Deliberative Democracy, Cambridge, MA: MIT Press, pp. 67–92.
+Converse, P.E (1964) ‘The Nature of Belief Systems in Mass Publics’, in D.E. Apter (ed.) Ideology
+and Discontent, New York: Free Press.
+Dahl, R.A. (1961) Who Governs, New Haven: Yale University Press.
+Dahl, R.A. (2002) How Democratic is the American Constitution?, New Haven: Yale University
+Press.
+Fishkin, J.S. (1991) Democracy and Deliberation: New Directions for Democratic Reform, New
+Haven, CT: Yale University Press.
+Fishkin, J.S. (1992) The Dialogue of Justice, New Haven, CT: Yale University Press.
+Fishkin, J.S. (1995) The Voice of the People: Public Opinion and Democracy, New Haven: Yale
+University Press.
+Fishkin, J.S. and Luskin, R.C. (1999) ‘Bringing Deliberation to the Democratic Dialogue’, in M.
+McCombs and A. Reynolds (eds.) The Poll with a Human Face: The National Issues Convention
+Experiment in Political Communication, Mahwah, NJ: Erlbaum.
+Gallup, G. (1939) ‘Public opinion in a democracy, The Stafford Little Lectures, Princeton
+University Extension Fund.
+Goodin, R.E. (2003) ‘Deliberation Within’, in J.S. Fishkin and P. Laslett (eds.) Debating
+Deliberative Democracy, Oxford: Blackwell.
+Gutmann, A. and Thompson, D. (2003) ‘Deliberative Democracy Beyond Process’, in J.S. Fishkin
+and P. Laslett (eds.) ‘Special Issue: Debating Deliberative Democracy’ Journal of Political
+Philosophy 10: 153–174.
+Hansen, K.M. (2003) ‘Deliberative Democracy and Opinion Formation’, Ph.D. dissertation,
+University of Southern Denmark, Dept of Political Science and Public Management.
+Huckfeldt, R., Johnson, P.E. and Sprague, J. (2004) Political Disagreement: The Survival of Diverse
+Opinions within Communication Networks, Cambridge: Cambridge University Press.
+Iyengar, S., Luskin, R.C. and Fishkin, J.S. (2005) Deliberative Preferences in the Presidential
+Nomination Campaign: Evidence from an Online Deliberative Poll. Research paper, Center for
+Deliberative Democracy, Stanford: Stanford University.
+Kinder, D.R. (1998) ‘Opinion and Action in the Realm of Politics’, in D.T. Gilbert, S.T. Fiske and
+L. Gardner (eds.) The Handbook of Social Psychology, Vol., 2, New York: Oxford University
+Press.
+List, C., McLean, I., Fishkin, J.S. and Luskin, R.C. (2000) Deliberation, preference structuration
+and cycles: evidence from deliberative polls, Paper presented at the University of Texas School of
+Law conference on ‘Deliberating About Deliberative Democracy’.
+Lupia, A. and McCubbins, M. (1998) The Democratic Dilemma, Cambridge: Cambridge University
+Press.
+Luskin, R.C. (1987) ‘Measuring political sophistication’, American Journal of Political Science 31:
+856–899.
+
+Acta Politica 2005 40
+
+James S. Fishkin and Robert C. Luskin
+Deliberative Polling
+
+297
+Luskin, R.C., Fishkin, J.S. and Jowell, R. (2002) ‘Considered Opinions: deliberative polling in
+Britain’, British Journal of Political Science 32: 455–487.
+Luskin, R.C. (2002) ‘From Denial to Extenuation (and Finally Beyond): Political Sophistication
+and Citizen Performance’, in J.H. Kuklinski (ed.) Thinking about Political Psychology, New
+York: Cambridge University Press.
+Luskin, R.C. (2003) ‘The Heavenly Public: What Would the Ideal Democratic Citizenry Be Like?’,
+in M.B. MacKuen and G. Rabinowitz (eds.) Electoral Democracy, Ann Arbor: University of
+Michigan Press.
+Luskin, R.C., Fishkin, J.S., Jowell, R. and Park, A. (1999a) Learning and voting in Britain: insights
+from the deliberative poll, Paper presented at the annual meeting of the American Political
+Science Association, Atlanta.
+Luskin, R.C., Fishkin, J.S. and Plane, D.L. (1999b) Deliberative polling and policy outcomes:
+electric utility issues in Texas, Paper presented at the annual meeting of the Association for
+Public Policy Analysis and Management, Washington, DC.
+Luskin, R.C., Fishkin, J.S., McAllister, I., Higley, J. and Ryan, P. (2000) Information effects in
+referendum voting: evidence from the Australian deliberative poll, Presented at the annual meeting
+of the American Political Science Association, Washington, DC.
+Luskin, R.C., Iyengar, S. and Fishkin, J.S. (2004) ‘Considered Opinions on U.S. Foreign Policy:
+Face-to-Face versus Online Deliberative Polling’, Research paper, Center for Deliberative
+Democracy, Stanford: Stanford University.
+Mackie, G. (2003) Democracy Defended, Cambridge: Cambridge University Press.
+McCombs, M. and Reynolds, A. (eds.) (1999) A Poll with a Human Face: The National Issues
+Convention Experiment in Political Communication, Mahwah, NJ: Lawrence Erlbaum.
+Mutz, D.C. and Martin, P.S. (2001) ‘Facilitating communication across lines of political difference:
+the role of mass media’, American Political Science Review 95: 97–118.
+Popkin, S. (1992) The Reasoning Voter, Chicago: University of Chicago Press.
+Posner, R. (2004a) Law, Pragmatism and Democracy, Cambridge, MA: Harvard University Press.
+Posner, R. (2004b) ‘Smooth Sailing’, Legal Affairs, Jan/February: 40–42.
+Price, V. (1999) ‘Political Information’, in J.P. Robinson, P.R. Shaver, and L.S. Wrightsman (eds.)
+Measures of Political Attitude, San Diego: Academic Press.
+Riker, W. (1982) Liberalism Against Populism, Long Grove, IL: Waveland Press.
+Sanders, L. (1997) ‘Against Deliberation’, Political Theory 25: 347–376.
+Schumpeter, J.A. (1942) Capitalism, Socialism and Democracy, New York: Harper and Row.
+Sunstein, C.R. (2003) ‘The Law of Group Polarization’, in J.S. Fishkin and P. Laslett (eds.)
+Debating Deliberative Democracy, Oxford: Blackwell.
+Ulbig, S.G. and Funk, G.L. (1999) ‘Conflict avoidance and political participation’, Political
+Behavior 21: 265–282.
+
+Notes
+1 Of course, some nontrivial inequality remains (Dahl, 2002).
+2 This is ‘formal political equality’ (Fishkin, 1991).
+3 For more on the qualities of deliberation see Fishkin (1991).
+4 Alternatively, we could define deliberation simply as discussion, the distinguish between
+different kinds of deliberation — balanced vs imbalanced, etc. Here we make deliberation
+balanced by definition (Luskin, 2003).
+5 We have simplified matters somewhat by defining deliberation as a process of discussion. At its
+core, deliberation is a process of thought, or rumination, that will have the five characteristics
+Acta Politica 2005 40
+
+James S. Fishkin and Robert C. Luskin
+Deliberative Polling
+
+298
+just mentioned to a significant degree. In theory, some have speculated that it could be achieved
+internally (Goodin, 2003) by individuals thinking in isolation. We do not wish to rule out this
+theoretical possibility, particularly with the development of new technologies that might
+substitute for a dialogue with others. However, for the moment we stipulate that deliberation
+requires interpersonal communication because the only way in which we are aware that the five
+characteristics listed above could be achieved to a significant degree is through interpersonal
+dialogue. And all our empirical efforts to explore it will involve interpersonal communication —
+conversation either face to face or online via voice.
+6 See Fishkin (1992) for an account of how even apparently trivial differences in the
+characterization of the initial choice situation can lead to dramatically different principles. By
+having a ‘thin’ characterization of the decision process and by allowing the participants in the
+deliberative process to complete the decision through an actual experiment, we can avoid the
+apparent arbitrariness of selecting one characterization of the choice situation over another as a
+way to settle normative issues.
+7 To be sure, even the New England town meeting may not actually have all the virtues of the
+New England town meeting
+8 The random sampling need not be ‘simple,’ but to serve equality it cannot be disproportionally
+stratified.
+9 The control group observations may be either post-test only or pre-test and post-test (Iyengar
+et al., 2005; Luskin et al., 2004).
+10 The term ‘extenuationist(m)’ is from Luskin (2002).
+11 The exact numbers depend on the point of reference with respect to which the groups could be
+said to be becoming more or less extreme (Luskin et al., 2002, 2004).
+12 The only consensus ever sought in a Deliberative Poll is that a question would be worth asking of
+the panelists in an ensuing plenary session. But questions are generally chosen precisely because
+the group members disagree over the answer.
+
+Acta Politica 2005 40
+
+

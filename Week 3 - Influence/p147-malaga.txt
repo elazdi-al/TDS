@@ -1,0 +1,298 @@
+                 contributed articles
+                                   doi: 10.1145/ 1409360.1409388
+                                                                            “Google may temporarily or perma-
+ by Ross A. Malaga                                                          nently ban any site or site authors that
+                                                                            engage in tactics designed to distort
+
+
+
+Worst
+                                                                            their rankings or mislead users in or-
+                                                                            der to preserve the accuracy and qual-
+                                                                            ity of our search results.”1
+                                                                                This article examines some of the
+
+
+
+
+Practices in
+                                                                            techniques that can lead the search
+                                                                            engines to ban a site—so called “black
+                                                                            hat” techniques. It is important for all
+                                                                            webmasters and those that outsource
+
+
+
+
+Search Engine
+                                                                            their search engine optimization pro-
+                                                                            grams to understand these techniques
+                                                                            and the impact they can have on search
+                                                                            engine placement. One problem faced
+
+
+
+
+Optimization
+                                                                            by legitimate sites is that black hat sites
+                                                                            may rank well for short periods of time
+                                                                            (before they are banned). High-ranking
+                                                                            black hat sites will push legitimate sites
+                                                                            down in the SERPs. In fact, many black
+                                                                            hats make a living by automatically
+                                                                            generating thousands of sites that rank
+Many online companies have become aware of the                              well for a short period of time. Many of
+                                                                            these sites make only a few cents a day,
+importance of ranking well in the search engines. A                         but multiplied by thousands or tens of
+recent article reveals that 62% of search engine users                      thousands of sites, it adds up to a lucra-
+                                                                            tive business.
+click only on results that appear on the first search                           Another problem is that many black
+engine results page (SERP) and less than 10% of users                       hat optimizers openly steal content
+click on results that appear after the third page.3                         from legitimate sites. A thriving con-
+                                                                            sulting business has sprung up to pro-
+  In order to place well in the SERPs companies have                        vide search engine optimization servic-
+begun to use search engine optimization techniques                          es. While many consultants use “white
+                                                                            hat” methods (those that are not likely
+(SEO). That is they manipulate the site’s content and                       to lead to a penalty or ban), some use
+meta tags, as well as attempt to attract incoming links                     black hat techniques. For example, ac-
+from other sites. However, certain SEO techniques                           cording to Google insider Matt Cutts’
+                                                                            Blog2 the SEO consulting company Traf-
+directly violate the guidelines published by the search                     fic Power was banned from the Google
+engines. While the specific guidelines vary a bit, they                     index. In addition, Google also banned
+                                                                            Traffic Powers’ clients. The worst black
+can all be summed up as: show the same content to                           hat optimizers use techniques aimed
+search engines as you show to users.                                        at having their competition penalized
+  Failure to conform to search engine guidelines can                        or banned by the search engines.
+                                                                                We discuss search engine optimiza-
+lead to penalties, such as worse placement in the                           tion, then examine black hat indexing
+SERPs or an outright ban from the search engine.                            techniques, followed by on-page and
+                                                                            off-page methods. We also discuss how
+Consider the case of BMW’s German Web site (www.                            black hat optimizers manipulate the
+bmw.de). On February 7, 2006, Google banned this                            rankings of their competitors.
+site for using a “doorway” page, essentially showing
+                                                                            Search Engine Optimization
+one page to the search engines and a different page to                      A search engine is simply a database of
+humans. According to a Google spokesperson,                                 Web pages, a method for finding Web
+
+                                                Dec e mb e r 2 0 0 8 | vo l. 51 | n o. 1 2 | c om m u n ic at ion s of t h e acm   147
+contributed articles
+
+  pages and indexing them, and a way to                   Black Hat                      Figure 1. Cloaking
+  search the database. Search engines                     Indexing Tricks
+  rely on spiders — software that follows                 One of the primary tricks
+  hyperlinks — to find new Web pages to                   black hat SEOs use to at-
+  index and insure that pages that have al-               tract search engine spiders
+  ready been indexed are kept up to date.                 is called Blog-ping (BP).
+      According to Wikipedia,6 “Search                    This technique consists of
+  engine optimization (SEO) is a set of                   establishing hundreds or
+  methods aimed at improving the rank-                    even thousands of Blogs.
+  ing of a Web site in search engine list-                The optimizer then posts
+  ings…” These methods include manip-                     a link to the new site on
+  ulation of dozens or even hundreds of                   each Blog. The final step
+  Web site elements. SEO can be broken                    is to continually ping the
+  into four major categories: key word/                   Blogs. Pinging automati-
+  key phrase research and selection, get-                 cally sends a message to
+  ting the search engines to index the                    a number of Blog servers
+  site, on-page optimization, and off-                    that the Blog has been
+  page optimization.                                      updated. The number
+      During the first phase a list of key                of Blogs and continuous
+  words and/or phrases are developed.                     pinging attracts the search
+                                                                                                         Figure 2. Doorway_Pages
+  These are the terms a user would type                   engine spiders that then follow the link.
+  into the search engine that would lead                      It should be noted that many white
+  to the site appearing in the SERPs. In                  hat SEOs use the BP technique in an
+  addition to developing a list of words                  ethical manner. That is, they post a link
+  and phrases, the SEO professional will                  to the new site on one (or a few) Blogs
+  usually determine how competitive                       and then ping it only after an update.
+  each term is and how often each terms                   This method has been shown to attract
+  is used in a search.                                    search engine spiders in a few days.4
+      Phase two is concerned with quickly
+  getting the search engines to index the                 On-Page Black Hat Techniques
+  site. This is usually accomplished by                   Black Hat optimizers use a variety of on-
+  submitting sites directly to the search                 page methods. Most of these are aimed
+  engines, having a site that is already in-              at providing certain content only to the
+  dexed include a link to the target site,                spiders, while actual users see com-
+  or the use of black hat methods that are                pletely different content. The reason for
+  described below.                                        this is that the content used to achieve
+      During the third step, the Webmas-                  high rankings, may not be conducive to
+  ter or SEO professional will manipulate                 good site design or a high conversion
+  various on-page components, such as                     rate (the rate at which site visitors per-
+  Meta tags, page content, and site navi-                 form a monetizing action, such as make
+  gation in order to improve the site in                  a purchase). The three main methods
+  the SERPs. For example, a number of                     that fall into this category are cloaking,
+  researchers, including Malaga,4 Rais-                   doorway pages, and invisible elements.
+  inghani,5 and Zhang and Dimitroff8                         The purpose of cloaking is to achieve
+  have found that sites that make proper                  high rankings on all of the major search     If the requestor is not a spider the nor-
+  use of Meta tags achieve better search                  engines. Since each search engine uses a     mal Web page is served.
+  engine results. Zhang and Dimitroff8                    different ranking algorithm, a page that         The goal of doorway pages is to
+  also found that sites with key words                    ranks well on one may not necessarily        achieve high rankings for multiple key-
+  that appear in both the site title and                  rank well on the others. Since users will    words or terms. The optimizer will cre-
+  throughout the site’s text achieve better               not see a cloaked page, it can contain       ate a separate page for each keyword or
+  search engine rankings than sites that                  only optimized text — no design ele-         term. Some optimizers use hundreds
+  only optimize the title.                                ments are needed. So the black hat opti-     of these pages. Doorway pages typically
+      Finally, the major search engines all               mizer will set up a normal Web site and      use a fast meta refresh to redirect users
+  consider the number and relevance of                    individual, text only, pages for each of     to the main page (see Figure 2). A meta
+  links from external sites to the target site.           the search engines. The final step is to     refresh is an HTML command that au-
+  Therefore, SEO projects usually include a               monitor requesting IP addresses. Since       tomatically switches users to another
+  link building phase (also called off-page               the IP addresses for most of the major       pages after a specified period of time.
+  optimization). During this phase opti-                  search engine spiders are well known,        Meta refresh is typically used on out of
+  mizers request links from Webmasters                    the optimizer can serve the appropriate      date Web pages – for example you might
+  and may use link building programs.                     page to the correct spider (see Figure 1).   see a page that states “you will be taken
+
+  148   com municatio ns o f th e ac m   | D ec em ber 2008 | vo l . 5 1 | n o. 1 2
+                                                                                                                            contributed articles
+
+to the new page after 5 seconds” A fast          Black hat optimizers might also cre-                    Bowling the Competition
+meta refresh occurs almost instantly,         ate or make use of existing link farms.                    One of the most insidious black hat
+so the user is not aware of it. All of the    A link farm is a group of pages created                    methods is manipulating competi-
+major search engines now remove pag-          for the sole purpose of containing links                   tors’ search engine results. The result
+es that contain meta refresh. Of course,      to each other. Link farms are usually                      is a search engine penalty or outright
+the black hats have fought back with a        created using automated tools.                             ban (a term black hatters call bowl-
+variety of other techniques, including           One popular off-site black hat meth-                    ing). The incentive for this type of be-
+the use of Javascript, PHP, and other         od is HTML injection, which allows                         havior is fairly obvious. If a black hat
+Web programming tools. This is the            optimizers to insert a link in search                      site is ranked third for a key term, the
+specific technique that caused Google         programs that run on another site.                         optimizer who can get the top two sites
+to ban bmw.de and ricoh.de.                   For example, WebGlimpse is a Web                           banned will be ranked first.
+    Invisible content is not new, but has     site search program widely used on                             There are a number of techniques
+been revived recently. Early optimizers       academia and government Web sites.                         that can be used for bowling. For in-
+used HTML elements such as the same           The Stanford Encyclopedia of Philoso-                      stance, the HTML injection approach
+foreground and background colors, or          phy Web site located at plato.stanford.                    discussed above can be used to change
+very small fonts to add invisible content     edu, which has a Google page rank of                       the content that appears on a competi-
+to their sites. However, the search en-       8 (links from sites with a high page                       tor’s site. If a black hat optimizer is tar-
+gines quickly caught on to these tech-        rank are highly valued), uses the Web-                     geting a site that sells computers, for
+niques and began to penalize sites that       Glimpse package. So an optimizer that                      example, the HTML injected might be
+used them. More recently optimizers           would like a link from this authority                      <h1>computer, computer, computer…
+have taken to using cascading style sheets    site could simply navigate to                              The extensive use of keywords over and
+(CSS) to hide elements. The elements the         http://plato.stanford.edu/cgi-bin/                      over again is almost guaranteed to lead
+optimizer wants to hide are placed within     webglimpse.cgi?nonascii=on&query=                          to a penalty or outright ban in all the
+hidden div tags. Google, for one, has be-     %22%3E%3Ca+href%3Dhttp%3A%2F                               major search engines.
+gun removing content contained within         %2F##site##%3E##word##%3C%                                     Since the major search engines, and
+hidden div tags from its index. However,      2Fa%3E&rankby=DEFAULT&errors=0                             Google in particular, use the quality
+this may cause a problem for legitimate       &maxfiles=50&maxlines=30&maxchar                           of the links coming into a site to de-
+Web site developers who use hidden divi-      s=10000&ID=1.                                              termine rankings, black hat optimiz-
+sions for design purposes.                       The optimizer then replaces                             ers manipulate these links in order to
+    Black hat optimizers also make use        ##site## with the target site’s URL                        negatively impact competitors. For in-
+of tools that allow them to automati-         and ##word## with the anchor text.                         stance, a black hat might request links
+cally generate thousands of Web pages                                                                    to the competitor’s site from link farms,
+very quickly. These so-called content          SEO Glossary                                              gambling sites, or adult oriented sites.
+generators actually search the Web for         Blog-ping (BP) – a method for attracting search
+                                                                                                         Links from these bad neighborhoods
+keywords and terms specified by the op-        engine spiders that involves the creation of              result in penalties and bans.
+timizer. The software then basically cop-      hundreds (or even thousands) of Blogs and then
+                                               continuously pinging Blog servers (telling the
+ies content from other sites and includes      servers that the Blog has been updated).                  Conclusion
+it in the new one. Content generators          Bowling – techniques used to cause competitors            Clearly the growth and popularity of
+                                               to receive a search engine penalty or ban.
+represent a problem for legitimate Web         Cloaking – a technique that shows one set of              Web search is an indication that Web-
+owners as their original content may be        Web pages to search engines and another set to            masters and online marketers must
+                                               humans.
+copied extensively. Since some search          Content generator – software that searches the            consider search engine optimization
+engines penalize duplicate content, le-        Web for specified content and then copies that            as part of their overall marketing plans.
+                                               content into a new Web page.
+gitimate sites may also be penalized.          Doorway pages – a set of Web pages, each of
+                                                                                                         However, those that pursue SEO are up
+                                               which is optimized for a particular keyword.              against an arsenal of black hat tech-
+Off-page Black Hat Techniques                  Each page redirects users to a Web page de-               niques. In addition, even those opti-
+                                               signed for humans.
+All of the major search engines consid-        HTML injection – occurs when a user exploits              mizers who try to stay on the white hat
+er the number and quality of incoming          a security vulnerability in Web site search pro-          side may find that they have inadver-
+                                               grams, by sending the program a search string
+links to a site as part of their algorithm.    which contains special HTML characters. These             tently crossed the line leading to penal-
+Links are especially important for rank-       characters cause the insertion of data specified          ties or even a ban.
+                                               by the user into the site.
+ing well on Google. Therefore, black           Meta refresh – an HTML meta tag used to redi-                 So, how should one proceed with
+hat optimizers use a variety of methods        rect users to a different Web page after a certain        SEO? When hiring an SEO consultant
+to increase their site’s back links (links     amount of time. A fast meta refresh redirects
+                                               the user with no time delay.
+                                                                                                         there are a number of factors to consid-
+from other sites).                             Meta tag – HTML tags placed in the header                 er and questions to ask. First, see how
+    One of the simplest black hat link-        section of a Web page that provides that provides         the consultant or company ranks for
+                                               metadata about the page.
+ing techniques is guest book spam-             Search engine optimization (SEO) – methods                the term “search engine optimization”
+ming. Optimizers simply look for guest         aimed at manipulating a Web site and links to a           on the major search engines. Obviously,
+                                               Web site for the purpose of improving the site’s
+book programs running on authority             ranking on the search engine results pages.               if a consultant cannot rank well for their
+(usually .edu or .gov) sites. They then        Search engine results page (SERP) – the listing           own site, it is not likely that they will suc-
+                                               of Web pages returned by a specific query on a
+simply add a new entry with their link         search engine
+                                                                                                         ceed with your site. Second, you choose
+in the comments area.                                                                                    the key words and terms you want to
+
+                                                                             Dec e mb e r 2 0 0 8 | vo l. 51 | n o. 1 2 | c om m u n ic at ion s of t h e acm   149
+contributed articles
+
+  rank well for. While a good SEO consul-
+  tant may make recommendations, you
+  must make the final decisions. Many
+  unscrupulous consultants guarantee a
+  high ranking, but you may find that the
+  key words are not very competitive or
+  searched for often. Third, do not turn
+  over your site to a consultant. The con-
+  sultant should recommend changes,
+  but black hats have been known to in-
+  sert too many key words and even add
+  automated software to sites to connect
+  them to link farms. Finally, get referenc-
+  es. Be sure to ask about specific results
+  and return on investment.
+     Of course there is no requirement to
+  hire an outside consultant. Many sites
+  have done very well handling their SEO
+  in-house. There are numerous online
+  resources, such as www.seochat.com,
+  www.searchenginewatch.com, and fo-
+  rums.digitalpoint.com that provide a
+  wealth of excellent information on SEO.
+     While they might like to, Webmas-
+  ters cannot simply ignore black hat
+  optimization. Black hat methods may
+  lead to worse rankings for white hat
+  sites – through black hat sites that rank
+  well temporarily and techniques aimed
+  at bowling sites. In addition, white hats
+  should not ignore black hat approach-
+  es as they can learn or adapt new SEO
+  methods from them. For example, many
+  white hat optimizers have successfully
+  used the Blog and ping approach, in
+  a more moderate manner, to achieve
+  quick search engine indexing.
+
+  References
+  1. CNN. Google blacklists BMW Web site. (Feb. 7, 2006);
+     www.cnn.com/2006/BUSINESS/02/07/google/
+  2. Cutts, M. Confirming a penalty. (Feb. 11, 2006);
+     www.mattcutts.com/blog/confirming-a-penalty/
+  3. iProspect. iProspect Search Engine User Behavior
+     Study. www.iprospect.com/premiumPDFs/
+     WhitePaper_2006_SearchEngineUserBehavior/
+  4. Malaga, R.A. The value of search engine optimization –
+     An action research project at a new e-commerce site,
+     Electronic Commerce in Organizations, 5, 3, (2007),
+     68-82.
+  5. Raisinghani, M. Future trends in search engines,
+     Electronic Commerce in Organizations. (Jul-Sep 2005)
+     3, 3.
+  6. Wikipedia. Search Engine Optimization. en.wikipedia.
+     org/wiki/Search_engine_optimization/
+  7. Zhang, J. and Dimitroff, A. The impact of metadata
+     implementation on webpage visibility in search
+     engine results (Part II). Information Processing and
+     Management 41 (2005). 691-715.
+  8. Zhang, J. and Dimitroff, A. The impact of webpage
+     content characteristics on webpage visibility in search
+     engine results (Part I). Information Processing and
+     Management 41 (2005) 665-690.
+
+
+  Ross A. Malaga (malagar@mail.montclair.edu) is an
+  Associate Professor in the School of Business at Montclair
+  State University in Montclair, NJ.
+
+  © 2008 ACM 0001-0782/08/1200 $5.00
+
+
+
+  150    com municatio ns o f th e acm         | D ec em ber 2008 | vo l . 5 1 | n o. 1 2
+
