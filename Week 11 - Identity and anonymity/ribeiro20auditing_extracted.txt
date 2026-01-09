@@ -1,0 +1,862 @@
+                           Auditing Radicalization Pathways on YouTube
+             Manoel Horta Ribeiro∗                                                 Raphael Ottoni                                        Robert West
+                      EPFL                                                             UFMG                                                  EPFL
+           manoel.hortaribeiro@epfl.ch                                            rapha@dcc.ufmg.br                                   robert.west@epfl.ch
+
+                                             Virgílio A. F. Almeida                                           Wagner Meira Jr.
+                                          UFMG, Berkman Klein Center                                               UFMG
+                                             virgilio@dcc.ufmg.br                                             meira@dcc.ufmg.br
+
+ABSTRACT                                                                                              1   INTRODUCTION
+Non-profits, as well as the media, have hypothesized the existence                                    Video channels that discuss social, political and cultural subjects
+of a radicalization pipeline on YouTube, claiming that users system-                                  have flourished on YouTube. Frequently, the videos posted in such
+atically progress towards more extreme content on the platform.                                       channels focus on highly controversial topics such as race, gender,
+Yet, there is to date no substantial quantitative evidence of this                                    and religion. The users who create and post such videos span a wide
+alleged pipeline. To close this gap, we conduct a large-scale audit of                                spectrum of political orientation, from prolific podcast hosts like
+user radicalization on YouTube. We analyze 330,925 videos posted                                      Joe Rogan to outspoken advocates of white supremacy like Richard
+on 349 channels, which we broadly classified into four types: Media,                                  Spencer. These individuals not only share the same platform but
+the Alt-lite, the Intellectual Dark Web (I.D.W.), and the Alt-right. Ac-                              often publicly engage in debates and conversations with each other
+cording to the aforementioned radicalization hypothesis, channels                                     on the website [24]. This way, even distant personalities can be
+in the I.D.W. and the Alt-lite serve as gateways to fringe far-right                                  linked in chains of pairwise co-appearances. For instance, Joe Rogan
+ideology, here represented by Alt-right channels. Processing 72M+                                     interviewed YouTuber Carl Benjamin [35], who debated with white
+comments, we show that the three channel types indeed increas-                                        supremacist Richard Spencer [6].
+ingly share the same user base; that users consistently migrate                                          According to Lewis [24], this proximity may create “radicaliza-
+from milder to more extreme content; and that a large percentage                                      tion pathways” for audience members and content creators. Exam-
+of users who consume Alt-right content now consumed Alt-lite                                          ples of these journeys are plenty, including content creator Roosh
+and I.D.W. content in the past. We also probe YouTube’s recom-                                        V’s trajectory from pick-up artist to Alt-right supporter [23, 37] and
+mendation algorithm, looking at more than 2M video and channel                                        Caleb Cain’s testimony of his YouTube-driven radicalization [36].
+recommendations between May/July 2019. We find that Alt-lite con-                                        The claim that there is a “radicalization pipeline” on YouTube
+tent is easily reachable from I.D.W. channels, while Alt-right videos                                 should be considered in the context of decreasing trust in main-
+are reachable only through channel recommendations. Overall, we                                       stream media and increasing influence of social networks. Across
+paint a comprehensive picture of user radicalization on YouTube.                                      the globe, individuals are skeptical of traditional media vehicles
+                                                                                                      and growingly consume news and opinion content on social me-
+CCS CONCEPTS                                                                                          dia [21, 31]. In this setting, recent research has shown that fringe
+• Human-centered computing → Empirical studies in collab-                                             websites (e.g., 4chan) and subreddits (e.g., /r/TheDonald) have great
+orative and social computing.                                                                         influence over which memes [43] and news [44] are shared in large
+                                                                                                      social networks, such as Twitter. YouTube is extremely popular,
+KEYWORDS                                                                                              especially among children and teenagers [5], and if the streaming
+                                                                                                      website is actually radicalizing individuals this could push fringe
+Radicalization, hate speech, extremism, algorithmic auditing
+                                                                                                      ideologies like white supremacy further into the mainstream [41].
+ACM Reference Format:                                                                                    A key issue in dealing with topics like radicalization and hate
+Manoel Horta Ribeiro, Raphael Ottoni, Robert West, Virgílio A. F. Almeida,                            speech is the lack of agreement over what is “hateful” or “ex-
+and Wagner Meira Jr.. 2020. Auditing Radicalization Pathways on YouTube.
+                                                                                                      treme” [38]. A workaround is to perform analyses based on com-
+In Conference on Fairness, Accountability, and Transparency (FAT* ’20), Jan-
+uary 27–30, 2020, Barcelona, Spain. ACM, New York, NY, USA, 11 pages.
+                                                                                                      munities, large sets of loosely associated content creators (here
+https://doi.org/10.1145/3351095.3372879                                                               represented by their YouTube channels). For the purpose of this
+                                                                                                      work, we consider three “communities” that have been associated
+∗ Work done mostly while at UFMG.
+                                                                                                      with user radicalization [24, 36, 42] and that differ in the extremity
+                                                                                                      of their content: the “Intellectual Dark Web” (I.D.W.), the “Alt-lite”
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed                 and the “Alt-right”. While users in the I.D.W. discuss controversial
+for profit or commercial advantage and that copies bear this notice and the full citation             subjects like race and I.Q. [42] without necessarily endorsing ex-
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+                                                                                                      treme views, members of the Alt-right sponsor fringe ideas like
+republish, to post on servers or to redistribute to lists, requires prior specific permission         that of a white ethnostate [18]. Somewhere in the middle, individ-
+and/or a fee. Request permissions from permissions@acm.org.                                           uals of the Alt-lite deny to embrace white supremacist ideology,
+FAT* ’20, January 27–30, 2020, Barcelona, Spain
+                                                                                                      although they frequently flirt with concepts associated with it (e.g.,
+© 2020 Copyright held by the owner/author(s). Publication rights licensed to ACM
+ACM ISBN 978-1-4503-6936-7/20/02. . . $15.00                                                          the “Great Replacement”, globalist conspiracies).
+https://doi.org/10.1145/3351095.3372879
+
+
+
+
+                                                                                                131
+FAT* ’20, January 27–30, 2020, Barcelona, Spain                                                                                       Horta Ribeiro et al.
+
+
+Present work. In this paper, we audit whether users are indeed                   This is, to our best knowledge, the first large scale quantitative
+becoming radicalized on YouTube and whether the recommenda-                   audit of user radicalization on YouTube. We find strong evidence
+tion algorithms contribute towards this radicalization. We do so              for radicalization among YouTube users, and that YouTube’s recom-
+by examining three prominent communities: the Intellectual Dark               mender system enables Alt-right channels to be discovered, even
+Web, the Alt-lite and the Alt-right. More specifically, considering           in a scenario without personalization. We discuss our findings and
+Alt-right content as a proxy for extreme content, we ask:                     our limitations further in Sec. 8. We argue that commenting users
+                                                                              are a good enough proxy to measure the user radicalization, as
+RQ1 How have these channels grown on YouTube in the last                      more extreme content seems to beget more comments. Moreover,
+    decade?                                                                   regardless of the degree of influence of the recommender system in
+RQ2 To which extent do users systematically gravitate towards                 the process of radicalizing users, there is significant evidence that
+    more extreme content?                                                     users are reaching content sponsoring fringe ideologies from the
+RQ3 Do algorithmic recommendations steer users towards more                   Alt-lite and the Intellectual Dark Web.
+    extreme content?
+
+We develop a data collection process where we (i) acquire a large
+pool of relevant channels from these communities; (ii) collect meta-          2    BACKGROUND
+data and comments for each of the videos in the channels; (iii) an-           Contrarian communities. We discuss three of YouTube’s promi-
+notate channels as belonging to several different communities; and            nent communities: the Intellectual Dark Web, the Alt-lite and the
+(iv) collect YouTube video and channel recommendations. We also               Alt-right. We argue that all of them are contrarians, in the sense
+collect traditional and alternative media channels for additional             that they often oppose mainstream views or attitudes. According
+comparisons. We use these as a sanity check to capture the growth             to Nagle, these communities flourished in the wave of “anti-PC”
+of other content on YouTube, rather than trying to obtain similar             culture of the 2010s, where social-political movements (e.g. the
+users in other channels. These efforts resulted in a dataset with             transgender rights movement, the anti-sexual assault movement)
+more than 72M comments in 330,925 videos of 349 channels and                  were portrayed as hysterical, and their claims, as absurd [30].
+with more than 2M video and 10K channel recommendations. Im-                      According to the Anti Defamation League [3], the Alt-Right is a
+portantly, our recommendations do not account for personalization.            loose segment of the white supremacist movement consisting of
+We analyze this large dataset extensively:                                    individuals who reject mainstream conservatism in favor of politics
+                                                                              that embrace racist, anti-Semitic and white supremacist ideology.
+     • We look at the growth of the I.D.W., the Alt-lite and the              The Alt-right skews younger than other far-right groups, and has
+       Alt-right throughout the last decade in terms of videos, likes         a big online presence, particularly on fringe web sites like 4chan,
+       and views, finding a steep rise in activity and engagement             8chan and certain corners of Reddit [2].
+       in the communities of interest when compared with the                      The term Alt-lite was created to differentiate right-wing activists
+       media channels. Moreover, comments per view seem to be                 who deny embracing white supremacist ideology. Atkison argues
+       particularly high in more extreme content, reaching near to            that the Unite the Rally in Charlottesville was deeply related to this
+       1 comment for every 5 views in Alt-right channels in 2018              change, as participants of the rally revealed the movement’s white
+       (Sec. 4).                                                              supremacist leanings and affiliations [8]. Alt-right writer and white
+     • We inspect the intersection of commenting users across the             supremacist Greg Johnson [3] describes the difference between
+       communities, finding they increasingly share the same user             Alt-right and Alt-lite by the origin of its nationalism: "The Alt-
+       base. Analyzing the overlap between the sets of comment-               lite is defined by civic nationalism as opposed to racial nationalism,
+       ing users, we find that approximately half of the users who            which is a defining characteristic of the Alt-right". This distinction
+       commented on Alt-right channels in 2018 also comment on                was also highlighted in [28]. Yet it is important to point out that
+       Alt-lite and on I.D.W. channels (Sec. 5).                              the line between the Alt-right and the Alt-lite is blurry [3], as
+     • We also find that the intersection is not only growing due             many Alt-liters are accused of dog-whistling: attenuating their real
+       to new users but that there is significant user migration              beliefs to appeal to a more general public and to prevent getting
+       among the communities being studied. Users that initially              banned [22, 25]. To address this problem, in this paper we take
+       comment only on content from the I.D.W. or the Alt-lite                a conservative approach to our labeling, naming only the most
+       throughout the years consistently start to comment on Alt-             extreme content creators as Alt-right.
+       right content. These users are a significant fraction of the               The “Intellectual Dark Web” (I.D.W.) is a term coined by Eric
+       Alt-right commenting user base. This effect is much stronger           Weinstein to refer to a group of academics and podcast hosts [42].
+       than for the large traditional and alternative media channels          The neologism was popularized in a New York Times opinion arti-
+       we collected (Sec. 6).                                                 cle [42], where it is used to describe “iconoclastic thinkers, academic
+     • Lastly, we take a look at the impact of YouTube’s recommen-            renegades and media personalities who are having a rolling con-
+       dation algorithms, running simulations on recommendation               versation about all sorts of subjects, [. . . ] touching on controversial
+       graphs. Our analyses show that, particularly through the               issues such as abortion, biological differences between men and
+       channel recommender system, Alt-lite channels are easily               women, identity politics, religion, immigration, etc.”
+       discovered from I.D.W. channels, and that Alt-right channels               The group described in the NYT piece includes, among others,
+       may be reached from the two other communities (Sec. 7).                Sam Harris, Jordan Peterson, Ben Shapiro, Dave Rubin, and Joe
+
+
+
+
+                                                                        132
+Auditing Radicalization Pathways on YouTube                                                                    FAT* ’20, January 27–30, 2020, Barcelona, Spain
+
+
+Rogan, and also mentions a website with an unofficial list of mem-               using features of the comments, the commenting users and the
+bers [7]. Members of the so-called I.D.W. have been accused of                   videos [4, 16]. Sureka et al. [39] use a seed-expanding methodology
+espousing politically incorrect ideas [9, 15, 26]. Moreover, a re-               to track extremist user communities, which yielded high precision
+cent report by the Data & Society Research Institute has claimed                 in including relevant users. This is somewhat analogous to what
+these channels are “pathways to radicalization” [24], acting as entry            we do, although we use YouTube’s recommender system while they
+points to more radical channels, such as those in Alt-right. Broadly,            use user friends, subscriptions and favorites. Ottoni et al. perform
+members of this loosely defined movement see these criticisms as                 an in-depth textual analysis of 23 channels (13 broadly defined
+a consequence of discussing controversial subjects [42], and some                as Alt-right), finding significantly different topics across the two
+have explicitly dismissed the report [40]. Similarly to what happens             groups [32]. O’Callegan et al. [33] simulate a recommender sys-
+between Alt-right and Alt-lite, there are also blurry lines between              tem with channels tweeted in an extreme right dataset. They show
+the I.D.W. and the Alt-lite, especially for non-core members, such               that a simple non-negative matrix factorization metadata-based
+as those listed on the aforementioned website [7]. To break ties, we             recommender system would cluster extreme right topics together.
+label borderline cases as Alt-lite.
+Radicalization. We consider the definition given by McCauley                     3   DATA COLLECTION
+and Moskalenko [29]: (“Functionally, political radicalization is in-             We are interested in three communities on YouTube: the I.D.W., the
+creased preparation for and commitment to intergroup conflict.                   Alt-lite, and the Alt-right. Identifying such communities and the
+Descriptively, radicalization means change in beliefs, feelings, and             channels which belong to them is no easy task: the membership of
+behaviors in directions that increasingly justify intergroup violence            channels to these communities is volatile and fuzzy, and there is
+and demand sacrifice in defense of the ingroup.”) and use increased              disagreement between how members of these communities view
+consumption of Alt-right content as a proxy for radicalization. This             themselves, and how they are considered by scholars and the media.
+is reasonable since the Alt-right’s rhetoric has been invoked by the             These particularities make our challenge multi-faceted: on one hand,
+perpetrators of some recent terrorist attacks (e.g. the Christchurch             we want to study user radicalization, and determine, for example,
+mosque shooting [27]), and since it champions ideas promoting                    if users who start watching videos by communities like the I.D.W.
+intergroup conflict (e.g. a white ethnostate [18]). Our conserva-                eventually go on to consume Alt-right content. On the other, there
+tive strategy when labeling channels is of particular importance                 is often no clear agreement on who belongs to which community.
+here: Alt-right channels are closely related to these ideas, while the               Due to these nuances, we devise a careful methodology to (a) col-
+Alt-lite/I.D.W. are given the benefit of doubt.                                  lect a large pool of relevant channels; (b) collect data and the rec-
+Auditing the web. As algorithms play an ever-larger role in our                  ommendations given by YouTube for these channels; (c) manually
+lives, it is increasingly important for researchers and society at large         labeling these channels according to the communities of interest.
+to reverse engineer algorithms’ input-output relationships [13]. Pre-            (a) For each community, we create a pool of channels as follows.
+vious large scale algorithmic auditing include measuring discrimi-               We refer to channels obtained in the i-th step as Type i channels.
+nation on AirBnB [14], personalization on web search [19] and price
+discrimination on e-commerce web sites [20]. We argue this work                   (1) We choose a set of seed channels. Seeds were extracted from the
+is an audit in the sense that it measures a troublesome phenome-                      I.D.W. unofficial website [7], Anti Defamation League’s report
+non (user radicalization) in a content-sharing social environment                     on the Alt-lite/the Alt-right [3] and Data & Society’s report on
+heavily influenced by algorithms (YouTube). Unfortunately, it is                      YouTube Radicalization [24]. We pick popular channels that
+not possible to obtain the entire history of YouTube recommenda-                      are representative of the community we are interested in. Each
+tion, so we must limit the algorithmic analyses to a time slice of                    seed was independently annotated two times and discarded
+a constantly changing black-box. Although comments may give                           in case there was any disagreement. We further detail the
+us insight into the past, it is challenging to tease apart the influ-                 annotation process later in this section.
+ence of the algorithm in previous times. Another limitation of our                (2) We choose a set of keywords related to the sub-communities.
+auditing is that we do not account for user personalization. De-                      For each keyword, we use YouTube’s search functionality and
+spite these flaws, we argue that: (i) our analyses provide answers                    consider the first 200 results in English. We then add channels
+to important questions related with impactful societal processes                      that broadly relate in topic to the community in question. For
+that are allegedly happening in YouTube (regardless of the impact                     example, for the Alt-right, keywords included both terms asso-
+of the recommender system), and (ii) our framework for auditing                       ciated with their narratives, such as The Jewish Question and
+user radicalization can be replicated through time and expanded to                    White Genocide, as well as the names or nicknames of famous
+handle personalization.                                                               Alt-righters, such as weev and Christopher Cantwell.
+Previous research from/on YouTube. Previous work by Google                        (3) We iteratively search the related and featured channels col-
+sheds light into some of the high-level technicalities of YouTube’s                   lected in steps (1) and (2), adding relevant channels (as defined
+recommender system [11, 12]. Their latest paper indicates they                        in 2). Note that these are two ways channel can link to each
+use embeddings for video searches and video histories as inputs                       other. Featured channels may be chosen by YouTube content
+for a dense neural network [12]. There also exists a large body of                    creators: if your friend has a channel and you want to support
+work studying violent [16], hateful or extremist [4, 39] and dis-                     it, you can put it on your "Featured Channels" tab. Related
+turbing content [34] on the platform. Much of the existing work                       channels are created by YouTube’s recommender system.
+focuses on creating detection algorithms for these types of content               (4) We repeat step (3), iteratively collecting another hop of fea-
+                                                                                      tured/recommended channels from those obtained in (3).
+
+
+
+
+                                                                           133
+FAT* ’20, January 27–30, 2020, Barcelona, Spain                                                                                                Horta Ribeiro et al.
+
+
+                 Table 1: Top 16 YouTube channels with the most views per each community and for media channels.
+
+             Alt-right                            Views   Alt-lite              View     Intellectual Dark Web     Views    Media                  Views
+       1     James Allsup                         62M     StevenCrowder         727M     PowerfulJRE               1B       vox                    1B
+       2     Black Pigeon Speaks                  50M     Rebel Media           405M     JRE Clips                 717M     gq magazine            1B
+       3     ThuleanPerspective                   45M     Paul Joseph Watson    356M     PragerUniversity          635M     vice news              1B
+       4     Red Ice TV                           42M     MarkDice              334M     The Daily Wire            247M     wired magazine         1B
+       5     The Golden One                       12M     SargonofAkkad100      258M     The Rubin Report          206M     vanity fair            639M
+       6     AmRenVideos                          9M      Stefan Molyneux       193M     ReasonTV                  138M     the verge              636M
+       7     NeatoBurrito Productions             7M      hOrnsticles3          145M     JordanPetersonVideos      90M      glamour magazine       620M
+       8     The Last Stand                       7M      MILO                  133M     Bite-sized Philosophy     62M      business insider       523M
+       9     MillennialWoes                       6M      Styxhexenhammer666    132M     Owen Benjamin             35M      huffington post        329M
+       10    Mark Collett                         6M      OneTruth4Life         112M     AgatanFoundation          33M      today i found out      328M
+       11    AustralianRealist                    5M      No Bullshit           104M     Essential Truth           32M      cbc news               324M
+       12    Jean-François Gariépy                5M      SJWCentral            90M      Ben Shapiro               30M      the guardian           300M
+       13    Prince of Zimbabwe                   5M      Computing Forever     87M      YAFTV                     30M      people magazine        287M
+       14    The Alternative Hypothesis           5M      The Thinkery          86M      joerogandotnet            25M      big think              258M
+       15    Matthew North                        4M      Bearing               81M      TheArchangel911           24M      cosmopolitan           256M
+       16    Faith J Goldy                        4M      RobinHoodUKIP         64M      Clash of Ideas            24M      global news            252M
+
+
+The annotation process done here followed the same instructions as                          website with some of the alleged members of the group [7].
+the one explained in detail for data collection step (c). Steps (2)—(4),                    Yet, we ask you to consider the label holistically, including
+were done by a co-author with more than 50 hours of watch-time                              channels that have content from these creators and with a
+of the communities of interest. Notice that, in steps (2)—(4), we                           similar spirit to also belong in this category. To distinguish
+are not labeling the channels, but creating a pool of channels to be                        between the Alt-right and the Alt-lite, read [3] and [28]. It
+                                                                                            is important to stress the difference between civic national-
+further inspected and labeled in subsequent steps. The complete
+                                                                                            ism and racial nationalism in that case. Please consider the
+list of seeds obtained from (1) and of keywords used in (2) may                             Alt-right label only to the most extreme content. You are
+be found in Appendix A. A clear distinction between featured and                            encouraged to search on the internet for the name of the
+recommended channels may be found in Appendix B.                                            content creator to help you make your decision.
+(b) For each channel, we collect the number of subscribers and
+views, and for their videos, all the comments and captions. Video                    The annotation process lasted for 3 weeks. In case they disagreed,
+and channel recommendations were collected separately using                          they had to discuss the cases individually until a conclusion was
+custom-made crawlers. We collected multiple "rounds" of recom-                       reached. Interanotator agreement was of 75.57% (95% CI [67.5, 82.5]).
+mendations, 22 for channel recommendations and 19 for video                          We ended up with 85 I.D.W., 112 Alt-lite and 84 Alt-right channels.
+recommendations. Each "round" consists of collecting all recom-                      Media. We also collect popular media channels. These were ob-
+mended channels (on the channel web page) and all recommended                        tained from the mediabiasfactcheck.com [1]. For each media source
+videos (on the video web page). To circumvent possible location                      of the categories on the website (Left, Left-Center, Center, Right-
+bias in the data we collected we used VPNs from 7 different loca-                    Center, Right) we search for its name on YouTube and consider it if
+tions: 3 in the USA, 2 in Canada, 1 in Switzerland and 1 in Brazil.                  there is a match in the first page of results [1]. Some of the channels
+Moreover, channels were always visited in random order, to prevent                   were not considered because they had too many videos (15, 000+)
+any biases from arising from session-based recommendations. As                       and we were not able to retrieve them all (which is important, be-
+we extensively discuss throughout the paper, this does not include                   cause our analyses are temporal). In total, we collect 68 channels
+personalization, as we do not log in into any account.                               that way. We use these media channels as a sanity check to capture
+(c) Channel labeling was done in multiple steps. All channels are                    general trends among more mainstream YouTube channels.
+either seeds (Type 1) or obtained through YouTube’s recommen-                           We summarize the dataset collected in the Tab. 2. Data collection
+dation/search engine (Types 2 and 3). Notice that Type 1 channels                    was performed during the 19-30th of May 2019, and the collection
+were assigned labels at the time of their collection. For the others,                of the recommendations between May-July 2019.
+we had 2 of the authors annotate them carefully. They both had
+significant experience with the communities being studied, and
+were given the following instructions:
+        Carefully inspect each one of the channels in this table, tak-                               Table 2: Overview of our dataset.
+        ing a look at the most popular videos, and watching, alto-
+        gether, at least 5 minutes of content from that channel. Then
+                                                                                       Channels                     349    Video Recs rounds                19
+        you should decide if the channel belongs to the Alt-right, the
+                                                                                       Videos                   330,925    Video Recs                2,474,044
+        Alt-lite, the Intellectual Dark Web (I.D.W.), or whether you
+                                                                                       Comments              72,069,878    Channel Recs Rounds              22
+        think it doesn’t fit any of the communities. To get a grasp
+                                                                                       Commenting users       5,980,709    Channel Recs                 14,283
+        on who belongs to the I.D.W., read [42], and check out the
+
+
+
+
+                                                                               134
+Auditing Radicalization Pathways on YouTube                                                                                                                        FAT* ’20, January 27–30, 2020, Barcelona, Spain
+
+
+
+                                                                 Alt-right                  Alt-lite                 Intellectual Dark Web                         Media
+            (a) Active Channels                        (b) Videos Published                            (c) Like Count                              (d) View Count                          (e) Comment Count
+                                           100K                                        100M                                            10B
+ 100
+                                                                                           1M                                                                                      1M
+                                               1K                                                                                      10M
+    50                                                                                     10K
+                                                                                                                                       10K                                         10K
+                                                10                                         100
+     0
+         08 09 10 11 12 13 14 15 16 17 18 19         08 09 10 11 12 13 14 15 16 17 18 19         08 09 10 11 12 13 14 15 16 17 18 19         08 09 10 11 12 13 14 15 16 17 18 19         08 09 10 11 12 13 14 15 16 17 18 19
+               (f) Likes/Video                            (g) Views/Video                        (h) CCDF Videos Pub.                          (i) Comments/Video                           (j) Comments/View
+                                                                                       100%
+ 2K                                        100K                                                                                        750
+                                                                                                                                                                               0.015
+                                                                                           80%
+                                                                                                                                       500
+                                                                                                                                                                               0.010
+ 1K                                            50K
+                                                                                           60%                                         250                                     0.005
+
+     0                                           0                                         40%                                           0                                      0.000
+         08 09 10 11 12 13 14 15 16 17 18 19         08 09 10 11 12 13 14 15 16 17 18 19         08 09 10 11 12 13 14 15 16 17 18 19         08 09 10 11 12 13 14 15 16 17 18 19      08 09 10 11 12 13 14 15 16 17 18 19
+
+
+Figure 1: On the top row figures (a)—(e), for each community and media channels, we have the cumulative number of active
+channels (that posted at least one video), of videos published, of likes, views and of comments. In the bottom row, we have
+engagement metrics (accumulated over time), (figures (f), (g), (i) and (j)) and the CCDF of videos published, zoomed in the
+range [40%, 100%] on the y-axis (figure (h)). Notice that for comments, we know only the year when they were published, and
+thus the CDFs granularity is coarser (years rather than seconds). The raw numbers of views, likes, videos published and more
+are shown in Appendix C
+
+
+4         THE RISE OF CONTRARIANS                                                                                    channels have more views per video, as shown in Figs. 1(g), these
+We present an overview of the channels in the communities of                                                         views are less often converted into likes and comments. Notably,
+interest, and show results about their growth in the last years,                                                     Alt-right channels have, since 2017, become the ones with the high-
+setting the stage to more in-depth analyses in later sections. Tab. 1                                                est number of comments per view, with nearly 1 comment per 5
+shows the 16 most viewed YouTubers for each of the communities                                                       views by 2018.
+and for the media channels, and Figure 1 shows information on                                                        Dormant Alt-right Channels. Although by 2013, approximately
+the number of videos published, channels created, likes, views, and                                                  the same number of channels of all three communities had become
+comments per year, as well as several engagement metrics.                                                            active (∼ 30), as it can be seen in Fig. 1(a), the number of videos
+Recent rise in activity. Figs. 1(a)—(e) show the rise in channel                                                     they published by the Alt-right was low before 2016. This can be
+creation, video publishing, likes, views, and comments in the last                                                   seen in the CCDF in Fig. 1(h): while media and Alt-lite channels had
+decade. The four latter are growing exponentially for all the commu-                                                 published nearly 40% of their content, the Alt-right had published
+nities of interest and for the media channels. Noticeably, the rise in                                               a bit more than 20%. This is not because the most popular channels
+the number of active channels is much more recent for the commu-                                                     did not yet exist: 4 out of the 5 current top Alt-right channels
+nities of interest than for media channels, as shown in Fig. 1(a). In                                                (accumulating approximately 150M views) had already been created
+mid 2015, for example, 66 out of the 68 of the media channels were                                                   by 2013. Moreover, it is noteworthy that many of the channels now
+active (posted their first video), while less than 50% of the Alt-lite,                                              dedicated to Alt-right content have initial videos related to other
+Alt-right and I.D.W. channels had done so. This growth in the com-                                                   subjects. Take for example the channel “The Golden One”, number
+munities of interest during 2015 may also be noted in Fig. 1(i), which                                               5 in Tab. 1. Most of the initial videos in the channel are about
+shows the CDF of number comments per videos, and can also be                                                         working out or video-games, with politics related videos becoming
+seen between early 2014 and late 2016 in Figs. 1(f)—(g), which show                                                  increasingly occurring. The growth in engagement metrics such as
+the number of likes and views per video, respectively. Notice that                                                   likes per video and comments per video of the Alt-right succeeds
+the number of likes and views is obtained during data collection,                                                    that of the I.D.W. and of the Alt-lite, resonating with the narrative
+and thus, it might be that older videos from those channels became                                                   that the rise of Alt-Lite and I.D.W. channels created fertile grounds
+popular later. Altogether, our data corroborates with the narrative                                                  for individuals with fringe ideas to prosper [24, 30].
+that these communities gained traction in (and fortified) Donald                                                        Although our data-driven analysis sheds light on existing nar-
+Trump’s campaign during the 2016 presidential elections [10, 17].                                                    ratives on the communities of interest, it is still impossible to de-
+Engagement. A key difference between the communities of inter-                                                       termine, from these simple CDFs, whether there is a radicalization
+est and the media channels is the level of engagement with the                                                       pipeline. To do so, in the following two sections, we dig deeper into
+videos, as portrayed by the number of likes per video, comments                                                      the relationship between these communities looking closely at the
+per video and comments per view, shown in Figs. 1 (f), (i), and                                                      users who commented on them.
+(j), respectively. For all these metrics, the communities of interest
+have more engagement than the media channels: Although media
+
+
+
+
+                                                                                                             135
+FAT* ’20, January 27–30, 2020, Barcelona, Spain                                                                                                                                     Horta Ribeiro et al.
+
+
+
+                                                                                    Alt-right            Alt-lite          I.D.W.              Media
+                                                                            Alt-right ∩ I.D.W.             Alt-right ∩ Alt-lite            Alt-lite ∩ I.D.W.
+                            (a) Commenting Users                                       (b) Self-Similarity            (c) Similarity among Communities               (d) Similarity with Media
+                                                                            30%                                       30%                                      30%
+                  1M
+       per Year
+
+
+
+
+                                                            Jaccard
+                                                                            20%                                       20%                                      20%
+
+                  10K                                                       10%                                       10%                                      10%
+
+                                                                            0%                                        0%                                       0%
+                  100
+                        08 09 10 11 12 13 14 15 16 17 18                          08 09 10 11 12 13 14 15 16 17 18          08 09 10 11 12 13 14 15 16 17 18         08 09 10 11 12 13 14 15 16 17 18
+
+                 100%                                                       75%                                       75%                                      75%
+ Comments/User
+
+
+
+
+                                                            Overlap Coef.
+
+
+                                                                            50%                                       50%                                      50%
+                  80%
+
+                                                                            25%                                       25%                                      25%
+                  60%
+                                                                            0%                                        0%                                       0%
+                        1        10        100         1k                         08 09 10 11 12 13 14 15 16 17 18          08 09 10 11 12 13 14 15 16 17 18         08 09 10 11 12 13 14 15 16 17 18
+
+
+
+Figure 2: In (a), the number of unique commenting users per year in the top plot and the CDF of comments per user for each
+one of the communities in the bottom plot. In (b)—(d) we show two similarity metrics (Jaccard and Overlap Coefficient) for
+different pairs of sets of commenting users across the years. In (b) these pairs are the sets of users of each community in
+subsequent years. In (c) these pairs are the sets of users of each one of the communities of interest. In (d) these pairs are the
+sets of users of the communities compared with the users who commented in media channels.
+
+
+5                 USER INTERSECTION                                                                                   users from the communities of interest seem to go back more often
+We begin our in-depth analysis of users who commented on the                                                          than those in media channels.
+channels of interest by analysing the intersection between the users                                                     Column (c) in Fig. 2 shows the pairwise similarity between the
+in different channels and communities. In that context, we use                                                        three communities. Notably, in 2018, the Jaccard Similarity between
+                                                      |A∩B |
+two set similarity metrics: the Jaccard Similarity |A∪B | ; and the                                                   the Alt-lite and the I.D.W. reached almost 30%, which is more than
+                                         |A∩B |
+                                                                                                                      the self-similarity between the two communities. Moreover, the
+Overlap Coefficient min(|A |, |B |) . Notice that the overlap coefficient                                             Overlap Coefficient of the Alt-right with the Alt-lite and the I.D.W
+is particularly useful to compare communities of different sizes.                                                     is high: reaching around 50% in 2018. This means around half of
+For example, a small subset of a large set may yield low Jaccard                                                      the users who commented in Alt-right channels commented in the
+Similarity, but will necessarily yield an Overlap Coefficient of 1.                                                   other communities.
+   Column (a) of Fig. 2 characterizes commenting users. The top plot                                                     Lastly, column (d) in Fig. 2 shows the similarity of the three com-
+shows the absolute number of commenting users per year, while                                                         munities with the media channels. We have that the Jaccard simi-
+the bottom one shows the CDF of the number of comments per user                                                       larity between the I.D.W. and the Alt-lite and the media channels is
+per community. It is interesting to compare these plots with that of                                                  not so different from the similarity between these communities and
+Fig. 1(e), as we can see that the communities of interest have many                                                   the Alt-right. This is a subtle finding. On one hand, it means that
+more highly active commenters. This supports the hypothesis that                                                      individuals in these communities make up a significant portion of
+users who consume content in the communities of interest are more                                                     the massive media channels we collected, which gather billions of
+"engaged" than those who consume the content from the media                                                           views. These communities do not exist in a vacuum but are part of
+channels. Notice also that, although the Alt-right commenters have,                                                   the existing online information environment. On the other, it shows
+on average, fewer comments than those in Alt-lite or the I.D.W., the                                                  that the Alt-right, a group of channels with order of magnitudes
+community is much younger (as discussed in Sec. 4), and thus it is                                                    fewer views, subscribers and comments, are actually on par with
+hard to tell whether their users are less engaged.                                                                    these large channels. Inspecting the Overlap Coefficient, however,
+   In columns (b)—(d) of Fig. 2 we consider the intersection between                                                  we get a different view: there we have that the communities overlap
+the commenting users of the I.D.W., the Alt-lite, the Alt-right and                                                   more with themselves than with the media channels, particularly
+media channels. The top figure for each column shows the Jaccard                                                      since 2015. However, in 2018, there is a sharp growth in the simi-
+Similarity and the bottom one shows the Overlap Coefficient.                                                          larity with media channels. A hypothesis for this is that, as these
+   Column (b) in Fig. 2 shows the similarity measures for a commu-                                                    channels grew more popular (as previously discussed in Sec. 4, they
+nity with itself a year before (which here we name self-similarity).                                                  became more mainstream).
+We find that the retention of users among the three communities is                                                       These analyses take us one step further in understanding the
+growing with time for both metrics. However, for media channels,                                                      communities being studied. We again see that their users are more
+we find that the Jaccard similarity is plateauing since 2014 and that                                                 engaged, and, notably, find that the I.D.W, the Alt-lite, and the
+the overlap coefficient only recently started to grow, perhaps due                                                    Alt-right increasingly share the same commenting user base.
+to the sharp increase in commenting users since 2015. Commenting
+
+
+
+
+                                                                                                                136
+Auditing Radicalization Pathways on YouTube                                                                                        FAT* ’20, January 27–30, 2020, Barcelona, Spain
+
+
+
+                                                               Exposure:               Light               Mild            Severe
+                                           Start: 2006-2012                                       Start: 2013-2015                       Start: 2016             Start: 2017
+                 12%
+ Alt-lite or
+  I.D.W.
+
+
+
+
+                 8%
+                 4%
+                 0%
+                 12%
+      Alt-lite
+
+
+
+
+                 8%
+                 4%
+                 0%
+                 12%
+      I.D.W.
+
+
+
+
+                 8%
+                 4%
+                 0%
+                 12%
+      Media
+
+
+
+
+                 8%
+                 4%
+                 0%
+                       2006-2012   2013-2015     2016         2017         2018 2013-2015         2016       2017         2018   2016         2017         2018 2017        2018
+
+
+
+Figure 3: We show how users migrate towards Alt-right content. For users who consumed only videos in the communities
+indicated by the labels in the rows (Alt-lite or I.D.W., Alt-lite, I.D.W., and Media), we show the chance that they go on to
+consume Alt-right content. We consider three levels of exposure: light (commented in 1 to 2 Alt-right videos), mild (3 to 5) and
+severe (6+). Each column tracks users on a different starting date. Initially, their exposure rates are 0 (as they did not consume
+any Alt-right content). As time passes, we show the exposure rates in the y-axis, for each of the years, in the x-axis. Line widths
+represent 95% confidence intervals.
+
+
+6           USER MIGRATION                                                                        shown in the subplot in the first column and the first row. By
+In the previous section, we showed that the commenting user bases                                 2018, around 10% were lightly exposed, and roughly 4% severely
+among the I.D.W., the Alt-lite, and the Alt-right are increasingly                                or mildly so — which amounts to approximately 9K users in total.
+similar —and the effect is stronger than for media channels. This                                 From the ones who in 2017 commented only on Alt-lite or I.D.W.
+indicates that there is a growing percentage of users consuming ex-                               videos (1,251,674 users), as shown in the last column of the first
+treme (Alt-right) content on YouTube while also consuming content                                 row, approximately 12% of them were exposed — more than 60K
+from other milder communities (Alt-lite/I.D.W.). Yet, it does not, per                            users altogether.
+se, indicate that there is a radicalization pipeline on the website. It                               We also find that media channels present lower exposure rates, as
+could be, for example, that new users who join the website go on to                               can be seen in the last row of the figure. The difference is particularly
+consume content from all three communities. To better address this                                large for the last three time brackets. Less than 1% of users in media
+question, we find users who did not comment in Alt-right content                                  channels were mildly or severely exposed, against 3% to 4% for
+in a given year and track their subsequent activity. Notice that we                               Alt-lite or I.D.W. users, and roughly 4% were lightly exposed versus
+do not have the user’s entire activity history, and thus, we track                                approximately 8% for Alt-lite or I.D.W users.
+their activity only in the channels whose videos we collected.                                        When teasing apart users that commented only on Alt-lite or
+    For four time brackets [(2006−2012), (2013−2015), (2016), (2017)]                             only on I.D.W. content, we find that, not only users who commented
+we track four sets of users: those who only commented on videos                                   only on I.D.W. get less exposed, but increasingly less so. The same
+of the Alt-lite or the I.D.W, those who did so only for videos on                                 applies to the media channels. For example, the exposure rates of
+the Alt-lite, those who did so only for videos on the I.D.W., and                                 users who watched only Alt-lite (second row) or only I.D.W. (third
+those who commented only on videos of the media channels. Then,                                   row) content are much more similar for those tracked in 2006−2012
+for subsequent years, we track the same users. Notice that when                                   (first column) than for those tracked in 2017 (last column). For users
+users are tracked for one year they are not eligible for selection                                who were tracked in 2006 − 2012, around 15% were exposed in both
+in upcoming years. We consider these users to be exposed if they                                  scenarios, while for those tracked in 2017, this difference grew
+commented on 1-2 (light), 3-5 (mild) or 6+ (severe) Alt-right videos.                             farther apart (∼ 12% Alt-lite vs. ∼ 6% I.D.W.).
+    The results for this analysis are shown in Fig. 3. We show the                                    The previous study suggests that the pipeline effect does exist,
+percentage of users we managed to track that were exposed. The                                    and that indeed, users systematically go from milder communities to
+number of users tracked and exposed at each step may be found                                     the Alt-right. However, it does not give insight into how expressive
+in Appendix C. Consider, for example, users who on 2006 − 2012                                    the effect is in terms of what part of the Alt-right user base has
+commented only on I.D.W. or Alt-lite content (227,945 users), as                                  gone through it. We address this question by tracking users exactly
+                                                                                                  as we did before, and then analyzing what percentage of exposed
+
+
+
+
+                                                                                            137
+FAT* ’20, January 27–30, 2020, Barcelona, Spain                                                                                                                             Horta Ribeiro et al.
+
+
+
+                                                       Start: 2006-2012               Start: 2013-2015                     Start: 2016                Start: 2017
+                                      Light Exposure                                        Mild Exposure                                              Severe Exposure
+                 30%    (0.0%)    (5.9%)     (20.4%)    (33.0%)   (37.8%)    (0.0%)     (7.0%)     (25.2%)    (38.9%)      (44.9%)       (0.0%)     (8.1%)    (25.1%)      (36.1%)    (43.0%)
+ Alt-lite or
+  I.D.W.
+
+
+
+
+                 20%
+                 10%
+                 0%
+                 18%    (0.0%)    (4.0%)     (10.7%)    (19.3%)   (23.2%)    (0.0%)     (4.7%)     (12.1%)    (20.9%)      (26.3%)       (0.0%)     (5.4%)    (11.8%)      (17.8%)    (23.8%)
+      Alt-lite
+
+
+
+
+                 12%
+                 6%
+                 0%
+              4.5%      (0.0%)    (1.1%)     (3.8%)     (5.2%)    (7.0%)     (0.0%)     (1.2%)     (4.2%)         (5.3%)   (6.7%)        (0.0%)     (1.3%)       (3.8%)    (4.7%)      (5.6%)
+     I.D.W.
+
+
+
+
+                 3%
+              1.5%
+                 0%
+              4.5%      (0.0%)    (2.2%)     (4.0%)     (4.3%)    (5.5%)     (0.0%)     (2.3%)     (3.7%)         (4.0%)   (4.9%)        (0.0%)     (2.5%)       (3.4%)    (3.5%)      (4.1%)
+     Media
+
+
+
+
+                 3%
+              1.5%
+                 0%
+                       2006-2012 2013-2015    2016       2017      2018     2006-2012 2013-2015        2016       2017      2018        2006-2012 2013-2015      2016       2017        2018
+
+
+
+Figure 4: We show how expressive the tracked users are in terms of the Alt-right user base. Each row shows a different condition
+for tracking users and each column shows a different level of exposure. Each line corresponds to users tracked at a different
+starting date (in the x-axis), and the y-axis shows the percentage of the total Alt-right commenting users they went to become
+(notice that all lines begin at 0, because initially they did not consume any Alt-right content).
+
+
+users at each year can be traced back to users who initially watched                                    between the Alt-lite and the I.D.W. is increasing with time, which
+content from other communities. In other terms, for each year we                                        means this population is becoming less significant.
+calculate, of the users who are exposed (i.e. who watched Alt-right                                        The experiments performed show that, not only the commenting
+videos), which percentage belongs to each one of the sets of tracked                                    user bases are becoming increasingly similar (as shown in Sec. 5),
+users we just described.                                                                                but that, systematically, users who commented only on I.D.W. or
+   The results for this analysis are shown in Fig. 4. We find that                                      Alt-lite content go on to comment on Alt-right channels. This phe-
+these users are a considerable fraction of the Alt-right comment-                                       nomenon is significant both in terms of the percentage of the users
+ing audience. In 2018, for all kinds of exposure, roughly 40% of                                        tracked — as in Fig. 3 — and in terms of the total Alt-right comment-
+commenting users can be traced back from cohorts of users that                                          ing user base — as in Fig. 4. We present the raw numbers associated
+commented only on Alt-lite or I.D.W. videos in the past. This can be                                    with these figures in Appendix D.
+seen in the first row of the plot. Moreover, we can observe that, con-
+sistently, users who consumed Alt-lite or I.D.W. content in a given                                     7     THE RECOMMENDATION ALGORITHM
+year, go on to become a significant fraction of the Alt-right user                                      In this section, we inspect the impact of YouTube’s recommendation
+base in the following year. This number is much more expressive                                         algorithm. Unfortunately, we have only a snapshot of the recom-
+than the number of users which came from media channels — in                                            mender system which does not take into account personalization.
+the last row — which never surpasses 6% for any level of exposure.                                      Thus, it is hard to reach significant conclusions on what was the
+   Looking at the second and third row of Fig. 4, we find a substan-                                    role of the recommender system in the radicalization process we
+tial difference between the I.D.W. and the Alt-lite. Whereas in Sec. 5                                  depicted in Sec. 6. Yet, we argue that analyzing these data is rele-
+we find that the intersection between them both and the Alt-right                                       vant, for it is a blueprint of how the influence of the recommender
+are similar, here we see that users who initially commented only
+on I.D.W. channels constitute a much less significant percentage
+of the Alt-right consumer base in upcoming years. For all levels                                        Table 3: Percentage of edges in-between communities in
+of exposure, at all times, the number of exposed users that can                                         the recommendation graphs (normalized per weight). Video
+be traced back to commenting exclusively on I.D.W. channels is                                          recommendations are in bold. Rows indicate the source of
+around 3 times lower. So, while in 2018, 23.3% of users who were                                        edges columns indicate their destination.
+lightly exposed can be traced back to users who commented on
+Alt-lite channels in previous years, only 7.6% can be traced back                                        Src|Dst           I.D.W.        Alt-lite    Alt-right            Media           Other
+to I.D.W. channels. Overall, in both analyses, users who consumed                                        I.D.W.       52.78/19.03     22.88/1.57        0/0.03        3.12/3.03      21.23/76.35
+only I.D.W. channel seem to behave more similarly to the users                                           Alt-L         13.69/2.46    55.15/12.70     3.38/0.13        2.82/3.24      24.96/81.47
+in the media channels. Yet, as we see in Sec. 5, the intersection                                        Alt-R         25.73/1.89     42.94/1.15    25.73/8.55        1.35/3.38      21.08/85.03
+                                                                                                         Media          4.94/0.31      4.36/0.08           0/0      28.78/14.84      61.92/84.77
+
+
+
+
+                                                                                                 138
+Auditing Radicalization Pathways on YouTube                                                                                                                               FAT* ’20, January 27–30, 2020, Barcelona, Spain
+
+
+
+                                                           Alt-right               Alt-lite                      Intellectual Dark Web                      Media               reachability@k
+                                                Start: Alt-lite                               Start: I.D.W.                                       Start: Alt-right                              Start: Media
+                                  6%                                         6%                                                    100%                                         0.01%
+              Others Alt-right
+
+
+
+
+                                  4%                                         4%                                                     75%                                         0.75%
+                                                                                                                                    50%                                          0.5%
+ Channels
+
+
+
+
+                                  2%                                         2%                                                     25%                                         0.25%
+                                   0%                                        0%                                                      0%                                            0%
+                                 100%                                      100%                                                    100%                                           10%
+                                  75%                                       75%                                                     75%                                          7.5%
+                                  50%                                       50%                                                     50%                                          5.0%
+                                  25%                                       25%                                                     25%                                          2.5%
+                                   0%                                        0%                                                      0%                                            0%
+                                        0   1      2           3   4   5           0     1       2           3       4         5          0   1       2           3   4     5           0   1      2           3   4   5
+                                                       Steps                                         Steps                                                Steps                                        Steps
+
+
+                                                                                                                         (a)
+                                                Start: Alt-lite                               Start: I.D.W.                                       Start: Alt-right                              Start: Media
+                             0.09%                                         0.09%                                                   100%                                          0.2%
+            Others Alt-right
+
+
+
+
+                             0.06%                                         0.06%                                                    75%                                         0.15%
+                                                                                                                                    50%                                          0.1%
+                             0.03%                                         0.03%                                                    25%                                         0.05%
+ Videos
+
+
+
+
+                                0%                                            0%                                                     0%                                            0%
+                              100%                                          100%                                                   100%                                            6%
+                               75%                                           75%                                                    75%                                          4.5%
+                               50%                                           50%                                                    50%                                            3%
+                               25%                                           25%                                                    25%                                          1.5%
+                                0%                                            0%                                                     0%                                            0%
+                                        0   1      2           3   4   5           0     1       2           3       4         5          0   1       2           3   4     5           0   1      2           3   4   5
+                                                       Steps                                         Steps                                                Steps                                        Steps
+
+
+                                                                                                                         (b)
+Figure 5: We show the results for the simulation of random walks for channels (a) and videos (b). We show two metrics, as
+described in the text, the probability of the walker being in a given community at each step (solid line) and the reachability at
+each step for a given community (dashed line). The different columns portray different starting rules for the initial node in
+the simulations. Error bands are 95% confidence intervals.
+
+
+system may be measured, and because it allows us to understand                                                                        Given these graphs, we experiment with random walks. The
+how the recommender system is behaving for our scenario.                                                                           random walker begins in a random node, chosen with chance pro-
+    We perform our analysis in a recommendation graph, built using                                                                 portional to the number of subscribers in each channel. Then, the
+the data collected. The graph is built as follows: for each channel,                                                               random walker randomly navigates the graph for 5 steps, choosing
+we join together all recommendations obtained in all rounds of                                                                     edges at random with probabilities proportional to their weights.
+data collection. Each channel is a node, and edges between nodes                                                                   We store the random walks and calculate two metrics: (i) the proba-
+indicate recommendations from a channel to another (for both                                                                       bility of it being in a channel from each of the communities, that is,
+video and channel recommendations). Notice that, in case there                                                                     the probability that there is a channel of a given community in the
+was a recommendation towards a channel or a video we are not                                                                       k-th step. (ii) the reachability of each of the communities at step k.
+aware of, we add an edge to a special sink node we name “Other”.                                                                   That is, at step k, the percentage of times that the random walker
+Each edge is weighted proportionally to the number of times that                                                                   has found a node of a given community. We run the simulation 10K
+recommendation appeared in the data collection, and weights are                                                                    times for scenarios where the initial node is restricted to one of the
+normalized so that outgoing edges of each node sum up to 1.                                                                        three communities or the media channels.
+    The percentage of edges between communities (normalized by                                                                        Importantly, we consider a small difference in the experimental
+their weight) is shown in Tab. 3 for channel and video recommenda-                                                                 set-up for each of the graphs. In the channel recommendation graph,
+tions. For channel recommendations, we have that media channels                                                                    we allow the random walker to choose the “Other” node. When
+are recommended scarcely by the communities of interest. In fact,                                                                  this happens the walk stops, thus at each step there is a probability
+there are more edges flowing out of media channels towards Alt-                                                                    this walk is interrupted by this — or by the fact that there are no
+lite/I.D.W. channels than the other way around. Alt-lite and I.D.W.                                                                recommended channels. In the channel recommendation graph, as
+channels recommend channels from the same community around                                                                         the number of edges to the “Other” node is too high, we do not
+50% of the time, and recommend each other around 14% (Alt-L to                                                                     allow the random walker to go towards it. Notice that the scenario
+I.D.W.) and 23% (I.D.W. to Alt-L) of the time. Alt-right channels                                                                  for the channels is more realistic, and we give more weight to the
+are only recommended by Alt-lite channels (3.08%). For video rec-                                                                  conclusions drawn there. The two aforementioned metrics, at each
+ommendations, there is a high prevalence of recommendation to                                                                      step, given different starting conditions, are shown in Fig. 5, for
+videos we were not able to track (more than 75% of outgoing edges                                                                  channel and video recommendations.
+from all communities pointed towards the “Other” node). We also                                                                       For channel recommendations, we have that the reachability@5
+find that media channels are more often recommended in this set-                                                                   of Alt-right channels is of approximately 4% for the simulations
+ting ( ∼ 3% for all communities), while the Alt-lite and the I.D.W.                                                                starting from Alt-lite 1.5% for I.D.W. channels. Moreover, starting
+recommend each other roughly 2% of the time. Lastly, Alt-right                                                                     from an I.D.W. channel, users have approximately 10% of chance of
+videos are not significantly recommended here.                                                                                     being in an Alt-lite channel at the next step, and in 5 steps, there is
+                                                                                                                                   25% of chance that the user has found at least one Alt-lite channel.
+
+
+
+
+                                                                                                                         139
+FAT* ’20, January 27–30, 2020, Barcelona, Spain                                                                                      Horta Ribeiro et al.
+
+
+Starting from the media channels, reachability@5 of I.D.W. channels             of I.D.W. and Alt-lite content [30]. We show that this migration
+is of 2.5%, and of slightly less than 1% for Alt-lite channels. These           phenomenon is not only consistent throughout the years, but also
+can be seen on the bottom row of Fig. 5 (a).                                    that it is significant in its absolute quantity. Noticeably, the find-
+    For video recommendations, reaching Alt-right channels from                 ings related to this research question make the implicit assumption
+other communities is less likely. From the Alt-lite, reachability@5             that commenting users are a good enough proxy for radicaliza-
+is of around 0.05%. Going from the I.D.W. to the Alt-lite is more               tion, and that comments in YouTube channels are supportive of
+difficult: the reachability@5 is roughly 7%. More relevant, though,             the videos they are associated with. We established the validity of
+starting from media channels, the reachability@5 of I.D.W. and                  these assumptions as follows. First, the sheer number of comments
+Alt-lite channels is of around 4.5% and 1.5% respectively. It is worth          and high prevalence of comments per views in Alt-right videos
+recalling that this experiment is less realistic than the former, as            suggest that commenting users are a population worth studying,
+here we ignore the possibility of the random walker being in a                  especially when in Sec. 4 we found that Alt-right channels have
+video we are not aware of.                                                      a very high percentage of comments per view. Secondly, during
+    Overall, we find that, in the channel recommender system, it is             the three week annotation period, it was noted that the number of
+easy to navigate from the I.D.W. to the Alt-lite (and vice-versa), and          opposing comments is rather small, as we found by manually check-
+it is possible to find Alt-right channels. From the Alt-lite we follow          ing 900 randomly selected comments (300 for each community of
+the recommender system 5 times, approximately 1 out of each 25                  interest), finding that only 5 could be interpreted as criticisms to
+times we will have spotted an Alt-right channel (as seen in Fig. 5              the videos they were associated with. Moreover, we note that the
+(a)). In the video recommender system, Alt-right channels are less              proportion of likes for the communities of interest is higher for
+recommended, but finding Alt-lite channels from the I.D.W. and                  the communities of interest (> 91% mean, > 96% median) than for
+I.D.W. channels from the large media channels in the media group is             the media channels (85% mean, 93% median), which suggests the
+also feasible. Considering the sheer amount of views the channels in            people interacting with the three communities agree with their
+the Alt-lite, the I.D.W. and the Alt-lite, these percentages, although          videos.
+low, may result in a very significant number of views towards                   RQ3. Do algorithmic recommendations steer users towards
+fringe content. This process may also be amplified when taking                  more extreme content? Our simulations suggest that YouTube’s
+personalization into account. Notice that we depict the two graphs              recommendation algorithms frequently suggest Alt-lite and I.D.W.
+in which we performed our experiments in Appendix E.                            content. From these two communities, it is possible to find Alt-right
+                                                                                content from recommended channels, but not from recommended
+                                                                                videos. Noticeably, our analysis has several shortcomings which
+8    DISCUSSION                                                                 do not allow us to make bold claims about this research question.
+We performed a through analysis of three YouTube communities                    Firstly, we are able to look only at a tiny fraction of actual recom-
+— the I.D.W., the Alt-lite, and the Alt-right — inspecting a large              mendations — it could very well be that Alt-right content was being
+dataset with millions of comments and recommendations from                      more widely promoted in the past. Secondly, our analysis does not
+thousands of videos. In this section, we discuss how the insights of            take into account personalization, which could reveal a completely
+our analyses shed light into our research questions. We also talk               different picture. Still, even without personalization, we were still
+about the limitations and potential implications of this work.                  able to find a path in which users could find extreme content from
+RQ1. How have these channels grown on YouTube in the last                       large media channels.
+decade? The three communities studied sky-rocketed in terms of                  Limitations and future work. Our work resonates with the nar-
+views, likes, videos published and comments, particularly, since                rative that there is a radicalization pipeline [36, 41]. Indeed, we
+2015, coinciding with the presidential election of that year, as shown          manage to measure traces of user radicalization using commenting
+in Sec. 4. However, this seems to be the case not only for these                users. Although we argue this is strong evidence for the existence
+communities, but also for the larger channels in the media group.               of radicalization pathways on YouTube, our work provides little
+A key difference between the communities and media channels lies                insight on why these radicalization pipelines exist. Elucidating the
+in the engagement of their users. The number of comments per                    causes of radicalization is an important direction to better under-
+view seems to be particularly high for extreme content (Sec. 4), and            stand user radicalization and the influence of social media in our
+users in all three communities are more assiduous commentators                  lives. Moreover, in this paper we focused exclusively on basic sta-
+than in the media channels (Sec. 5).                                            tistics (likes, views and comments) and on the trajectory of users,
+RQ2. To which extent do users systematically gravitate to-                      be they inferred through comments or simulated in the recommen-
+wards more extreme content? We find that the commenting user                    dation graphs. Another interesting direction would be to trace the
+bases for the three communities are increasingly similar (Sec. 5), and,         evolution of the speech of content creators and commenting users
+considering Alt-right channels as a proxy for extreme content, that             throughout the years, to study what are the narratives that arose
+a significant amount of commenting users systematically migrates                and how their tone has changed.
+from commenting exclusively on milder content to commenting on                  Acknowledgements. We gratefully acknowledge support from
+more extreme content (Sec. 7). We argue that this finding provides              the Brazilian agencies CNPq, Capes and Fapemig, from the projects
+significant evidence that there has been, and there continues to be,            Atmosphere, INCT-Cyber and MASWEB, from a Google Research
+user radicalization on YouTube, and our analyses of the activity                Award for Latin America (Manoel Horta Ribeiro). We thank Jeremy
+of these communities (Sec. 4) is consistent with the theory that                (Jimmy) Blackburn for helpful discussions.
+more extreme content “piggybacked” on the surge in popularity
+
+
+
+
+                                                                          140
+Auditing Radicalization Pathways on YouTube                                                                                           FAT* ’20, January 27–30, 2020, Barcelona, Spain
+
+
+REFERENCES                                                                                       [28] Andrew Marantz. 2017. The Alt-Right Branding War Has Torn the Movement
+ [1] [n. d.]. Media Bias/Fact Check - Search and Learn the Bias of News Media.                        in Two. (2017). https://www.newyorker.com/news/news-desk/the-alt-right-
+     https://mediabiasfactcheck.com/                                                                  branding-war-has-torn-the-movement-in-two
+ [2] ADL. [n. d.]. Glossary Terms Alt-Right. https://www.adl.org/resources/glossary-             [29] Clark McCauley and Sophia Moskalenko. 2008. Mechanisms of Political Radical-
+     terms/alt-right                                                                                  ization: Pathways Toward Terrorism. Terrorism and Political Violence (2008).
+ [3] ADL. 2019. From Alt Right to Alt Lite: Naming the Hate. https://web.archive.                [30] Angela Nagle. 2017. Kill All Normies: Online Culture Wars From 4Chan And
+     org/web/20190422202936/https://www.adl.org/resources/backgrounders/from-                         Tumblr To Trump And The Alt-Right.
+     alt-right-to-alt-lite-naming-the-hate                                                       [31] Newman Nic, Richard Fletcher, Antonis Kalogeropoulos, David AL Levy, and
+ [4] Swati Agarwal and Ashish Sureka. 2014. A Focused Crawler for Mining Hate                         Rasmus Kleis Nielsen. 2018. Reuters Institute Digital News Report 2018. Technical
+     and Extremism Promoting Videos on YouTube.. In Proceedings of the 25th ACM                       Report. Reuters Institute for the Study of Journalism.
+     Conference on Hypertext and Social Media. ACM.                                              [32] Raphael Ottoni, Evandro Cunha, Gabriel Magno, Pedro Bernardina, Wagner
+ [5] Monica Anderson and Jingjing Jiang. 2018. Teens, Social Media & Technology 2018.                 Meira Jr., and Virgílio Almeida. 2018. Analyzing Right-wing YouTube Channels:
+     Technical Report. Pew Research Center. https://www.pewinternet.org/2018/05/                      Hate, Violence and Discrimination. In Proceedings of the 10th ACM Conference on
+     31/teens-social-media-technology-2018/                                                           Web Science (WebSci ’18). ACM.
+ [6] Andywarski. 2018. Richard Spencer, Styx and Sargon Have a Chat - Andy and JF                [33] Derek O’Callaghan, Derek Greene, Maura Conway, Joe Carthy, and Pádraig
+     moderate. https://web.archive.org/web/20190616134137/https://www.youtube.                        Cunningham. 2015. Down the (White) Rabbit Hole: The Extreme Right and
+     com/watch?v=UiUH-tWHbr8                                                                          Online Recommender Systems. Social Science Computer Review (2015).
+ [7] Anonymous. [n. d.]. The Intellectual Dark Web. https://web.archive.org/web/                 [34] Kostantinos Papadamou, Antonis Papasavva, Savvas Zannettou, Jeremy Black-
+     20190407170300/http://intellectualdark.website/                                                  burn, Nicolas Kourtellis, Ilias Leontiadis, Gianluca Stringhini, and Michael Siri-
+ [8] David C. Atkinson. 2018. Charlottesville and the alt-right: a turning point?                     vianos. 2019. Disturbed YouTube for Kids: Characterizing and Detecting In-
+     Politics, Groups, and Identities (2018).                                                         appropriate Videos Targeting Young Children. arXiv:1901.07046 [cs] (2019).
+ [9] Khaled A. Beydoun. 2018. US liberal Islamophobia is rising – and more                            http://arxiv.org/abs/1901.07046
+     insidious than rightwing bigotry | Khaled A Beydoun.                The Guardian            [35] PowerfulJRE. 2017.        Sargon of Akkad - Joe Rogan Experience #979.
+     (2018). https://www.theguardian.com/commentisfree/2018/may/26/us-liberal-                        https://web.archive.org/web/20190616134332/https://www.youtube.com/
+     islamophobia-rising-more-insidious                                                               watch?v=xrBCsLsSD2E
+[10] Tyler Bridges. 2018. "Alt-Lite" Bloggers and the Conservative Ecosystem. https:             [36] Kevin Roose. 2019. The Making of a YouTube Radical. The New York Times (2019).
+     //shorensteincenter.org/alt-lite-bloggers-conservative-ecosystem/                                https://www.nytimes.com/interactive/2019/06/08/technology/youtube-radical.
+[11] Paul Covington, Jay Adams, and Emre Sargin. 2016. Deep Neural Networks                           html,https://www.nytimes.com/interactive/2019/06/08/technology/youtube-
+     for YouTube Recommendations. In Proceedings of the 10th ACM Conference on                        radical.html
+     Recommender Systems (RecSys ’16). ACM.                                                      [37] Roosh V. 2016. I Do Not Disavow Richard Spencer. https://web.archive.org/web/
+[12] James Davidson, Benjamin Liebald, Junning Liu, Palash Nandy, Taylor Van Vleet,                   20190331073037/https://www.rooshv.com/i-do-not-disavow-richard-spencer
+     Ullas Gargi, Sujoy Gupta, Yu He, Mike Lambert, Blake Livingston, and Dasarathi              [38] Andrew Sellars. 2016. Defining Hate Speech. SSRN Scholarly Paper. Social Science
+     Sampath. 2010. The YouTube Video Recommendation System. In Proceedings of                        Research Network. https://papers.ssrn.com/abstract=2882244
+     the Fourth ACM Conference on Recommender Systems. ACM.                                      [39] Ashish Sureka, Ponnurangam Kumaraguru, Atul Goyal, and Sidharth Chhabra.
+[13] Nicholas Diakopoulos. 2014. Algorithmic Accountability Reporting: On the                         2010. Mining YouTube to Discover Extremist Videos, Users and Hidden Commu-
+     Investigation of Black Boxes. (2014).                                                            nities. In Information Retrieval Technology (Lecture Notes in Computer Science).
+[14] Benjamin G. Edelman and Michael Luca. 2014. Digital Discrimination: The Case                     Springer Berlin Heidelberg.
+     of Airbnb.com. Technical Report. Social Science Research Network. https:                    [40] The Rubin Report. 2018. Eric Weinstein: The Future of The Intellectual Dark
+     //papers.ssrn.com/abstract=2377353                                                               Web. https://www.youtube.com/watch?v=tUl7-SvntQ4
+[15] Lisa W. Foderaro. 2018.          Alexandria Ocasio-Cortez Likens $10,000 De-                [41] Zeynep Tufekci. 2018. YouTube, the Great Radicalizer. The New York Times
+     bate Offer by Conservative Columnist to Catcalling. The New York Times                           (2018). https://www.nytimes.com/2018/03/10/opinion/sunday/youtube-politics-
+     (2018).      https://www.nytimes.com/2018/08/10/nyregion/alexandria-ocasio-                      radical.html
+     cortez-debate-catcalling-ben-shapiro.html                                                   [42] Bari Weiss and Damon Winter. 2018. Meet the Renegades of the Intellectual Dark
+[16] T. Giannakopoulos, A. Pikrakis, and S. Theodoridis. 2010. A Multimodal Approach                  Web. The New York Times (2018). https://www.nytimes.com/2018/05/08/opinion/
+     to Violence Detection in Video Sharing Sites. In 2010 20th International Conference              intellectual-dark-web.html
+     on Pattern Recognition.                                                                     [43] Savvas Zannettou, Tristan Caulfield, Jeremy Blackburn, Emiliano De Cristofaro,
+[17] Rosie Gray. 2015. How 2015 Fueled The Rise Of The Freewheeling, White Nation-                    Michael Sirivianos, Gianluca Stringhini, and Guillermo Suarez-Tangil. 2018. On
+     alist Alt- Movement. https://www.buzzfeednews.com/article/rosiegray/how-                         the Origins of Memes by Means of Fringe Web Communities. In Proceedings of
+     2015-fueled-the-rise-of-the-freewheeling-white-nationali                                         the Internet Measurement Conference 2018. ACM.
+[18] Keegan Hankes and Alex Amend. 2018. The Alt-Right is Killing People. https:                 [44] Savvas Zannettou, Tristan Caulfield, Emiliano De Cristofaro, Nicolas Kourtelris,
+     //www.splcenter.org/20180205/alt-right-killing-people                                            Ilias Leontiadis, Michael Sirivianos, Gianluca Stringhini, and Jeremy Blackburn.
+[19] Aniko Hannak, Piotr Sapiezynski, Arash Molavi Kakhki, Balachander Krish-                         2017. The Web Centipede: Understanding How Web Communities Influence
+     namurthy, David Lazer, Alan Mislove, and Christo Wilson. 2013. Measuring                         Each Other Through the Lens of Mainstream and Alternative News Sources. In
+     Personalization of Web Search. In Proceedings of the 22Nd International Confer-                  Proceedings of the 2017 Internet Measurement Conference. ACM.
+     ence on World Wide Web. ACM.
+[20] Aniko Hannak, Gary Soeller, David Lazer, Alan Mislove, and Christo Wilson.
+     2014. Measuring Price Discrimination and Steering on E-commerce Web Sites.
+     In Proceedings of the 2014 Conference on Internet Measurement Conference (IMC
+     ’14). ACM.
+[21] Mathew Ingram. 2018. Most Americans say they have lost trust in the media.
+     Columbia Journalism Review (2018). https://www.cjr.org/the_media_today/trust-
+     in-media-down.php
+[22] Brendan Joel Kelly. 2017. Lauren Southern: The alt-right’s Canadian dog
+     whistler. https://www.splcenter.org/hatewatch/2017/11/07/lauren-southern-alt-
+     right%E2%80%99s-canadian-dog-whistler
+[23] Max Kutner. 2016. Roosh V’s journey from pickup artist to right-wing provoca-
+     teur. Newsweek (2016). https://www.newsweek.com/2016/10/21/roosh-v-pickup-
+     artist-right-wing-provocateur-509319.html
+[24] Rebecca Lewis. 2018. Alternative influence: Broadcasting the reactionary right on
+     YouTube. Technical Report. Data and Society.
+[25] Cristina Lopez G. 2019. Stefan Molyneux is MAGA Twitter’s favorite white
+     nationalist. https://www.mediamatters.org/people/stefan-molyneux
+[26] Tim Lott. 2017. Jordan Peterson and the transgender wars. https://life.spectator.
+     co.uk/2017/09/jordan-peterson-and-the-transgender-wars/
+[27] Alex Mann, Kevin Nguyen, and Katherine Gregory. 2019. ’Emperor Cottrell’:
+     Accused Christchurch shooter had celebrated rise of the Australian far-right.
+
+
+
+
+                                                                                           141
+

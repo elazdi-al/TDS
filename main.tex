@@ -1,20 +1,34 @@
 \documentclass[10pt, a4paper]{article}
-\usepackage[margin=0.8in]{geometry}
+\usepackage[margin=0.7in]{geometry}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{parskip}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+
+% Prevent hyphenation (cut-off words)
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+% Prevent widows and orphans
+\widowpenalty=10000
+\clubpenalty=10000
 
 % Compact title
 \titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
 \titlespacing*{\section}{0pt}{1.5ex plus 0.5ex minus .2ex}{0.5ex plus .2ex}
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{0.5em}
+\setlength{\parskip}{0.6em}
 
 \begin{document}
 \begin{titlepage}
     \centering
     \vspace*{\fill}
-    {\Huge \textbf{Technologies of Democratic Societies}\par}
+    {\Huge \textbf{Technologies for Democratic Societies}\par}
     \vspace*{\fill}
 \end{titlepage}
 
@@ -41,7 +55,7 @@ He predicted that people would form groups based on what they \textit{love}, not
 He also worried: If only rich people have computers, will this new power be a privilege for a few, or a right for everyone?
 
 \section*{Part 2: The Experiment (Usenet, 1979)}
-Usenet was the first real attempt to build this dream. It was the "grandfather" of Reddit and Twitter—a global network where anyone could post a message for the world to see.
+Usenet was the first real attempt to build this dream. It was the "grandfather" of Reddit and Twitter -- a global network where anyone could post a message for the world to see.
 
 \textbf{How it worked (Simple Version):}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
@@ -180,92 +194,95 @@ Technology has given us powerful tools to measure influence (Twitter metrics, Pa
 \section*{Week 4: Trust and Online Reputation}
 
 \textbf{The Big Picture.}
-Trust is the currency of society. In a large democracy, we cannot personally know everyone we interact with, so we rely on \textbf{Proxy Systems} to measure reputation. We trust \textbf{Peer Review} for scientific truth and \textbf{Search Engines} for information relevance. This week reveals that these are not neutral measurements; they are \textbf{mechanisms} that can be designed, manipulated, and broken.
+This week asks a fundamental question: \textit{How do we design systems that aggregate millions of individual inputs—whether citations, hyperlinks, or votes—into a single, trustworthy collective outcome?}
+
+In a large democracy, we cannot personally know the reputation of every expert or the quality of every website. Instead, we rely on \textbf{Proxy Systems} to measure value for us: \textbf{Peer Review} for scientific truth, \textbf{Search Engines} for information relevance, and \textbf{Election Algorithms} for the will of the people. This week reveals that these are not neutral measurements—they are engineered \textbf{mechanisms} that define the winner. Like any mechanism, they can be designed, manipulated, and broken. \textbf{The algorithm creates the outcome.}
 
 \section*{Part 1: Scholarly Peer Review (The Original Trust Algorithm)}
-Scientific truth isn't determined by a vote, but by \textbf{Peer Review}. Independent experts blind-test ideas before they are published.
+Scientific truth isn't determined by popular vote, but by \textbf{Peer Review}—independent experts evaluate ideas before publication.
 
 \textbf{The Hierarchy of Trust.}
+Not all publications carry equal weight:
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
     \item \textbf{Pre-prints (e.g., arXiv):} Fast, but unverified. Low trust.
-    \item \textbf{Conferences:} Peer-reviewed, but faster cycle (common in CS). Medium-High trust.
+    \item \textbf{Conferences:} Peer-reviewed with faster cycles (common in CS). Medium-High trust.
     \item \textbf{Journals:} Slow, rigorous review. The Gold Standard. High trust.
 \end{itemize}
 
 \textbf{Blinding in Peer Review.}
-To reduce bias, different blinding approaches are used:
+To reduce bias, reviews are often ``blinded'':
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Single-blind:} Reviewers know authors, but authors don't know reviewers.
-    \item \textbf{Double-blind:} Neither knows the other. Most rigorous for minimizing bias.
+    \item \textbf{Single-blind:} Reviewers know the authors; authors don't know reviewers.
+    \item \textbf{Double-blind:} Neither party knows the other—the most rigorous standard for minimizing bias.
 \end{itemize}
 
 \textbf{The Metric: h-index.}
-We measure a scientist's value by their \textbf{h-index}: A researcher has an index of $h$ if they have published $h$ papers that have each been cited at least $h$ times. It balances \textit{quantity} (papers) and \textit{quality} (citations).
+We quantify a researcher's influence using the \textbf{h-index}: A researcher has an index of $h$ if they have published $h$ papers each cited at least $h$ times. This balances \textit{quantity} (productivity) with \textit{quality} (impact), preventing gaming through many uncited papers or a single ``one-hit wonder.''
 
 \textbf{The Hack: Gaming Science.}
-A major study of over 12,000 academics reveals how widespread the problem is:
+Because career advancement depends on metrics, the system is vulnerable to \textbf{Goodhart's Law}: ``When a measure becomes a target, it ceases to be a good measure.'' A study of over 12,000 academics reveals how widespread the problem is:
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Honorary Authorship:} \textbf{35.5\%} of researchers admitted to adding authors who contributed nothing. The main reason? Adding a ``big name'' to boost credibility.
-    \item \textbf{Coercive Citations:} \textbf{14.1\%} reported being forced by editors to add irrelevant citations to the editor's own journal.
-    \item \textbf{Padded Citations:} \textbf{$>$40\%} said they would add superfluous citations if they thought the journal expected it.
-    \item \textbf{Citation Rings:} Groups of authors agree to cite each other (regardless of relevance) to artificially boost their h-indices.
-    \item \textbf{Result:} Bad science can appear reputable, misleading the public and policymakers.
+    \item \textbf{Honorary Authorship:} \textbf{35.5\%} admitted adding authors who contributed nothing—often to add a ``big name'' for credibility.
+    \item \textbf{Coercive Citations:} \textbf{14.1\%} reported being forced by editors to cite the editor's own journal.
+    \item \textbf{Padded Citations:} \textbf{$>$40\%} would add superfluous citations if the journal expected it.
+    \item \textbf{Citation Rings:} Groups agree to cite each other regardless of relevance, artificially inflating h-indices.
+    \item \textbf{Result:} Bad science appears reputable, misleading the public and policymakers.
 \end{itemize}
 
 \section*{Part 2: Search Engine Manipulation (The Modern Gatekeeper)}
-Search engines like Google determine what exists in our digital world.
+If peer review gates scientific truth, search engines gate everyday information. Search rankings dictate reality for the average user:
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{The Power of Page 1:} 91.5\% of all clicks happen on the first page of results. If you aren't there, you are invisible.
-    \item \textbf{Trust:} We assume the top result is the ``best'' or ``truest,'' but it's often just the best \textit{optimized}.
+    \item \textbf{The Power of Page 1:} 91.5\% of clicks happen on the first page. If you aren't there, you're invisible.
+    \item \textbf{Misplaced Trust:} We assume the top result is ``best'' or ``truest,'' but it's often just the best \textit{optimized}.
 \end{itemize}
 
 \textbf{Black Hat SEO (Search Engine Optimization).}
-Manipulators use unethical tricks to fool the algorithm:
+Manipulators use unethical tricks to fool algorithms:
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Cloaking:} Showing one version of a page to the Google Bot (keyword-rich) and a different version to human users (ads/spam).
-    \item \textbf{Link Farms:} Creating thousands of fake websites with the sole purpose of linking to a target site to boost its PageRank.
-    \item \textbf{Invisible Text:} Hiding keywords by using white text on a white background (or tiny fonts) to trick bots without impacting the user experience.
-    \item \textbf{Google Bombing:} Collectively linking a phrase (e.g., ``miserable failure'') to a specific target (e.g., a politician) to hijack the search result.
-    \item \textbf{Bowling:} A destructive attack. Instead of boosting your own site, you \textit{harm} a competitor by associating them with ``bad neighborhoods'' (link farms, spam sites). This triggers a penalty for your rival.
+    \item \textbf{Cloaking:} Showing one page to the crawler (keyword-optimized) and a different page to humans (spam/ads).
+    \item \textbf{Link Farms:} Networks of fake websites created solely to link to a target, exploiting PageRank's ``links as votes.''
+    \item \textbf{Invisible Text:} Hiding keywords (white text on white background) so bots index them while users see nothing.
+    \item \textbf{Google Bombing:} Coordinated linking of a phrase (e.g., ``miserable failure'') to a target page (e.g., a politician).
+    \item \textbf{Bowling:} Harming a competitor by pointing ``bad'' links (from spam sites) at them, triggering a penalty.
 \end{itemize}
 
 \textbf{The Search Engine Manipulation Effect (SEME).}
-A series of experiments revealed something alarming: biased search results don't just change what we click—they change how we \textit{vote}.
+Biased search results don't just change clicks—they change \textit{votes}:
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{The Finding:} Biased search rankings shifted the preferences of undecided voters by \textbf{20\% or more}. In some demographics, the shift was as high as \textbf{80\%}.
-    \item \textbf{Real-World Test:} During India's 2014 national election, researchers showed undecided voters biased search results. Even with \textit{real} candidates they knew, the manipulation worked.
-    \item \textbf{Awareness Doesn't Help:} Even when users \textit{knew} the results were biased, the effect often still worked. People trust that top results are ``better.''
-    \item \textbf{The Threat:} This is undetectable ``digital gerrymandering.'' Since results are personalized, a regulator sees neutral results while a targeted voter sees biased ones.
+    \item \textbf{The Finding:} Biased rankings shifted undecided voters' preferences by \textbf{20\% or more}—up to \textbf{80\%} in some demographics.
+    \item \textbf{Real-World Test:} During India's 2014 election, biased results shifted preferences even for candidates voters already knew.
+    \item \textbf{Awareness Doesn't Help:} Even knowing results were biased, the effect often persisted. People trust ``top = best.''
+    \item \textbf{The Threat:} This is \textbf{invisible gerrymandering}—personalized results mean regulators see neutral pages while targeted voters see bias.
 \end{itemize}
 
 \section*{Part 3: The Scorecard (Dahl's Criteria)}
-\textbf{How do Trust Systems Measure Up?}
+\textbf{How Do Trust Systems Measure Up?}
 
 \textbf{1. Effective Participation (Can you be heard?)}
-\textit{Grade:} \textbf{Fail.} Scientists without ``big names'' struggle to get published. Websites without SEO budgets are invisible. The playing field is not level.
+\textit{Grade:} \textbf{Fail.} Scientists without ``big names'' struggle to publish. Websites without SEO budgets are invisible.
 
 \textbf{2. Voting Equality (One Person, One Vote).}
-\textit{Grade:} \textbf{Fail.} Citation rings and link farms create ``fake votes.'' A researcher in a citation ring counts more than an honest one. A site with a link farm ranks higher than a legitimate competitor.
+\textit{Grade:} \textbf{Fail.} Citation rings and link farms create ``fake votes.'' A researcher in a ring counts more than an honest one.
 
 \textbf{3. Enlightened Understanding (Do you know the truth?)}
-\textit{Grade:} \textbf{Fail.} When science and search are manipulated by \textbf{Citation Rings}, \textbf{Link Farms}, or \textbf{SEME}, citizens make decisions based on false or biased information. Worse, they believe they are informed.
+\textit{Grade:} \textbf{Fail.} When \textbf{Citation Rings}, \textbf{Link Farms}, and \textbf{SEME} manipulate information, citizens make choices based on false data—believing they are informed.
 
 \textbf{4. Control of the Agenda (Who decides what we discuss?)}
-\textit{Grade:} \textbf{Fail.} Commercial algorithms and academic gatekeepers decide what topics are ``worthy'' of attention. SEO consultants and journal editors—not citizens—set the agenda.
+\textit{Grade:} \textbf{Fail.} Algorithms and gatekeepers decide what's ``worthy.'' SEO consultants and journal editors—not citizens—set the agenda.
 
 \textbf{5. Inclusiveness (Is everyone invited?)}
-\textit{Grade:} \textbf{Mixed.} The internet is open to all, but \textit{visibility} is not. You can publish, but without money or connections, you won't be found.
+\textit{Grade:} \textbf{Mixed.} The internet is open to all, but \textit{visibility} is not. You can publish, but without resources, you won't be found.
 
 \hrulefill
 
 \textbf{Bottom Line.}
-Trust systems are not neutral. They are \textbf{designed mechanisms} with rules that can be gamed. Whether it's a citation ring inflating a scientist's reputation or a link farm boosting a website, the result is the same: the measure becomes the target. And when search engines can shift votes by 20\%—invisibly and personally—the line between ``ranking information'' and ``manipulating democracy'' disappears.
+Trust systems are not neutral—they are \textbf{designed mechanisms} with rules that can be gamed. Whether it's a citation ring inflating reputation or a link farm boosting rankings, the result is the same: \\textbf{the measure becomes the target}. When search engines can shift votes by 20\%—invisibly and personally—the line between ``ranking information'' and ``manipulating democracy'' vanishes.
 
 \newpage
 \section*{Week 5: Election Methods}
 
 \textbf{The Big Picture.}
-We often think of Democracy as a set of values. This week teaches us that Democracy is an \textbf{Engineering Problem}. The specific code we use to count votes—the \textbf{Election Method}—determines the winner. How we count matters more than who votes.
+This week asks: \textit{Does the way we count votes matter as much as who votes?} We often think of Democracy as a set of values. This week teaches us that Democracy is an \textbf{Engineering Problem}. The specific code we use to count votes—the \textbf{Election Method}—determines the winner. Different algorithms applied to the same ballots can produce different winners.
 
 \section*{Part 1: What Makes a Good Election System?}
 Before choosing an algorithm, we need to know what we want from it. A good election system should have:
@@ -379,417 +396,670 @@ To fix democracy, we don't just need better candidates; we need better \textbf{A
 \section*{Week 6: Blockchains, Smart Contracts, and DAOs}
 
 \textbf{The Big Picture.}
-This week explores the latest technological promise to ``democratize'' society: \textbf{Blockchain}. We examine Bitcoin, Ethereum, smart contracts, and Decentralized Autonomous Organizations (DAOs). We also explore \textbf{Liquid Democracy}—a hybrid voting system that blends direct and representative democracy. The key lesson: technology that \textit{promises} decentralization often \textit{delivers} new forms of centralization.
+This week asks: \textit{Can code replace institutions?} We explore the technical promise to "democratize" society: \textbf{Blockchain}. We examine Bitcoin, Ethereum, and Decentralized Autonomous Organizations (DAOs). The key lesson: technology that \textit{promises} decentralization often \textit{delivers} new forms of centralization (miners, developers, and wealthy token-holders).
 
 \section*{Part 1: The Three Waves of Decentralization}
-Technology has promised to ``democratize everything'' multiple times. Each wave had idealistic beginnings and sobering outcomes.
+Technology has promised to "democratize everything" multiple times.
 
-\textbf{Wave 1: Usenet (1979).}
-Global forums where anyone could post. Promised free speech for all. Outcome: Spam killed it.
+\begin{center}
+\begin{tabularx}{\textwidth}{@{}l X X p{3cm}@{}}
+\toprule
+\textbf{Wave} & \textbf{Promise} & \textbf{Outcome} & \textbf{Failure Mode} \\
+\midrule
+\textbf{Usenet} (1979) & Free speech; global forums. & Killed by spam/noise. & No moderation. \\
+\midrule
+\textbf{P2P} (2000s) & Cut out middlemen (Napster). & Centralized streaming (Spotify) won. & Legal/Convenience. \\
+\midrule
+\textbf{Blockchain} (2008) & Cut out banks/governments. & Industrialized mining; new intermediaries. & Centralization. \\
+\bottomrule
+\end{tabularx}
+\end{center}
 
-\textbf{Wave 2: Peer-to-Peer (2000s).}
-File sharing (Napster, BitTorrent). Promised to cut out middlemen. Outcome: Legal battles and centralized streaming (Spotify) won.
+\section*{Part 2: Bitcoin \& Proof of Work}
+\textbf{Innovation:} Satoshi Nakamoto (2008) solved the \textbf{Double Spend} and \textbf{Sybil} problems using a \textbf{Blockchain} (shared history) and \textbf{Proof of Work} (computational cost to vote).
 
-\textbf{Wave 3: Blockchain (2008–now).}
-Bitcoin, Ethereum, DeFi, DAOs. Promises to cut out banks, lawyers, and governments. Outcome: Still unfolding, but early signs show familiar problems of centralization and manipulation.
-
-\section*{Part 2: Bitcoin – The Technical Innovation}
-Bitcoin, released in 2008 by the mysterious ``Satoshi Nakamoto,'' solved four hard computer science problems at once.
-
-\textbf{1. The Agreement Problem.}
-How do thousands of computers agree on a shared history without a boss? Bitcoin solved this with a ``blockchain''—a chain of records where each block references the previous one. Tampering with old records would break the chain.
-
-\textbf{2. The Sybil Problem (Fake Identity Attack).}
-On the internet, one person can create unlimited fake identities. In a vote, this means unlimited fake votes. Bitcoin made creating new ``identities'' (blocks) expensive by requiring computational work.
-
-\textbf{3. Distributed Ledger.}
-A shared document (the blockchain) that everyone can read and add to, but no one can edit or delete. It's ``write-only.''
-
-\textbf{4. Digital Cash.}
-The first truly self-sustaining digital currency. Unlike previous attempts, Bitcoin's incentive design made it valuable in the real world.
-
-\section*{Part 3: Proof of Work – Elegant and Wasteful}
-To add a block, miners must solve a cryptographic puzzle. This is called \textbf{Proof of Work}.
-
-\textbf{Why It Works:}
+\textbf{Proof of Work (PoW):} Miners solve useless puzzles to secure the network.
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Rate Limiting:} Slows down block creation, giving time for the network to synchronize.
-    \item \textbf{Skin in the Game:} Miners who invest resources are incentivized to keep the system honest.
-    \item \textbf{Permissionless Entry:} Originally, anyone could join without asking permission.
+    \item \textbf{Why it works:} "Skin in the game." Costly to attack.
+    \item \textbf{Why it fails:} \textbf{Energy Waste} (burns electricity like a country) and \textbf{Centralization} (requires industrial hardware/capital).
 \end{itemize}
 
-\textbf{Why It Fails:}
+\section*{Part 3: Smart Contracts \& DAOs}
+\textbf{Smart Contracts:} Programs on Ethereum (e.g., "Multi-sig wallet"). Code runs automatically on everyone's machine. "Code is Law."
+\textbf{DAOs:} Organizations run entirely by code, promising transparency and automation.
+
+\begin{center}
+\begin{tabularx}{\textwidth}{@{}l X X@{}}
+\toprule
+\textbf{Aspect} & \textbf{The Efficiency Promise} & \textbf{The Centralized Reality} \\
+\midrule
+\textbf{Enforcement} & Rules execute exactly as coded; no human bias. & \textbf{Bugs are Legal:} Exploits are valid under "Code is Law." \\
+\midrule
+\textbf{Governance} & Voting via tokens; transparent and public. & \textbf{Plutocracy:} Wealthy holders rule. Developers hold "upgrade keys." \\
+\midrule
+\textbf{Trust} & Trust the code, not the people. & Code is complex; users trust developers blindly. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\section*{Part 4: Case Study – "The DAO" Hack (2016)}
+A \$250M fund was drained due to a code bug.
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Energy Waste:} The work is \textit{intentionally useless}. Bitcoin consumes more electricity than many countries. It's a ``climate disaster of a way to make money.''
-    \item \textbf{Centralization:} Mining requires specialized hardware, cheap electricity, and capital. The ``permissionless'' ideal failed—mining is now controlled by a few industrial operations.
-    \item \textbf{Alternatives Exist:} \textbf{Proof of Stake} and other mechanisms avoid waste. New blockchains should not use Proof of Work.
+    \item \textbf{The Dilemma:} "Code is Law" purists said let the hacker keep it. Pragmatists said "save the money."
+    \item \textbf{The Outcome:} Ethereum developers forced a \textbf{Hard Fork} (rewrote history) to bail out investors.
+    \item \textbf{The Split:} Purists stayed on the old chain (\textbf{Ethereum Classic}), proving that when stakes are high, human governance overrides code.
 \end{itemize}
 
-\section*{Part 4: Smart Contracts – Code as Law}
-Bitcoin allowed small programs (``scripts'') to be attached to transactions. Ethereum expanded this into full \textbf{Smart Contracts}—programs that run on the blockchain.
+\section*{Part 5: The Scorecard (Dahl's Criteria)}
+How does "Governance by Blockchain" measure up?
 
-\textbf{How Smart Contracts Work:}
+\begin{center}
+\begin{tabularx}{\textwidth}{@{}p{3cm} X@{}}
+\toprule
+\textbf{Criterion} & \textbf{Blockchain \& DAOs Grade} \\
+\midrule
+\textbf{Effective Participation} & \textbf{Fail.} Mining is industrialized. "Permissionless" entry is a myth; you need capital. \\
+\midrule
+\textbf{Voting Equality} & \textbf{Fail.} Token-weighted voting means \textbf{1 Dollar = 1 Vote}. It is a plutocracy, not a democracy. \\
+\midrule
+\textbf{Enlightened Understanding} & \textbf{Mixed.} Code is open source, but only experts can audit it. Most users trust blindly. \\
+\midrule
+\textbf{Control of the Agenda} & \textbf{Fail.} Developers and large whales propose and decide upgrades. \\
+\midrule
+\textbf{Inclusiveness} & \textbf{Fail.} High technical/financial barriers exclude the majority. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\hrulefill
+
+\textbf{Bottom Line.} Blockchain swaps trusted institutions (Banks) for code. But code is written by humans, and "decentralized" systems inevitably re-centralize around capital (mining pools, large token holders). \textbf{Decentralization is a process, not a product.}
+
+\newpage
+\section*{Week 7 \& 8: Beyond Traditional Voting}
+
+\textbf{The Big Picture.} These weeks explore \textbf{innovative alternatives to traditional voting}. We ask: \textit{Can we design better systems for collective decision-making?} We examine five mechanisms: \textbf{Liquid Democracy} (a hybrid of direct and representative democracy), \textbf{Crowdfunding} (community-powered financing), \textbf{Prediction Markets} (betting on truth), \textbf{Quadratic Voting} (expressing how much you care), and \textbf{Deliberative Polling} (combining equality with deliberation). Each uses different incentives—delegation, money, voice credits, or structured discussion—to reveal what people truly want.
+
+\section*{Part 1: The Democracy Dilemma}
+Traditional democracy forces a choice between two imperfect systems:
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item A smart contract is a program stored on the blockchain.
-    \item When triggered, every computer in the network runs the same code.
-    \item The output is recorded on the blockchain forever.
-    \item Example: A ``multi-signature wallet'' requires 2 out of 3 key holders to approve a transaction.
+    \item \textbf{Representative Democracy:} Saves time; politicians specialize in complex issues. But representatives may not represent you perfectly, and you're stuck with ``party bundles'' of positions you may not all agree with.
+    \item \textbf{Direct Democracy:} Maximum control—every voice counts on every issue. But it's exhausting; ``hot-button'' issues dominate while boring-but-important topics get ignored. The Swiss model shows it \textit{can} work, but requires a strong civic culture.
+\end{itemize}
+The mechanisms below try to escape this trade-off by offering new ways to participate, delegate, or express preferences.
+
+\section*{Part 2: Liquid Democracy (The Hybrid Solution)}
+\textbf{Liquid Democracy} (or Delegative Democracy) offers a ``best of both worlds'' approach.
+
+\textbf{How it Works:}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Vote Directly:} On topics you care about or understand well.
+    \item \textbf{Delegate:} Give your vote to a trusted proxy (e.g., a doctor for healthcare, an economist for taxes) for other topics.
+    \item \textbf{Flexibility:} You can override or revoke delegation at any time. Delegation can be topic-specific.
 \end{itemize}
 
-\textbf{Fundamental Limitations:}
+\textbf{Design Challenges:}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Determinism Required:} Every computer must get the exact same answer. No randomness allowed.
-    \item \textbf{No External Data:} Contracts cannot access websites or the outside world (different computers might see different data, breaking consensus).
-    \item \textbf{Execution Limits:} Ethereum uses ``Gas'' (a fee) to limit how long a program can run. This prevents denial-of-service attacks.
+    \item \textbf{Transitivity (Trust Chains):} If you delegate to Alice, and Alice delegates to Bob, your vote goes to Bob. \textit{Risk:} Unexpected power concentration. \textit{Solution:} Limit chain length or use ``ranked-choice delegation'' (fallback if your primary doesn't vote).
+    \item \textbf{The Super-Voter Problem:} Everyone delegates to one celebrity/expert, creating an ``accidental dictator.'' \textit{Solution:} Allow \textbf{split delegation}—divide your vote (50\% to A, 50\% to B) to spread power.
+    \item \textbf{Privacy vs. Accountability:} Delegates must be visible for accountability, but this enables vote-buying. \textit{Solution:} Delegates' votes are public; ordinary citizens' votes remain private.
+    \item \textbf{Cycles:} A$\to$B$\to$C$\to$A creates an infinite loop. \textit{Solution:} ``Viscous Democracy''—lose a fraction of power at each hop; loops decay naturally.
 \end{itemize}
-
-\section*{Part 5: DAOs – The Dream of Algorithmic Governance}
-A \textbf{Decentralized Autonomous Organization (DAO)} is an organization whose rules are written entirely in code.
-
-\textbf{The Promise:}
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Automatic Enforcement:} Rules execute exactly as coded—no human discretion or bias.
-    \item \textbf{Transparency:} All code and transactions are public. Anyone can audit.
-    \item \textbf{``Code is Law'':} Whatever the code says, happens. No lawyers, no judges.
-\end{itemize}
-
-\textbf{The Reality (Problems):}
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Bugs are Legal Bugs:} If the code has a security flaw, exploiting it is technically ``following the rules.''
-    \item \textbf{Upgrade Dilemma:} To fix bugs, DAOs need upgrade mechanisms. But whoever controls the upgrade key has centralized power—defeating the point.
-    \item \textbf{Hidden Centralization:} Many ``decentralized'' projects are controlled by small development teams who hold the keys.
-\end{itemize}
-
-\section*{Part 6: Case Study – ``The DAO'' Hack (2016)}
-``The DAO'' was an Ethereum-based investment fund that raised \textbf{\$250 million USD}—about 14\% of all Ethereum at the time.
-
-\textbf{The Attack.}
-An anonymous hacker found a ``recursion bug'' in the code and began draining funds. The code allowed it—technically, nothing was ``broken.''
-
-\textbf{The Debate.}
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{``Code is Law'' Purists:} The attacker exploited public code. That's how the system is \textit{supposed} to work. No intervention.
-    \item \textbf{Pragmatists:} Investors don't want to lose money. If The DAO fails, Ethereum's reputation (and value) collapses with it.
-\end{itemize}
-
-\textbf{The Resolution: ``Too Big to Fail.''}
-Ethereum's developers performed a \textbf{Hard Fork}—rewriting the blockchain to undo the hack, return the funds, and shut down The DAO. This was the blockchain equivalent of a government bailout.
-
-\textbf{The Split: Ethereum Classic (ETC).}
-A minority refused to accept the intervention. They continued the original chain (where the hack ``succeeded'') as \textbf{Ethereum Classic}—a philosophical protest against centralized override.
-
-\textbf{Key Insight.}
-The DAO proved that ``algorithmic authority'' is not absolute. When the code fails catastrophically, humans intervene with ``practical governance.'' Technology cannot easily replace centuries of refined human institutions.
-
-\section*{Part 7: Liquid Democracy – A Hybrid Voting System}
-\textbf{Liquid Democracy} is an alternative to both direct and representative democracy.
-
-\textbf{How It Works:}
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item You can vote directly on any issue.
-    \item Or you can \textbf{delegate} your vote to someone you trust (a ``proxy'').
-    \item Delegations are \textbf{transitive}: If Alice delegates to Bob, and Bob delegates to Carol, then Carol controls Alice's vote.
-    \item You can \textbf{override} or revoke your delegation at any time.
-\end{itemize}
-
-\textbf{The Golden Rule.}
-``If I give you my vote, I can see what you do with it.'' Transparency is essential for accountability.
 
 \textbf{Real-World Experiments:}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{LiquidFeedback (Germany's Pirate Party):} Used from 2009–2013 for internal party decisions.
-    \item \textbf{Google Votes (2012–2015):} An internal Google experiment. Over 20,000 employees cast 87,000 votes on 370 issues (mostly food and office decisions).
+    \item \textbf{LiquidFeedback (German Pirate Party, 2009--2013):} Super-voters emerged (Power Laws), but acted as \textit{stabilizers} rather than dictators. Delegation was driven by trust and competence, not ideology.
+    \item \textbf{Google Votes (2012--2015):} Internal experiment with 20,000 employees. Mostly low-stakes decisions (food, swag). Only \textbf{3.6\%} delegated. Niche experts attracted delegations on specialized topics.
 \end{itemize}
 
-\section*{Part 8: Super-Voters – The Power Law Returns}
-A study of LiquidFeedback revealed a familiar pattern: \textbf{Power Laws}.
+\textbf{Golden Rule:} ``If I give you my vote, I can see what you do with it.'' Transparency enables accountability.
 
-\textbf{The Finding.}
-A small number of users (``super-voters'') accumulated a huge share of delegations—just like Twitter followers or PageRank.
+\section*{Part 3: Crowdfunding (Community Finance)}
+Crowdfunding lets groups raise money directly from the public to finance ideas, products, or community needs. Platforms like Kickstarter and GoFundMe have made this mainstream.
 
-\textbf{The Surprise: Super-Voters as Stabilizers.}
-Contrary to fears, super-voters did \textit{not} abuse their power:
+\textbf{How it Works:}
+A creator proposes a project; the community funds it through donations or pre-purchases. If enough people contribute, the project gets built. If not, the money is returned.
+
+\textbf{Democratic Use Cases:}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item They voted with the majority more often than average users.
-    \item They felt ``social pressure'' to use their weight responsibly.
-    \item They acted as a \textbf{stabilizing force}, preventing deadlock.
+    \item \textbf{Niche Products:} Funding items too specific or risky for traditional investors (e.g., indie films, board games).
+    \item \textbf{Community Action:} Solving local problems that government ignores (e.g., fixing potholes, building a community garden).
+    \item \textbf{Political/Social Tools:} Empowering sidelined minorities, funding political campaigns, or organizing protest actions outside traditional party structures.
 \end{itemize}
 
-\textbf{Why Did Delegation Happen?}
-Surprisingly, people did \textit{not} delegate based on shared political views (agreement rates were only slightly above random). Delegation seems driven by trust and perceived competence, not ideology.
-
-\section*{Part 9: The Scorecard (Dahl's Criteria)}
-\textbf{How Do Blockchain/DAO/Liquid Democracy Systems Measure Up?}
-
-\textbf{1. Effective Participation (Can you be heard?)}
-\textit{Grade:} \textbf{Mixed.} In theory, anyone can participate. In practice, mining is industrialized, and DAO governance is often controlled by large token holders (``plutocracy by coin'').
-
-\textbf{2. Voting Equality (One Person, One Vote).}
-\textit{Grade:} \textbf{Fail.} Most blockchain voting is weighted by how many tokens you own. Rich actors have more votes. Liquid Democracy's super-voters also concentrate power.
-
-\textbf{3. Enlightened Understanding (Do you know the truth?)}
-\textit{Grade:} \textbf{Mixed.} Code is public and transparent—if you can read it. But understanding smart contracts requires expertise. Most users cannot audit the code they trust.
-
-\textbf{4. Control of the Agenda (Who decides what we discuss?)}
-\textit{Grade:} \textbf{Fail.} In DAOs, developers propose upgrades. In Liquid Democracy, super-voters shape outcomes. Ordinary users rarely set the agenda.
-
-\textbf{5. Inclusiveness (Is everyone invited?)}
-\textit{Grade:} \textbf{Fail.} Blockchain participation requires hardware, electricity, capital, and technical knowledge. The ``permissionless'' ideal gave way to industrial gatekeeping.
-
-\hrulefill
-
-\textbf{Bottom Line.}
-Blockchain promised to replace trust in institutions with trust in code. But \textbf{code is written by humans}—and humans have bugs, biases, and interests. The DAO showed that when stakes are high, communities revert to human governance (hard forks, bailouts). Liquid Democracy offers a flexible alternative to rigid elections, but it too concentrates power in super-voters. The core lesson: \textbf{decentralization is a process, not a product.} No technology can permanently solve the problem of power—it can only redistribute it.
-
-
-\newpage
-\section*{Week 7: Liquid Democracy, Prediction Markets, and Quadratic Voting}
-
-\textbf{The Big Picture.}
-This week explores three innovative approaches to democratic decision-making: \textbf{Liquid Democracy} (a flexible hybrid of direct and representative democracy), \textbf{Prediction Markets} (using market prices to aggregate information), and \textbf{Quadratic Voting} (letting voters express how \textit{much} they care). Each technology addresses a specific weakness in traditional democracy. The core question: \textit{Can we design better systems for collective decision-making?}
-
-\section*{Part 1: The Democracy Dilemma (Direct vs. Representative)}
-
-Traditional democracy forces a choice between two imperfect systems.
-
-\textbf{Representative Democracy.}
-You elect someone to vote on your behalf.
+\textbf{The Risks:}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Pro:} Saves you time. Politicians can specialize in understanding complex issues.
-    \item \textbf{Con:} Once elected, representatives may not represent \textit{you}. You're stuck with their choices on every issue.
-    \item \textbf{Con:} Limited choice—you pick a party that matches you on \textit{some} issues, but not all.
+    \item \textbf{Displacing Government:} If citizens crowdfund to fix roads, the government faces less pressure to do its job.
+    \item \textbf{Wealth Inequality:} Rich neighborhoods can crowdfund better school equipment; poor neighborhoods cannot. The mechanism amplifies existing inequality.
+    \item \textbf{Flashiness over Merit:} Success often depends on marketing and emotional appeal rather than actual need or quality.
+    \item \textbf{Scams and Pressure:} Creators face immense pressure to deliver on promises they may not be able to keep.
 \end{itemize}
 
-\textbf{Direct Democracy.}
-You vote on every issue yourself.
+\section*{Part 4: Prediction Markets (Betting on Truth)}
+Prediction markets use \textit{money} to aggregate information. Participants buy and sell contracts that pay out based on whether a future event occurs.
+
+\textbf{How it Works:}
+A contract pays \$1 if Event X happens (e.g., ``Candidate A wins the election''). If that contract trades at \$0.53, the market ``believes'' there is a \textbf{53\% chance} the event will occur. Participants with better information can profit by trading, driving prices toward the truth.
+
+\textbf{Why it Matters:}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Pro:} Maximum control. Your voice counts on every decision.
-    \item \textbf{Con:} Exhausting. Who has time to research every issue?
-    \item \textbf{Con:} ``Hot-button'' issues dominate attention while important but boring issues get ignored.
+    \item \textbf{Skin in the Game:} Real money forces honesty—you bet on what you actually believe, not what sounds good.
+    \item \textbf{Aggregating Dispersed Knowledge:} Information about the future is scattered across millions of people. Markets collect and synthesize it faster than any expert panel.
+    \item \textbf{Proven Accuracy:} The Iowa Electronic Markets outperformed Gallup polls—error of 1.5 percentage points vs. 2.1 points in the week before elections, and even better further out.
+    \item \textbf{Real-World Use:} Major corporations (Google, Intel, Microsoft, Eli Lilly) use internal prediction markets to forecast sales, product launches, and project timelines.
 \end{itemize}
 
-\textbf{The Swiss Model.}
-Switzerland shows direct democracy \textit{can} work: decentralized power, balanced information packets sent to voters, and a strong culture of participation. But execution quality matters enormously.
-
-\section*{Part 2: Liquid Democracy – The Hybrid Solution}
-
-Liquid Democracy (also called \textbf{Delegative Democracy}) offers a ``best of both worlds'' approach.
-
-\textbf{The Core Idea.}
-For each issue, you choose:
+\textbf{The Risks:}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Vote directly} on topics you care about or understand well.
-    \item \textbf{Delegate your vote} to someone you trust for topics you don't want to engage with.
+    \item \textbf{Manipulation (``Whales''):} Wealthy participants can move prices to create false perceptions, potentially becoming self-fulfilling prophecies.
+    \item \textbf{Insider Trading:} People with privileged, non-public information can exploit the market unfairly.
+    \item \textbf{Legal Gray Areas:} Is it gambling, investing, or voting? U.S. law heavily restricts prediction markets.
+    \item \textbf{The Oracle Problem:} Markets need a trusted source to verify the actual outcome. Disagreements about what ``really happened'' can break the market.
+    \item \textbf{Wealth Bias:} Prices reflect the beliefs of those with money to bet, not necessarily the general population.
 \end{itemize}
 
-\textbf{Key Innovation: Issue-by-Issue Flexibility.}
-Unlike traditional elections (one representative for everything), liquid democracy lets you:
+\section*{Part 5: Quadratic Voting (Expressing Intensity)}
+Traditional voting treats preferences as binary: you're either ``for'' or ``against.'' But some people care passionately about an issue, while others barely care at all. \textbf{Quadratic Voting (QV)} lets voters express \textit{how much} they care.
+
+\textbf{How it Works:}
+Every voter receives a budget of ``voice credits.'' You can buy votes on any issue, but the cost increases quadratically:
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item Delegate to a doctor friend on healthcare issues.
-    \item Delegate to an economist colleague on tax policy.
-    \item Vote directly on education (because you're a teacher).
-    \item Change or revoke delegation at any time.
+    \item 1 vote costs 1 credit. \quad 2 votes cost 4 credits. \quad 3 votes cost 9 credits. \quad 10 votes cost 100 credits.
 \end{itemize}
+This creates a trade-off: spend all your credits on one issue you care deeply about, or spread them across many issues you care about moderately.
 
-\textbf{Historical Background.}
+\textbf{Why Quadratic?}
+Mathematically, quadratic pricing is the \textit{only} cost structure that achieves optimal collective outcomes:
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Lewis Carroll (1800s):} First proposed ``vote clubbing'' (combining votes).
-    \item \textbf{Corporate Boardrooms:} Proxy voting has been standard practice for over a century.
-    \item \textbf{2003:} The term ``liquid democracy'' was coined.
-    \item \textbf{German Pirate Party:} Major experiment using \textbf{LiquidFeedback} platform (2009–2013).
+    \item \textbf{Linear cost} $\to$ Dictatorship of the most intense voter (one person dominates).
+    \item \textbf{Very steep cost} $\to$ Everyone casts exactly one vote (back to 1-person-1-vote).
+    \item \textbf{Quadratic cost} $\to$ The optimal ``sweet spot'' between these extremes.
 \end{itemize}
 
-\section*{Part 3: Design Choices in Liquid Democracy}
-
-Building a liquid democracy system requires answering hard questions.
-
-\textbf{1. Should Delegation Be Transitive?}
-
-If Alice delegates to Bob, and Bob delegates to Carol—does Carol control Alice's vote?
-
+\textbf{The Promise:}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Against:} I trust you to vote for me, not to \textit{choose who votes for me}. Transitive chains can lead to unexpected power concentration.
-    \item \textbf{For:} Trust chains work naturally. You trust your neighbor; your neighbor trusts an expert. This creates an ``information ladder'' to expertise.
-    \item \textbf{Compromise:} Allow ``ranked-choice delegation'' (if your first choice doesn't vote, fall back to second choice) or limit chain length.
+    \item \textbf{Protects Minorities:} A passionate minority can outweigh an indifferent majority on issues they care deeply about.
+    \item \textbf{Reveals True Preferences:} Captures the \textit{intensity} of preferences, leading to better collective decisions.
+    \item \textbf{Experimental Validation:} Lab experiments show QV produces outcomes much closer to optimal than traditional voting.
 \end{itemize}
 
-\textbf{2. The Super-Voter Problem.}
-
-What if everyone delegates to the same popular person (a celebrity, expert, or charismatic leader)?
-
+\textbf{The Risks:}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Risk:} Creates an ``accidental dictator'' with concentrated power.
-    \item \textbf{German Pirate Party Example:} One professor accumulated massive delegated power—``the most powerful pirate.''
-    \item \textbf{Potential Fix: Split Delegation.} Allow voters to divide their vote among multiple delegates (e.g., 50\% to Alice, 30\% to Bob, 20\% to Carol). This spreads power more evenly.
+    \item \textbf{Distraction Politics:} Manipulators could introduce ``hot-button'' issues to trick voters into wasting credits, leaving important decisions to insiders.
+    \item \textbf{Complexity:} The math is non-intuitive. Many voters may not understand or trust the system.
+    \item \textbf{Fairness to Vulnerable Groups:} Minorities fighting for basic rights are forced to spend all their credits on survival, leaving no influence on other issues.
+    \item \textbf{Collusion:} Voters could illegally trade or pool credits to bypass the quadratic scaling.
 \end{itemize}
 
-\textbf{3. Privacy and Coercion.}
+\section*{Part 6: Deliberative Polling (Combining Equality and Deliberation)}
+Traditional democracy faces a tension: as political equality expanded (more people voting on more issues), \textit{deliberation} declined. Referenda involve less thoughtful discussion than legislative debate. Polls capture ``top-of-the-head'' reactions, not informed opinions. \textbf{Deliberative Polling} tries to give us both.
 
-In traditional voting, secrecy prevents vote buying. But in liquid democracy, delegates must be visible for accountability.
+\textbf{How it Works:}
+\begin{enumerate}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Random Sample:} Draw a representative sample of citizens.
+    \item \textbf{Briefing Materials:} Give them balanced information on the issue, vetted by experts for accuracy and fairness.
+    \item \textbf{Deliberative Weekend:} Bring participants together to discuss the issue in small groups with trained moderators who ensure civility, balance, and that all viewpoints are heard.
+    \item \textbf{Expert Panels:} Participants can ask questions of policymakers and experts with different perspectives.
+    \item \textbf{Measure Opinions:} Survey opinions \textit{before} and \textit{after} deliberation to see what changes.
+\end{enumerate}
 
+\textbf{Why it Works:}
+Deliberative Polling reveals what people would think \textit{if they had time to learn and discuss}—not top-of-the-head reactions, but considered conclusions.
+
+\textbf{Key Findings from Real Experiments:}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Solution 1—Thresholds:} Require a minimum number of delegations before someone can act as a delegate. Harder to buy one vote if you need 100.
-    \item \textbf{Solution 2—Public/Private Separation:} Your \textbf{public vote} (as a delegate) is visible for accountability. Your \textbf{private vote} (as a citizen) remains secret.
+    \item \textbf{Opinions Change:} Over half of policy items show significant shifts after deliberation. People update their views when given information.
+    \item \textbf{Information-Driven Change:} Those who learn the most change the most. Changes are tied to information gains, not social pressure.
+    \item \textbf{No Group Bias:} Changes are unrelated to demographics. Women don't just follow men; the less-educated aren't dominated by the educated.
+    \item \textbf{No Systematic Polarization:} About half of small groups become more unified; about half become more diverse. No ``law of group polarization'' here.
+    \item \textbf{Ordinary Citizens Can Deliberate:} The ``defeatist'' view—that the public is too ignorant to consult—is wrong. Given opportunity and resources, normal people discuss issues thoughtfully.
 \end{itemize}
 
-\textbf{4. Delegation Cycles.}
-
-What if Alice delegates to Bob, Bob to Carol, and Carol back to Alice? Votes loop forever.
-
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Solution (``Viscous Democracy''):} Lose a small fraction of voting power at each hop. Cycles naturally decay to zero.
-\end{itemize}
-
-\section*{Part 4: Real-World Experiments}
-
-\textbf{Experiment 1: LiquidFeedback (German Pirate Party, 2009–2013).}
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item Used for internal party decisions.
-    \item \textbf{Result:} Super-voters emerged (power law distribution), but surprisingly did \textit{not} abuse power.
-    \item Super-voters voted with the majority more often than average users.
-    \item They felt ``social pressure'' to be responsible—acting as \textbf{stabilizers}, not dictators.
-    \item Delegation was \textit{not} based on shared political views—it seemed driven by trust and perceived competence.
-\end{itemize}
-
-\textbf{Experiment 2: Google Votes (2012–2015).}
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item Internal Google experiment on corporate Google+ network.
-    \item Over 3 years: 20,000 employees, 87,000 votes, 370 issues.
-    \item Primary use: Low-stakes decisions (office snacks, cafeteria menus, T-shirt designs).
-    \item \textbf{Only 3.6\% of votes were delegated}—most people voted directly on accessible topics.
-    \item Niche experts (e.g., someone with vegan diet expertise) successfully attracted delegations in their specialty.
-    \item Supported multiple voting methods: Yes/No, Approval, Score (1-5 stars), and Ranked (using Schulze method).
-\end{itemize}
-
-\textbf{The Golden Rule of Liquid Democracy.}
-``If I give you my vote, I can see what you do with it.'' Transparency enables accountability.
-
-\section*{Part 5: Prediction Markets – Betting on the Truth}
-
-\textbf{Prediction Markets} take a completely different approach: use \textit{money} to aggregate information.
-
-\textbf{How They Work.}
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item A market trades contracts that pay out based on future events.
-    \item Example: A contract pays \$1 if Candidate X wins the election.
-    \item If the contract trades at 53 cents, the market ``believes'' there's a \textbf{53\% chance} Candidate X wins.
-\end{itemize}
-
-\textbf{Why They Work.}
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Skin in the Game:} Unlike polls (where lying is free), betting real money forces people to be honest about what they believe.
-    \item \textbf{Information Aggregation:} Markets combine the knowledge of thousands of participants into a single price.
-    \item \textbf{Continuous Updates:} Prices update instantly as new information arrives—unlike polls conducted weekly.
-\end{itemize}
-
-\textbf{Accuracy: Better Than Polls.}
-The Iowa Electronic Markets tracked US presidential elections:
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Week before election:} Prediction market error = 1.5\%. Gallup Poll error = 2.1\%.
-    \item \textbf{150 days before election:} Markets far more accurate than polls.
-\end{itemize}
-
-\textbf{Real-World Applications.}
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{US Government:} National security threat assessments.
-    \item \textbf{Healthcare:} Predicting flu outbreak severity.
-    \item \textbf{Corporations:} Google, Intel, Microsoft, Eli Lilly use internal prediction markets for product launch timing, sales forecasts, and software quality.
-\end{itemize}
-
-\textbf{The Legal Problem.}
-Prediction markets look like gambling. US law restricts them heavily:
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item Eight states ban Internet gambling outright.
-    \item The Unlawful Internet Gambling Enforcement Act (2006) creates legal ambiguity.
-    \item Proposed solution: Create ``safe harbors'' for small-stakes, research-focused markets.
-\end{itemize}
-
-\section*{Part 6: Quadratic Voting – Expressing Intensity}
-
-Traditional voting has a fundamental problem: my passionate ``Yes'' counts the same as your indifferent ``Yes.''
-
-\textbf{Quadratic Voting (QV)} solves this by letting voters express \textit{how much} they care.
-
-\textbf{The Mechanism.}
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item Each voter receives a budget of ``voice credits.''
-    \item You can buy votes on any issue, but the cost is \textbf{quadratic}: \\
-    1 vote = 1 credit. 2 votes = 4 credits. 3 votes = 9 credits. 10 votes = 100 credits.
-    \item This creates a trade-off: spend heavily on issues you care deeply about, or spread influence across many issues.
-\end{itemize}
-
-\textbf{Why Quadratic? (Not Linear, Not Cubic)}
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Linear cost} (1 vote = 1 credit) leads to \textbf{dictatorship}: whoever cares most buys infinite votes.
-    \item \textbf{Very high cost} (votes become impossible to buy) leads to \textbf{1-person-1-vote}—back to ignoring intensity.
-    \item \textbf{Quadratic is the sweet spot:} votes become proportional to \textit{how much you care}. Mathematically proven to be uniquely optimal.
-\end{itemize}
-
-\textbf{The Problem QV Solves: Tyranny of the Majority.}
-Under traditional voting, a \textit{mildly interested} majority defeats a \textit{passionate} minority—even when the minority cares far more.
-
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item Example: 60\% mildly prefer Option A. 40\% desperately need Option B.
-    \item Traditional voting: A wins (60\% vs 40\%).
-    \item Quadratic voting: The 40\% can ``outspend'' the apathetic 60\% by buying more votes.
-\end{itemize}
-
-\textbf{Evidence.}
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item Lab experiments show QV produces decisions much closer to optimal than 1-person-1-vote.
-    \item Already used in polling and survey research with significant improvements over traditional methods.
-    \item Higher-stakes applications (political elections, corporate governance) require more experimentation.
-\end{itemize}
-
-\textbf{``Radical Democracy'' – Three Meanings.}
-\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Mathematical:} Votes equal the \textit{square root} (radical) of credits spent.
-    \item \textbf{Philosophical:} Returns to original democratic ideals—maximizing the ``general happiness.''
-    \item \textbf{Liberating:} Frees citizens from the ``straightjacket'' of one-person-one-vote rationing.
-\end{itemize}
+\textbf{Historical Inspiration:}
+Deliberative microcosms chosen by lot made key decisions in \textit{ancient Athens}. Deliberative Polling revives this practice, combining random sampling (equality) with structured discussion (quality).
 
 \section*{Part 7: The Scorecard (Dahl's Criteria)}
 
-\textbf{How Do These Innovations Measure Up?}
+\begin{center}
+\begin{tabularx}{\textwidth}{@{}p{2.2cm} X X X X X@{}}
+\toprule
+\textbf{Criterion} & \textbf{Liquid Democracy} & \textbf{Crowdfunding} & \textbf{Prediction Markets} & \textbf{Quadratic Voting} & \textbf{Deliberative Polling} \\
+\midrule
+\textbf{Participation} & \textbf{Pass.} Flexible (vote or delegate). & \textbf{Mixed.} Anyone can propose; flashy wins. & \textbf{Fail.} Money required. & \textbf{Pass.} Everyone gets credits. & \textbf{Pass.} Random selection. \\
+\midrule
+\textbf{Voting Equality} & \textbf{Mixed.} Super-voters accumulate power. & \textbf{Fail.} Dollars = votes. & \textbf{Fail.} Wealth buys influence. & \textbf{Pass.} If budgets equal. & \textbf{Pass.} Equal by design. \\
+\midrule
+\textbf{Understanding} & \textbf{Mixed.} Relies on proxy. & \textbf{Mixed.} Quality varies. & \textbf{Pass.} Aggregates info well. & \textbf{Neutral.} No info boost. & \textbf{Pass.} Deliberation educates. \\
+\midrule
+\textbf{Agenda Control} & \textbf{Mixed.} Super-voters dominate. & \textbf{Pass.} Crowd decides. & \textbf{Mixed.} Creators set topics. & \textbf{Neutral.} Pre-set issues. & \textbf{Mixed.} Organizers choose. \\
+\midrule
+\textbf{Inclusiveness} & \textbf{Pass.} Low barriers. & \textbf{Mixed.} Wealth favored. & \textbf{Fail.} Capital required. & \textbf{Pass.} Broadly accessible. & \textbf{Pass.} Random + support. \\
+\bottomrule
+\end{tabularx}
+\end{center}
 
-\textbf{1. Effective Participation (Can you be heard?)}
+\hrulefill
+
+\textbf{Bottom Line.} Democracy is an engineering problem. Traditional one-person-one-vote is not the only solution—and may not be the best.
+
+\textbf{Liquid Democracy} lets you choose when to participate and when to delegate, matching your engagement to your expertise—but still creates power concentrations.
+
+\textbf{Crowdfunding} lets communities fund their own priorities—but favors the wealthy and flashy.
+
+\textbf{Prediction Markets} aggregate dispersed information with remarkable accuracy—but are vulnerable to manipulation and exclude those without capital.
+
+\textbf{Quadratic Voting} captures the \textit{intensity} of preferences, protecting passionate minorities—but is complex and can be gamed.
+
+\textbf{Deliberative Polling} shows that ordinary citizens \textit{can} make informed, thoughtful decisions when given balanced information and structured discussion—countering the pessimistic view that ``the public is too ignorant.''
+
+None of these mechanisms is perfect. Each has vulnerabilities. But together, they expand our toolkit for collective decision-making beyond the simple ballot. The deeper lesson: \textbf{democracy is not one system—it is an ongoing experiment}. We can design new mechanisms, test them, and learn what works. The goal is not to find the perfect system (Arrow proved that's impossible), but to find \textit{better} systems for different contexts. Delegation, money, incentives, and deliberation are all valid tools—the question is how to use them wisely.
+
+\newpage
+\section*{Week 9: Randomness in Democracy}
+
+\textbf{The Big Picture.}
+This week asks: \textit{Should we select leaders by lottery instead of election?} We explore an ancient but powerful tool for democracy: \textbf{Randomness}. From Athenian lotteries to Venetian Doge elections to modern jury selection, random selection has been used to prevent corruption, ensure fairness, and give ordinary citizens a voice. But randomness only works if identities are real—which brings us to the \textbf{Sybil Attack} (fake identities) and \textbf{Social Bots} (automated fakes).
+
+\section*{Part 1: Why Randomness?}
+At first, picking leaders by lottery seems absurd. But randomness solves real problems:
+
+\textbf{The Core Benefits:}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Liquid Democracy:} \textbf{Pass.} You can participate as much or as little as you want.
-    \item \textbf{Prediction Markets:} \textbf{Mixed.} You need money to participate. Richer participants have more influence.
-    \item \textbf{Quadratic Voting:} \textbf{Pass.} Everyone gets voice credits; intensity of preference is heard.
+    \item \textbf{Anti-Corruption:} If you don't know who will be selected, you can't bribe them in advance.
+    \item \textbf{Fairness:} Everyone has an equal chance. No ``old boys' club'' or insider networks.
+    \item \textbf{Fresh Perspectives:} Newcomers aren't captured by special interests or ``the way things are done.''
+    \item \textbf{Representativeness:} A random sample looks like the population—diverse in age, gender, background.
 \end{itemize}
 
-\textbf{2. Voting Equality (One Person, One Vote).}
+\textbf{The Core Trade-Off:}
+\begin{center}
+\begin{tabularx}{\textwidth}{@{}X X@{}}
+\toprule
+\textbf{Randomness (Anti-Corruption)} & \textbf{Expertise} \\
+\midrule
+Newbies with no vested interests & Experienced insiders who may be captured or corrupt \\
+Hard to bribe or manipulate & Deep knowledge and efficiency \\
+Diversity and fresh perspectives & Risk of entrenchment and bias \\
+\bottomrule
+\end{tabularx}
+\end{center}
+\textit{Key Insight:} Modern democracies may undervalue randomness. How much expertise do we really need vs. the anti-corruption benefits of random selection?
+
+\section*{Part 2: Historical Uses of Randomness}
+
+\textbf{1. Ancient Athens: The Lottery (Kleroteria).}
+Athenian democracy didn't elect most officials—it \textit{randomly selected} them.
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Liquid Democracy:} \textbf{Mixed.} Super-voters accumulate power through delegation.
-    \item \textbf{Prediction Markets:} \textbf{Fail.} Voting power is proportional to wealth.
-    \item \textbf{Quadratic Voting:} \textbf{Pass (if credits are equal).} Equal starting budgets maintain fairness.
+    \item \textbf{How:} A device called the \textbf{kleroteria} (origin of ``lottery'') randomly chose magistrates (like mayors or police chiefs).
+    \item \textbf{Rules:} One-year terms. You could only hold a specific office \textit{once in your lifetime}. Showing \textit{desire} for a position could disqualify you.
+    \item \textbf{Why:} Prevents entrenched power. New, unattached people are less likely to abuse authority.
 \end{itemize}
 
-\textbf{3. Enlightened Understanding (Do you know the truth?)}
+\textbf{2. Venice: The Doge Election (1300--1800).}
+The Venetian Republic faced rampant factionalism. Their solution? A 10-stage process alternating between \textbf{random selection} and \textbf{deliberation}:
+\begin{center}
+\begin{tabularx}{\textwidth}{@{}c X@{}}
+\toprule
+\textbf{Step} & \textbf{Action} \\
+\midrule
+1--2 & From the Great Council, randomly select 30 $\to$ reduce to 9 \\
+3--4 & The 9 deliberate and choose 40 $\to$ randomly reduce to 12 \\
+5--7 & The 12 choose 25 $\to$ reduce to 9 $\to$ choose 45 \\
+8--10 & Reduce to 11 $\to$ choose 41 $\to$ \textbf{the 41 elect the Doge} \\
+\bottomrule
+\end{tabularx}
+\end{center}
+\textit{Why so complex?} Impossible for any faction to predict or control the outcome across so many random rounds. Even if you plant allies at one stage, they may not survive the next cut.
+
+\textbf{3. Trial by Jury (U.S. and Beyond).}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Liquid Democracy:} \textbf{Mixed.} You can delegate to experts, but you're trusting their judgment.
-    \item \textbf{Prediction Markets:} \textbf{Pass.} Markets aggregate dispersed knowledge effectively.
-    \item \textbf{Quadratic Voting:} \textbf{Neutral.} Doesn't address information quality.
+    \item \textbf{Purpose:} Ensures fairness and impartiality. Expert judges may carry biases; a randomly selected jury of peers may not.
+    \item \textbf{Key Benefit:} Ordinary people may better understand an ordinary person's situation.
 \end{itemize}
 
-\textbf{4. Control of the Agenda (Who decides what we discuss?)}
+\textbf{4. Random Vote Counters (Switzerland).}
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Liquid Democracy:} \textbf{Mixed.} Super-voters may shape outcomes; ordinary users rarely set agenda.
-    \item \textbf{Prediction Markets:} \textbf{Mixed.} Market creators set which questions to ask.
-    \item \textbf{Quadratic Voting:} \textbf{Neutral.} Works on given issues; doesn't determine which issues are raised.
+    \item \textbf{Purpose:} Prevents election fraud.
+    \item \textbf{Mechanism:} Vote counters are randomly selected \textit{before each election}—impossible to corrupt in advance.
 \end{itemize}
 
-\textbf{5. Inclusiveness (Is everyone invited?)}
+\textbf{5. Tie-Breaking by Coin Flip.}
+When an election is exactly tied, a coin flip preserves fairness. Neither side gains an advantage; democracy moves forward.
+
+\section*{Part 3: Modern Applications}
+
+\textbf{Risk-Limiting Audits (RLAs).}
+A statistical method to verify election integrity without recounting every ballot:
 \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
-    \item \textbf{Liquid Democracy:} \textbf{Pass.} Low barriers if implemented well.
-    \item \textbf{Prediction Markets:} \textbf{Fail.} Requires capital and market access.
-    \item \textbf{Quadratic Voting:} \textbf{Pass.} Equal credit distribution enables broad participation.
+    \item Randomly sample a small number of paper ballots.
+    \item Count them independently; compare to official results.
+    \item Statistical math determines if discrepancies are within chance or indicate fraud.
+    \item \textbf{Key Benefit:} Efficient, strong safeguard against counting errors.
 \end{itemize}
+
+\textbf{Randomness in STV (Single Transferable Vote).}
+When a candidate exceeds the quota, surplus votes must be redistributed. One method: \textit{randomly} select which ballots transfer.
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Pro:} Simple, fair, quick.
+    \item \textbf{Con:} Makes the election non-deterministic (different random draws could give different results).
+\end{itemize}
+
+\textbf{Deliberative Polling \& Citizens' Assemblies.}
+Combines random selection with structured deliberation (covered in Week 8). A random sample of citizens is convened, given balanced information, and asked to discuss and form opinions. The result: what the public \textit{would} think if given time to learn and discuss.
+
+\section*{Part 4: The Sybil Attack (Fake Identities)}
+Randomness only works if each ``slot'' is a \textit{real, unique person}. The \textbf{Sybil Attack} breaks this assumption.
+
+\textbf{What is a Sybil Attack?}
+A single bad actor creates \textit{many fake identities} to gain disproportionate power in a system that assumes ``one person, one vote.''
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Named after:} The book \textit{Sybil} (1973), about a woman with multiple personalities.
+    \item \textbf{Example:} If a lottery selects 10 citizens, and one attacker controls 9 fake identities, that attacker wins the lottery.
+\end{itemize}
+
+\textbf{Why It's Hard to Stop (Douceur, 2002):}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Resources vs. Identities:} If one attacker has $\rho$ times more resources than a normal user, they can create $\rho$ fake identities.
+    \item \textbf{Simultaneous Validation Required:} If you check identities one at a time, an attacker can reuse resources and forge unlimited identities. You must validate \textit{everyone at once}.
+    \item \textbf{Vouching Doesn't Fully Help:} A ``web of trust'' (like PGP) can be exploited if attackers collude or have enough resources.
+\end{itemize}
+
+\textbf{The Bottom Line:}
+Without a \textbf{trusted central authority} (like a government ID system), it is nearly impossible to guarantee ``one person, one identity'' in a decentralized system. Randomness-based democracy requires robust identity verification.
+
+\section*{Part 5: Social Bots (Automated Fakes)}
+The Sybil attack has gone digital. \textbf{Social bots} are automated accounts that pretend to be human on social media.
+
+\textbf{What Can Bots Do?}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Manipulate Politics:} Bots were used in the 2010 U.S. elections to smear candidates and spread fake news.
+    \item \textbf{Move Markets:} A fake tweet about a White House attack (2013) crashed the stock market instantly.
+    \item \textbf{Manufacture Consensus:} Create the illusion that a fringe opinion is widely held (``astroturfing'').
+    \item \textbf{Spread Misinformation:} Amplify rumors, conspiracies, and propaganda faster than humans can fact-check.
+\end{itemize}
+
+\textbf{Modern Bots Are Sophisticated:}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item Mimic human circadian rhythms (posting at ``normal'' hours).
+    \item Steal real users' photos and bios.
+    \item Engage in conversations, comment, and answer questions.
+    \item Join trending topics with contextually appropriate content.
+\end{itemize}
+
+\textbf{How Do We Detect Bots?}
+\begin{center}
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\toprule
+\textbf{Method} & \textbf{How It Works} \\
+\midrule
+\textbf{Network-Based} & Bots often cluster together (few links to real users). Detect tight-knit ``sybil'' communities. \\
+\textbf{Crowdsourcing} & Humans evaluate profiles (Online Social Turing Test). High accuracy, but expensive and slow. \\
+\textbf{Machine Learning} & Train classifiers on features: timing patterns, content, follower ratios, linguistic cues. \\
+\textbf{Hybrid} & Combine multiple methods. Detect coordinated, synchronized behavior across accounts. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+\textit{The Arms Race:} As detection improves, bots evolve. The race ends only when early detection makes deception too costly.
+
+\section*{Part 6: The Scorecard (Dahl's Criteria)}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{@{}p{2.2cm} X X@{}}
+\toprule
+\textbf{Criterion} & \textbf{Randomness (Lotteries, RLAs, Juries)} & \textbf{Threats (Sybils, Bots)} \\
+\midrule
+\textbf{Effective Participation} & \textbf{Pass.} Everyone has an equal chance to be selected. & \textbf{Fail.} Fake identities crowd out real voices. \\
+\midrule
+\textbf{Voting Equality} & \textbf{Pass.} One person, one chance (if identities are real). & \textbf{Fail.} One attacker, many votes. \\
+\midrule
+\textbf{Enlightened Understanding} & \textbf{Mixed.} Deliberative polls educate; raw lotteries do not. & \textbf{Fail.} Bots spread misinformation. \\
+\midrule
+\textbf{Agenda Control} & \textbf{Mixed.} Organizers still set topics for citizens' assemblies. & \textbf{Fail.} Bots hijack trending topics. \\
+\midrule
+\textbf{Inclusiveness} & \textbf{Pass.} Random selection is inherently inclusive. & \textbf{Fail.} Fake accounts exclude real users from visibility. \\
+\bottomrule
+\end{tabularx}
+\end{center}
 
 \hrulefill
 
 \textbf{Bottom Line.}
-Democracy is an engineering problem. Traditional one-person-one-vote is not the only solution—and may not be the best. \textbf{Liquid Democracy} lets you choose when to participate and when to delegate, matching your engagement to your expertise. \textbf{Prediction Markets} harness financial incentives to aggregate information more accurately than polls. \textbf{Quadratic Voting} lets you express not just \textit{what} you want, but \textit{how much} you want it. None of these is perfect. Liquid Democracy still creates power concentrations. Prediction Markets favor the wealthy. Quadratic Voting requires careful credit distribution. But each represents a genuine innovation—a new tool in the democratic toolkit. The lesson: \textbf{democracy can evolve with technology}, but only if we design carefully, experiment honestly, and remain vigilant about where power actually flows.
+Randomness is a powerful anti-corruption tool. It ensures fairness and prevents elite capture. But it has a fatal flaw: it relies on \textbf{Unique Identity}. If one attacker can pretend to be a thousand people (Sybil Attack), they can rig any lottery. This leads us to the final challenge: How do we prove we are human in a digital world?
+
+
+\newpage
+\section*{Week 10: Digital Identity \& Proof of Personhood}
+
+\textbf{The Big Picture.}
+This week asks: \textit{How do we prove we are human on the internet—without sacrificing privacy?} Democracy relies on a simple promise: \textbf{One Person, One Vote}. In the physical world, our bodies guarantee this—you can only be in one place at once. On the internet, identities are cheap, disposable, and infinite. The goal is \textbf{Proof of Personhood}—verifying that you are a \textit{unique} human, without revealing \textit{who} you are.
+
+\section*{Part 1: The Sybil Problem (Resources vs. Identity)}
+A \textbf{Sybil Attack} occurs when one person creates multiple fake identities to subvert a reputation system.
+
+\textbf{1. The Doonesbury Case (IP Addresses aren't People).}
+In a famous early internet poll to name a character's college, engineers used ``One Vote per IP Address.''
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{The Flaw:} MIT owned a ``Class A'' subnet (millions of IPs). One student wrote a script to cycle through them.
+    \item \textbf{The Result:} MIT cast more votes than the rest of the internet combined.
+    \item \textbf{Lesson:} \textbf{Resources $\neq$ Identity.} If identity costs money (buying IPs) or skill (coding bots), democracy becomes a plutocracy.
+\end{itemize}
+
+\textbf{2. The Platform Incentive.}
+Why don't Google or Facebook just verify everyone's ID?
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Friction Kills Growth:} Requiring a passport reduces sign-ups. Platforms prioritize users over truth.
+    \item \textbf{Liability:} Storing millions of IDs creates a massive target for hackers (a ``Honey Pot'').
+    \item \textbf{Exclusion:} Many marginalized people (refugees) lack official docs.
+\end{itemize}
+
+\section*{Part 2: The Death of Proxies}
+We try to map users to ``proxies''—things we think map to people. They all fail.
+
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{IP Addresses:} Failed. VPNs, NATs, and IPv6 make IPs meaningless for identity.
+    \item \textbf{Email/Phone:} Failed. Easy to automate (sim farms, aliases).
+    \item \textbf{CAPTCHAs:} Failed. AI is now better at image recognition than humans. CAPTCHAs now only punish humans (especially the visually impaired) while bots breeze past.
+\end{itemize}
+
+\section*{Part 3: Proof of Personhood (The Solutions)}
+If we can't use proxies, how do we prove humanity? We need a system where identities are \textbf{Non-Disposable} and \textbf{Unique}, but still \textbf{Private}.
+
+\textbf{1. Pseudonym Parties (Synchronicity).}
+\textit{Idea:} You can have 1,000 digital avatars, but only one physical body.
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Mechanism:} Everyone meets at a physical location at the \textbf{exact same time} (Global Synchronicity).
+    \item \textbf{Process:} You show up, get a digital token, and leave. No names, no IDs. Just presence.
+    \item \textbf{Why it works:} A Sybil attacker cannot send their one body to 1,000 parties simultaneously.
+    \item \textbf{Trade-off:} High friction (you have to show up). Hard to organize.
+\end{itemize}
+
+\textbf{2. The Web of Trust (Vouching).}
+\textit{Idea:} Existing users ``vouch'' for new users (e.g., PGP, keysigning).
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Why it fails:} \textbf{Sybil Regions}. Once a group of attackers gets in, they vouch for each other infinitely (Collusion), creating a massive fake network that looks real.
+\end{itemize}
+
+\textbf{3. Biometrics (The Aadhaar Model).}
+\textit{Idea:} Use biological uniqueness (Iris, Fingerprint).
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Example:} India's Aadhaar system covers $>$1 billion people.
+    \item \textbf{Pros:} Extremely hard to fake.
+    \item \textbf{Cons:} \textbf{Zero Privacy.} If the database leaks, you can't reset your fingerprints. It enables perfect state surveillance.
+\end{itemize}
+
+\textbf{4. Online Turing Tests (Idena).}
+\textit{Idea:} Synchronous \textit{online} puzzles.
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Mechanism:} Everyone logs in at the same time and solves ``Flip Puzzles'' (narrative logic puzzles hard for AI) within a short window.
+    \item \textbf{Why it works:} Even if you have scripts, you can't mentally solve 10 narrative puzzles at once.
+    \item \textbf{Risk:} AI advancement (LLMs) will eventually break this.
+\end{itemize}
+
+\section*{Part 4: The Scorecard (Dahl's Criteria)}
+\textbf{How does Proof of Personhood (PoP) impact democracy?}
+
+\textbf{1. Effective Participation (Can you be heard?)}
+\textit{Grade:} \textbf{Pass.} Without Sybil protection, real humans are drowned out by bot armies. PoP is essential to restore the human voice in digital spaces.
+
+\textbf{2. Voting Equality (One Person, One Vote).}
+\textit{Grade:} \textbf{The Gold Standard.} PoP is the \textit{only} technology that guarantees 1p1v online. Without it, online voting is just ``One Dollar, One Vote'' (buying resources).
+
+\textbf{3. Enlightened Understanding.}
+\textit{Grade:} \textbf{Mixed.} Eliminating bots clears out automated disinformation, but it doesn't solve human polarization or filter bubbles.
+
+\textbf{4. Inclusiveness.}
+\textit{Grade:} \textbf{The Challenge.} High-friction systems (Pseudonym Parties) exclude the sick, disabled, or busy. Biometric systems exclude those without docs or biological conformity. There is a trade-off between \textbf{Security} and \textbf{Access}.
+
+\hrulefill
+
+\textbf{Bottom Line.}
+The internet was built on \textbf{Weak Identities}. This enabled free speech but broke democracy (Sybils). \textbf{Strong Identity} (Passports) fixes Sybils but kills privacy. The future lies in the middle: \textbf{Proof of Personhood}—using synchronicity (Pseudonym Parties) or clever verification to prove \textit{humanity} without revealing \textit{identity}. Until we solve this, digital democracy will always be captured by those with the most servers.
+
+\newpage
+\section*{Week 11: Identity and Anonymity}
+
+\textbf{The Big Picture.}
+This week asks: \textit{Can we have both accountability and anonymity?} We face a fundamental tension: Democracy needs \textbf{Identity} (to ensure one person, one vote) but Liberty needs \textbf{Anonymity} (to protect free speech and privacy). This week explores the technologies that pull these apart—from \textbf{Self-Sovereign Identity (SSI)} which gives you total control over your credentials, to \textbf{Tor} and \textbf{Mix Nets} which mathematically guarantee that no one knows who you are. The goal is a synthesis: \textbf{Accountable Anonymity}.
+
+\section*{Part 1: The Evolution of Identity (Self-Sovereign Identity)}
+We are moving through three ages of digital identity:
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Centralized (Web 1.0):} You have a different username/password for every site. Site owners control your data.
+    \item \textbf{Federated (Web 2.0):} You use ``Login with Google.'' Convenient, but Google becomes the surveillance overlord of your life.
+    \item \textbf{Self-Sovereign Identity (SSI):} You hold your own credentials in a digital wallet. No central authority can revoke your identity.
+\end{itemize}
+
+\textbf{How SSI Works (The Triangle of Trust):}
+\begin{enumerate}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Issuer:} An authority (e.g., University) cryptographically signs a credential (``Alice has a PhD'') and gives it to Alice.
+    \item \textbf{Holder (User):} Alice stores this in her private wallet.
+    \item \textbf{Verifier:} Alice wants a job. She shows the signed credential to the Employer. The Employer verifies the University's signature on the blockchain.
+    \item \textbf{Key Innovation -- Selective Disclosure:} Alice can prove she is ``Over 18'' \textit{without} sharing her birthday or name, using \textbf{Zero-Knowledge Proofs}.
+\end{enumerate}
+
+\section*{Part 2: The Architecture of Anonymity}
+How do we protect users from surveillance?
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{VPNs (Virtual Private Networks):} Trust transfer. You hide from your ISP, but now the VPN provider sees everything. Weak anonymity.
+    \item \textbf{Tor (The Onion Router):} \textbf{Three-hop protection}. You encrypt your packet three times.
+    \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+        \item Node 1 sees \textit{who you are} but not \textit{where you go}.
+        \item Node 2 sees nothing.
+        \item Node 3 sees \textit{where you go} but not \textit{who you are}.
+        \item \textbf{Weakness:} Susceptible to \textbf{Traffic Analysis}. A global adversary watching both ends can match the timing of packets.
+    \end{itemize}
+    \item \textbf{Mix Nets (Chaumian Mixing):} The gold standard for electronic voting.
+    \begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+        \item Messages are collected in a batch, cryptographically shuffled (like a deck of cards), and sent out in random order.
+        \item \textbf{Benefit:} Mathematically breaks the link between sender and receiver.
+        \item \textbf{Cost:} \textbf{Latency}. You have to wait for the batch to fill. Great for email/voting, terrible for web browsing.
+    \end{itemize}
+\end{itemize}
+
+\section*{Part 3: Case Study -- The 4chan Paradox}
+What happens when you create a community with \textbf{Absolute Anonymity} and \textbf{Zero Memory}? A study of 4chan's /b/ board reveals the ``survival of the fittest'' meme culture.
+
+\textbf{The Mechanism:}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Radical Anonymity:} 90\% of posts are ``Anonymous.'' No reputation, no followers, no fame.
+    \item \textbf{Extreme Ephemerality:} Threads die in minutes. The average thread stays on the front page for just \textit{5 seconds}.
+    \item \textbf{Result:} Content must be shocking, funny, or engaging to survive. If it's boring, it vanishes instantly. This creates a hyper-evolutionary pressure for memes (giving birth to Rickrolling, LOLcats, etc.).
+\end{itemize}
+
+\textbf{The Lesson:} Community \textit{can} exist without identity. But without reputation to punish bad behavior, it inevitably drifts toward chaos and toxicity.
+
+\section*{Part 4: The Scorecard (Dahl's Criteria)}
+Does Anonymity help Democracy?
+
+\textbf{1. Effective Participation (Can you be heard?)}
+\textit{Grade:} \textbf{Pass.} Anonymity is a shield for the vulnerable. Whistleblowers, dissidents in authoritarian regimes, and marginalized groups can speak safely.
+
+\textbf{2. Voting Equality.}
+\textit{Grade:} \textbf{Fail.} In an anonymous system, Sybil attacks are trivial. One person can drown out a thousand others. (See Week 10).
+
+\textbf{3. Enlightened Understanding.}
+\textit{Grade:} \textbf{Mixed.} Anonymity allows truth-tellers to leak documents (WikiLeaks), but also allows bad actors to spread disinformation without consequence.
+
+\textbf{4. Control of the Agenda.}
+\textit{Grade:} \textbf{Fail.} Without identity/reputation, agenda setting is often hijacked by those with the most time (or bots) to spam the system.
+
+\hrulefill
+
+\textbf{Bottom Line.}
+We used to think Anonymity was a binary switch (on or off). We now know it's a spectrum.
+\textbf{Tor} gives us privacy for browsing.
+\textbf{Mix Nets} give us secrecy for voting.
+\textbf{SSI} gives us control over our credentials.
+The future of democratic technology isn't about destroying anonymity to ensure safety (the surveillance state), nor absolute anonymity (the chaos of 4chan). It is about \textbf{Accountable Anonymity} -- building cryptographic systems where we can prove we are citizens without doxxing ourselves to the world.
+
+\newpage
+\section*{Week 12: Polarization and Radicalization}
+
+\textbf{The Big Picture.}
+This week asks: \textit{Does the internet bring us together—or tear us apart?} \textbf{Polarization} is the formation of "Us vs. Them" tribes. \textbf{Radicalization} is the process of moving people from normal disagreements to extreme, violent, or hateful views. We explore how algorithms (like YouTube's recommender) and network structures (like social bubbles) don't just reflect these problems—they actively manufacture them.
+
+\section*{Part 1: The Radicalization Pipeline (The YouTube Audit)}
+A major 2020 study by Ribeiro et al. audited YouTube to test the "Radicalization Pipeline" hypothesis: Does the algorithm push users into extremism?
+
+\textbf{The Communities:}
+They analyzed three layers of political channels:
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Intellectual Dark Web (IDW):} Controversial but mainstream academics discussing taboos (e.g., Jordan Peterson, Joe Rogan).
+    \item \textbf{Alt-lite:} Right-wing activists flirting with extreme ideas but denying overt racism (e.g., Proud Boys).
+    \item \textbf{Alt-right:} Openly white supremacist and hate groups (e.g., Richard Spencer).
+\end{itemize}
+
+\textbf{The Findings:}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{High Migration:} There is a strong data trail of users migrating from mild to extreme. \textbf{40\%} of users commenting on Alt-right videos came directly from the IDW or Alt-lite communities.
+    \item \textbf{The Escalator:} The migration is one-way: people drift from moderate to extreme, rarely the other way.
+    \item \textbf{The Algorithm's Role:} Recommendations create a navigable path. While the video recommender doesn't usually jump straight to Nazis, the "Recommended Channels" feature bridges the gap, helping users find the next level of extremism easily.
+\end{itemize}
+
+\section*{Part 2: Information Gerrymandering}
+We know politicians "gerrymander" maps—drawing weird district lines to guarantee they win elections.
+A study by Stewart et al. (2019) shows that we do the same thing with \textbf{Information}.
+
+\textbf{How it Works:}
+Imagine a group trying to make a decision (Purple Party vs. Yellow Party).
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{The Setup:} Even if both sides have equal numbers and equal voting power...
+    \item \textbf{The Gerrymander:} If the Purple Party is organized in an "Echo Chamber" (they only talk to each other) while the Yellow Party is scattered, the Purple Party wins. Their influence is concentrated where it matters.
+    \item \textbf{The Zealot Effect:} Just a few "Zealot Bots" (who never change their minds) placed in key spots can sway a whole network.
+\end{itemize}
+
+\textbf{The Dilemma (Deadlock):}
+If both sides try to gerrymander (building their own separate echo chambers), they stop talking entirely. The result isn't a win for anyone—it's \textbf{Deadlock}. Society loses the ability to reach any consensus at all.
+
+\section*{Part 3: Internet Voting (The Swiss Experiment)}
+Could technology solve this by making voting easier? Switzerland has been testing \textbf{Internet Voting} (i-voting) for 15 years.
+
+\textbf{The Realities of i-Voting:}
+\begin{itemize}[noitemsep, topsep=0pt, leftmargin=*]
+    \item \textbf{Slow Adoption:} Even in tech-savvy Switzerland, adoption is crawling. It took 30 years for postal voting to become standard; i-voting is similar.
+    \item \textbf{Who uses it?} Domestic usage is low ($\sim$20\%). The real killer app is for \textbf{Expatriates} (citizens living abroad), where usage hits 50-60\% because postal mail is unreliable.
+    \item \textbf{The New Digital Divide:} Usage doesn't depend on age or income as much as \textbf{IT Literacy}. Complexity locks out those who aren't tech-savvy.
+    \item \textbf{The Trade-off:} Security experts warn that while convenience is high, the risk of undetectable hacking remains the "Sword of Damocles" over the system.
+\end{itemize}
+
+\section*{Part 4: The Scorecard (Dahl's Criteria)}
+How does technology fare in the age of Polarization?
+
+\textbf{1. Effective Participation (Can you be heard?)}
+\textit{Grade:} \textbf{Fail.} The "Radicalization Pipeline" amplifies extreme voices while drowning out moderates. Information Gerrymandering ensures that the best-connected group wins, not the majority.
+
+\textbf{2. Voting Equality (One Person, One Vote).}
+\textit{Grade:} \textbf{Mixed.} Internet voting helps some (expats) but excludes others (low-tech users).
+
+\textbf{3. Enlightened Understanding (Do you know the truth?)}
+\textit{Grade:} \textbf{Fail.} Algorithms optimize for engagement, which favors outrage and extremism. Users are funneled into echo chambers where they never see opposing facts.
+
+\textbf{4. Control of the Agenda.}
+\textit{Grade:} \textbf{Fail.} The agenda is set by "Zealot Bots" and algorithmic black boxes, not by citizens debating freely.
+
+\hrulefill
+
+\textbf{Bottom Line.}
+We used to worry that technology would be a "Big Brother" watching us. The reality is subtler: technology is a \textbf{Lens} that distorts reality. Algorithms maximize engagement by feeding us radical content. Social networks gerrymander our attention, trapping us in echo chambers. The result is a polarized society where we don't just disagree on opinions—we disagree on facts. To fix democracy, we don't just need better voters; we need to redesign the \textbf{architecture of influence} itself.
 
 \end{document}

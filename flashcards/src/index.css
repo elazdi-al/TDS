@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color: #f7f7f7;
+  --card-bg: #ffffff;
+  --text-primary: #121212;
+  --text-secondary: #666666;
+  --shadow-soft: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --shadow-strong: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.01);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.perspective-container {
+  perspective: 1500px;
+  width: 100%;
+  max-width: 500px;
+  aspect-ratio: 3/2;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-style: preserve-3d;
+  cursor: grab;
+  /* background: var(--card-bg); removed to fix glitch */
+  background: transparent;
+  border-radius: 16px;
+  /* box-shadow: var(--shadow-strong); removed to apply to faces for better 3d feel or kept? 
+     If we keep it here, the shadow doesn't flip. 
+     Let's keep it here for drag physics, but the "glitch" was the white bg. 
+  */
+}
+
+.card:active {
+  cursor: grabbing;
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  text-align: center;
+  background-color: var(--card-bg);
+  box-shadow: var(--shadow-strong);
+  /* border: 1px solid rgba(0,0,0,0.05); replaced by shadow definition mostly, but keeping subtle border is nice */
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  background-color: #111111;
+  color: #ffffff;
+  border: 1px solid #111111;
+}
+
+.card-back .week-badge {
+    color: #666;
+}
+
+.week-badge {
+  position: absolute;
+  top: 1.5rem;
+  width: 100%;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #999;
+}
+
+::selection {
+  background: #000;
+  color: #fff;
+}
