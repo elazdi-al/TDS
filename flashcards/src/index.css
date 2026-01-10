@@ -1,115 +1,182 @@
 @import "tailwindcss";
 
+
+@custom-variant dark (&:is(.dark *));
+
 :root {
-  --bg-color: #f7f7f7;
-  --card-bg: #ffffff;
-  --text-primary: #121212;
-  --text-secondary: #666666;
-  --shadow-soft: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
-  --shadow-strong: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.01);
+	--bg-color: #f7f7f7;
+	--card-bg: #ffffff;
+	--text-primary: #121212;
+	--text-secondary: #666666;
+	--shadow-soft: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px
+		rgb(0 0 0 / 0.05);
+	--shadow-strong: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px
+		rgb(0 0 0 / 0.01);
+	--sidebar: hsl(0 0% 98%);
+	--sidebar-foreground: hsl(240 5.3% 26.1%);
+	--sidebar-primary: hsl(240 5.9% 10%);
+	--sidebar-primary-foreground: hsl(0 0% 98%);
+	--sidebar-accent: hsl(240 4.8% 95.9%);
+	--sidebar-accent-foreground: hsl(240 5.9% 10%);
+	--sidebar-border: hsl(220 13% 91%);
+	--sidebar-ring: hsl(217.2 91.2% 59.8%);
+	--background: #f7f7f7;
+	--foreground: #121212;
+	--border: hsl(220 13% 91%);
+	--ring: hsl(220 13% 91%);
+	--radius: 0.5rem;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: var(--bg-color);
-  color: var(--text-primary);
-  min-height: 100vh;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+	background-color: var(--bg-color);
+	color: var(--text-primary);
+	min-height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #root {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
 }
 
 .perspective-container {
-  perspective: 1500px;
-  width: 100%;
-  max-width: 500px;
-  aspect-ratio: 3/2;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	perspective: 1500px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform-style: preserve-3d;
-  cursor: grab;
-  /* background: var(--card-bg); removed to fix glitch */
-  background: transparent;
-  border-radius: 16px;
-  /* box-shadow: var(--shadow-strong); removed to apply to faces for better 3d feel or kept? 
-     If we keep it here, the shadow doesn't flip. 
-     Let's keep it here for drag physics, but the "glitch" was the white bg. 
-  */
+	width: 100%;
+	height: 100%;
+	max-width: 75vw;
+	max-height: 75vh;
+	position: absolute;
+	inset: 0;
+	margin: auto;
+	transform-style: preserve-3d;
+	cursor: grab;
+	background: transparent;
+	border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 60vw; /* Slightly smaller for a cleaner look */
+        height: 70vh;
+    }
+}
+
+@media (orientation: portrait) {
+	.card {
+		width: 90vw;
+		height: 70vh;
+	}
 }
 
 .card:active {
-  cursor: grabbing;
+	cursor: grabbing;
 }
 
 .card-face {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2.5rem;
-  text-align: center;
-  background-color: var(--card-bg);
-  box-shadow: var(--shadow-strong);
-  /* border: 1px solid rgba(0,0,0,0.05); replaced by shadow definition mostly, but keeping subtle border is nice */
-  border: 1px solid rgba(0,0,0,0.05);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem;
+	text-align: center;
+	background-color: var(--card-bg);
+	box-shadow: var(--shadow-strong);
+	border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .card-back {
-  transform: rotateY(180deg);
-  background-color: #111111;
-  color: #ffffff;
-  border: 1px solid #111111;
+	transform: rotateY(180deg);
+	background-color: #111111;
+	color: #ffffff;
+	border: 1px solid #111111;
 }
 
 .card-back .week-badge {
-    color: #666;
+	color: #666;
 }
 
 .week-badge {
-  position: absolute;
-  top: 1.5rem;
-  width: 100%;
-  text-align: center;
-  font-size: 0.7rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #999;
+	position: absolute;
+	top: 1.5rem;
+	width: 100%;
+	text-align: center;
+	font-size: 0.7rem;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #999;
 }
 
 ::selection {
-  background: #000;
-  color: #fff;
+	background: #000;
+	color: #fff;
+}
+
+.dark {
+	--sidebar: hsl(240 5.9% 10%);
+	--sidebar-foreground: hsl(240 4.8% 95.9%);
+	--sidebar-primary: hsl(224.3 76.3% 48%);
+	--sidebar-primary-foreground: hsl(0 0% 100%);
+	--sidebar-accent: hsl(240 3.7% 15.9%);
+	--sidebar-accent-foreground: hsl(240 4.8% 95.9%);
+	--sidebar-border: hsl(240 3.7% 15.9%);
+	--sidebar-ring: hsl(217.2 91.2% 59.8%);
+}
+
+@theme inline {
+	--color-sidebar: var(--sidebar);
+	--color-sidebar-foreground: var(--sidebar-foreground);
+	--color-sidebar-primary: var(--sidebar-primary);
+	--color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+	--color-sidebar-accent: var(--sidebar-accent);
+	--color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+	--color-sidebar-border: var(--sidebar-border);
+	--color-sidebar-ring: var(--sidebar-ring);
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--color-border: var(--border);
+	--color-ring: var(--ring);
+	--radius-sm: calc(var(--radius) - 4px);
+	--radius-md: calc(var(--radius) - 2px);
+	--radius-lg: var(--radius);
+	--radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+	}
+  body {
+    @apply bg-background text-foreground;
+	}
 }

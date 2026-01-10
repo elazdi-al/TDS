@@ -5,7 +5,625 @@ export interface Card {
   week: string;
 }
 
-export const cards: Card[] = [
+export const controlSystemsCards: Card[] = [
+  {
+    id: 1,
+    front: "What is the primary goal of Feedforward Control?",
+    back: "To achieve **zero steady-state error** without relying solely on integral action (which can reduce stability). It adds a term $G^{-1}(0)$ to the input path.",
+    week: "Feedforward"
+  },
+  {
+    id: 2,
+    front: "How does Feedforward Control differ from Feedback Control regarding stability?",
+    back: "Feedforward control does not affect the closed-loop poles, so it generally **does not destabilize** the system, unlike feedback (especially integral) control.",
+    week: "Feedforward"
+  },
+  {
+    id: 3,
+    front: "What is the fundamental constraint between Sensitivity ($S$) and Complementary Sensitivity ($T$)?",
+    back: "$S(s) + T(s) = 1$. This implies a trade-off: improving noise rejection ($T \\approx 0$) degrades tracking performance ($T \\approx 1$), and vice versa.",
+    week: "Loop Shaping"
+  },
+  {
+    id: 4,
+    front: "What is the purpose of a Lead Compensator?",
+    back: "To **increase the phase margin** near the crossover frequency, thereby improving damping and reducing overshoot. It effectively acts like a PD controller.",
+    week: "Loop Shaping"
+  },
+  {
+    id: 5,
+    front: "What is the purpose of a Lag Compensator?",
+    back: "To **increase low-frequency gain** (reducing steady-state error) without significantly affecting the transient response (phase) at the crossover frequency. It acts like a PI controller.",
+    week: "Loop Shaping"
+  },
+  {
+    id: 6,
+    front: "What does the LQR (Linear Quadratic Regulator) minimize?",
+    back: "It minimizes a cost function $J = \\int_0^\\infty (x^T Q x + u^T R u) dt$, balancing **state deviation** (energy) against **control effort** (input energy).",
+    week: "LQR"
+  },
+  {
+    id: 7,
+    front: "How is the optimal LQR gain $K$ computed?",
+    back: "By solving the **Algebraic Riccati Equation (ARE)** for the matrix $P$, then setting $K = R^{-1}B^T P$.",
+    week: "LQR"
+  },
+  {
+    id: 8,
+    front: "What is 'Derivative Kick' and how is it avoided?",
+    back: "Large spikes in the control signal when the setpoint changes abruptly. It is avoided by applying the derivative action only to the **feedback signal (output)**, not the error.",
+    week: "Week 2 - PID"
+  },
+  {
+    id: 9,
+    front: "What is Integrator Windup and how is it prevented?",
+    back: "When the integrator accumulates a large error during **actuator saturation**. It is prevented by 'anti-windup' mechanisms (e.g., freezing the integrator when saturated).",
+    week: "PID Impl"
+  },
+  {
+    id: 10,
+    front: "What is the Separation Principle?",
+    back: "It states that the **controller** (state feedback) and the **observer** (state estimator) can be designed **independently**. The combined closed-loop poles are the union of the controller and observer poles.",
+    week: "Week 12 - Estimators"
+  },
+  {
+    id: 11,
+    front: "How fast should Observer poles be relative to Controller poles?",
+    back: "A rule of thumb is that observer poles should be **2-6 times faster** (further left in LHP) than controller poles to ensure the estimate converges before the controller acts.",
+    week: "Week 12 - Estimators"
+  },
+  {
+    id: 12,
+    front: "What is the Nyquist Stability Criterion formula?",
+    back: "$Z = N + P$, where $Z$ is unstable closed-loop poles (must be 0), $N$ is CW encirclements of -1, and $P$ is unstable open-loop poles.",
+    week: "Week 5 - Stability"
+  },
+  {
+    id: 13,
+    front: "What is the 'Waterbed Effect' in control systems?",
+    back: "Bode's Integral Formula implies that if sensitivity is reduced (improved) in one frequency range, it must necessarily **increase (degrade)** in another range for unstable open-loop systems.",
+    week: "Week 7 - Robustness"
+  },
+  {
+    id: 14,
+    front: "What does the Gain Margin represent?",
+    back: "The amount the system gain can be increased before the system becomes unstable (specifically, when the phase is -180 degrees).",
+    week: "Week 7 - Robustness"
+  },
+  {
+    id: 15,
+    front: "Under what condition can we arbitrarily place closed-loop poles?",
+    back: "If and only if the system is fully **controllable**.",
+    week: "State Feedback"
+  },
+  {
+    id: 16,
+    front: "What is the condition for Observability?",
+    back: "The observability matrix $\\mathcal{O} = [C^T, (CA)^T, ..., (CA^{n-1})^T]^T$ must have full rank ($n$).",
+    week: "Week 12 - Estimators"
+  },
+  {
+    id: 17,
+    front: "Why do we use a Phase Margin of 30-60 degrees?",
+    back: "To ensure good **damping** (limiting overshoot) and robustness against time delays or phase variation.",
+    week: "Loop Shaping"
+  },
+  {
+    id: 18,
+    front: "How does System Type affect Steady-State Error?",
+    back: "The **Type** (number of integrators) determines tracking ability. Type 0 has error for step; Type 1 zero error for step but error for ramp; Type 2 zero error for ramp.",
+    week: "Week 7 - Robustness"
+  },
+  {
+    id: 19,
+    front: "What does a magnitude of -20 dB/decade slope correspond to?",
+    back: "A single **pole** (or integrator) in the transfer function.",
+    week: "Week 1 - Freq Response"
+  },
+  {
+    id: 20,
+    front: "What is the benefit of State-Space design over Frequency Domain?",
+    back: "It handles **MIMO** (Multiple Input Multiple Output) systems naturally and allows for optimal control and arbitrary pole placement.",
+    week: "State Feedback"
+  },
+  {
+    id: 21,
+    front: "What is the drawback of High Gain Feedback?",
+    back: "While it reduces steady-state error and improves disturbance rejection, it increases sensitivity to **measurement noise** and can lead to instability if unmodeled dynamics are excited.",
+    week: "Week 7 - Robustness"
+  },
+  {
+    id: 22,
+    front: "What is the role of the $D$ term in PID?",
+    back: "It adds **damping** to the system, reducing overshoot and settling time, but can amplify high-frequency noise.",
+    week: "Week 2 - PID"
+  },
+  {
+    id: 23,
+    front: "Frequency Response Definition",
+    back: "The steady-state response of a system to a sinusoidal input $u(t) = \\sin(\\omega t)$, characterized by magnitude scaling and phase shift.",
+    week: "Week 1 - Freq Response"
+  },
+  {
+    id: 24,
+    front: "What is a Non-Minimum Phase System?",
+    back: "A system with zeros in the **Right Half Plane (RHP)**. It exhibits 'wrong way' initial behavior and extra phase lag.",
+    week: "Week 1 - Freq Response"
+  },
+  {
+    id: 25,
+    front: "Bandwidth ($\\omega_{BW}$)",
+    back: "The frequency range where the system gain is adequate (typically up to -3dB). It is inversely proportional to rise time/settling time.",
+    week: "Week 1 - Freq Response"
+  },
+  {
+    id: 26,
+    front: "Effect of increasing $K_P$ (Proportional Gain)",
+    back: "Reduces rise time and steady-state error, but **increases overshoot** and reduces stability margin.",
+    week: "Week 2 - PID"
+  },
+  {
+    id: 27,
+    front: "Effect of increasing $K_I$ (Integral Gain)",
+    back: "Eliminates steady-state error, but **increases overshoot** and settling time; can destabilize the system.",
+    week: "Week 2 - PID"
+  },
+  {
+    id: 28,
+    front: "Why use a Filtered Derivative?",
+    back: "Pure derivative action amplifies high-frequency noise. Filtering limits the gain at high frequencies to prevent this.",
+    week: "Week 2 - PID"
+  },
+  {
+    id: 29,
+    front: "Ziegler-Nichols Tuning (Ultimate Gain)",
+    back: "A heuristic method where $K_I$ and $K_D$ are zeroed, $K_P$ is increased until oscillation ($K_u$), and parameters are derived from $K_u$ and period $T_u$.",
+    week: "Week 2 - PID"
+  },
+  {
+    id: 30,
+    front: "Nyquist Sampling Theorem",
+    back: "For digital control, the sampling frequency $f_s$ must be at least twice the highest frequency component of the signal ($f_s > 2f_{max}$). Ideally 10-20x bandwidth.",
+    week: "Week 2 - PID"
+  },
+  {
+    id: 31,
+    front: "BIBO Stability",
+    back: "**Bounded Input, Bounded Output**. A system is BIBO stable if every bounded input produces a bounded output.",
+    week: "Week 5 - Stability"
+  },
+  {
+    id: 32,
+    front: "Stability condition for Poles",
+    back: "A continuous LTI system is stable if and only if **all poles** have strictly negative real parts (Left Half Plane).",
+    week: "Week 5 - Stability"
+  },
+  {
+    id: 33,
+    front: "Simplified Nyquist Criterion",
+    back: "If the open-loop system is stable ($P=0$), the closed-loop system is stable if and only if the Nyquist plot makes **zero encirclements** of -1 ($N=0$).",
+    week: "Week 5 - Stability"
+  },
+  {
+    id: 34,
+    front: "Cauchy's Argument Principle",
+    back: "A contour mapping $G(s)$ encircles the origin $N = Z - P$ times, relating winding number to poles and zeros inside the contour.",
+    week: "Week 5 - Stability"
+  },
+  {
+    id: 35,
+    front: "Sensitivity Function $S(s)$",
+    back: "$S(s) = \\frac{1}{1+L(s)}$. It dictates the system's ability to reject disturbances and robustness to model errors.",
+    week: "Week 7 - Robustness"
+  },
+  {
+    id: 36,
+    front: "Complementary Sensitivity $T(s)$",
+    back: "$T(s) = \\frac{L(s)}{1+L(s)}$. It dictates reference tracking performance and noise rejection at high frequencies.",
+    week: "Week 7 - Robustness"
+  },
+  {
+    id: 37,
+    front: "Disturbance Rejection Rule",
+    back: "Integrators in the **Controller** reject constant disturbances. Integrators in the Plant do not.",
+    week: "Week 7 - Robustness"
+  },
+  {
+    id: 38,
+    front: "Relationship: Bandwidth vs Rise Time",
+    back: "They are inversely related. Higher bandwidth allows faster signal changes, leading to a **shorter rise time**.",
+    week: "Loop Shaping"
+  },
+  {
+    id: 39,
+    front: "Ideal Slope at Crossover",
+    back: "A slope of **-20 dB/decade** at the crossover frequency is desired for a good Phase Margin (~90 degrees).",
+    week: "Loop Shaping"
+  },
+  {
+    id: 40,
+    front: "Lead Compensator",
+    back: "Adds positive phase (lead) to improve **Phase Margin** and damping. Increases bandwidth (faster response).",
+    week: "Loop Shaping"
+  },
+  {
+    id: 41,
+    front: "Lag Compensator",
+    back: "Increases low-frequency gain to reduce **Steady-State Error**, without significantly destabilizing phase at crossover.",
+    week: "Loop Shaping"
+  },
+  {
+    id: 42,
+    front: "Controllability Matrix",
+    back: "$\\mathcal{C} = [B, AB, A^2B, ..., A^{n-1}B]$. The system is controllable if this matrix has full rank ($n$).",
+    week: "State Feedback"
+  },
+  {
+    id: 43,
+    front: "Observability Matrix",
+    back: "$\\mathcal{O} = [C^T, (CA)^T, ..., (CA^{n-1})^T]^T$. The system is observable if this matrix has full rank ($n$).",
+    week: "State Feedback"
+  },
+  {
+    id: 44,
+    front: "Ackermann's Formula",
+    back: "A formula to compute the feedback gain vector $K$ that places poles at desired locations: $K = [0 ... 1]\\mathcal{C}^{-1}\\alpha(A)$.",
+    week: "State Feedback"
+  },
+  {
+    id: 45,
+    front: "Reference Tracking Gain $\\bar{N}$",
+    back: "A feedforward scalar applied to the reference $r$ to ensure unity steady-state gain: $\\bar{N} = \\frac{1}{C(B K - A)^{-1}B}$.",
+    week: "State Feedback"
+  },
+  {
+    id: 46,
+    front: "Bryson's Rule",
+    back: "A method for choosing LQR weights: normalize $Q$ and $R$ diagonal elements by the inverse square of the maximum acceptable value ($1/x_{max}^2$).",
+    week: "LQR"
+  },
+  {
+    id: 47,
+    front: "Effect of large R in LQR",
+    back: "A large $R$ penalizes control effort heavily, leading to **smaller inputs** and a **slower response**.",
+    week: "LQR"
+  },
+  {
+    id: 48,
+    front: "Duality Principle",
+    back: "The estimation problem for $(A,C)$ is mathematically equivalent to the control problem for $(A^T, C^T)$.",
+    week: "Week 12 - Estimators"
+  },
+  {
+    id: 49,
+    front: "Estimator Error Dynamics",
+    back: "Governed by $\\dot{e} = (A - LC)e$. The error converges to zero if eigenvalues of $(A-LC)$ are in the Left Half Plane.",
+    week: "Week 12 - Estimators"
+  },
+  {
+    id: 50,
+    front: "Feedforward Law",
+    back: "computes $u = G^{-1}(0)r$. It inverts the DC gain of the plant to achieve perfect steady-state tracking.",
+    week: "Feedforward"
+  }
+];
+
+export const machinesCards: Card[] = [
+  {
+    id: 101,
+    front: "Relations fondamentales du Transformateur Idéal",
+    back: "Rapport de transformation : $\\ddot{u} = \\frac{N_1}{N_2} = \\frac{U_1}{U_2} = -\\frac{I_2}{I_1}$.\nConservation de la puissance apparente : $S_1 = S_2$.\nImpédance ramenée au primaire : $Z'_2 = \\ddot{u}^2 Z_2$.",
+    week: "Général"
+  },
+  {
+    id: 102,
+    front: "Qu'est-ce que l'Hypothèse de Kapp (Transformateur) ?",
+    back: "Elle consiste à négliger le courant magnétisant ($I_0$) devant le courant de charge. Le schéma équivalent se réduit alors à une impédance de court-circuit en série : $Z_{cc} = R_{cc} + jX_{cc}$. Relation : $\\underline{U}_2' = \\underline{U}_1 - Z_{cc}\\underline{I}_1$.",
+    week: "Général"
+  },
+  {
+    id: 103,
+    front: "Comment créer un champ magnétique tournant ?",
+    back: "En disposant 3 bobines décalées de 120° dans l'espace et en les alimentant par un système de courants triphasés équilibrés (décalés de 120° dans le temps). L'amplitude résultante est constante ($1.5 B_{max}$) et tourne à la pulsation $\\omega$.",
+    week: "Général"
+  },
+  {
+    id: 104,
+    front: "Quelles sont les deux conditions pour obtenir un couple moyen non nul ?",
+    back: "1. Le stator et le rotor doivent avoir le **même nombre de paires de pôles** ($p$).\n2. Les champs magnétiques statorique et rotorique doivent être **synchrones** (tourner à la même vitesse).",
+    week: "Général"
+  },
+  {
+    id: 105,
+    front: "Définition du Glissement $s$ (Machine Asynchrone)",
+    back: "C'est l'écart relatif entre la vitesse du champ tournant (synchrisme $\\Omega_s$) et la vitesse mécanique du rotor ($\\Omega_m$) : $s = \\frac{\\Omega_s - \\Omega_m}{\\Omega_s}$. En fonctionnement moteur, $0 < s < 1$.",
+    week: "Asynchrone"
+  },
+  {
+    id: 106,
+    front: "Que représente la résistance $\\frac{R'_r}{s}$ dans le schéma équivalent Asynchrone ?",
+    back: "Elle modélise la puissance totale transmise au rotor. Elle est souvent décomposée en $R'_r$ (Pertes Joule Rotor) et $R'_r \\frac{1-s}{s}$ (Puissance Mécanique Utile).",
+    week: "Asynchrone"
+  },
+  {
+    id: 107,
+    front: "Bilan de Puissance Rotorique (Asynchrone)",
+    back: "Si $P_\\delta$ est la puissance transmise à l'entrefer :\n- Pertes Joule Rotor : $P_{jr} = s \\cdot P_\\delta$\n- Puissance Mécanique : $P_{mec} = (1-s) \\cdot P_\\delta$",
+    week: "Asynchrone"
+  },
+  {
+    id: 108,
+    front: "Comportement du couple Asynchrone à faible glissement",
+    back: "Près du synchronisme ($s \\to 0$), le couple est **proportionnel au glissement** ($T_{em} \\approx Ks$). C'est la zone de fonctionnement stable et usuelle.",
+    week: "Asynchrone"
+  },
+  {
+    id: 109,
+    front: "De quoi dépend le Couple Maximal (Décrochage) d'une machine asynchrone ?",
+    back: "Il est proportionnel au carré de la tension d'alimentation ($U^2$) et inversement proportionnel aux inductances de fuite. Il est **indépendant** de la résistance rotorique (qui n'influe que sur le glissement auquel ce max se produit).",
+    week: "Asynchrone"
+  },
+  {
+    id: 110,
+    front: "Principe de la commande en $U/f$ constant",
+    back: "En maintenant le rapport tension/fréquence constant, on maintient le flux magnétique constant. Cela permet de conserver le couple maximal constant sur toute la plage de vitesse (jusqu'au nominal).",
+    week: "Asynchrone"
+  },
+  {
+    id: 111,
+    front: "Relation Vitesse-Fréquence (Machine Synchrone)",
+    back: "$f = p \\cdot n$\n(ou $\\omega = p \\cdot \\Omega$)\nLa vitesse de rotation est rigoureusement fixée par la fréquence et le nombre de paires de pôles.",
+    week: "Synchrone"
+  },
+  {
+    id: 112,
+    front: "Expression de la Tension Induite $U_i$ (Synchrone)",
+    back: "$U_i = k \\cdot I_f \\cdot \\Omega$\nElle est proportionnelle au courant d'excitation $I_f$ (flux) et à la vitesse de rotation $\\Omega$.",
+    week: "Synchrone"
+  },
+  {
+    id: 113,
+    front: "Schéma équivalent Synchrone (Pôles Lisses)",
+    back: "Modèle monophasé simple : $\\underline{U} = R \\underline{I} + jX_d \\underline{I} + \\underline{U}_i$.\n$X_d$ est la réactance synchrone.",
+    week: "Synchrone"
+  },
+  {
+    id: 114,
+    front: "Couple Synchrone : Pôles Lisses vs Saillants",
+    back: "**Lisses** : $T_{em} \\propto \\sin \\delta$ (Uniquement couple synchrone).\n**Saillants** : $T_{em} \\propto \\sin \\delta + K \\sin 2\\delta$. Le terme en $\\sin 2\\delta$ est le **couple réluctant**, dû à l'anisotropie ($X_d \\neq X_q$).",
+    week: "Synchrone"
+  },
+  {
+    id: 115,
+    front: "Limite de Stabilité Statique (Machine Synchrone)",
+    back: "Le décrochage a lieu pour un angle de charge $\\delta = 90^\\circ$ (pour pôles lisses). Pour un fonctionnement stable en moteur, il faut $0 < \\delta < 90^\\circ$.",
+    week: "Synchrone"
+  },
+  {
+    id: 116,
+    front: "Quelles sont les conditions de synchronisation au réseau ?",
+    back: "1. Même Fréquence.\n2. Même Amplitude de tension.\n3. Même Phase.\n4. Même Ordre de succession des phases.",
+    week: "Synchrone"
+  },
+  {
+    id: 117,
+    front: "Fonctionnement en Compensateur Synchrone",
+    back: "En jouant sur l'excitation $I_f$ :\n- **Surexcitation** : La machine fournit du réactif $Q$ (comportement capacitif).\n- **Sous-excitation** : La machine consomme du réactif $Q$ (comportement inductif).",
+    week: "Synchrone"
+  },
+  {
+    id: 118,
+    front: "Quel est le rôle du Collecteur dans une MCC ?",
+    back: "Il agit comme un **onduleur mécanique**. Il inverse le sens du courant dans les conducteurs de l'induit au passage de la ligne neutre pour que le couple reste toujours orienté dans le même sens.",
+    week: "MCC"
+  },
+  {
+    id: 119,
+    front: "Équations fondamentales de la MCC",
+    back: "F.é.m : $U_i = k \\Phi \\Omega$\nCouple : $T_{em} = k \\Phi I$\nLoi des mailles (Moteur) : $U = RI + U_i$",
+    week: "MCC"
+  },
+  {
+    id: 120,
+    front: "Caractéristiques du Moteur Série (MCC)",
+    back: "Inducteur en série avec l'induit ($\\Phi \\propto I$).\n- Couple très élevé au démarrage ($T \\propto I^2$).\n- **Danger d'emballement à vide** ($\\Omega \\to \\infty$ si $I \\to 0$).",
+    week: "MCC"
+  },
+  {
+    id: 121,
+    front: "Caractéristiques du Moteur Shunt (MCC)",
+    back: "Inducteur en parallèle (Flux constant).\nVitesse stable, peu dépendante de la charge. Utilisé quand une vitesse constante est requise.",
+    week: "MCC"
+  },
+  {
+    id: 122,
+    front: "Pourquoi limiter le courant de démarrage d'une MCC ?",
+    back: "Au démarrage $\\Omega=0$ donc $U_i=0$. Le courant $I = U/R$ n'est limité que par la résistance d'induit (très faible). Il peut atteindre 10-20 fois $I_n$ et détruire la machine sans rhéostat ou tension progressive.",
+    week: "MCC"
+  },
+  {
+    id: 123,
+    front: "Définition d'un Moteur Pas à Pas",
+    back: "Moteur tournant par incréments angulaires discrets (pas) sous l'effet d'impulsions électriques programmées. Il permet un positionnement précis en boucle ouverte.",
+    week: "Pas à Pas"
+  },
+  {
+    id: 124,
+    front: "Moteur Pas à Pas Réluctant",
+    back: "Rotor en fer doux denté (pas d'aimants). Le couple provient de la minimisation de la réluctance. Pas de couple de maintien hors tension. Couple $\\propto I^2$.",
+    week: "Pas à Pas"
+  },
+  {
+    id: 125,
+    front: "Moteur Pas à Pas Hybride",
+    back: "Combine aimant permanent et rotor denté. Offre une haute résolution (ex: 200 pas/tour soit 1.8°) et un couple élevé (y compris couple de maintien).",
+    week: "Pas à Pas"
+  },
+  {
+    id: 126,
+    front: "Modes de commande Pas à Pas",
+    back: "**Pas entier** : Couple max.\n**Demi-pas** : Double la résolution, évite résonances.\n**Micropas** : Courants sinusoïdaux, résolution très fine, mouvement fluide et silencieux, mais couple réduit.",
+    week: "Pas à Pas"
+  },
+  {
+    id: 127,
+    front: "Moteur Lavet",
+    back: "Moteur pas à pas monophasé à aimant, typique de l'horlogerie (montres à quartz). Utilise des encoches pour définir le sens de rotation et les positions stables.",
+    week: "Pas à Pas"
+  },
+  {
+    id: 128,
+    front: "Moteur Synchrone à Aimants Permanents (MSAP) vs Synchrone Bobiné",
+    back: "Le rotor possède des aimants permanents au lieu d'un bobinage. Avantages : Pas de pertes rotor, pas de balais/bagues, densité de puissance élevée. Inconvénient : Coût des aimants, flux fixe.",
+    week: "MSAP"
+  },
+  {
+    id: 129,
+    front: "Condition optimale de couple pour un MSAP",
+    back: "Le couple est maximal ($3 k_\\Phi I$) lorsque le courant $I$ est **en phase** avec la force contre-électromotrice $U_i$ (angle $\\Psi=0$). Cela correspond à un champ statorique perpendiculaire au champ rotorique.",
+    week: "MSAP"
+  },
+  {
+    id: 130,
+    front: "Qu'est-ce que le défluxage (Field Weakening) ?",
+    back: "C'est une technique pour dépasser la vitesse nominale. On injecte un courant statorique négatif sur l'axe $d$ pour s'opposer au flux des aimants, réduisant ainsi la tension induite.",
+    week: "MSAP"
+  },
+  {
+    id: 131,
+    front: "Différence BLDC vs PMSM",
+    back: "**BLDC** : F.é.m trapézoïdale, courants en créneaux (commutation 120°), capteurs Hall.\n**PMSM** : F.é.m sinusoïdale, courants sinusoïdaux, contrôle vectoriel, encodeur, couple plus lisse.",
+    week: "MSAP"
+  },
+  {
+    id: 133,
+    front: "Pourquoi le transport d'énergie se fait-il en Haute Tension ?",
+    back: "À puissance constante ($S=UI$), augmenter $U$ permet de réduire $I$. Les pertes Joule ($P_J = RI^2$) diminuent donc avec le carré de la tension ($1/U^2$).",
+    week: "Général"
+  },
+  {
+    id: 134,
+    front: "Que sont les Courants de Foucault et comment les réduire ?",
+    back: "Des courants induits circulant dans la masse métallique du fer, créant de l'échauffement. On les réduit en utilisant des **tôles feuilletées** isolées les unes des autres.",
+    week: "Général"
+  },
+  {
+    id: 135,
+    front: "Quelle est la différence entre Pertes Hystérésis et Pertes Foucault ?",
+    back: "**Hystérésis** : Énergie perdue par la réorientation des domaines magnétiques (liée au matériau). **Foucault** : Courants induits (liée à la conductivité). Les deux forment les 'Pertes Fer'.",
+    week: "Général"
+  },
+  {
+    id: 136,
+    front: "À quoi sert l'essai à vide d'un transformateur ?",
+    back: "Il permet de mesurer les pertes fer et d'identifier les paramètres de la branche magnétisante ($R_{fer}$ et $X_m$), car le courant secondaire est nul.",
+    week: "Général"
+  },
+  {
+    id: 137,
+    front: "À quoi sert l'essai en court-circuit d'un transformateur ?",
+    back: "Il permet de mesurer les pertes Joule et d'identifier l'impédance de court-circuit série ($R_{cc}$ et $X_{cc}$), en négligeant la branche magnétisante.",
+    week: "Général"
+  },
+  {
+    id: 138,
+    front: "Qu'est-ce qu'un Autotransformateur ?",
+    back: "Un transformateur avec un seul enroulement et une prise intermédiaire. Il est plus économique (moins de cuivre) mais n'offre pas d'isolation galvanique entre primaire et secondaire.",
+    week: "Général"
+  },
+  {
+    id: 139,
+    front: "Principe du démarrage Étoile-Triangle (Asynchrone)",
+    back: "On alimente d'abord le stator en étoile (tension $\\div \\sqrt{3}$), ce qui divise le courant de démarrage par 3 (et le couple par 3). Puis on bascule en triangle pour la marche normale.",
+    week: "Asynchrone"
+  },
+  {
+    id: 140,
+    front: "Conditions pour qu'une machine Asynchrone fonctionne en Génératrice",
+    back: "Le rotor doit tourner plus vite que le champ tournant ($\\Omega_m > \\Omega_s$). Le glissement devient négatif ($s < 0$). Elle renvoie alors de la puissance active au réseau (mais consomme du réactif).",
+    week: "Asynchrone"
+  },
+  {
+    id: 141,
+    front: "Pourquoi $X_d > X_q$ dans une machine synchrone à pôles saillants ?",
+    back: "L'entrefer est plus petit sous les pôles (axe direct $d$) que dans l'espace interpolaire (axe en quadrature $q$). La réluctance est donc plus faible et l'inductance plus forte sur l'axe $d$.",
+    week: "Synchrone"
+  },
+  {
+    id: 142,
+    front: "Quelles sont les 3 limites du Topogramme (Diagramme P-Q) d'une machine synchrone ?",
+    back: "1. Limite thermique stator (courant max induit).\n2. Limite thermique rotor (courant max excitation).\n3. Limite de stabilité statique ($\\delta = 90^\\circ$).",
+    week: "Synchrone"
+  },
+  {
+    id: 143,
+    front: "Caractéristique du Moteur Universel",
+    back: "C'est un moteur série conçu pour fonctionner en AC. Comme le courant s'inverse simultanément dans l'inducteur et l'induit, le couple reste unidirectionnel ($T \\propto I^2$). Utilisé dans l'électroménager.",
+    week: "MCC"
+  },
+  {
+    id: 144,
+    front: "Moteur Compound : Hypercompoundage vs Hypocompoundage",
+    back: "**Hyper (Additif)** : Flux série s'ajoute au shunt $\\to$ fort couple démarrage.\n**Hypo (Soustractif)** : Flux série s'oppose $\\to$ régulation de vitesse très précise (mais risque d'instabilité).",
+    week: "MCC"
+  },
+  {
+    id: 145,
+    front: "Les 4 Quadrants de fonctionnement d'une MCC",
+    back: "Q1: Moteur sens avant.\nQ2: Génératrice (Freinage) sens avant.\nQ3: Moteur sens arrière.\nQ4: Génératrice sens arrière.\nNécessite un convertisseur réversible.",
+    week: "MCC"
+  },
+  {
+    id: 146,
+    front: "Qu'est-ce que le Couple de Maintien (Holding Torque) d'un pas-à-pas ?",
+    back: "C'est le couple maximal que le moteur peut opposer à la rotation lorsqu'il est à l'arrêt et alimenté, sans perdre sa position. (Spécifique aux moteurs à aimants/hybrides).",
+    week: "Pas à Pas"
+  },
+  {
+    id: 147,
+    front: "Relation Pas - Vitesse (Stepper)",
+    back: "La vitesse de rotation $n$ (tr/s) est : $n = \\frac{f_{pas}}{N_{pas/tour}}$.\nPour aller plus vite, il faut augmenter la fréquence des impulsions.",
+    week: "Pas à Pas"
+  },
+  {
+    id: 148,
+    front: "Avantage du moteur MSAP sur le moteur thermique (Véhicule)",
+    back: "Le MSAP fournit son couple maximal dès 0 tr/min, a un rendement >90% (vs ~35% thermique), et ne nécessite souvent qu'un réducteur fixe sans boîte de vitesses complexe.",
+    week: "MSAP"
+  },
+  {
+    id: 149,
+    front: "Qu'est-ce que la \"Corner Speed\" (MSAP) ?",
+    back: "C'est la vitesse où la tension induite atteint la tension maximale de l'onduleur. Au-delà, on doit réduire le flux (défluxage) pour continuer à accélérer à puissance constante.",
+    week: "MSAP"
+  },
+  {
+    id: 150,
+    front: "Définition du système \"Per Unit\" (pu)",
+    back: "Système d'unités réduites où chaque grandeur est divisée par une valeur de base ($U_n, S_n$). Facilite les comparaisons entre machines de tailles différentes.",
+    week: "Général"
+  },
+  {
+    id: 151,
+    front: "Construction du Moteur à Griffes (Claw-Pole)",
+    back: "Stator avec une seule bobine concentrique et des pièces polaires en forme de griffes imbriquées. Simple et économique, très utilisé en petite motorisation.",
+    week: "Pas à Pas"
+  },
+  {
+    id: 152,
+    front: "Risque principal du Moteur Pas-à-Pas",
+    back: "Le **décrochage** (perte de pas) si le couple résistant dépasse le couple moteur ou si l'accélération est trop brutale. Il ne peut pas se corriger seul (boucle ouverte).",
+    week: "Pas à Pas"
+  },
+  {
+    id: 153,
+    front: "Pourquoi le facteur de puissance d'une machine Asynchrone est-il toujours inductif ?",
+    back: "Car elle consomme toujours de la puissance réactive pour magnétiser son circuit (créer le champ tournant), n'ayant pas de source d'excitation propre comme la machine synchrone.",
+    week: "Asynchrone"
+  }
+];
+
+export const tdsCards: Card[] = [
   // Week 1 & 2
   { id: 1, front: "What was Licklider's 'OLIVER'?", back: "Licklider's predicted digital assistant that knows your preferences and helps filter information — today's algorithms and AI bots.", week: "Week 1 & 2" },
   { id: 2, front: "Gossip Protocol", back: "Network communication where computers call each other and \"copy\" messages, spreading information like rumors in a school.", week: "Week 1 & 2" },
