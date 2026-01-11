@@ -2,6 +2,7 @@ import { useState, useCallback, useEffect, useMemo } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { Book, BookOpen, Zap, Trophy, RefreshCcw } from "lucide-react";
 import { Flashcard } from "./components/Flashcard";
+import { CategoryDropdown } from "./components/CategoryDropdown";
 import {
 	controlSystemsCards,
 	machinesCards,
@@ -29,6 +30,7 @@ function App() {
 	const [activeSection, setActiveSection] = useState<
 		"Machines Electriques" | "Control Systems" | "TDS"
 	>("Control Systems");
+	const [activeCategory, setActiveCategory] = useState<string>("All");
 	const [isExamMode, setIsExamMode] = useState(false);
 
 	// The active deck of cards (State Queue)
@@ -64,14 +66,20 @@ function App() {
 	}, [sectionTotals]);
 
 	// Reset game when section changes (but NOT when exam mode is toggled)
+	// Reset game when section changes (but NOT when exam mode is toggled)
 	useEffect(() => {
 		const source = getSource(activeSection);
-		setCards(shuffleCards(source));
+		const filteredSource =
+			activeCategory === "All"
+				? source
+				: source.filter((c) => c.week === activeCategory);
+
+		setCards(shuffleCards(filteredSource));
 		setCorrectCounts({}); // Reset stats always on reset
 		setIsFlipped(false);
 		setDirection(0);
 		setIsProcessing(false);
-	}, [activeSection]);
+	}, [activeSection, activeCategory]);
 
 	useEffect(() => {
 		if (isSwitchingSection) {
@@ -185,10 +193,16 @@ function App() {
 		setCorrectCounts({});
 		setIsSwitchingSection(true);
 		setActiveSection(key);
+		setActiveCategory("All");
 	};
 
 	const handleRestart = () => {
-		setCards(shuffleCards(getSource(activeSection)));
+		const source = getSource(activeSection);
+		const filteredSource =
+			activeCategory === "All"
+				? source
+				: source.filter((c) => c.week === activeCategory);
+		setCards(shuffleCards(filteredSource));
 		setCorrectCounts({});
 		setIsFlipped(false);
 	};
@@ -220,6 +234,12 @@ function App() {
 
 			{/* Top Right Controls */}
 			<div className="absolute top-8 right-8 flex items-center gap-6 z-[100]">
+				<CategoryDropdown
+					categories={categories}
+					activeCategory={activeCategory}
+					onSelect={setActiveCategory}
+				/>
+
 				{/* Restart Button - kept for functionality but minimalist */}
 				{(cards.length === 0 || isExamMode) && (
 					<button
