@@ -6,305 +6,420 @@ export interface Card {
 }
 
 export const controlSystemsCards: Card[] = [
+  // --- Week 1: Frequency Response ---
   {
     id: 1,
-    front: "What is the primary goal of Feedforward Control?",
-    back: "To achieve **zero steady-state error** without relying solely on integral action (which can reduce stability). It adds a term $G^{-1}(0)$ to the input path.",
-    week: "Feedforward"
+    front: "Frequency Response Definition",
+    back: "The steady-state response of a linear stable system to a sinusoidal input $u(t) = \\sin(\\omega t)$. The output is $y(t) = A(\\omega)\\sin(\\omega t + \\phi(\\omega))$, where $A=|G(j\\omega)|$ and $\\phi=\\angle G(j\\omega)$.",
+    week: "Week 1 - Freq Response"
   },
   {
     id: 2,
-    front: "How does Feedforward Control differ from Feedback Control regarding stability?",
-    back: "Feedforward control does not affect the closed-loop poles, so it generally **does not destabilize** the system, unlike feedback (especially integral) control.",
-    week: "Feedforward"
+    front: "Bode Plot Axes",
+    back: "**Magnitude**: $20\\log_{10}|G(j\\omega)|$ (dB) vs $\\log_{10}\\omega$.\n**Phase**: $\\angle G(j\\omega)$ (degrees) vs $\\log_{10}\\omega$.",
+    week: "Week 1 - Freq Response"
   },
   {
     id: 3,
-    front: "What is the fundamental constraint between Sensitivity ($S$) and Complementary Sensitivity ($T$)?",
-    back: "$S(s) + T(s) = 1$. This implies a trade-off: improving noise rejection ($T \\approx 0$) degrades tracking performance ($T \\approx 1$), and vice versa.",
-    week: "Loop Shaping"
+    front: "What is System Bandwidth ($\\omega_{BW}$)?",
+    back: "The frequency range where the system gain is adequate, typically defined as the frequency where the magnitude drops 3dB below its low-frequency value.",
+    week: "Week 1 - Freq Response"
   },
   {
     id: 4,
-    front: "What is the purpose of a Lead Compensator?",
-    back: "To **increase the phase margin** near the crossover frequency, thereby improving damping and reducing overshoot. It effectively acts like a PD controller.",
-    week: "Loop Shaping"
+    front: "Bode Plot: Integrator ($1/s$)",
+    back: "Magnitude slope: **-20 dB/decade**. Phase: Constant **-90°**.",
+    week: "Week 1 - Freq Response"
   },
   {
     id: 5,
-    front: "What is the purpose of a Lag Compensator?",
-    back: "To **increase low-frequency gain** (reducing steady-state error) without significantly affecting the transient response (phase) at the crossover frequency. It acts like a PI controller.",
-    week: "Loop Shaping"
+    front: "Bode Plot: Differentiator ($s$)",
+    back: "Magnitude slope: **+20 dB/decade**. Phase: Constant **+90°**.",
+    week: "Week 1 - Freq Response"
   },
   {
     id: 6,
-    front: "What does the LQR (Linear Quadratic Regulator) minimize?",
-    back: "It minimizes a cost function $J = \\int_0^\\infty (x^T Q x + u^T R u) dt$, balancing **state deviation** (energy) against **control effort** (input energy).",
-    week: "LQR"
+    front: "Bode Plot: Simple Pole ($1/(s+1)$)",
+    back: "Low freq: 0 dB, 0 phase.\nBreak freq ($1/\\tau$): -3dB, -45° phase.\nHigh freq: -20 dB/dec, -90° phase.",
+    week: "Week 1 - Freq Response"
   },
   {
     id: 7,
-    front: "How is the optimal LQR gain $K$ computed?",
-    back: "By solving the **Algebraic Riccati Equation (ARE)** for the matrix $P$, then setting $K = R^{-1}B^T P$.",
-    week: "LQR"
+    front: "What is a Non-Minimum Phase System?",
+    back: "A system with **zeros in the Right Half Plane (RHP)**. It behaves like a minimum phase system in magnitude but adds extra **phase lag** (decreases phase), making control harder.",
+    week: "Week 1 - Freq Response"
   },
   {
     id: 8,
-    front: "What is 'Derivative Kick' and how is it avoided?",
-    back: "Large spikes in the control signal when the setpoint changes abruptly. It is avoided by applying the derivative action only to the **feedback signal (output)**, not the error.",
-    week: "Week 2 - PID"
+    front: "Step Response of Non-Minimum Phase System",
+    back: "It exhibits 'wrong way' behavior: the output initially moves in the opposite direction of the steady-state value.",
+    week: "Week 1 - Freq Response"
   },
   {
     id: 9,
-    front: "What is Integrator Windup and how is it prevented?",
-    back: "When the integrator accumulates a large error during **actuator saturation**. It is prevented by 'anti-windup' mechanisms (e.g., freezing the integrator when saturated).",
-    week: "PID Impl"
+    front: "Resonance Peak ($M_r$) Significance",
+    back: "The maximum magnitude of the frequency response. A high $M_r$ indicates low damping ratio $\\zeta$ and high overshoot in the time domain.",
+    week: "Week 1 - Freq Response"
   },
-  {
-    id: 10,
-    front: "What is the Separation Principle?",
-    back: "It states that the **controller** (state feedback) and the **observer** (state estimator) can be designed **independently**. The combined closed-loop poles are the union of the controller and observer poles.",
-    week: "Week 12 - Estimators"
-  },
+
+  // --- Week 2: PID Control ---
   {
     id: 11,
-    front: "How fast should Observer poles be relative to Controller poles?",
-    back: "A rule of thumb is that observer poles should be **2-6 times faster** (further left in LHP) than controller poles to ensure the estimate converges before the controller acts.",
-    week: "Week 12 - Estimators"
+    front: "Role of Proportional Term ($K_P$)",
+    back: "Reacts to current error. Increasing $K_P$ speeds up response and reduces steady-state error but increases overshoot and reduces stability margin.",
+    week: "Week 2 - PID"
   },
   {
     id: 12,
-    front: "What is the Nyquist Stability Criterion formula?",
-    back: "$Z = N + P$, where $Z$ is unstable closed-loop poles (must be 0), $N$ is CW encirclements of -1, and $P$ is unstable open-loop poles.",
-    week: "Week 5 - Stability"
+    front: "Role of Integral Term ($K_I$)",
+    back: "Reacts to accumulated error. Guarantees **zero steady-state error** for step inputs but adds phase lag (-90°), which can destabilize the system.",
+    week: "Week 2 - PID"
   },
   {
     id: 13,
-    front: "What is the 'Waterbed Effect' in control systems?",
-    back: "Bode's Integral Formula implies that if sensitivity is reduced (improved) in one frequency range, it must necessarily **increase (degrade)** in another range for unstable open-loop systems.",
-    week: "Week 7 - Robustness"
+    front: "Role of Derivative Term ($K_D$)",
+    back: "Reacts to rate of change of error (prediction). Adds **damping** and phase lead (+90°), reducing overshoot, but amplifies high-frequency noise.",
+    week: "Week 2 - PID"
   },
   {
     id: 14,
-    front: "What does the Gain Margin represent?",
-    back: "The amount the system gain can be increased before the system becomes unstable (specifically, when the phase is -180 degrees).",
-    week: "Week 7 - Robustness"
+    front: "Why use a Filtered Derivative?",
+    back: "Pure derivative $s$ has infinite gain at high frequencies. A low-pass filter $\\frac{s}{s/N + 1}$ is used to limit gain and noise amplification.",
+    week: "Week 2 - PID"
   },
   {
     id: 15,
-    front: "Under what condition can we arbitrarily place closed-loop poles?",
-    back: "If and only if the system is fully **controllable**.",
-    week: "State Feedback"
+    front: "What is Derivative Kick?",
+    back: "Large impulse in control signal $u(t)$ when the setpoint changes abruptly. Avoided by differentiating the **measured output** $y(t)$ instead of the error $e(t)$.",
+    week: "Week 2 - PID"
   },
   {
     id: 16,
-    front: "What is the condition for Observability?",
-    back: "The observability matrix $\\mathcal{O} = [C^T, (CA)^T, ..., (CA^{n-1})^T]^T$ must have full rank ($n$).",
-    week: "Week 12 - Estimators"
+    front: "What is Integrator Windup?",
+    back: "When the actuator saturates, the integrator keeps accumulating error, causing the control signal to 'wind up' to huge values, leading to large overshoot and slow recovery.",
+    week: "Week 2 - PID"
   },
   {
     id: 17,
-    front: "Why do we use a Phase Margin of 30-60 degrees?",
-    back: "To ensure good **damping** (limiting overshoot) and robustness against time delays or phase variation.",
-    week: "Loop Shaping"
+    front: "Anti-Windup Mechanism",
+    back: "A method to stop integration when the actuator saturates, often using 'back-calculation' to discharge the integrator or simply clamping it.",
+    week: "Week 2 - PID"
   },
   {
     id: 18,
-    front: "How does System Type affect Steady-State Error?",
-    back: "The **Type** (number of integrators) determines tracking ability. Type 0 has error for step; Type 1 zero error for step but error for ramp; Type 2 zero error for ramp.",
-    week: "Week 7 - Robustness"
+    front: "Ziegler-Nichols Method 1 (Step Response)",
+    back: "Open-loop step response. Measure lag $L$ and steepest slope $R$. $K_P = 1.2/(RL)$, $T_I = 2L$, $T_D = 0.5L$.",
+    week: "Week 2 - PID"
   },
   {
     id: 19,
-    front: "What does a magnitude of -20 dB/decade slope correspond to?",
-    back: "A single **pole** (or integrator) in the transfer function.",
-    week: "Week 1 - Freq Response"
+    front: "Ziegler-Nichols Method 2 (Ultimate Gain)",
+    back: "Closed-loop with P-only. Increase $K_P$ until marginal stability (oscillation). Measure critical gain $K_u$ and period $T_u$. $K_P = 0.6K_u$, $T_I = 0.5T_u$, $T_D = 0.125T_u$.",
+    week: "Week 2 - PID"
   },
+
+  // --- PID Implementation ---
   {
     id: 20,
-    front: "What is the benefit of State-Space design over Frequency Domain?",
-    back: "It handles **MIMO** (Multiple Input Multiple Output) systems naturally and allows for optimal control and arbitrary pole placement.",
-    week: "State Feedback"
+    front: "Nyquist Sampling Theorem",
+    back: "Sampling frequency $f_s$ must be at least twice the highest frequency component of the signal ($f_s > 2f_{max}$) to avoid aliasing.",
+    week: "PID Implementation"
   },
   {
     id: 21,
-    front: "What is the drawback of High Gain Feedback?",
-    back: "While it reduces steady-state error and improves disturbance rejection, it increases sensitivity to **measurement noise** and can lead to instability if unmodeled dynamics are excited.",
-    week: "Week 7 - Robustness"
+    front: "Practical Sampling Rule of Thumb",
+    back: "For control, sample at **10 to 40 times** the system bandwidth ($20-40\\omega_{BW}$) to ensure smooth signal reconstruction and minimal delay.",
+    week: "PID Implementation"
   },
   {
     id: 22,
-    front: "What is the role of the $D$ term in PID?",
-    back: "It adds **damping** to the system, reducing overshoot and settling time, but can amplify high-frequency noise.",
-    week: "Week 2 - PID"
+    front: "Quantization Error",
+    back: "The error introduced by converting continuous analog signals to discrete digital levels. Dependent on the ADC bit resolution.",
+    week: "PID Implementation"
   },
-  {
-    id: 23,
-    front: "Frequency Response Definition",
-    back: "The steady-state response of a system to a sinusoidal input $u(t) = \\sin(\\omega t)$, characterized by magnitude scaling and phase shift.",
-    week: "Week 1 - Freq Response"
-  },
-  {
-    id: 24,
-    front: "What is a Non-Minimum Phase System?",
-    back: "A system with zeros in the **Right Half Plane (RHP)**. It exhibits 'wrong way' initial behavior and extra phase lag.",
-    week: "Week 1 - Freq Response"
-  },
-  {
-    id: 25,
-    front: "Bandwidth ($\\omega_{BW}$)",
-    back: "The frequency range where the system gain is adequate (typically up to -3dB). It is inversely proportional to rise time/settling time.",
-    week: "Week 1 - Freq Response"
-  },
-  {
-    id: 26,
-    front: "Effect of increasing $K_P$ (Proportional Gain)",
-    back: "Reduces rise time and steady-state error, but **increases overshoot** and reduces stability margin.",
-    week: "Week 2 - PID"
-  },
-  {
-    id: 27,
-    front: "Effect of increasing $K_I$ (Integral Gain)",
-    back: "Eliminates steady-state error, but **increases overshoot** and settling time; can destabilize the system.",
-    week: "Week 2 - PID"
-  },
-  {
-    id: 28,
-    front: "Why use a Filtered Derivative?",
-    back: "Pure derivative action amplifies high-frequency noise. Filtering limits the gain at high frequencies to prevent this.",
-    week: "Week 2 - PID"
-  },
-  {
-    id: 29,
-    front: "Ziegler-Nichols Tuning (Ultimate Gain)",
-    back: "A heuristic method where $K_I$ and $K_D$ are zeroed, $K_P$ is increased until oscillation ($K_u$), and parameters are derived from $K_u$ and period $T_u$.",
-    week: "Week 2 - PID"
-  },
+
+  // --- Week 5: Stability ---
   {
     id: 30,
-    front: "Nyquist Sampling Theorem",
-    back: "For digital control, the sampling frequency $f_s$ must be at least twice the highest frequency component of the signal ($f_s > 2f_{max}$). Ideally 10-20x bandwidth.",
-    week: "Week 2 - PID"
+    front: "BIBO Stability Definition",
+    back: "**Bounded Input, Bounded Output**. A system is stable if every bounded input produces a bounded output.",
+    week: "Week 5 - Stability"
   },
   {
     id: 31,
-    front: "BIBO Stability",
-    back: "**Bounded Input, Bounded Output**. A system is BIBO stable if every bounded input produces a bounded output.",
+    front: "Impulse Response Stability Condition",
+    back: "An LTI system is BIBO stable if and only if its impulse response is absolutely integrable: $\\int_0^\\infty |h(t)| dt < \\infty$.",
     week: "Week 5 - Stability"
   },
   {
     id: 32,
-    front: "Stability condition for Poles",
+    front: "Pole Location Stability Criterion",
     back: "A continuous LTI system is stable if and only if **all poles** have strictly negative real parts (Left Half Plane).",
     week: "Week 5 - Stability"
   },
   {
     id: 33,
-    front: "Simplified Nyquist Criterion",
-    back: "If the open-loop system is stable ($P=0$), the closed-loop system is stable if and only if the Nyquist plot makes **zero encirclements** of -1 ($N=0$).",
+    front: "Nyquist Stability Formula",
+    back: "$Z = N + P$\n$Z$: Unstable closed-loop poles (must be 0)\n$N$: Clockwise encirclements of -1\n$P$: Unstable open-loop poles",
     week: "Week 5 - Stability"
   },
   {
     id: 34,
-    front: "Cauchy's Argument Principle",
-    back: "A contour mapping $G(s)$ encircles the origin $N = Z - P$ times, relating winding number to poles and zeros inside the contour.",
+    front: "simplified Nyquist Criterion",
+    back: "If open-loop system is stable ($P=0$), closed-loop is stable iff the Nyquist plot makes **zero encirclements** of -1 ($N=0$), i.e., -1 is to the left of the curve.",
     week: "Week 5 - Stability"
   },
   {
     id: 35,
-    front: "Sensitivity Function $S(s)$",
-    back: "$S(s) = \\frac{1}{1+L(s)}$. It dictates the system's ability to reject disturbances and robustness to model errors.",
-    week: "Week 7 - Robustness"
+    front: "Cauchy's Argument Principle",
+    back: "A contour map encircles the origin $N = Z - P$ times, relating winding number to the difference between zeros and poles inside the contour.",
+    week: "Week 5 - Stability"
   },
-  {
-    id: 36,
-    front: "Complementary Sensitivity $T(s)$",
-    back: "$T(s) = \\frac{L(s)}{1+L(s)}$. It dictates reference tracking performance and noise rejection at high frequencies.",
-    week: "Week 7 - Robustness"
-  },
-  {
-    id: 37,
-    front: "Disturbance Rejection Rule",
-    back: "Integrators in the **Controller** reject constant disturbances. Integrators in the Plant do not.",
-    week: "Week 7 - Robustness"
-  },
-  {
-    id: 38,
-    front: "Relationship: Bandwidth vs Rise Time",
-    back: "They are inversely related. Higher bandwidth allows faster signal changes, leading to a **shorter rise time**.",
-    week: "Loop Shaping"
-  },
-  {
-    id: 39,
-    front: "Ideal Slope at Crossover",
-    back: "A slope of **-20 dB/decade** at the crossover frequency is desired for a good Phase Margin (~90 degrees).",
-    week: "Loop Shaping"
-  },
+
+  // --- Week 7: Robustness & Errors ---
   {
     id: 40,
-    front: "Lead Compensator",
-    back: "Adds positive phase (lead) to improve **Phase Margin** and damping. Increases bandwidth (faster response).",
-    week: "Loop Shaping"
+    front: "Gain Margin (GM)",
+    back: "The factor by which the system gain can be increased before instability. Measured at phase crossover (-180°). Safe range: **6-12 dB**.",
+    week: "Week 7 - Robustness"
   },
   {
     id: 41,
-    front: "Lag Compensator",
-    back: "Increases low-frequency gain to reduce **Steady-State Error**, without significantly destabilizing phase at crossover.",
-    week: "Loop Shaping"
+    front: "Phase Margin (PM)",
+    back: "The additional phase lag required to destabilize the system. Measured at gain crossover (0 dB). Safe range: **30-60°**.",
+    week: "Week 7 - Robustness"
   },
   {
     id: 42,
-    front: "Controllability Matrix",
-    back: "$\\mathcal{C} = [B, AB, A^2B, ..., A^{n-1}B]$. The system is controllable if this matrix has full rank ($n$).",
-    week: "State Feedback"
+    front: "Sensitivity Function $S(s)$",
+    back: "$S(s) = \\frac{1}{1+L(s)}$. Determines disturbance rejection and robustness to model error. Ideally 0.",
+    week: "Week 7 - Robustness"
   },
   {
     id: 43,
-    front: "Observability Matrix",
-    back: "$\\mathcal{O} = [C^T, (CA)^T, ..., (CA^{n-1})^T]^T$. The system is observable if this matrix has full rank ($n$).",
-    week: "State Feedback"
+    front: "Complementary Sensitivity $T(s)$",
+    back: "$T(s) = \\frac{L(s)}{1+L(s)}$. Determines reference tracking and noise rejection. Ideally 1 at low freq, 0 at high freq.",
+    week: "Week 7 - Robustness"
   },
   {
     id: 44,
-    front: "Ackermann's Formula",
-    back: "A formula to compute the feedback gain vector $K$ that places poles at desired locations: $K = [0 ... 1]\\mathcal{C}^{-1}\\alpha(A)$.",
-    week: "State Feedback"
+    front: "Fundamental Robustness Constraint",
+    back: "$S(s) + T(s) = 1$. You cannot simultaneously minimize sensitivity (for disturbance) and complementary sensitivity (for noise) at the same frequency.",
+    week: "Week 7 - Robustness"
   },
   {
     id: 45,
-    front: "Reference Tracking Gain $\\bar{N}$",
-    back: "A feedforward scalar applied to the reference $r$ to ensure unity steady-state gain: $\\bar{N} = \\frac{1}{C(B K - A)^{-1}B}$.",
-    week: "State Feedback"
+    front: "What is the Waterbed Effect?",
+    back: "Bode's Integral Formula: For unstable plants, $\\int \\ln|S(j\\omega)| d\\omega = \\text{const}$. Pushing $|S|$ down at some frequencies forces it up (amplification) at others.",
+    week: "Week 7 - Robustness"
   },
   {
     id: 46,
-    front: "Bryson's Rule",
-    back: "A method for choosing LQR weights: normalize $Q$ and $R$ diagonal elements by the inverse square of the maximum acceptable value ($1/x_{max}^2$).",
-    week: "LQR"
+    front: "System Type and Steady State Error",
+    back: "**Type 0**: Finite error for Step, infinite for Ramp.\n**Type 1**: Zero error for Step, finite for Ramp.\n**Type 2**: Zero for Step/Ramp, finite for Parabola.",
+    week: "Week 7 - Robustness"
   },
   {
     id: 47,
-    front: "Effect of large R in LQR",
-    back: "A large $R$ penalizes control effort heavily, leading to **smaller inputs** and a **slower response**.",
+    front: "Disturbance Rejection Rule",
+    back: "Integrators in the **Controller** reject constant input disturbances. Integrators in the **Plant** do not.",
+    week: "Week 7 - Robustness"
+  },
+
+  // --- Feedforward ---
+  {
+    id: 50,
+    front: "Goal of Feedforward Control",
+    back: "To eliminate steady-state error or track references without relying on high-gain feedback or integrators, thus preserving stability margins.",
+    week: "Feedforward"
+  },
+  {
+    id: 51,
+    front: "Feedforward Formula",
+    back: "$u_{ff} = G^{-1}(0) r$. Inverts the DC gain of the plant to achieve unity steady-state gain.",
+    week: "Feedforward"
+  },
+  {
+    id: 52,
+    front: "Feedforward and Stability",
+    back: "Feedforward is an open-loop technique. It does **not** affect the closed-loop poles, so it generally does not destabilize the system.",
+    week: "Feedforward"
+  },
+
+  // --- Loop Shaping ---
+  {
+    id: 60,
+    front: "Loop Shaping Goal",
+    back: "To design the open-loop $L(s) = K(s)G(s)$ such that it has high gain at low freq (tracking), low gain at high freq (noise), and good margins at crossover.",
+    week: "Loop Shaping"
+  },
+  {
+    id: 61,
+    front: "Bandwidth vs Crossover Frequency",
+    back: "The closed-loop bandwidth $\\omega_{BW}$ is typically **1 to 2 times** the open-loop crossover frequency $\\omega_c$.",
+    week: "Loop Shaping"
+  },
+  {
+    id: 62,
+    front: "Relation between PM and Damping",
+    back: "For $\\zeta < 0.7$, Phase Margin $\\phi_{PM} \\approx 100\\zeta$. Example: 45° PM $\\approx 0.45$ damping.",
+    week: "Loop Shaping"
+  },
+  {
+    id: 63,
+    front: "Ideally Crossover Slope",
+    back: "The open-loop magnitude slope at crossover should be **-20 dB/decade** to ensure a phase margin near 90°.",
+    week: "Loop Shaping"
+  },
+  {
+    id: 64,
+    front: "Lead Compensator",
+    back: "Adds **phase lead** to improve Phase Margin and allows higher crossover frequency (results in faster response). Acts like PD.",
+    week: "Loop Shaping"
+  },
+  {
+    id: 65,
+    front: "Maximum Phase Lead Formula",
+    back: "$\\sin(\\phi_{max}) = \\frac{1-\\alpha}{1+\alpha}$. One stage can reasonably provide up to 60-70° lead.",
+    week: "Loop Shaping"
+  },
+  {
+    id: 66,
+    front: "Lag Compensator",
+    back: "Increases **low-frequency gain** to reduce steady-state error. Placed well below crossover to avoid eroding phase margin. Acts like PI.",
+    week: "Loop Shaping"
+  },
+  {
+    id: 67,
+    front: "Placement of Lag Compensator",
+    back: "The zero ($1/T_I$) is usually placed a decade below the crossover frequency $\\omega_c$ so phase lag doesn't affect stability.",
+    week: "Loop Shaping"
+  },
+
+  // --- State Feedback ---
+  {
+    id: 70,
+    front: "State Space Representation",
+    back: "$\\dot{x} = Ax + Bu$\n$y = Cx + Du$\nGeneral description for MIMO systems.",
+    week: "State Feedback"
+  },
+  {
+    id: 71,
+    front: "Controllability Definition",
+    back: "A system is controllable if an input $u(t)$ exists that can move the state from any $x(0)$ to any $x(T)$ in finite time.",
+    week: "State Feedback"
+  },
+  {
+    id: 72,
+    front: "Controllability Rank Condition",
+    back: "Rank of $\\mathcal{C} = [B, AB, A^2B, ..., A^{n-1}B]$ must be $n$ (full state dimension).",
+    week: "State Feedback"
+  },
+  {
+    id: 73,
+    front: "Pole Placement Theorem",
+    back: "We can place closed-loop poles arbitrarily with state feedback $u=-Kx$ **if and only if** the system is fully controllable.",
+    week: "State Feedback"
+  },
+  {
+    id: 74,
+    front: "Ackermann's Formula",
+    back: "$K = [0 \\dots 0 \\; 1] \\mathcal{C}^{-1} \\alpha(A)$. Calculates gain $K$ for desired characteristic poly $\\alpha(s)$.",
+    week: "State Feedback"
+  },
+  {
+    id: 75,
+    front: "Reference Tracking Scalar $\\bar{N}$",
+    back: "Used in $u = -Kx + \\bar{N}r$. Scales the reference to ensure unity steady-state gain. $\\bar{N} = \\frac{1}{C(B K - A)^{-1}B}$.",
+    week: "State Feedback"
+  },
+  {
+    id: 76,
+    front: "Control Canonical Form Benefit",
+    back: "Coefficients of the characteristic polynomial appear directly in the last row of $A$. Makes manual pole placement trivial.",
+    week: "State Feedback"
+  },
+
+  // --- LQR ---
+  {
+    id: 80,
+    front: "LQR Cost Function",
+    back: "$J = \\int_0^\\infty (x^T Q x + u^T R u) dt$. Balances state deviation (error energy) vs control effort (input energy).",
     week: "LQR"
   },
   {
-    id: 48,
-    front: "Duality Principle",
-    back: "The estimation problem for $(A,C)$ is mathematically equivalent to the control problem for $(A^T, C^T)$.",
-    week: "Week 12 - Estimators"
+    id: 81,
+    front: "Algebraic Riccati Equation (ARE)",
+    back: "$A^T P + P A - P B R^{-1} B^T P + Q = 0$. Solved to find matrix $P$ for optimal LQR control.",
+    week: "LQR"
   },
   {
-    id: 49,
+    id: 82,
+    front: "LQR Optimal Gain",
+    back: "$K = R^{-1}B^T P$. Derived from the solution $P$ of the Riccati equation.",
+    week: "LQR"
+  },
+  {
+    id: 83,
+    front: "Bryson's Rule",
+    back: "Heuristic for weights: $Q_{ii} = 1/x_{max}^2$, $R_{ii} = 1/u_{max}^2$. Normalizes variables based on their acceptable limits.",
+    week: "LQR"
+  },
+  {
+    id: 84,
+    front: "Effect of Increasing R",
+    back: "Penalizes control effort more. Results in smaller $u$, slower response, and larger state errors.",
+    week: "LQR"
+  },
+  {
+    id: 85,
+    front: "Infinite Gain Margin of LQR",
+    back: "A standard LQR design guarantees a gain margin of $\\infty$ (can increase gain indefinitely) and at least 60° phase margin.",
+    week: "LQR"
+  },
+
+  // --- Estimators ---
+  {
+    id: 90,
+    front: "Observable Definition",
+    back: "A system is observable if the initial state $x(0)$ can be determined from the output history $y(t)$ and input $u(t)$.",
+    week: "Estimators"
+  },
+  {
+    id: 91,
+    front: "Observability Rank Condition",
+    back: "Rank of $\\mathcal{O} = [C^T, (CA)^T, ..., (CA^{n-1})^T]^T$ must be $n$.",
+    week: "Estimators"
+  },
+  {
+    id: 92,
     front: "Estimator Error Dynamics",
-    back: "Governed by $\\dot{e} = (A - LC)e$. The error converges to zero if eigenvalues of $(A-LC)$ are in the Left Half Plane.",
-    week: "Week 12 - Estimators"
+    back: "$\\dot{e} = (A - LC)e$. The error converges to zero if eigenvalues of $(A-LC)$ are stable.",
+    week: "Estimators"
   },
   {
-    id: 50,
-    front: "Feedforward Law",
-    back: "computes $u = G^{-1}(0)r$. It inverts the DC gain of the plant to achieve perfect steady-state tracking.",
-    week: "Feedforward"
+    id: 93,
+    front: "Rule for Estimator Poles",
+    back: "Estimator poles should be **2 to 6 times faster** (further left) than controller poles to ensure state estimate converges quickly.",
+    week: "Estimators"
+  },
+  {
+    id: 94,
+    front: "Separation Principle",
+    back: "State Feedback and State Estimator can be designed **independently**. Combined poles are just the union of controller and observer poles.",
+    week: "Estimators"
+  },
+  {
+    id: 95,
+    front: "Duality Principle",
+    back: "Estimator design for $(A, C)$ is mathematically equivalent to Controller design for $(A^T, C^T)$.",
+    week: "Estimators"
+  },
+  {
+    id: 96,
+    front: "Integral Action in State Space",
+    back: "Augment the state vector with an integrator state $x_I = \\int (r-y) dt$ to guarantee zero steady-state error.",
+    week: "State Feedback"
   }
 ];
 
