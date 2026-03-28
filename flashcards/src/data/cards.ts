@@ -1,9 +1,4 @@
-export interface Card {
-  id: number;
-  front: string;
-  back: string;
-  week: string;
-}
+import type { Card } from "./cardUtils";
 
 export const controlSystemsCards: Card[] = [
   // --- Week 1: Frequency Response ---
@@ -280,7 +275,7 @@ export const controlSystemsCards: Card[] = [
   {
     id: 65,
     front: "Maximum Phase Lead Formula",
-    back: "$\\sin(\\phi_{max}) = \\frac{1-\\alpha}{1+\alpha}$. One stage can reasonably provide up to 60-70° lead.",
+    back: "$\\sin(\\phi_{max}) = \\frac{1-\\alpha}{1+\\alpha}$. One stage can reasonably provide up to 60-70° lead.",
     week: "Loop Shaping"
   },
   {
@@ -944,12 +939,3 @@ export const tdsCards: Card[] = [
   { id: 183, front: "What is the 'Traffic Analysis' attack on Tor?", back: "A global adversary watching both ends of the network can correlate packet timing to de-anonymize users.", week: "Week 11" },
   { id: 184, front: "What is the 'Zealot Effect' in Information Gerrymandering?", back: "A few unwavering 'zealot' agents can sway the consensus of an entire network if placed strategically.", week: "Week 12" },
 ];
-
-export function shuffleCards(cards: Card[]): Card[] {
-  const shuffled = [...cards];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-}

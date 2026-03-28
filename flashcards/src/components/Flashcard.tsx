@@ -7,7 +7,7 @@ import {
 import ReactMarkdown from "react-markdown";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
-import type { Card } from "../data/cards";
+import type { Card } from "../data/cardUtils";
 
 interface FlashcardProps {
 	card: Card;
