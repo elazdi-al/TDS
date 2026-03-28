@@ -22,8 +22,8 @@ export const disCards: Card[] = [
 	},
 	{
 		id: 4,
-		front: "What 7 guarantees does a DBMS provide?",
-		back: "1. **Failure protection** (hardware/software faults, power loss)\n2. **High throughput** (thousands of queries/updates per second)\n3. **High availability** (24/7 operation)\n4. **Concurrency control** (correct multi-user access)\n5. **Large-scale data** support\n6. **Persistence** (data outlives programs)\n7. **Declarative access** with physical data independence",
+		front: "What does a DBMS guarantee that a file system does not?",
+		back: "Failure protection, high throughput, high availability, concurrency control, large-scale data support, persistence (data outlives programs), and declarative access with physical data independence.",
 		week: "L1 - Introduction",
 	},
 	{
@@ -46,8 +46,8 @@ export const disCards: Card[] = [
 	},
 	{
 		id: 8,
-		front: "What are the 4 intellectual contributions of DBMS?",
-		back: "1. **Representation of information**: data modeling\n2. **Languages for querying**: complex queries with real semantics over massive data\n3. **Concurrency control**: controlled concurrent access with transactional meaning\n4. **Reliable storage**: preserving semantics even after failures",
+		front: "What intellectual problems does DBMS research address?",
+		back: "How to **represent** information (data modeling), how to **query** it (languages with real semantics), how to allow **concurrent access** (transactional correctness), and how to **store reliably** (preserving meaning after failures).",
 		week: "L1 - Introduction",
 	},
 
@@ -72,8 +72,20 @@ export const disCards: Card[] = [
 	},
 	{
 		id: 12,
-		front: "What are the 3 schema levels in a DBMS?",
-		back: "**External Schema.** User- or application-specific views, often for access control.\n\n**Logical Schema.** The main global structure seen by users and programs (conceptual level).\n\n**Physical Schema.** How data is stored on disk: files, indexes, storage layout (internal level).\n\n$$\\text{External} \\to \\text{Logical} \\to \\text{Physical}$$",
+		front: "Define External Schema.",
+		back: "**External Schema.** User- or application-specific views of the database, often used for access control. Many external views map to one logical schema.",
+		week: "L1 - Introduction",
+	},
+	{
+		id: 100,
+		front: "Define Logical Schema.",
+		back: "**Logical Schema.** The main global structure of the database seen by users and application programs (conceptual level).",
+		week: "L1 - Introduction",
+	},
+	{
+		id: 101,
+		front: "Define Physical Schema.",
+		back: "**Physical Schema.** How data is stored on disk: files, indexes, and storage layout (internal level). Implemented from the logical schema.",
 		week: "L1 - Introduction",
 	},
 	{
@@ -108,8 +120,8 @@ export const disCards: Card[] = [
 	},
 	{
 		id: 18,
-		front: "What are the 6 stages of database design?",
-		back: "1. **Requirements analysis**: identify user needs\n2. **Conceptual design**: high-level ER description\n3. **Logical design**: translate ER into DBMS data model\n4. **Schema refinement**: normalization\n5. **Physical design**: choose indexes and disk layout\n6. **Security design**: define access control",
+		front: "How does database design proceed from requirements to implementation?",
+		back: "Requirements analysis $\\to$ Conceptual design (ER) $\\to$ Logical design (relational model) $\\to$ Schema refinement (normalization) $\\to$ Physical design (indexes, disk layout) $\\to$ Security design (access control).",
 		week: "L1 - Introduction",
 	},
 
@@ -164,8 +176,14 @@ export const disCards: Card[] = [
 	},
 	{
 		id: 27,
-		front: "What are the 4 combinations of participation and key constraints?",
-		back: "- Thick line + no arrow = total, many\n- Thick line + arrow = total, exactly one\n- Thin line + arrow = partial, at most one\n- Thin line + no arrow = partial, many",
+		front: "What does a thick line with an arrow mean in ER?",
+		back: "**Total participation + key constraint.** Every entity participates in **exactly one** relationship instance (must participate, and at most one).",
+		week: "L1 - Introduction",
+	},
+	{
+		id: 102,
+		front: "What does a thin line with an arrow mean in ER?",
+		back: "**Partial participation + key constraint.** An entity participates in **zero or one** relationship instance (may not participate, but at most one).",
 		week: "L1 - Introduction",
 	},
 	{
@@ -306,8 +324,14 @@ export const disCards: Card[] = [
 	},
 	{
 		id: 50,
-		front: "What are the 5 most common SQL commands?",
-		back: "1. `CREATE TABLE <name> (<field> <domain>, ...)`\n2. `INSERT INTO <name> (<fields>) VALUES (<values>)`\n3. `DELETE FROM <name> WHERE <condition>`\n4. `UPDATE <name> SET <field> = <value> WHERE <condition>`\n5. `SELECT <fields> FROM <name> WHERE <condition>`",
+		front: "How do you create a relation in SQL?",
+		back: "`CREATE TABLE Students (sid CHAR(20), name CHAR(20), age INTEGER, PRIMARY KEY(sid))`\n\nDefines attributes with types and declares the primary key.",
+		week: "L2 - Relational Model & SQL",
+	},
+	{
+		id: 103,
+		front: "How do you insert and delete tuples in SQL?",
+		back: "**Insert**: `INSERT INTO Students (sid, name, age) VALUES ('53688', 'Smith', 18)`\n\n**Delete**: `DELETE FROM Students WHERE name = 'Smith'`\n\nDelete removes all tuples matching the condition.",
 		week: "L2 - Relational Model & SQL",
 	},
 
@@ -332,8 +356,26 @@ export const disCards: Card[] = [
 	},
 	{
 		id: 54,
-		front: "What are the 5 basic operators of Relational Algebra?",
-		back: "**Unary** (one input):\n- **Selection** ($\\sigma$): subset of rows (horizontal filtering)\n- **Projection** ($\\pi$): subset of columns (vertical filtering)\n\n**Binary** (two inputs):\n- **Cross-product** ($\\times$): every row of $R$ paired with every row of $S$\n- **Set-difference** ($-$): tuples in $R$ not in $S$\n- **Union** ($\\cup$): tuples in $R$ or $S$ or both",
+		front: "What does Selection ($\\sigma$) do?",
+		back: "**Selection.** Outputs only rows satisfying a condition. Schema unchanged.\n\n$$\\sigma_{\\text{dept}=\\text{'Physics'}}(R)$$\n\nSQL: `SELECT * FROM R WHERE dept = 'Physics'`",
+		week: "L2 - Relational Model & SQL",
+	},
+	{
+		id: 104,
+		front: "What does Projection ($\\pi$) do?",
+		back: "**Projection.** Keeps only the listed columns. In relational algebra, duplicates are **eliminated** (result is a set).\n\n$$\\pi_{\\text{name, salary}}(R)$$\n\nSQL keeps duplicates by default; use `SELECT DISTINCT` to match the algebra.",
+		week: "L2 - Relational Model & SQL",
+	},
+	{
+		id: 105,
+		front: "What does Cross-Product ($\\times$) do?",
+		back: "**Cross-Product.** Pairs every row of $R$ with every row of $S$. Result has $|R| \\times |S|$ rows and all fields of both relations. Use $\\rho$ to resolve name conflicts.",
+		week: "L2 - Relational Model & SQL",
+	},
+	{
+		id: 106,
+		front: "What do Set-Difference ($-$) and Union ($\\cup$) do?",
+		back: "**Set-Difference** ($R - S$): tuples in $R$ not in $S$. Not commutative. SQL: `EXCEPT`.\n\n**Union** ($R \\cup S$): tuples in $R$ or $S$ or both. Eliminates duplicates. SQL: `UNION`.\n\nBoth require **union-compatible** relations (same number and types of fields).",
 		week: "L2 - Relational Model & SQL",
 	},
 	{
